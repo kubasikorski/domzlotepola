@@ -55,20 +55,17 @@
 }
 
 .caption {
-
+    @apply leading-normal;
+    @apply text-white;
     h2 {
-        color:#fff;
-        @apply font-bebas text-6xl leading-none relative mb-4;
-
+        @apply tracking-wide;
+        @apply font-bebas text-6xl leading-none;
     }
-
     p {
         @apply font-light;
-        color:#fff;
         &.read-more {
             z-index:10;
             @apply font-bebas uppercase leading-none relative mt-12;
-
 
             a {
                 @apply border px-4 pt-1;
