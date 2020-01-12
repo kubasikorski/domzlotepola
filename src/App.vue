@@ -9,6 +9,7 @@
 <script>
     import PageHeader from "./components/PageHeader";
     import PageFooter from "./components/PageFooter";
+    import 'animate.css';
 
     export default {
         components: {PageFooter, PageHeader}
