@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+@import "components/header.pcss";
+@import "components/typography.pcss";
+@import "components/leaf.pcss";
+@import "components/image-shadow.pcss";
+@import "components/footer.pcss";
+
+@tailwind utilities;
+

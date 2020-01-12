@@ -1,10 +1,18 @@
 <template>
     <div id="app">
-        <div id="nav">
-            <router-link :to="{name: 'home'}">Home</router-link> |
-        </div>
+        <page-header/>
         <router-view/>
+        <page-footer/>
     </div>
 </template>
 
-<style src="./assets/tailwind.css">
+<script>
+    import PageHeader from "./components/PageHeader";
+    import PageFooter from "./components/PageFooter";
+
+    export default {
+        components: {PageFooter, PageHeader}
+    }
+</script>
+
+<style src="./assets/css/tailwind.css"/>

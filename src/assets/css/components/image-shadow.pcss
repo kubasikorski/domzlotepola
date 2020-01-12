@@ -1,0 +1,32 @@
+.image-shadow {
+    @apply inline-block relative mb-4;
+
+    img {
+        @apply relative;
+    }
+
+    &:before {
+        @apply absolute w-full h-full bg-primary-lighter;
+        content: '';
+    }
+
+    &.top-right {
+        margin-top: 64px;
+        margin-right: 64px;
+
+        &:before {
+            top: -64px;
+            right: -64px;
+        }
+    }
+
+    &.top-left {
+        margin-top: 64px;
+        margin-left: 64px;
+
+        &:before {
+            top: -64px;
+            left: -64px;
+        }
+    }
+}
