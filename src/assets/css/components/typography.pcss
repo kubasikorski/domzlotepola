@@ -52,5 +52,34 @@
         }
     }
 
+}
+
+.caption {
+
+    h2 {
+        color:#fff;
+        @apply font-bebas text-6xl leading-none relative mb-4;
+
+    }
+
+    p {
+        @apply font-light;
+        color:#fff;
+        &.read-more {
+            z-index:10;
+            @apply font-bebas uppercase leading-none relative mt-12;
+
+
+            a {
+                @apply border px-4 pt-1;
+
+                &:hover {
+                    @apply text-primary;
+                }
+            }
+        }
+    }
+
 
 }
+
