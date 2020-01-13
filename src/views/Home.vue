@@ -12,11 +12,13 @@
                         wśród łąk i ziemii uprawnych. Do domu należy ogród
                         warzywny z kwiatami i owocami...
                     </p>
+                    <vue-aos animation-class="slideInUp slow animated">
                     <p class="mt-4">
                         <a href="#"
                            class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary">Czytaj
                             o nas</a>
                     </p>
+                    </vue-aos>
                 </div>
                 </vue-aos>
             </div>
@@ -180,10 +182,8 @@
 
 <script>
     import VueAos from 'vue-aos'
-
     export default {
         name: 'home',
-
         components: {
             VueAos
         }
