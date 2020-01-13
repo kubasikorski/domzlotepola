@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div class="container lg:px-16">
+        <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-32 lg:flex-row-reverse">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow top-right">
@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="container lg:px-16">
+        <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-32 lg:flex-row-reverse">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow top-right">

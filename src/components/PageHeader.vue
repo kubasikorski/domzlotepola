@@ -1,5 +1,5 @@
 <template>
-    <div class="md:container">
+    <div class="relative z-20 md:container">
         <header class="fixed inset-x-0 top-0 justify-end items-center z-10 lg:flex lg:justify-between lg:static lg:py-6">
             <router-link :to="{name: 'home'}" class="logo" v-on:click.native="hideMobileNav">
                 <img src="../assets/images/logo-desktop.png" alt="Dóm Złote Pola">
