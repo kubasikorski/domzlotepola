@@ -4,10 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import VueRellax from 'vue-rellax'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 Vue.use(VueRellax);
 
 new Vue({
   router,
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');

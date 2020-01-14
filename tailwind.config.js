@@ -43,7 +43,8 @@ module.exports = {
         extend: {
             height: {
                 '9': '2.375rem',
-                '14': '3.5rem'
+                '14': '3.5rem',
+                '80': '18rem',
             },
             width: {
                 'sm': '300px',
