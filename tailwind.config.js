@@ -52,6 +52,10 @@ module.exports = {
                 'lg': '900px',
                 'xl': '1200px',
             },
+            spacing: {
+                '80': '18rem',
+                '96': '20rem',
+            },
             screens: {
                 'sm': '600px',
                 'md': '900px',
