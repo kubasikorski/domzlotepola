@@ -6,9 +6,20 @@
     }
 
     &:before {
-        @apply absolute w-full h-full bg-primary-lighter;
+        @apply absolute w-full h-full bg-shadow;
         content: '';
     }
+
+    &.shadow-lighter:before {
+        @apply bg-shadow-lighter;
+        content: '';
+    }
+
+    &.shadow-lightest:before {
+        @apply bg-shadow-lightest;
+        content: '';
+    }
+
 
     &.top-right {
         margin-top: 64px;

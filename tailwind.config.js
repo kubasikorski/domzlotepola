@@ -15,6 +15,11 @@ module.exports = {
                 default: '#B5861F',
                 lighter: '#E2D3C0',
                 lightest: '#EDE6DF',
+            },
+            shadow: {
+                default: '#BEA27D',
+                lighter: '#E2D3C0',
+                lightest: '#EDE6DF',
             }
         },
         fontFamily: {

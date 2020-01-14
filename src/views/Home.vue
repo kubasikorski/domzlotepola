@@ -1,27 +1,25 @@
 <template>
     <div>
-        <div class="banner" :style="{'background-image': `url(${require('../assets/images/banner-home.jpg')})`}">
-            <div class="container h-full flex justify-center items-end text-white lg:justify-end lg:items-center">
-                <div class="caption">
-                    <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
-                    <p class="text-lg leading-normal">
-                        Czyste powietrze i sielska atmosfera są idealnym
-                        otoczeniem dla wyjątkowych okazji rodzinnych jak i
-                        spotkań firmowych. Dóm Złote Pola położony jest
-                        wśród łąk i ziemii uprawnych. Do domu należy ogród
-                        warzywny z kwiatami i owocami...
-                    </p>
-                    <p class="mt-4">
-                        <a href="#" class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary">Czytaj o nas</a>
-                    </p>
-                </div>
+        <banner :style="{'background-image': `url(${require('../assets/images/banner-home.jpg')})`}">
+            <div class="caption">
+                <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
+                <p class="text-lg leading-normal">
+                    Czyste powietrze i sielska atmosfera są idealnym
+                    otoczeniem dla wyjątkowych okazji rodzinnych jak i
+                    spotkań firmowych. Dóm Złote Pola położony jest
+                    wśród łąk i ziemii uprawnych. Do domu należy ogród
+                    warzywny z kwiatami i owocami...
+                </p>
+                <p class="mt-4">
+                    <a href="#" class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary">Czytaj o nas</a>
+                </p>
             </div>
-        </div>
+        </banner>
 
         <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-32 lg:flex-row-reverse">
+            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow top-right">
+                    <div class="image-shadow shadow-lighter top-right">
                         <img src="../assets/images/home-about.jpg" alt="" class="">
                     </div>
                 </div>
@@ -52,9 +50,9 @@
                 </div>
             </div>
 
-            <div class="flex flex-col mt-32 lg:flex-row">
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow top-left">
+                    <div class="image-shadow shadow-lightest top-left">
                         <img src="../assets/images/home-dom.jpg" alt="" class="">
                     </div>
                 </div>
@@ -87,9 +85,9 @@
         </div>
 
         <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-32 lg:flex-row-reverse">
+            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow top-right">
+                    <div class="image-shadow shadow-lighter top-right">
                         <img src="../assets/images/home-rooms.jpg" alt="" class="">
                     </div>
                 </div>
@@ -123,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col mt-32 lg:flex-row">
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow top-left">
                         <img src="../assets/images/home-references.jpg" alt="" class="">
@@ -157,11 +155,13 @@
 
 <script>
     import VueAos from 'vue-aos'
+    import Banner from "../components/Banner";
 
     export default {
         name: 'home',
 
         components: {
+            Banner,
             VueAos
         }
     }
