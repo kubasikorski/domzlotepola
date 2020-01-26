@@ -11,3 +11,69 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+.gallery-zoom {
+    @apply bg-white fixed inset-0 overflow-y-auto z-50;
+
+    @media (min-width: 1200px) {
+        @apply flex items-center;
+    }
+
+    .close, .fullscreen {
+        @apply fixed z-10 p-2;
+        top: 1rem;
+
+        &:hover {
+            @apply opacity-50;
+        }
+    }
+
+    .close {
+        right: 1rem;
+    }
+
+    .fullscreen {
+        left: 1rem;
+    }
+
+    .prev, .next {
+        @apply cursor-pointer absolute;
+        top: 50%;
+        margin-top: -30px;
+
+        &:hover {
+            @apply opacity-50;
+        }
+    }
+
+    .prev {
+        left: -45px;
+    }
+
+    .next {
+        right: -45px;
+    }
+
+    .image {
+        @apply w-full h-full relative;
+    }
+
+    &.is-fullscreen {
+        .close, .fullscreen, .prev, .next {
+            @apply bg-white;
+        }
+
+        .prev, .next {
+            @apply py-2 flex justify-center;
+            width: 60px;
+        }
+
+        .prev {
+            left: 1rem;
+        }
+
+        .next {
+            right: 1rem;
+        }
+    }
+}

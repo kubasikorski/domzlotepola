@@ -48,20 +48,8 @@
                         Waszej rodziny...
                     </p>
                 </div>
-                <div>
-                    <img src="../assets/images/gallery-thumb.jpg" alt="" class="">
-                </div>
-                <div>
-                    <img src="../assets/images/gallery-thumb.jpg" alt="" class="">
-                </div>
-                <div>
-                    <img src="../assets/images/gallery-thumb.jpg" alt="" class="">
-                </div>
-                <div>
-                    <img src="../assets/images/gallery-thumb.jpg" alt="" class="">
-                </div>
-                <div>
-                    <img src="../assets/images/gallery-thumb.jpg" alt="" class="">
+                <div v-for="(item, key) in gallery" :key="key">
+                    <img :src="item.thumb" alt="" class="cursor-pointer" v-on:click="showZoom(key, false)">
                 </div>
             </div>
         </div>
@@ -96,6 +84,35 @@
                 </div>
             </div>
         </div>
+
+        <div class="gallery-zoom" :class="{'is-fullscreen': zoom.fullscreen}" v-if="zoom.show">
+            <img src="../assets/images/gallery-fullscreen.png" alt="" class="fullscreen" v-on:click="toggleFullscreen">
+            <img src="../assets/images/gallery-close.png" alt="" class="close" v-on:click="hideZoom">
+
+            <div :style="{'background-image': `url(${zoom.image})`}" v-if="zoom.fullscreen" class="image">
+                <div class="prev" v-on:click="showZoom(zoom.key - 1, true)" v-if="zoom.key > 0">
+                    <img src="../assets/images/gallery-prev.png" alt="">
+                </div>
+                <div class="next" v-on:click="showZoom(zoom.key + 1, true)" v-if="zoom.key + 1 < gallery.length">
+                    <img src="../assets/images/gallery-next.png" alt="" >
+                </div>
+            </div>
+
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32" v-if="zoom.fullscreen === false">
+                <div class="lg:w-1/2 text-center">
+                    <div class="image-shadow shadow-lightest bottom-left relative">
+                        <img src="../assets/images/gallery-prev.png" alt="" class="prev" v-on:click="showZoom(zoom.key - 1, false)" v-if="zoom.key > 0">
+                        <img :src="zoom.thumb" alt="" class="">
+                        <img src="../assets/images/gallery-next.png" alt="" class="next" v-on:click="showZoom(zoom.key + 1, false)" v-if="zoom.key + 1 < gallery.length">
+                    </div>
+                </div>
+
+                <div class="text px-16 pb-16 lg:w-1/2 lg:px-24">
+                    <h2>Pokoje</h2>
+                    <div v-html="zoom.description"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -106,6 +123,72 @@
         components: {
             VueAos,
             Banner
+        },
+
+        data() {
+            return {
+                zoom: {
+                    key: null,
+                    show: false,
+                    thumb: null,
+                    image: null,
+                    fullscreen: false,
+                    description: null
+                },
+                gallery: [
+                    {
+                        thumb: require('../assets/images/gallery-thumb.jpg'),
+                        image: require('../assets/images/gallery-image.jpg'),
+                        description: '<p>1 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                    {
+                        thumb: require('../assets/images/gallery-thumb.jpg'),
+                        image: require('../assets/images/gallery-image.jpg'),
+                        description: '<p>2 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                    {
+                        thumb: require('../assets/images/gallery-thumb.jpg'),
+                        image: require('../assets/images/gallery-image.jpg'),
+                        description: '<p>3 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                    {
+                        thumb: require('../assets/images/gallery-thumb.jpg'),
+                        image: require('../assets/images/gallery-image.jpg'),
+                        description: '<p>4 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                    {
+                        thumb: require('../assets/images/gallery-thumb.jpg'),
+                        image: require('../assets/images/gallery-image.jpg'),
+                        description: '<p>5 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    }
+                ]
+            }
+        },
+
+        methods: {
+            showZoom(key, fullscreen) {
+                let item = this.gallery[key];
+
+                this.zoom = {
+                    key: key,
+                    show: true,
+                    thumb: item.thumb,
+                    image: item.image,
+                    fullscreen: fullscreen,
+                    description: item.description
+                };
+
+                document.body.classList.add('overflow-hidden');
+            },
+
+            hideZoom() {
+                this.zoom.show = false;
+                document.body.classList.remove('overflow-hidden');
+            },
+
+            toggleFullscreen() {
+                this.zoom.fullscreen = !this.zoom.fullscreen;
+            }
         }
     }
 </script>
