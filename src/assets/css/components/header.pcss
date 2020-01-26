@@ -30,10 +30,10 @@ header {
         }
 
         .nav-item {
-            @apply border border-l-0 border-r-0 border-transparent text-2xl py-1 ml-5;
+            @apply border border-l-0 border-r-0 border-transparent text-2xl py-1 mb-2;
 
             @media (min-width: 1200px) {
-                @apply text-base;
+                @apply text-base ml-5 mb-0;
 
                 &.router-link-active {
                     @apply border-primary;
@@ -43,8 +43,50 @@ header {
             &:hover, &.router-link-active {
                 @apply text-primary;
             }
+        }
+
+        .nav-item-dropdown {
+            .nav-dropdown {
+                @apply flex flex-col;
+            }
+
+            @media (max-width: 1199px) {
+                .nav-dropdown {
+                    @apply text-center my-2;
+
+                    a {
+                        @apply py-1;
+                    }
+                }
+            }
 
 
+            @media (min-width: 1200px) {
+                @apply relative flex;
+
+                .nav-dropdown {
+                    @apply bg-white absolute hidden whitespace-no-wrap;
+                    top: 100%;
+                    left: -32px;
+                    padding-top: 40px;
+                    padding-bottom: 12px;
+
+                    a {
+                        @apply block py-1 px-12;
+
+                        &:hover {
+                            @apply text-primary;
+                            background-image: url("../../images/nav-leaf.png");
+                            background-repeat: no-repeat;
+                            background-position: 1rem .2rem;
+                        }
+                    }
+                }
+
+                &:hover .nav-dropdown {
+                    @apply block;
+                }
+            }
         }
     }
 

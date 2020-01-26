@@ -10,7 +10,14 @@
                     <img src="../assets/images/home-icon.png" alt="Home"/>
                 </router-link>
                 <router-link :to="{name: 'menu'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
-                <a href="#" class="nav-item">Dóm Złote Pola</a>
+                <div class="nav-item-dropdown">
+                    <a href="#" class="nav-item">Dóm Złote Pola</a>
+                    <div class="nav-dropdown">
+                        <a href="#">Oferta dla rodzin </a>
+                        <a href="#">Oferta dla pary młodej </a>
+                        <a href="#">Oferta dla firm</a>
+                    </div>
+                </div>
                 <a href="#" class="nav-item">Bawialnia dla dzieci</a>
                 <router-link :to="{name: 'rooms'}" href="#" class="nav-item">Pokoje</router-link>
                 <router-link :to="{name: 'contact'}" v-on:click.native="hideMobileNav" class="nav-item">Kontakt</router-link>
