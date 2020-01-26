@@ -67,11 +67,7 @@
                     </ol>
                 </div>
             </div>
-
-
-
         </div>
-
     </div>
 </template>
 

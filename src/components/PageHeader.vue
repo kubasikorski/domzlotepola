@@ -12,7 +12,7 @@
                 <router-link :to="{name: 'menu'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
                 <a href="#" class="nav-item">Dóm Złote Pola</a>
                 <a href="#" class="nav-item">Bawialnia dla dzieci</a>
-                <a href="#" class="nav-item">Pokoje</a>
+                <router-link :to="{name: 'rooms'}" href="#" class="nav-item">Pokoje</router-link>
                 <router-link :to="{name: 'contact'}" v-on:click.native="hideMobileNav" class="nav-item">Kontakt</router-link>
             </nav>
 
