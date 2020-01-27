@@ -1,17 +1,21 @@
 .banner {
     @apply bg-no-repeat bg-center bg-cover;
     height: 70vh;
-    
     @media (min-width: 1200px) {
         height: 675px;
         
     }
-
     .caption {
         @apply p-8;
 
         @media (min-width: 1200px) {
             width: 600px;
+        }
+    }
+    &.short{
+    @media (min-width: 1200px) {
+            height: 375px;
+
         }
     }
 }
