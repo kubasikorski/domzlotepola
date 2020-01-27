@@ -3,39 +3,57 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
+let lang = localStorage.getItem('lang');
 
 const routes = [
     {
         path: '/',
+        redirect: {name: 'home', params: {lang: lang || 'pl'}}
+    },
+    {
+        path: '/:lang(pl|en)/',
         name: 'home',
         component: Home
     },
     {
-        path: '/about',
+        path: '/:lang(pl|en)/about',
         name: 'about',
         component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
     },
     {
-        path: '/contact',
+        path: '/:lang(pl|en)/contact',
         name: 'contact',
-        component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
     },
     {
-        path: '/menu',
-        name: 'menu',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Menu.vue')
+        path: '*',
+        name: 'error-redirect',
+        redirect: {name: 'error', params: {lang: lang || 'pl'}}
     },
+
     {
-        path: '/rooms',
+        path: '/:lang(pl|en)/rooms',
         name: 'rooms',
         component: () => import(/* webpackChunkName: "about" */ '../views/Rooms.vue')
     },
 ];
 
+
 const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
-    routes
+    routes,
+    scrollBehavior() {
+        return {x: 0, y: 0}
+    },
 })
+
+router.beforeEach((to,from,next) => {
+    // store.dispatch('setLang', to.params.lang);
+    return next();
+});
+
+// router.afterEach((to) => {
+// });
 
 export default router
