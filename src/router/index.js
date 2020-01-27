@@ -16,12 +16,12 @@ const routes = [
         component: Home
     },
     {
-        path: '/:lang(pl|en)/about',
+        path: '/:lang(pl|en)/o-mnie',
         name: 'about',
         component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
     },
     {
-        path: '/:lang(pl|en)/contact',
+        path: '/:lang(pl|en)/kontakt',
         name: 'contact',
         component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
     },
@@ -32,7 +32,7 @@ const routes = [
     },
 
     {
-        path: '/:lang(pl|en)/rooms',
+        path: '/:lang(pl|en)/pokoje',
         name: 'rooms',
         component: () => import(/* webpackChunkName: "about" */ '../views/Rooms.vue')
     },

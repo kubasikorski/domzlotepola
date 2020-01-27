@@ -9,7 +9,7 @@
                 <router-link :to="{name: 'home'}" v-on:click.native="hideMobileNav" class="hidden lg:inline-block">
                     <img src="../assets/images/home-icon.png" alt="Home"/>
                 </router-link>
-                <router-link :to="{name: 'menu'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
+                <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
                 <div class="nav-item-dropdown">
                     <a href="#" class="nav-item">Dóm Złote Pola</a>
                     <div class="nav-dropdown">
