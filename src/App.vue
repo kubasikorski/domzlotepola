@@ -10,7 +10,7 @@
         >
         <router-view/>
         </transition>
-        <page-footer/>
+        <page-footer :class="appClass" />
     </div>
 </template>
 
@@ -26,15 +26,18 @@
                 prevHeight: 0,
             };
         },
+        computed: {
+            appClass() {
+                return (this.$route.name == 'home' ? 'home' : '');
+            }
+        },
         methods: {
             beforeLeave(element) {
                 this.prevHeight = getComputedStyle(element).height;
             },
             enter(element) {
                 const { height } = getComputedStyle(element);
-
                 element.style.height = this.prevHeight;
-
                 setTimeout(() => {
                     element.style.height = height;
                 });

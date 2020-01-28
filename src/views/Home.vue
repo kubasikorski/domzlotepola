@@ -93,7 +93,11 @@
             </div>
 
 
-            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
+
+
+        </div>
+        <div class="bg-primary-lightest pt-1 pb-4 my-8 lg:mt-16 relative z-10">
+            <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
                 <vue-aos animation-class="fadeInLeft animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow top-left">
@@ -121,7 +125,6 @@
                     </div>
                 </vue-aos>
             </div>
-
         </div>
     </div>
 </template>
