@@ -16,6 +16,7 @@
                         <router-link :to="{name: 'dom-family'}" v-on:click.native="hideMobileNav" class="nav-item">Oferta dla rodzin</router-link>
                         <router-link :to="{name: 'dom-bride'}" v-on:click.native="hideMobileNav" class="nav-item">Oferta dla pary młodej </router-link>
                         <router-link :to="{name: 'dom-company'}" v-on:click.native="hideMobileNav" class="nav-item">Oferta dla firm</router-link>
+                        <router-link :to="{name: 'dom-food'}" v-on:click.native="hideMobileNav" class="nav-item">Nasze jedzenie</router-link>
                     </div>
                 </div>
                 <a href="#" class="nav-item">Bawialnia dla dzieci</a>

@@ -46,6 +46,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
     },
     {
+        path: '/:lang(pl|en)/dom-zlote-pola/nasze-jedzenie',
+        name: 'dom-food',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Food.vue')
+    },
+    {
         path: '/:lang(pl|en)/kontakt',
         name: 'contact',
         component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
