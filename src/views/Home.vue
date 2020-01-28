@@ -13,9 +13,7 @@
                     </p>
                     <vue-aos animation-class="slideInUp slow animated">
                         <p class="mt-4">
-                            <a href="#"
-                               class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary">Czytaj
-                                o nas</a>
+                            <router-link :to="{name: 'dom'}" class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary" v-on:click.native="hideMobileNav">Czytaj o nas</router-link>
                         </p>
                     </vue-aos>
                 </div>
@@ -24,14 +22,14 @@
 
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <vue-aos animation-class="fadeInRight animated">
+                <vue-aos animation-class="fadeInUp animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow shadow-lighter top-right">
                             <img src="../assets/images/home-about.jpg" alt="" class="">
                         </div>
                     </div>
                 </vue-aos>
-                <vue-aos animation-class="fadeInLeft animated">
+                <vue-aos animation-class="fadeInUp animated">
                     <div class="text px-16 lg:w-1/2 lg:px-24">
                         <h2>O mnie</h2>
                         <p>
@@ -51,14 +49,14 @@
             </div>
 
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
-                <vue-aos animation-class="fadeInLeft animated">
+                <vue-aos animation-class="fadeInUp animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow shadow-lightest top-left">
                             <img src="../assets/images/home-dom.jpg" alt="" class="">
                         </div>
                     </div>
                 </vue-aos>
-                <vue-aos animation-class="fadeInRight animated">
+                <vue-aos animation-class="fadeInUp animated">
                     <div class="text px-16 lg:w-1/2 lg:px-24">
                         <h2>Dóm Złote Pola</h2>
                         <p>
@@ -72,7 +70,7 @@
                             domu należy ogród warzywny z kwiatami i owocami.
                         </p>
                         <p class="read-more">
-                            <a href="#">Czytaj więcej</a>
+                            <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Czytaj więcej</router-link>
                         </p>
                     </div>
                 </vue-aos>
@@ -83,14 +81,14 @@
 
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <vue-aos animation-class="fadeInRight animated">
+                <vue-aos animation-class="fadeInUp animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow shadow-lighter top-right">
                             <img src="../assets/images/home-rooms.jpg" alt="" class="">
                         </div>
                     </div>
                 </vue-aos>
-                <vue-aos animation-class="fadeInLeft animated">
+                <vue-aos animation-class="fadeInUp animated">
                     <div class="text px-16 lg:w-1/2 lg:px-24">
                         <h2>Pokoje</h2>
 

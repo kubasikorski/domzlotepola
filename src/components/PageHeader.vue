@@ -11,11 +11,11 @@
                 </router-link>
                 <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
                 <div class="nav-item-dropdown">
-                    <a href="#" class="nav-item">Dóm Złote Pola</a>
+                    <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav" class="nav-item">Dóm Złote Pola</router-link>
                     <div class="nav-dropdown">
-                        <a href="#">Oferta dla rodzin </a>
-                        <a href="#">Oferta dla pary młodej </a>
-                        <a href="#">Oferta dla firm</a>
+                        <router-link :to="{name: 'dom-family'}" v-on:click.native="hideMobileNav" class="nav-item">Oferta dla rodzin</router-link>
+                        <router-link :to="{name: 'dom-bride'}" v-on:click.native="hideMobileNav" class="nav-item">Oferta dla pary młodej </router-link>
+                        <router-link :to="{name: 'dom-company'}" v-on:click.native="hideMobileNav" class="nav-item">Oferta dla firm</router-link>
                     </div>
                 </div>
                 <a href="#" class="nav-item">Bawialnia dla dzieci</a>

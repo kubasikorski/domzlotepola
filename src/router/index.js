@@ -7,6 +7,11 @@ let lang = localStorage.getItem('lang');
 
 const routes = [
     {
+        path: '*',
+        name: 'error-redirect',
+        redirect: {name: 'error', params: {lang: lang || 'pl'}}
+    },
+    {
         path: '/',
         redirect: {name: 'home', params: {lang: lang || 'pl'}}
     },
@@ -21,21 +26,41 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
     },
     {
+        path: '/:lang(pl|en)/dom-zlote-pola',
+        name: 'dom',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Index.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin',
+        name: 'dom-family',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej',
+        name: 'dom-bride',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm',
+        name: 'dom-company',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
+    },
+    {
         path: '/:lang(pl|en)/kontakt',
         name: 'contact',
         component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
     },
     {
-        path: '*',
-        name: 'error-redirect',
-        redirect: {name: 'error', params: {lang: lang || 'pl'}}
-    },
-
-    {
         path: '/:lang(pl|en)/pokoje',
         name: 'rooms',
         component: () => import(/* webpackChunkName: "about" */ '../views/Rooms.vue')
     },
+    {
+        path: '/:lang(pl|en)/404',
+        name: 'error',
+        component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
+    },
+
 ];
 
 
@@ -48,7 +73,7 @@ const router = new VueRouter({
     },
 })
 
-router.beforeEach((to,from,next) => {
+router.beforeEach((to, from, next) => {
     // store.dispatch('setLang', to.params.lang);
     return next();
 });
