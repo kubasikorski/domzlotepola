@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <page-header/>
+        <page-header />
         <transition
                 name="fade"
                 mode="out-in"
