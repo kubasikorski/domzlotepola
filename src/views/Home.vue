@@ -41,19 +41,10 @@
                             którą prowadziłam w sercu gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl
                             cieszyła się Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
                             tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie bardzo ważne,
-                            żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich – również najmłodszych.
-                        </p>
-                        <p>
-                            Doświadczenie, które zdobyłam w restauracji BabyCafe.pl pozwoliło mi poznać potrzeby i
-                            oczekiwania naszych wspaniałych gości. Do dziś odwiedzają nas kolejne pokolenia rodzin, z
-                            którymi organizowałam chrzciny, pierwsze urodziny, przyjęcia komunijne, obiady ślubne i
-                            wspaniałe świąteczne spotkania... W rozwijaniu rodzinnej firmy dbam o to, aby: Goście,
-                            którzy
-                            nas odwiedzają czuli się Przyjaciółmi Domu Złote Pola. Jedzenie było domowe, przygotowywane
-                            tradycyjnymi metodami, z przepisów Mamy i naszego Szefa Kuchni.
+                            żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich – również najmłodszych (...)
                         </p>
                         <p class="read-more">
-                            <a href="#">Czytaj więcej</a>
+                            <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav">Czytaj więcej</router-link>
                         </p>
                     </div>
                 </vue-aos>
@@ -79,17 +70,6 @@
                             rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród łąk i ziemi
                             uprawnych. Do
                             domu należy ogród warzywny z kwiatami i owocami.
-                            <br>W bezpośrednim sąsiedztwie znajduje się ekologiczne gospodarstwo. Do Domu Złote Pola
-                            należy
-                            uroczy ogród z warzywami, kwiatami i owocami.
-                            <br>To tutaj, w otoczeniu natury znajdziecie Państwo miejsce, w którym zorganizujemy dla Was
-                            rodzinne chrzciny, wyjątkowe urodziny, przyjęcie komunijne, romantyczne wesele. Nasz Dóm
-                            otwieramy również na stylowe firmowe spotkania opłatkowe, Mikołajki czy bankiety.
-                            <br>W rozwijaniu rodzinnej firmy dbam o to, aby:
-                            <br>Goście, którzy nas odwiedzają czuli się Przyjaciółmi Domu Złote Pola.
-                            <br>Jedzenie było domowe, przygotowywane tradycyjnymi metodami, z przepisów Mamy i naszego
-                            Szefa
-                            Kuchni...
                         </p>
                         <p class="read-more">
                             <a href="#">Czytaj więcej</a>
@@ -129,12 +109,6 @@
                         <p>
                             To odpoczynek dla Państwa i zabawa dla dzieci, czyli słowem – przepis na udane spotkanie
                             rodzinne.
-                        </p>
-                        <p>
-                            Dóm Złote Pola jest otwarty na potrzeby gości, dlatego zapraszamy do umówienia się na
-                            spotkanie
-                            przy domowym cieście i świeżo mielonej kawie, aby się poznać i zaplanować Wasze wyjątkowe
-                            przyjęcie...
                         </p>
                         <p class="read-more">
                             <a href="#">Czytaj więcej</a>
