@@ -1,51 +1,27 @@
 <template>
     <div>
-        <banner :style="{'background-image': `url(${require('../assets/images/banner-home.jpg')})`}">
-            <vue-aos animation-class="fadeIn slow animated">
-                <div class="caption">
-                    <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
-                    <p class="text-lg leading-normal">
-                        Czyste powietrze i sielska atmosfera są idealnym
-                        otoczeniem dla wyjątkowych okazji rodzinnych jak i
-                        spotkań firmowych. Dóm Złote Pola położony jest
-                        wśród łąk i ziemii uprawnych. Do domu należy ogród
-                        warzywny z kwiatami i owocami...
-                    </p>
-                    <vue-aos animation-class="slideInUp slow animated">
-                        <p class="mt-4">
-                            <router-link :to="{name: 'dom'}" class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary" v-on:click.native="hideMobileNav">Czytaj o nas</router-link>
-                        </p>
-                    </vue-aos>
-                </div>
-            </vue-aos>
-        </banner>
-
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <vue-aos animation-class="fadeInUp animated">
-                    <div class="lg:w-1/2 text-center">
-                        <div class="image-shadow shadow-lighter top-right">
-                            <img src="../assets/images/home-about.jpg" alt="" class="">
-                        </div>
+                <div class="lg:w-1/2 text-center">
+                    <div class="image-shadow shadow-lighter top-right">
+                        <img src="../assets/images/home-about.jpg" alt="" class="">
                     </div>
-                </vue-aos>
-                <vue-aos animation-class="fadeInUp animated">
-                    <div class="text px-16 lg:w-1/2 lg:px-24">
-                        <h2>O mnie</h2>
-                        <p>
-                            Nazywam się Ewa Banaś i jestem właścicielką Domu Złote Pola. Zajmuję się organizacją
-                            rodzinnych
-                            przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji BabyCafe.pl,
-                            którą prowadziłam w sercu gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl
-                            cieszyła się Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
-                            tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie bardzo ważne,
-                            żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich – również najmłodszych (...)
-                        </p>
-                        <p class="read-more">
-                            <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav">Czytaj więcej</router-link>
-                        </p>
-                    </div>
-                </vue-aos>
+                </div>
+                <div class="text px-16 lg:w-1/2 lg:px-24">
+                    <h2>O mnie</h2>
+                    <p>
+                        Nazywam się Ewa Banaś i jestem właścicielką Domu Złote Pola. Zajmuję się organizacją
+                        rodzinnych
+                        przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji BabyCafe.pl,
+                        którą prowadziłam w sercu gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl
+                        cieszyła się Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
+                        tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie bardzo ważne,
+                        żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich – również najmłodszych (...)
+                    </p>
+                    <p class="read-more">
+                        <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav">Czytaj więcej</router-link>
+                    </p>
+                </div>
             </div>
 
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
@@ -70,7 +46,8 @@
                             domu należy ogród warzywny z kwiatami i owocami.
                         </p>
                         <p class="read-more">
-                            <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Czytaj więcej</router-link>
+                            <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Czytaj więcej
+                            </router-link>
                         </p>
                     </div>
                 </vue-aos>
@@ -151,13 +128,11 @@
 
 <script>
     import VueAos from 'vue-aos'
-    import Banner from "../components/Banner";
 
     export default {
         name: 'home',
 
         components: {
-            Banner,
             VueAos
         }
     }
