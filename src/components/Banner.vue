@@ -1,5 +1,5 @@
 <template>
-    <div class="banner">
+    <div class="banner" :class="type">
         <div class="container h-full flex justify-center items-end text-white lg:justify-end lg:items-center">
             <slot />
         </div>
@@ -9,5 +9,6 @@
 <script>
     export default {
         name: 'Banner',
+        props:['type']
     }
 </script>
