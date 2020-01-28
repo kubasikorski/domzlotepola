@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <page-header />
+        <page-header/>
         <transition
                 name="fade"
                 mode="out-in"
@@ -46,19 +46,17 @@
     }
 </script>
 <style>
-    .fade-enter-active,
-    .fade-leave-active {
-        transition-duration: 0.5s;
-        transition-property: height, opacity, transform;
-        transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
-        overflow: hidden;
+    .fade-enter-active, .fade-leave-active {
+        transition-property: opacity;
+        transition-duration: .25s;
     }
 
-    .fade-enter,
-    .fade-leave-active {
-        opacity: 0;
-        transform: translate(2em, 0);
+    .fade-enter-active {
+        transition-delay: .25s;
     }
 
+    .fade-enter, .fade-leave-active {
+        opacity: 0
+    }
 </style>
 <style src="./assets/css/tailwind.css"/>

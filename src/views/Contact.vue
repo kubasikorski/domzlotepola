@@ -1,26 +1,6 @@
 <template>
     <div>
-        <banner :style="{'background-image': `url(${require('../assets/images/banner-home.jpg')})`}">
-            <vue-aos animation-class="fadeIn slow animated">
-                <div class="caption">
-                    <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
-                    <p class="text-lg leading-normal">
-                        Czyste powietrze i sielska atmosfera są idealnym
-                        otoczeniem dla wyjątkowych okazji rodzinnych jak i
-                        spotkań firmowych. Dóm Złote Pola położony jest
-                        wśród łąk i ziemii uprawnych. Do domu należy ogród
-                        warzywny z kwiatami i owocami...
-                    </p>
-                    <vue-aos animation-class="slideInUp slow animated">
-                        <p class="mt-4">
-                            <a href="#"
-                               class="border border-white font-bebas text-2xl uppercase px-4 pt-px hover:bg-white hover:text-primary">Czytaj
-                                o nas</a>
-                        </p>
-                    </vue-aos>
-                </div>
-            </vue-aos>
-        </banner>
+
 
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
@@ -79,7 +59,6 @@
 </template>
 
 <script>
-    import Banner from "../components/Banner";
     import Vue from 'vue'
     import VueAos from "vue-aos";
     import * as VueGoogleMaps from 'vue2-google-maps'
@@ -90,7 +69,6 @@
     });
     export default {
         components: {
-            Banner,
             VueAos
         },
         data() {

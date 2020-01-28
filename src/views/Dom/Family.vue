@@ -1,6 +1,5 @@
 <template>
     <div>
-        <banner type="short" :style="{'background-image': `url(${require('../../assets/images/banner-home.jpg')})`}"/>
 
         <div class="container relative z-10">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
@@ -73,11 +72,9 @@
 </template>
 <script>
     import VueAos from 'vue-aos'
-    import Banner from "../../components/Banner";
     export default {
         components: {
             VueAos,
-            Banner
         },
         data() {
             return {
