@@ -4,6 +4,7 @@
 @import "components/header.pcss";
 @import "components/banner.pcss";
 @import "components/typography.pcss";
+@import "components/blocks.pcss";
 @import "components/leaf.pcss";
 @import "components/image-shadow.pcss";
 @import "components/gallery.pcss";

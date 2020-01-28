@@ -96,7 +96,7 @@
 
 
         </div>
-        <div class="bg-primary-lightest pt-1 pb-4 my-8 lg:mt-16 relative z-10">
+        <div class="reference-block">
             <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
                 <vue-aos animation-class="fadeInLeft animated">
                     <div class="lg:w-1/2 text-center">
