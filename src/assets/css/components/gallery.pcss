@@ -3,6 +3,24 @@
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 
+    .item {
+        @apply relative cursor-pointer;
+
+        .description {
+            @apply absolute inset-0 bg-primary-lightest flex flex-col items-center justify-center p-8 opacity-0;
+            background-color: rgba(237,230,223,.75);
+            transition: opacity ease-in-out .25s;
+
+            &.shown {
+                @apply opacity-100;
+            }
+        }
+
+        &:hover .description:not(.shown) {
+            @apply opacity-75;
+        }
+    }
+
     @media (min-width: 900px) {
         grid-template-columns: 1fr 1fr;
     }
