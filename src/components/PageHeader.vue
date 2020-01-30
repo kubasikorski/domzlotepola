@@ -11,14 +11,14 @@
                 </router-link>
                 <router-link :to="{name: 'menu'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
                 <div class="nav-item-dropdown">
-                    <a href="#" class="nav-item">Dóm Złote Pola</a>
+                    <router-link :to="{name: 'menu'}" class="nav-item">Dóm Złote Pola</router-link>
                     <div class="nav-dropdown">
-                        <a href="#">Oferta dla rodzin </a>
-                        <a href="#">Oferta dla pary młodej </a>
-                        <a href="#">Oferta dla firm</a>
+                        <router-link :to="{name: 'menu'}">Oferta dla rodzin </router-link>
+                        <router-link :to="{name: 'menu'}">Oferta dla pary młodej </router-link>
+                        <router-link :to="{name: 'menu'}">Oferta dla firm</router-link>
                     </div>
                 </div>
-                <a href="#" class="nav-item">Bawialnia dla dzieci</a>
+                <router-link :to="{name: 'menu'}" class="nav-item">Bawialnia dla dzieci</router-link>
                 <router-link :to="{name: 'rooms'}" href="#" class="nav-item">Pokoje</router-link>
                 <router-link :to="{name: 'contact'}" v-on:click.native="hideMobileNav" class="nav-item">Kontakt</router-link>
             </nav>
