@@ -10,8 +10,24 @@
     .caption {
         @apply p-8;
 
+        h2 {
+            @apply font-bebas text-3xl;
+        }
+
+        p {
+            @apply text-sm leading-tight;
+        }
+
         @media (min-width: 1200px) {
             width: 600px;
+
+            h2 {
+                @apply text-7xl;
+            }
+
+            p {
+                @apply text-lg leading-normal;
+            }
         }
     }
 }

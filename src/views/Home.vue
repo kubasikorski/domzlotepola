@@ -2,8 +2,8 @@
     <div>
         <banner :style="{'background-image': `url(${require('../assets/images/banner-home.jpg')})`}">
             <div class="caption">
-                <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
-                <p class="text-lg leading-normal">
+                <h2>"Śród takich pól przed laty..."</h2>
+                <p>
                     Czyste powietrze i sielska atmosfera są idealnym
                     otoczeniem dla wyjątkowych okazji rodzinnych jak i
                     spotkań firmowych. Dóm Złote Pola położony jest

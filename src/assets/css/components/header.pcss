@@ -1,13 +1,19 @@
 header {
     .logo {
         @apply absolute z-20;
-
-        margin-left: -134px;
-        top: -38px;
+        top: -20px;
         left: 50%;
+        margin-left: -90px;
+
+        @media (max-width: 1199px) {
+            width: 180px;
+
+        }
 
         @media (min-width: 1200px) {
             top: -25px;
+            left: 50%;
+            margin-left: -134px;
         }
     }
 
