@@ -17,17 +17,17 @@
                             Pola
                         </router-link>
                         <div class="nav-dropdown">
-                            <router-link :to="{name: 'dom-family'}" v-on:click.native="hideMobileNav" class="nav-item">
+                            <router-link :to="{name: 'dom-family'}" v-on:click.native="hideMobileNav">
                                 Oferta dla rodzin
                             </router-link>
-                            <router-link :to="{name: 'dom-bride'}" v-on:click.native="hideMobileNav" class="nav-item">
+                            <router-link :to="{name: 'dom-bride'}" v-on:click.native="hideMobileNav">
                                 Oferta
                                 dla pary młodej 
                             </router-link>
-                            <router-link :to="{name: 'dom-company'}" v-on:click.native="hideMobileNav" class="nav-item">
+                            <router-link :to="{name: 'dom-company'}" v-on:click.native="hideMobileNav">
                                 Oferta dla firm
                             </router-link>
-                            <router-link :to="{name: 'dom-food'}" v-on:click.native="hideMobileNav" class="nav-item">
+                            <router-link :to="{name: 'dom-food'}" v-on:click.native="hideMobileNav">
                                 Nasze
                                 jedzenie
                             </router-link>
