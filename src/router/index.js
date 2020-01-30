@@ -28,42 +28,42 @@ const routes = [
     {
         path: '/:lang(pl|en)/dom-zlote-pola',
         name: 'dom',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Index.vue')
+        component: () => import(/* webpackChunkName: "dom" */ '../views/Dom/Index.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin',
         name: 'dom-family',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
+        component: () => import(/* webpackChunkName: "dom-family" */ '../views/Dom/Family.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej',
         name: 'dom-bride',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
+        component: () => import(/* webpackChunkName: "dom-bride" */ '../views/Dom/Family.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm',
         name: 'dom-company',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Family.vue')
+        component: () => import(/* webpackChunkName: "dom-company" */ '../views/Dom/Family.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/nasze-jedzenie',
         name: 'dom-food',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Dom/Food.vue')
+        component: () => import(/* webpackChunkName: "dom-food" */ '../views/Dom/Food.vue')
     },
     {
         path: '/:lang(pl|en)/kontakt',
         name: 'contact',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+        component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
     },
     {
         path: '/:lang(pl|en)/pokoje',
         name: 'rooms',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Rooms.vue')
+        component: () => import(/* webpackChunkName: "rooms" */ '../views/Rooms.vue')
     },
     {
         path: '/:lang(pl|en)/404',
         name: 'error',
-        component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
+        component: () => import(/* webpackChunkName: "error" */ '../views/404.vue')
     },
 
 ];
