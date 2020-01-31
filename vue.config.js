@@ -6,11 +6,13 @@ module.exports = {
             new PrerenderSPAPlugin({
                 staticDir: path.join(__dirname, 'dist'),
                 // Required - Routes to render.
-                routes: [ '/', '/pl', '/pl/o-mnie' ],
+                routes: ['/', '/pl', '/pl/o-mnie'],
                 postProcess: function (context) {
+                    let pageTitle = 'Dóm złote pola';
                     let titles = {
-                        '/': 'Home',
-                        '/pl/o-mnie': 'O Mnie',
+                        '/': pageTitle + ' - Strona główna',
+                        '/pl': pageTitle + ' - Strona główna',
+                        '/pl/o-mnie': pageTitle + ' - O Mnie',
                     }
                     context.html = context.html.replace(
                         /<title>[^<]*<\/title>/i,
