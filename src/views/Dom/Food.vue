@@ -52,10 +52,18 @@
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
                         Dania główne</h4>
                     <ol class=" list-outside leading-normal mt-8 pl-5">
-                        <li class="pb-1">Udko z kaczki z konfiturą z czerwonej cebuli, czerwoną kapustą z miodem i żurawiną, kluseczki</li>
-                        <li class="pb-1">Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem, ziemniaki puree, buraczki z tartym chrzanem</li>
-                        <li class="pb-1">Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem, ziemniaki zapieczone pod beszamelem, sałaty</li>
-                        <li class="pb-1">Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem, ziemniaki z wody z koperkiem, fasola szparagowa</li>
+                        <li class="pb-1">Udko z kaczki z konfiturą z czerwonej cebuli, czerwoną kapustą z miodem i
+                            żurawiną, kluseczki
+                        </li>
+                        <li class="pb-1">Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem,
+                            ziemniaki puree, buraczki z tartym chrzanem
+                        </li>
+                        <li class="pb-1">Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem,
+                            ziemniaki zapieczone pod beszamelem, sałaty
+                        </li>
+                        <li class="pb-1">Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem,
+                            ziemniaki z wody z koperkiem, fasola szparagowa
+                        </li>
                     </ol>
 
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">

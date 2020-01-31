@@ -7,15 +7,16 @@ module.exports = {
                 staticDir: path.join(__dirname, 'dist'),
                 // Required - Routes to render.
                 routes: [ '/', '/pl', '/pl/o-mnie' ],
-                postProcessHtml: function (context) {
-                    var titles = {
+                postProcess: function (context) {
+                    let titles = {
                         '/': 'Home',
                         '/pl/o-mnie': 'O Mnie',
                     }
-                    return context.html.replace(
+                    context.html = context.html.replace(
                         /<title>[^<]*<\/title>/i,
-                        '<title>' + titles[context.route] + '</title>'
+                        `<title>${titles[context.route]}</title>`
                     )
+                    return context
                 }
             })
         ]

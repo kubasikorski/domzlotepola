@@ -73,18 +73,33 @@ header {
                 .nav-dropdown {
                     @apply bg-white absolute hidden whitespace-no-wrap;
                     top: 100%;
-                    left: -32px;
+                    left: -106px;
                     padding-top: 40px;
                     padding-bottom: 12px;
-
+                    padding-left: 77px;
                     a {
                         @apply block py-1 px-12;
-
+                         position:relative;
                         &:hover {
                             @apply text-primary;
                             background-image: url("../../images/nav-leaf.png");
                             background-repeat: no-repeat;
                             background-position: 1rem .2rem;
+
+                            &:before {
+                                    content:'';
+                                      position:absolute;
+                                      display:block;
+                                      height:2px;
+                                      margin-top:4px;
+                                      width: 110px;
+                                      background:#B5861F;
+                                      left:-20%;
+                                      top:4px;
+                                      z-index:1;
+                                      transform:translateX(-50%);
+                                      -webkit-transform:translateX(-50%);
+                            }
                         }
                     }
                 }
