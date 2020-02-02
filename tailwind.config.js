@@ -15,6 +15,11 @@ module.exports = {
                 default: '#B5861F',
                 lighter: '#E2D3C0',
                 lightest: '#EDE6DF',
+            },
+            shadow: {
+                default: '#BEA27D',
+                lighter: '#E2D3C0',
+                lightest: '#EDE6DF',
             }
         },
         fontFamily: {
@@ -38,13 +43,18 @@ module.exports = {
         extend: {
             height: {
                 '9': '2.375rem',
-                '14': '3.5rem'
+                '14': '3.5rem',
+                '80': '18rem',
             },
             width: {
                 'sm': '300px',
                 'md': '600px',
                 'lg': '900px',
                 'xl': '1200px',
+            },
+            spacing: {
+                '80': '18rem',
+                '96': '20rem',
             },
             screens: {
                 'sm': '600px',

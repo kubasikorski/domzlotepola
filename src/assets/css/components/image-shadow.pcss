@@ -1,4 +1,10 @@
 .image-shadow {
+
+    @media print
+    {
+        @apply hidden;
+    }
+
     @apply inline-block relative mb-4;
 
     img {
@@ -6,9 +12,20 @@
     }
 
     &:before {
-        @apply absolute w-full h-full bg-primary-lighter;
+        @apply absolute w-full h-full bg-shadow;
         content: '';
     }
+
+    &.shadow-lighter:before {
+        @apply bg-shadow-lighter;
+        content: '';
+    }
+
+    &.shadow-lightest:before {
+        @apply bg-shadow-lightest;
+        content: '';
+    }
+
 
     &.top-right {
         margin-top: 64px;
@@ -26,6 +43,26 @@
 
         &:before {
             top: -64px;
+            left: -64px;
+        }
+    }
+
+    &.bottom-right {
+        margin-bottom: 80px;
+        margin-right: 64px;
+
+        &:before {
+            bottom: -64px;
+            right: -64px;
+        }
+    }
+
+    &.bottom-left {
+        margin-bottom: 80px;
+        margin-left: 64px;
+
+        &:before {
+            bottom: -64px;
             left: -64px;
         }
     }

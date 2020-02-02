@@ -21,23 +21,35 @@
         &.read-more {
             @apply font-bebas uppercase leading-none relative mt-12;
 
-            &:after {
-                @apply absolute h-px bg-primary-lightest;
+            &:before {
+                @apply absolute h-px bg-primary-lightest inset-x-0;
                 content: '';
+                margin-top: -2px;
                 top: 50%;
-                left: 125px;
-                right: 0;
             }
 
             a {
-                @apply border px-4 pt-1;
+                @apply border bg-white px-4 pt-1 relative;
 
                 &:hover {
                     @apply text-primary;
                 }
             }
         }
-    }
+
+     strong{
+                @apply font-bold;
+            }
+        }
+
+        ul{
+            li{
+                @apply font-light;
+                list-style-image: url("../../images/nav-leaf.png");
+                padding-left: 0.5rem;
+                margin-left:4rem;
+            }
+        }
 
 }
 

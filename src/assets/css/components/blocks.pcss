@@ -1,0 +1,16 @@
+.reference-block {
+    @apply pt-1 pb-4 my-8 relative z-10;
+    background-color: #EDE6DF;
+    @media (min-width: 1200px) {
+        @apply mt-16
+    }
+    &:before {
+        background: url("../../images/leaf.png") no-repeat;
+        mix-blend-mode: multiply;
+        content:'';
+        position: absolute;
+        top: -66px;
+        height:120px;
+        width:100%
+    }
+}

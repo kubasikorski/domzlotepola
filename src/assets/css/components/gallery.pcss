@@ -1,0 +1,97 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
+    .item {
+        @apply relative cursor-pointer;
+
+        .description {
+            @apply absolute inset-0 bg-primary-lightest flex flex-col items-center justify-center p-8 opacity-0;
+            background-color: rgba(237,230,223,.75);
+            transition: opacity ease-in-out .25s;
+
+            &.shown {
+                @apply opacity-100;
+            }
+        }
+
+        &:hover .description:not(.shown) {
+            @apply opacity-75;
+        }
+    }
+
+    @media (min-width: 900px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: 1200px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.gallery-zoom {
+    @apply bg-white fixed inset-0 overflow-y-auto z-50;
+
+    @media (min-width: 1200px) {
+        @apply flex items-center;
+    }
+
+    .close, .fullscreen {
+        @apply fixed z-10 p-2;
+        top: 1rem;
+
+        &:hover {
+            @apply opacity-50;
+        }
+    }
+
+    .close {
+        right: 1rem;
+    }
+
+    .fullscreen {
+        left: 1rem;
+    }
+
+    .prev, .next {
+        @apply cursor-pointer absolute;
+        top: 50%;
+        margin-top: -30px;
+
+        &:hover {
+            @apply opacity-50;
+        }
+    }
+
+    .prev {
+        left: -45px;
+    }
+
+    .next {
+        right: -45px;
+    }
+
+    .image {
+        @apply w-full h-full relative;
+    }
+
+    &.is-fullscreen {
+        .close, .fullscreen, .prev, .next {
+            @apply bg-white;
+        }
+
+        .prev, .next {
+            @apply py-2 flex justify-center;
+            width: 60px;
+        }
+
+        .prev {
+            left: 1rem;
+        }
+
+        .next {
+            right: 1rem;
+        }
+    }
+}
