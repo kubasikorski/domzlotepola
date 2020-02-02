@@ -131,10 +131,8 @@
 
 <script>
     import VueAos from 'vue-aos'
-
     export default {
         name: 'home',
-
         components: {
             VueAos
         }

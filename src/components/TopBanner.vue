@@ -1,7 +1,7 @@
 <template>
     <banner :size="useBannerFeed.size" :style="{ backgroundImage: `url('${useBannerFeed.background}')` }">
-        <vue-aos animation-class="fadeIn slow animated">
-            <div v-if="useBannerFeed.captionExist" class="caption">
+        <vue-aos v-if="useBannerFeed.captionExist"  animation-class="fadeIn slow animated">
+            <div class="caption">
                 <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
                 <p class="text-lg leading-normal">
                     Czyste powietrze i sielska atmosfera są idealnym
@@ -12,7 +12,7 @@
                 </p>
                     <vue-aos animation-class="slideInUp slow animated">
                     <p class="mt-4">
-                        <router-link :to="{name: 'dom'}" class="read-more" v-on:click.native="hideMobileNav">Czytaj
+                        <router-link :to="{name: 'dom',params:{'lang':'pl'}}" class="read-more" v-on:click.native="hideMobileNav">Czytaj
                             o
                             nas
                         </router-link>

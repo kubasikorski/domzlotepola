@@ -1,4 +1,10 @@
 header {
+
+    @media print
+    {
+        @apply hidden;
+    }
+
     .logo {
         @apply absolute z-20;
         top: -20px;
@@ -21,6 +27,8 @@ header {
         @apply flex flex-col bg-white-darker text-nav uppercase leading-none font-bebas;
 
         @media (max-width: 1199px) {
+
+
             @apply fixed items-center inset-x-0 pt-48;
             transition: transform ease-in-out .25s;
             top: -100%;
@@ -113,6 +121,11 @@ header {
 
     .hamburger {
         @apply mr-8;
+
+        @media print
+        {
+            @apply hidden;
+        }
 
         @media (min-width: 1199px) {
             @apply hidden;

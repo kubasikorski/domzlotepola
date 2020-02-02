@@ -2,43 +2,51 @@
     <div>
         <div class="relative z-20 md:container">
             <header class="fixed inset-x-0 top-0 justify-end items-center z-10 lg:flex lg:justify-between lg:static lg:py-6">
-                <router-link :to="{name: 'home'}" class="logo" v-on:click.native="hideMobileNav">
+                <router-link :to="{name: 'home',params:{'lang':this.useLang}}" class="logo"
+                             v-on:click.native="hideMobileNav">
                     <img src="../assets/images/logo-desktop.png" alt="Dóm Złote Pola">
                 </router-link>
-
                 <nav :class="{'is-open': mobileNav}">
-                    <router-link :to="{name: 'home'}" v-on:click.native="hideMobileNav" class="hidden lg:inline-block">
+                    <router-link :to="{name: 'home',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"
+                                 class="hidden lg:inline-block">
                         <img src="../assets/images/home-icon.png" alt="Home"/>
                     </router-link>
-                    <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav" class="nav-item">O mnie
+                    <router-link :to="{name: 'about',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"
+                                 class="nav-item">O mnie
                     </router-link>
                     <div class="nav-item-dropdown">
-                        <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav" class="nav-item">Dóm Złote
+                        <router-link :to="{name: 'dom',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"
+                                     class="nav-item">Dóm Złote
                             Pola
                         </router-link>
                         <div class="nav-dropdown">
-                            <router-link :to="{name: 'dom-family'}" v-on:click.native="hideMobileNav">
+                            <router-link :to="{name: 'dom-family',params:{'lang':this.useLang}}"
+                                         v-on:click.native="hideMobileNav">
                                 Oferta dla rodzin
                             </router-link>
-                            <router-link :to="{name: 'dom-bride'}" v-on:click.native="hideMobileNav">
+                            <router-link :to="{name: 'dom-bride',params:{'lang':this.useLang}}"
+                                         v-on:click.native="hideMobileNav">
                                 Oferta
                                 dla pary młodej 
                             </router-link>
-                            <router-link :to="{name: 'dom-company'}" v-on:click.native="hideMobileNav">
+                            <router-link :to="{name: 'dom-company',params:{'lang':this.useLang}}"
+                                         v-on:click.native="hideMobileNav">
                                 Oferta dla firm
                             </router-link>
-                            <router-link :to="{name: 'dom-food'}" v-on:click.native="hideMobileNav">
+                            <router-link :to="{name: 'dom-food',params:{'lang':this.useLang}}"
+                                         v-on:click.native="hideMobileNav">
                                 Nasze
                                 jedzenie
                             </router-link>
                         </div>
                     </div>
                     <a href="#" class="nav-item">Bawialnia dla dzieci</a>
-                    <router-link :to="{name: 'rooms'}" href="#" class="nav-item">Pokoje</router-link>
-                    <router-link :to="{name: 'contact'}" v-on:click.native="hideMobileNav" class="nav-item">Kontakt
+                    <router-link :to="{name: 'rooms',params:{'lang':this.useLang}}" href="#" class="nav-item">Pokoje
+                    </router-link>
+                    <router-link :to="{name: 'contact',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"
+                                 class="nav-item">Kontakt
                     </router-link>
                 </nav>
-
                 <div class="flex justify-end text-nav text-sm font-light bg-white py-6 relative z-10 lg:py-0">
                     <div class="hidden mr-8 lg:block">
                         T: <a href="tel:+48 501 317 113">+48 501 317 113</a>
@@ -63,14 +71,19 @@
 </template>
 <script>
     import TopBanner from "../components/TopBanner";
+
     export default {
         name: 'PageHeader',
         components: {
-            TopBanner,
+            TopBanner
         },
         computed: {
             currentRouteName() {
                 return this.$route.name;
+            },
+            useLang() {
+                let lang = localStorage.getItem('lang');
+                return (lang ? lang : 'pl');
             }
         },
         data() {

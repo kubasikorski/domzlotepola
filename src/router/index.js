@@ -4,7 +4,6 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 let lang = localStorage.getItem('lang');
-
 const routes = [
     {
         path: '*',
@@ -13,7 +12,7 @@ const routes = [
     },
     {
         path: '/',
-        redirect: {name: 'home', params: {lang: lang || 'pl'}}
+        redirect: {name: 'main', params: {lang: lang || 'pl'}}
     },
     {
         path: '/:lang(pl|en)/',

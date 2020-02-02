@@ -6,7 +6,6 @@ import './registerServiceWorker'
 
 Vue.config.productionTip = false;
 Vue.use(VueRellax);
-
 new Vue({
   router,
   render: h => h(App)
