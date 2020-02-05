@@ -15,7 +15,7 @@ const routes = [
         redirect: {name: 'main', params: {lang: lang || 'pl'}}
     },
     {
-        path: '/:lang(pl|en)/',
+        path: '/:lang(pl|en)/home',
         name: 'home',
         component: Home
     },

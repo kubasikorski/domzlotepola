@@ -27,7 +27,7 @@
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
         <div class="container relative z-10 lg:px-16">
-        <div class="h-80 bg-primary-lightest my-8 lg:mt-16 relative z-10">
+        <div class="h-120 bg-primary-lightest my-8 lg:mt-16 relative z-10">
             <GmapMap
                     :center="center"
                     :zoom="16"
