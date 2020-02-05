@@ -50,6 +50,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-food" */ '../views/Dom/Food.vue')
     },
     {
+        path: '/:lang(pl|en)/bawialnia-dla-dzieci',
+        name: 'playground',
+        component: () => import(/* webpackChunkName: "playground" */ '../views/Playground.vue')
+    },
+    {
         path: '/:lang(pl|en)/kontakt',
         name: 'contact',
         component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')

@@ -40,9 +40,8 @@
                             </router-link>
                         </div>
                     </div>
-                    <a href="#" class="nav-item">Bawialnia dla dzieci</a>
-                    <router-link :to="{name: 'rooms',params:{'lang':this.useLang}}" href="#" class="nav-item">Pokoje
-                    </router-link>
+                    <router-link :to="{name: 'playground',params:{'lang':this.useLang}}" href="#" class="nav-item">Bawialnia dla dzieci</router-link>
+                    <router-link :to="{name: 'rooms',params:{'lang':this.useLang}}" href="#" class="nav-item">Pokoje</router-link>
                     <router-link :to="{name: 'contact',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"
                                  class="nav-item">Kontakt
                     </router-link>
