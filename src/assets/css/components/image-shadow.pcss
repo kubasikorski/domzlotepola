@@ -8,7 +8,17 @@
 
     img {
         @apply relative;
+        opacity:100;
+
+        &:not(:first-child) {
+                     @apply absolute;
+                     top:0;
+                     left:0;
+                     opacity:0;
+                 }
+
     }
+
     div.vue-flux{
         @apply relative;
     }

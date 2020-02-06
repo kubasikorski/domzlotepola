@@ -98,12 +98,9 @@
             <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
                 <vue-aos animation-class="fadeInLeft animated">
                     <div class="lg:w-1/2 text-center">
-                            <vue-flux
-                                    :options="vfOptions"
-                                    :images="vfImages"
-                                    :transitions="vfTransitions"
-                                    ref="slider">
-                            </vue-flux>
+                        <div class="image-shadow top-left">
+                            <image-transition :feed="imageTransitions.references"></image-transition>
+                        </div>
                     </div>
                 </vue-aos>
                 <vue-aos animation-class="fadeInRight animated">
@@ -201,23 +198,24 @@
 <script>
     import VueAos from 'vue-aos'
     import {Carousel, Slide} from 'vue-carousel';
-    import {
-        VueFlux,
-    } from 'vue-flux';
+    import ImageTransition from "../components/ImageTransition";
+
     export default {
         name: 'home',
         components: {
             VueAos,
             Carousel,
             Slide,
-            VueFlux
+            ImageTransition
         },
         data: () => ({
-            vfOptions: {
-                autoplay: true
-            },
-            vfImages: [ require('../assets/images/home-references.jpg'), require('../assets/images/home-dom.jpg')],
-            vfTransitions: [ 'fade', 'fade' ],
+            imageTransitions: {
+                'references': [
+                    require('@/assets/images/home-references.jpg'),
+                    require('@/assets/images/home-about.jpg'),
+                    require('@/assets/images/home-rooms.jpg'),
+                ]
+            }
         }),
     }
 </script>

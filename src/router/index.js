@@ -12,7 +12,7 @@ const routes = [
     },
     {
         path: '/',
-        redirect: {name: 'main', params: {lang: lang || 'pl'}}
+        redirect: {name: 'home', params: {lang: lang || 'pl'}}
     },
     {
         path: '/:lang(pl|en)/home',
