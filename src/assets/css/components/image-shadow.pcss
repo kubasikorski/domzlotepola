@@ -8,13 +8,14 @@
 
     img {
         @apply relative;
+        transition: opacity 1s ease-out;
         opacity:100;
 
         &:not(:first-child) {
                      @apply absolute;
                      top:0;
                      left:0;
-                     opacity:0;
+                     opacity:100;
                  }
 
     }

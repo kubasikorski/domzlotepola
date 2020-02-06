@@ -61,7 +61,7 @@
                 <vue-aos animation-class="fadeInUp animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow shadow-lighter top-right">
-                            <img src="../assets/images/home-rooms.jpg" alt="" class="">
+                            <image-transition :intervalTimer="4000" :feed="imageTransitions.rooms"></image-transition>
                         </div>
                     </div>
                 </vue-aos>
@@ -99,7 +99,7 @@
                 <vue-aos animation-class="fadeInLeft animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow top-left">
-                            <image-transition :feed="imageTransitions.references"></image-transition>
+                            <image-transition :intervalTimer="2000" :feed="imageTransitions.references"></image-transition>
                         </div>
                     </div>
                 </vue-aos>
@@ -212,6 +212,10 @@
             imageTransitions: {
                 'references': [
                     require('@/assets/images/home-references.jpg'),
+                    require('@/assets/images/home-about.jpg'),
+                    require('@/assets/images/home-rooms.jpg'),
+                ],
+                'rooms': [
                     require('@/assets/images/home-about.jpg'),
                     require('@/assets/images/home-rooms.jpg'),
                 ]
