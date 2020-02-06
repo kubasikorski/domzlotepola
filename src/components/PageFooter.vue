@@ -14,7 +14,7 @@
         </div>
 
         <div class="w-full px-16 text-center mt-4 lg:w-1/3 lg:mt-0 lg:text-right">
-            © Copyright 2020  DÓM ZOTE POLA
+            © Copyright 2020  DÓM ZŁOTE POLA
         </div>
     </footer>
 </template>

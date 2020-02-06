@@ -1,7 +1,26 @@
 .image-shadow {
+
+    @media print
+    {
+        @apply hidden;
+    }
     @apply inline-block relative mb-4;
 
     img {
+        @apply relative;
+        transition: opacity 1s ease-out;
+        opacity:100;
+
+        &:not(:first-child) {
+                     @apply absolute;
+                     top:0;
+                     left:0;
+                     opacity:100;
+                 }
+
+    }
+
+    div.vue-flux{
         @apply relative;
     }
 

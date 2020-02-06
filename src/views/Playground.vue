@@ -11,42 +11,15 @@
 
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
-                        <h2>O Mnie</h2>
+                        <h2>Troska o dzieci</h2>
                     </vue-aos>
                     <p>
-                        Nazywam się Ewa Banaś i jestem właścicielką Domu Złote Pola.
-                        Zajmuję się organizacją rodzinnych przyjęć i spotkań firmowych. Wielu z Państwa
-                        może mnie znać z mojej restauracji BabyCafe.pl, którą prowadziłam w sercu
-                        gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl cieszyła się
-                        Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
-                        tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie
-                        bardzo ważne, żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich –
-                        również najmłodszych.<br><br>
-                        Doświadczenie, które zdobyłam w restauracji BabyCafe.pl pozwoliło mi poznać
-                        potrzeby
-                        i oczekiwania naszych wspaniałych gości. Do dziś odwiedzają nas kolejne pokolenia
-                        rodzin,
-                        z którymi organizowałam chrzciny, pierwsze urodziny, przyjęcia komunijne, obiady
-                        ślubne
-                        i wspaniałe świąteczne spotkania.
-                        <br><br>
-                        W rozwijaniu rodzinnej firmy dbam o to, aby:
-                    </p><br>
-                    <ul>
-                        <li>Goście, którzy nas odwiedzają czuli się Przyjaciółmi Domu Złote Pola.</li>
-                        <li>Jedzenie było domowe, przygotowywane tradycyjnymi metodami, z przepisów Mamy
-                            i naszego Szefa Kuchni.
-                        </li>
-                    </ul>
-                  <br>
-                    <p>Zapraszam Państwa do Domu Złote Pola, który stał się moim domem, miejscem
-                        wytchnienia, domem wielopokoleniowym, z tradycjami smaku, rodzinnych przepisów,
-                        zapachem ogrodu
-                        i serdeczną gościnnością.<br><br>
-                        <i>Ewa Banaś</i>
-                    </p>
-                    <p class="read-more">
-                      <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Zobacz, co oferuje Dóm Złote Pola</router-link>
+                        To odpoczynek dla Państwa i zabawa dla dzieci, czyli słowem – przepis na udane spotkanie
+                        rodzinne.<br><br>
+                        Najmłodszych gości zapraszamy do zabawy w bawialni BabyCafe.pl i do letniego placu zabaw
+                        na świeżym powietrzu w ogrodzie. Nasza kuchnia oferuje ulubione dziecięce potrawy,
+                        takie jak naleśniki z czekoladą, pierogi z truskawkami, rosół z domowym makaronem,
+                        racuszki z jabłkami, z przepisów Babci Krysi.
                     </p>
 
                 </div>
