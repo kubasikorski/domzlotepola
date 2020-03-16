@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
+            <div class="flex flex-col mt-16 lg:flex-row">
                 <div v-rellax="{speed: 4, center: true}" class="text px-16 lg:w-1/2 lg:px-0">
                     <vue-aos animation-class="fadeInLeft animated">
                         <h2>Dóm Złote Pola</h2>
