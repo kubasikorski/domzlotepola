@@ -1,12 +1,7 @@
 <template>
     <div>
         <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div v-rellax="{speed: 1, center: true}" class="lg:w-1/2 text-center lg:pl-16">
-                    <div class="image-shadow shadow-lighter top-right">
-                        <img src="../assets/images/contact.jpg" alt="" class="">
-                    </div>
-                </div>
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div v-rellax="{speed: 4, center: true}" class="text px-16 lg:w-1/2 lg:px-0">
                     <vue-aos animation-class="fadeInLeft animated">
                         <h2>Dóm Złote Pola</h2>
@@ -30,6 +25,11 @@
                         T: <a href="tel:+48 501 317 113">+48 501 317 113</a>
                         <br>E: <a href="mailto:rezerwacje@domzlotepola.pl">rezerwacje@domzlotepola.pl</a>
                     </p>
+                </div>
+                <div v-rellax="{speed: 1, center: true}" class="lg:w-1/2 text-center lg:pl-16">
+                    <div class="image-shadow shadow-lighter top-right">
+                        <img src="../assets/images/contact.jpg" alt="" class="">
+                    </div>
                 </div>
             </div>
         </div>

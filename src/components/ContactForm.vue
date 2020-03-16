@@ -1,12 +1,12 @@
 <template>
     <div>
-        <br>
-        <div  v-if="submitError" class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3" role="alert">
+        <div v-if="submitError" class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3"
+             role="alert">
             <p class="font-bold">Wystąpił błąd</p>
             <p class="text-sm">Uzupełnij poprawnie wymagane pola oznaczone gwiazdką!</p>
         </div>
 
-        <form @submit.prevent="submit" class="mt-4 lg:pr-16">
+        <form v-if="!showConfirm" @submit.prevent="submit" class="mt-4 lg:pr-16">
             <input type="text" v-model="formData.name" placeholder="Imię i nazwisko *"
                    class="appearance-none w-full border-b border-primary-lighter py-2 mt-4 focus:border-primary focus:outline-none">
             <input type="text" v-model="formData.email" placeholder="Email *"
@@ -21,6 +21,13 @@
                 mnie
             </button>
         </form>
+        <div v-else>
+            <div class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3"
+                 role="alert">
+                <p class="font-bold">Dziękujemy</p>
+                <p class="text-sm">Twoja wiadomość została wysłana!</p>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -40,7 +47,18 @@
                     message: ''
                 },
                 submitError: false,
+                sendId:null,
+                showConfirm:false,
+                sendMailStatus:false,
             }
+        },
+        watch: {
+            sendId: function (val) {
+                if(val!=null){
+                    this.showConfirm = true;
+                    this.sendMail();
+                }
+            },
         },
         methods: {
             submit() {
@@ -48,8 +66,40 @@
                 if (this.$v.$invalid) {
                     this.submitError = true
                 } else {
-                    this.submitError = false
+                    this.sendMessage()
                 }
+            },
+            sendMessage() {
+                let that = this;
+                this.$axios
+                    .post('https://dom-admin.test/dom-zlote-pola/items/formularz_kontaktowy', {
+                        "status": "published",
+                        "imie_nazwisko": that.formData.name,
+                        "email": that.formData.email,
+                        "telefon": that.formData.phone,
+                        "wiadomosc": that.formData.message,
+                        "owner": 1
+                    })
+                    .then(response => (that.sendId = response.data.data.id))
+            },
+            sendMail() {
+                let that = this;
+                this.$axios
+                    .post('https://dom-admin.test/dom-zlote-pola/mail', {
+                        "to": [
+                            "kuba.sikorski@gmail.com",
+                        ],
+                        "subject": "Nowa wiadomość z formularza kontaktowego",
+                        "body": "Imię i nazwisko: {{imie_nazwisko}}<br>E-mail: {{email}}<br>Telefon: {{telefon}}<br>Wiadomość: {{wiadomosc}}",
+                        "type": "html",
+                        "data": {
+                            "imie_nazwisko": that.formData.name,
+                            "email": that.formData.email,
+                            "telefon": that.formData.phone,
+                            "wiadomosc": that.formData.message,
+                        }
+                    })
+                    .then(that.sendMailStatus = true)
             }
         },
         validations: {

@@ -2,13 +2,7 @@
     <div>
 
         <div class="container relative z-10">
-            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow shadow-lightest top-right">
-                        <img src="../assets/images/rooms.jpg" alt="" class="">
-                    </div>
-                </div>
-
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
                         <h2>Troska o dzieci</h2>
@@ -21,7 +15,11 @@
                         takie jak naleśniki z czekoladą, pierogi z truskawkami, rosół z domowym makaronem,
                         racuszki z jabłkami, z przepisów Babci Krysi.
                     </p>
-
+                </div>
+                <div class="lg:w-1/2 text-center">
+                    <div class="image-shadow shadow-lightest top-right">
+                        <img src="../assets/images/rooms.jpg" alt="" class="">
+                    </div>
                 </div>
             </div>
         </div>

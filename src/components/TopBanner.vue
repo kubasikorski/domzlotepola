@@ -1,7 +1,7 @@
 <template>
     <banner :size="useBannerFeed.size" :style="{ backgroundImage: `url('${backgroundImage}')` }">
         <vue-aos v-if="useBannerFeed.captionExist" animation-class="fadeIn slow animated">
-            <div class="caption">
+            <div v-rellax="{speed: 2, center: true}" class="caption">
                 <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
                 <p class="text-lg leading-normal">
                     Czyste powietrze i sielska atmosfera są idealnym

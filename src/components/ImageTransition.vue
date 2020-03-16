@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img v-for="image in imageFeed" v-bind:key="image.key" :src="image.imageSrc" alt="" class=""
+        <img v-for="image in imageFeed" v-bind:key="image.key" :src="image.imageSrc" alt="" class="image-transision"
              v-bind:style="{opacity : image.opacity}">
     </div>
 </template>

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 let lang = localStorage.getItem('lang');
@@ -15,9 +14,13 @@ const routes = [
         redirect: {name: 'home', params: {lang: lang || 'pl'}}
     },
     {
+        path: '/:lang(pl|en)',
+        redirect: {name: 'home', params: {lang: lang || 'pl'}}
+    },
+    {
         path: '/:lang(pl|en)/home',
         name: 'home',
-        component: Home
+        component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue')
     },
     {
         path: '/:lang(pl|en)/o-mnie',
