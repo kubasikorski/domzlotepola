@@ -38,15 +38,15 @@
                             i naszego Szefa Kuchni.
                         </li>
                     </ul>
-                  <br>
+                    <br>
                     <p>Zapraszam Państwa do Domu Złote Pola, który stał się moim domem, miejscem
                         wytchnienia, domem wielopokoleniowym, z tradycjami smaku, rodzinnych przepisów,
                         zapachem ogrodu
                         i serdeczną gościnnością.<br><br>
-                        <i>Ewa Banaś</i>
+                        <img class="ewa-sign" src="../assets/images/sign/ewa-banas.png" alt="Ewa Banaś">
                     </p>
                     <p class="read-more">
-                      <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Zobacz, co oferuje Dóm Złote Pola</router-link>
+                        <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Zobacz, co oferuje Dóm Złote Pola</router-link>
                     </p>
 
                 </div>
@@ -102,3 +102,8 @@
         }
     }
 </script>
+<style>
+    .ewa-sign{
+        width:50%;
+    }
+</style>

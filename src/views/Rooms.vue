@@ -131,7 +131,14 @@
         components: {
             VueAos,
         },
-
+        metaInfo: {
+            title: 'Dóm Złote Pola',
+            titleTemplate: '%s - Pokoje',
+            htmlAttrs: {
+                lang: 'pl',
+                amp: true
+            }
+        },
         data() {
             return {
                 zoom: {

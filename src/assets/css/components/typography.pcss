@@ -2,8 +2,24 @@
     @apply leading-normal;
 
     h2 {
-        @apply font-bebas text-6xl leading-none relative mb-4;
+        @apply font-bebas leading-none relative mb-4;
+        color:#777777;
+        @media (max-width: 499px) {
+            @apply text-4xl;
+        }
+        @media (min-width: 500px) {
+            @apply text-6xl;
+        }
+        &:after {
+            @apply absolute bottom-0 h-px bg-primary-lightest w-full;
+            content: '';
+            left: -96px;
+        }
+    }
 
+    h3 {
+        @apply font-bebas text-5xl leading-none relative mb-4;
+        color:#BEA27D;
         &:after {
             @apply absolute bottom-0 h-px bg-primary-lightest w-full;
             content: '';
@@ -20,8 +36,13 @@
 
         &.read-more {
             @apply font-bebas uppercase leading-none relative mt-12;
-
+            &:hover{
+                &:before {
+                    right:300px;
+                }
+            }
             &:before {
+                transition: right .5s;
                 @apply absolute h-px bg-primary-lightest inset-x-0;
                 content: '';
                 margin-top: -2px;
