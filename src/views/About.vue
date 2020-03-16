@@ -2,12 +2,8 @@
     <div>
 
         <div class="container relative z-10">
-            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow shadow-lightest top-right">
-                        <img src="../assets/images/rooms.jpg" alt="" class="">
-                    </div>
-                </div>
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
+
 
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
@@ -50,6 +46,11 @@
                     </p>
 
                 </div>
+                <div class="lg:w-1/2 text-center">
+                    <div class="image-shadow shadow-lightest top-right">
+                        <img src="../assets/images/rooms.jpg" alt="" class="">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -91,6 +92,14 @@
 <script>
     import VueAos from 'vue-aos'
     export default {
+        metaInfo: {
+            title: 'Dóm Złote Pola',
+            titleTemplate: '%s - O mnie',
+            htmlAttrs: {
+                lang: 'pl',
+                amp: true
+            }
+        },
         components: {
             VueAos,
         },

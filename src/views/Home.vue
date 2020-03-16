@@ -194,9 +194,16 @@
     import VueAos from 'vue-aos'
     import {Carousel, Slide} from 'vue-carousel';
     import ImageTransition from "../components/ImageTransition";
-
     export default {
         name: 'home',
+        metaInfo: {
+            title: 'Dóm Złote Pola',
+            titleTemplate: '%s - Strona główna',
+            htmlAttrs: {
+                lang: 'pl',
+                amp: true
+            }
+        },
         components: {
             VueAos,
             Carousel,
