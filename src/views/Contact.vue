@@ -69,7 +69,6 @@
     import Vue from 'vue'
     import VueAos from "vue-aos";
     import * as VueGoogleMaps from 'vue2-google-maps'
-
     Vue.use(VueGoogleMaps, {
         load: {
             key: 'AIzaSyC5Bm-E5NjFSkRW6w9jkQkv9i4VNDQF1Ko',

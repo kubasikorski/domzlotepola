@@ -61,9 +61,7 @@
                 </div>
             </div>
         </div>
-
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
@@ -71,25 +69,7 @@
                         <img src="../assets/images/home-references.jpg" alt="" class="">
                     </div>
                 </div>
-
-                <div class="text px-16 lg:w-1/2 lg:px-24">
-                    <vue-aos animation-class="fadeInRight animated">
-                        <h2>Referencje</h2>
-                    </vue-aos>
-                    <p>
-                        Co za miejsce, co za Ludzie to prowadzą i JAK! Z Miłością!!! Przepyszne, cudownie smacznie
-                        przyrządzone jedzenie i ładnie podane, w dodatku duże porcje.Menu bogate, byłam bardzo
-                        zaskoczona, że MOŻNA!!! A jadam w Trójmieście, mam porównanie. Wysoka jakość połączona z
-                        pomysłem na miejsce, w którym wszyscy dobrze się czują,( bo tę energię WIDAĆ) i goście, i
-                        obsługa. Obiad był niezwykłą przyjemnością, tak bym właśnie przyrządziła mięso i krem z
-                        pomidorów !! Tatar z łososia bajeczny! kawa wyjątkowo pyszna, mleko bez laktozy jest, smaczne
-                        delikatne wino, piękne szkło, świeże kwiaty w pięknej kompozycji...200 proc. satysfakcji :)
-                        PASJA-oto co oferują tam gościom :) I love it!!!
-                    </p>
-                    <p class="read-more">
-                        <a href="#">Czytaj więcej</a>
-                    </p>
-                </div>
+                <references-short></references-short>
             </div>
         </div>
 
@@ -125,10 +105,11 @@
 </template>
 <script>
     import VueAos from 'vue-aos'
-
+    import ReferencesShort from "@//components/elements/ReferencesShort";
     export default {
         components: {
             VueAos,
+            ReferencesShort
         },
         metaInfo: {
             title: 'Dóm Złote Pola',

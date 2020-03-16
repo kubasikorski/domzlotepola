@@ -183,6 +183,9 @@
                                 </p>
                             </slide>
                         </carousel>
+                        <p class="read-more">
+                            <a href="https://www.trojmiasto.pl/BabyCafe-pl-o35861.html#opinie" target="_blank">Zobacz więcej opinii</a>
+                        </p>
                     </div>
                 </vue-aos>
             </div>
