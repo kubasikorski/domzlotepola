@@ -84,6 +84,14 @@
     import VueAos from "vue-aos";
 
     export default {
+        metaInfo: {
+            title: 'Dóm Złote Pola',
+            titleTemplate: '%s - Jedzenie',
+            htmlAttrs: {
+                lang: 'pl',
+                amp: true
+            }
+        },
         components: {
             VueAos
         }

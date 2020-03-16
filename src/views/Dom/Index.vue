@@ -75,6 +75,14 @@
     export default {
         components: {
         },
+        metaInfo: {
+            title: 'Dóm Złote Pola',
+            titleTemplate: '%s - O nas',
+            htmlAttrs: {
+                lang: 'pl',
+                amp: true
+            }
+        },
         data() {
             return {}
         },

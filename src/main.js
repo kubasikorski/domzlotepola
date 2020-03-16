@@ -9,9 +9,9 @@ Vue.config.productionTip = false;
 Vue.use(VueRellax);
 Vue.use(VueAxios)
 Vue.use(VueMeta, {
-    refreshOnceOnNavigation: true
+  refreshOnceOnNavigation: true
 })
 new Vue({
-    router,
-    render: h => h(App)
+  router,
+  render: h => h(App)
 }).$mount('#app');
