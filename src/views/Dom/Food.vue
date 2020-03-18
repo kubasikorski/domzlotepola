@@ -1,14 +1,10 @@
 <template>
     <div>
         <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div class="lg:w-1/2 text-center lg:pl-16">
-                    <div class="image-shadow shadow-lightest bottom-right">
-                        <img src="../../assets/images/menu.jpg" alt="" class="">
-                    </div>
-                </div>
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
 
-                <div class="text px-16 lg:w-1/2 lg:px-24">
+
+                <div class="text px-16  lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
                         <h2>Nasze jedzenie</h2>
                     </vue-aos>
@@ -23,7 +19,7 @@
                 </div>
             </div>
         </div>
-
+        <gallery :feed="gallery" :firstitem="firstitem"></gallery>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
 
         <div class="container relative z-10 mt-16 lg:mt-32">
@@ -82,7 +78,7 @@
 
 <script>
     import VueAos from "vue-aos";
-
+    import Gallery from "@//components/elements/Gallery";
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -93,7 +89,45 @@
             }
         },
         components: {
-            VueAos
-        }
+            VueAos,
+            Gallery
+        },
+        data() {
+            return {
+                firstitem: {
+                    visible:false,
+                    thumb: require('@/assets/images/gallery-thumb.jpg'),
+                    lead: 'Apartament 1',
+                    description: 'Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością,\n' +
+                    '                            niezapomnianymi\n' +
+                    '                            chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla\n' +
+                    '                            całej\n' +
+                    '                            Waszej rodziny...'
+                },
+                gallery: [
+                    {
+                        zoom: require('@/assets/images/gallery-zoom.jpg'),
+                        thumb: require('@/assets/images/gallery-thumb.jpg'),
+                        image: require('@/assets/images/gallery-image.jpg'),
+                        lead: 'Apartament 1',
+                        description: '<p>1 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                    {
+                        zoom: require('@/assets/images/gallery-zoom.jpg'),
+                        thumb: require('@/assets/images/gallery-thumb.jpg'),
+                        image: require('@/assets/images/gallery-image.jpg'),
+                        lead: 'Apartament 1',
+                        description: '<p>2 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                    {
+                        zoom: require('@/assets/images/gallery-zoom.jpg'),
+                        thumb: require('@/assets/images/gallery-thumb.jpg'),
+                        image: require('@/assets/images/gallery-image.jpg'),
+                        lead: 'Apartament 1',
+                        description: '<p>3 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                    },
+                ]
+            }
+        },
     }
 </script>
