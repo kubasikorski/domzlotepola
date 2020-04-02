@@ -22,7 +22,7 @@
         <gallery :feed="gallery" :firstitem="firstitem"></gallery>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
 
-        <div class="container relative z-10 mt-16 lg:mt-32">
+        <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
                 <h3 class="font-bebas text-center text-6xl leading-none">Przykładowe dania<br>Domu Złote Pola</h3>
                 <img src="../../assets/images/footer-leaf.png" alt="">
@@ -95,36 +95,46 @@
         data() {
             return {
                 firstitem: {
-                    visible:false,
+                    visible:true,
                     thumb: require('@/assets/images/gallery-thumb.jpg'),
-                    lead: 'Apartament 1',
-                    description: 'Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością,\n' +
-                    '                            niezapomnianymi\n' +
-                    '                            chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla\n' +
-                    '                            całej\n' +
-                    '                            Waszej rodziny...'
+                    lead: 'Pyszne',
+                    description: 'Gotowanie to nasza pasja...'
                 },
                 gallery: [
                     {
                         zoom: require('@/assets/images/gallery-zoom.jpg'),
                         thumb: require('@/assets/images/gallery-thumb.jpg'),
                         image: require('@/assets/images/gallery-image.jpg'),
-                        lead: 'Apartament 1',
-                        description: '<p>1 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                        lead: 'Danie 1',
+                        description: '<p>Danie 1</p>'
                     },
                     {
                         zoom: require('@/assets/images/gallery-zoom.jpg'),
                         thumb: require('@/assets/images/gallery-thumb.jpg'),
                         image: require('@/assets/images/gallery-image.jpg'),
-                        lead: 'Apartament 1',
-                        description: '<p>2 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                        lead: 'Danie 2',
+                        description: '<p>Danie 2</p>'
                     },
                     {
                         zoom: require('@/assets/images/gallery-zoom.jpg'),
                         thumb: require('@/assets/images/gallery-thumb.jpg'),
                         image: require('@/assets/images/gallery-image.jpg'),
-                        lead: 'Apartament 1',
-                        description: '<p>3 Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla gości.</p><p>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki domowych potraw z przepisów Mamy.</p>'
+                        lead: 'Danie 3',
+                        description: '<p>Danie 3</p>'
+                    },
+                    {
+                        zoom: require('@/assets/images/gallery-zoom.jpg'),
+                        thumb: require('@/assets/images/gallery-thumb.jpg'),
+                        image: require('@/assets/images/gallery-image.jpg'),
+                        lead: 'Danie 4',
+                        description: '<p>Danie 4</p>'
+                    },
+                    {
+                        zoom: require('@/assets/images/gallery-zoom.jpg'),
+                        thumb: require('@/assets/images/gallery-thumb.jpg'),
+                        image: require('@/assets/images/gallery-image.jpg'),
+                        lead: 'Danie 5',
+                        description: '<p>Danie 5</p>'
                     },
                 ]
             }
