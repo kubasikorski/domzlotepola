@@ -5,7 +5,7 @@
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
-                        <h2>Troska o dzieci</h2>
+                        <h2>Dzieci w domu<br>na złotych polach</h2>
                     </vue-aos>
                     <p>
                         To odpoczynek dla Państwa i zabawa dla dzieci, czyli słowem – przepis na udane spotkanie

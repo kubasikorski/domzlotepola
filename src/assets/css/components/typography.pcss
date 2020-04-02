@@ -2,8 +2,7 @@
     @apply leading-normal;
 
     h2 {
-        @apply font-bebas leading-none relative mb-4;
-        color:#777777;
+        @apply font-bebas leading-none relative mb-4 text-graphite;
         @media (max-width: 499px) {
             @apply text-4xl;
         }
@@ -35,7 +34,7 @@
         }
 
         &.read-more {
-            @apply font-bebas uppercase leading-none relative mt-12;
+            @apply font-bebas uppercase leading-none relative mt-12 text-graphite;
             &:hover{
                 &:before {
                     right:300px;
@@ -103,6 +102,6 @@
         color:#BEA27D;
     }
     h4{
-        color:#777777;
+        @apply text-graphite;
     }
 }

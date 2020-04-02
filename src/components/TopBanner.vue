@@ -2,21 +2,11 @@
     <banner :size="useBannerFeed.size" :style="{ backgroundImage: `url('${backgroundImage}')` }">
         <vue-aos v-if="useBannerFeed.captionExist" animation-class="fadeIn slow animated">
             <div v-rellax="{speed: 2, center: true}" class="caption">
-                <h2 class="font-bebas text-7xl">"Śród takich pól przed laty..."</h2>
-                <p class="text-lg leading-normal">
-                    Czyste powietrze i sielska atmosfera są idealnym
-                    otoczeniem dla wyjątkowych okazji rodzinnych jak i
-                    spotkań firmowych. Dóm Złote Pola położony jest
-                    wśród łąk i ziemii uprawnych. Do domu należy ogród
-                    warzywny z kwiatami i owocami...
-                </p>
+                <h2 class="font-bebas text-7xl">{{useBannerFeed.lead}}</h2>
+                <p class="text-lg leading-normal">{{useBannerFeed.caption}}</p>
                 <vue-aos animation-class="slideInUp slow animated">
                     <p class="mt-4">
-                        <router-link :to="{name: 'dom',params:{'lang':'pl'}}" class="read-more"
-                                     v-on:click.native="hideMobileNav">Czytaj
-                            o
-                            nas
-                        </router-link>
+                        <router-link :to="{name: 'dom',params:{'lang':'pl'}}" class="read-more" v-on:click.native="hideMobileNav">{{useBannerFeed.button}}</router-link>
                     </p>
                 </vue-aos>
             </div>
@@ -57,7 +47,7 @@
                             require('@/assets/images/banner-top/banner-home.jpg'),
                             require('@/assets/images/banner-top/banner-home2.jpg')
                         ],
-                        lead: '"Śród takich pól przed laty..."',
+                        lead: '"Śród takich pól, złotych pól..."',
                         caption: 'Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla wyjątkowych okazji rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród łąk i ziemii uprawnych. Do domu należy ogród warzywny z kwiatami i owocami...',
                         button: 'Czytaj o nas'
                     },

@@ -12,12 +12,13 @@
                         przywodzi na myśl wspomnienia rodzinnego domu z czasów dzieciństwa.
                     </p>
                     <br><br>
-                    <h3>Umów się na spotkanie</h3>
+                    <h3>Zapraszam na spotkanie</h3>
                     <p>
                         Dóm Złote Pola jest otwarty na potrzeby gości, dlatego zapraszamy do umówienia się na spotkanie
                         przy domowym cieście i świeżo mielonej kawie, aby się poznać i zaplanować Wasze wyjątkowe
                         przyjęcie.<br>
-                    </p>
+                    </p><br><br>
+                    <h3>Rezerwacje</h3>
                     <p>
                         ul. Złote Pola 17<br>
                         80-297 Miszewo<br>

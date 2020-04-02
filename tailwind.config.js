@@ -10,6 +10,7 @@ module.exports = {
             },
             black: '#000000',
             nav: '#404041',
+            graphite: '#777777',
             transparent: 'transparent',
             primary: {
                 default: '#B5861F',
