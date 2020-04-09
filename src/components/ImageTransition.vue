@@ -25,7 +25,10 @@
             });
         },
         mounted() {
-            this.startTransition();
+            this.showImage(0);
+            if(this.intervalTimer>0) {
+                this.startIntervalTransition();
+            }
         },
         beforeDestroy() {
             clearInterval(this.interval)
@@ -36,16 +39,25 @@
             imageFeed: []
         }),
         methods: {
-            startTransition() {
+            setReferencesSlide(slideId){
+                if (slideId <= this.imageCount -1) {
+                    this.showImage(slideId);
+                }
+            },
+            showImage(idimage){
+                let that = this;
+                that.imageFeed.forEach((value,index) => {
+                    value.opacity = ( index == idimage ? 100 : 0 );
+                });
+            },
+            startIntervalTransition() {
                 let that = this;
                 this.interval = setInterval(function () {
                     that.activeImage++;
                     if (that.activeImage > that.imageCount -1) {
                         that.activeImage = 0;
                     }
-                    that.imageFeed.forEach((value,index) => {
-                        value.opacity = ( index == that.activeImage ? 100 : 0 );
-                    });
+                    that.showImage(that.activeImage);
                 }, this.intervalTimer);
             }
         }

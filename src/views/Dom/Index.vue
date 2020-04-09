@@ -5,7 +5,7 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-right">
-                        <img src="../../assets/images/rooms.jpg" alt="" class="">
+                        <img src="../../assets/images/dom-zlote-pola/glasses.jpg" alt="" class="">
                     </div>
                 </div>
 
@@ -16,8 +16,7 @@
                         w urokliwym Miszewie,obok Banina. To doskonała lokalizacja, do której łatwo dojechać
                         z Trójmiasta i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem
                         dla wyjątkowych okazji rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród
-                        łąk i ziemi uprawnych. Do domu należy ogród warzywny z kwiatami i owocami.
-                        W bezpośrednim sąsiedztwie znajduje się ekologiczne gospodarstwo. Do Domu Złote Pola należy
+                        łąk i ziemi uprawnych. W bezpośrednim sąsiedztwie znajduje się ekologiczne gospodarstwo. Do Domu Złote Pola należy
                         uroczy ogród z warzywami, kwiatami i owocami.
                         To tutaj, w otoczeniu natury znajdziecie Państwo miejsce, w którym zorganizujemy dla Was
                         rodzinne chrzciny, wyjątkowe urodziny, przyjęcie komunijne, romantyczne wesele.
@@ -37,7 +36,7 @@
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-left">
-                        <img src="../../assets/images/home-dom.jpg" alt="" class="">
+                        <img src="../../assets/images/dom-zlote-pola/golden-ear.jpg" alt="" class="">
                     </div>
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">

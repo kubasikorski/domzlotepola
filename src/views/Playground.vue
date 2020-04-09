@@ -18,7 +18,7 @@
                 </div>
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-right">
-                        <img src="../assets/images/rooms.jpg" alt="" class="">
+                        <img src="../assets/images/playground/kids1.jpg" alt="" class="">
                     </div>
                 </div>
             </div>

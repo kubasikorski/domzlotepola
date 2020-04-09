@@ -4,7 +4,7 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lighter top-right">
-                        <img src="../assets/images/home-about.jpg" alt="" class="">
+                        <img src="../assets/images/dom-zlote-pola/glasses.jpg" alt="" class="">
                     </div>
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">
@@ -63,7 +63,7 @@
                 <vue-aos animation-class="fadeInUp animated">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow shadow-lighter top-right">
-                            <image-transition :intervalTimer="4000" :feed="imageTransitions.rooms"></image-transition>
+                            <image-transition :intervalTimer="4000" :feed="imageTransitions.kids"></image-transition>
                         </div>
                     </div>
                 </vue-aos>
@@ -86,117 +86,17 @@
                     </div>
                 </vue-aos>
             </div>
-
+            <references></references>
 
         </div>
-        <div class="reference-block container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
-                <vue-aos animation-class="fadeInLeft animated">
-                    <div class="lg:w-1/2 text-center">
-                        <div class="image-shadow top-left">
-                            <image-transition :intervalTimer="2000" :feed="imageTransitions.references"></image-transition>
-                        </div>
-                    </div>
-                </vue-aos>
-                <vue-aos animation-class="fadeInRight animated">
-                    <div class="text px-16 lg:w-1/2 lg:px-24">
-                        <h2>Referencje</h2>
-                        <carousel :perPage="1">
-                            <slide>
-                                <p>
-                                    Co za miejsce, co za Ludzie to prowadzą i JAK! Z Miłością!!! Przepyszne, cudownie
-                                    smacznie
-                                    przyrządzone jedzenie i ładnie podane, w dodatku duże porcje.Menu bogate, byłam
-                                    bardzo
-                                    zaskoczona, że MOŻNA!!! A jadam w Trójmieście, mam porównanie. Wysoka jakość
-                                    połączona z
-                                    pomysłem na miejsce, w którym wszyscy dobrze się czują,( bo tę energię WIDAĆ) i
-                                    goście, i
-                                    obsługa. Obiad był niezwykłą przyjemnością, tak bym właśnie przyrządziła mięso i
-                                    krem z
-                                    pomidorów !! Tatar z łososia bajeczny! kawa wyjątkowo pyszna, mleko bez laktozy
-                                    jest,
-                                    smaczne
-                                    delikatne wino, piękne szkło, świeże kwiaty w pięknej kompozycji...200 proc.
-                                    satysfakcji :)
-                                    PASJA-oto co oferują tam gościom :) I love it!!!
-                                </p>
-                            </slide>
-                            <slide>
-                                <p>
-                                    Co za miejsce, co za Ludzie to prowadzą i JAK! Z Miłością!!! Przepyszne, cudownie
-                                    smacznie
-                                    przyrządzone jedzenie i ładnie podane, w dodatku duże porcje.Menu bogate, byłam
-                                    bardzo
-                                    zaskoczona, że MOŻNA!!! A jadam w Trójmieście, mam porównanie. Wysoka jakość
-                                    połączona z
-                                    pomysłem na miejsce, w którym wszyscy dobrze się czują,( bo tę energię WIDAĆ) i
-                                    goście, i
-                                    obsługa. Obiad był niezwykłą przyjemnością, tak bym właśnie przyrządziła mięso i
-                                    krem z
-                                    pomidorów !! Tatar z łososia bajeczny! kawa wyjątkowo pyszna, mleko bez laktozy
-                                    jest,
-                                    smaczne
-                                    delikatne wino, piękne szkło, świeże kwiaty w pięknej kompozycji...200 proc.
-                                    satysfakcji :)
-                                    PASJA-oto co oferują tam gościom :) I love it!!!
-                                </p>
-                            </slide>
-                            <slide>
-                                <p>
-                                    Co za miejsce, co za Ludzie to prowadzą i JAK! Z Miłością!!! Przepyszne, cudownie
-                                    smacznie
-                                    przyrządzone jedzenie i ładnie podane, w dodatku duże porcje.Menu bogate, byłam
-                                    bardzo
-                                    zaskoczona, że MOŻNA!!! A jadam w Trójmieście, mam porównanie. Wysoka jakość
-                                    połączona z
-                                    pomysłem na miejsce, w którym wszyscy dobrze się czują,( bo tę energię WIDAĆ) i
-                                    goście, i
-                                    obsługa. Obiad był niezwykłą przyjemnością, tak bym właśnie przyrządziła mięso i
-                                    krem z
-                                    pomidorów !! Tatar z łososia bajeczny! kawa wyjątkowo pyszna, mleko bez laktozy
-                                    jest,
-                                    smaczne
-                                    delikatne wino, piękne szkło, świeże kwiaty w pięknej kompozycji...200 proc.
-                                    satysfakcji :)
-                                    PASJA-oto co oferują tam gościom :) I love it!!!
-                                </p>
-                            </slide>
-                            <slide>
-                                <p>
-                                    Co za miejsce, co za Ludzie to prowadzą i JAK! Z Miłością!!! Przepyszne, cudownie
-                                    smacznie
-                                    przyrządzone jedzenie i ładnie podane, w dodatku duże porcje.Menu bogate, byłam
-                                    bardzo
-                                    zaskoczona, że MOŻNA!!! A jadam w Trójmieście, mam porównanie. Wysoka jakość
-                                    połączona z
-                                    pomysłem na miejsce, w którym wszyscy dobrze się czują,( bo tę energię WIDAĆ) i
-                                    goście, i
-                                    obsługa. Obiad był niezwykłą przyjemnością, tak bym właśnie przyrządziła mięso i
-                                    krem z
-                                    pomidorów !! Tatar z łososia bajeczny! kawa wyjątkowo pyszna, mleko bez laktozy
-                                    jest,
-                                    smaczne
-                                    delikatne wino, piękne szkło, świeże kwiaty w pięknej kompozycji...200 proc.
-                                    satysfakcji :)
-                                    PASJA-oto co oferują tam gościom :) I love it!!!
-                                </p>
-                            </slide>
-                        </carousel>
-                        <p class="read-more">
-                            <a href="https://www.trojmiasto.pl/BabyCafe-pl-o35861.html#opinie" target="_blank">Zobacz więcej opinii</a>
-                        </p>
-                    </div>
-                </vue-aos>
-            </div>
-        </div>
+
     </div>
 </template>
 
 <script>
     import VueAos from 'vue-aos'
-    import {Carousel, Slide} from 'vue-carousel';
     import ImageTransition from "../components/ImageTransition";
+    import References from "../components/elements/References";
     export default {
         name: 'home',
         metaInfo: {
@@ -209,20 +109,14 @@
         },
         components: {
             VueAos,
-            Carousel,
-            Slide,
-            ImageTransition
+            ImageTransition,
+            References
         },
         data: () => ({
             imageTransitions: {
-                'references': [
-                    require('@/assets/images/home-references.jpg'),
-                    require('@/assets/images/home-about.jpg'),
-                    require('@/assets/images/home-rooms.jpg'),
-                ],
-                'rooms': [
-                    require('@/assets/images/home-about.jpg'),
-                    require('@/assets/images/home-rooms.jpg'),
+                'kids': [
+                    require('@/assets/images/playground/kids1.jpg'),
+                    require('@/assets/images/playground/kids2.jpg'),
                 ]
             }
         }),

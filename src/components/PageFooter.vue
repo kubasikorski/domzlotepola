@@ -7,8 +7,8 @@
                 <br>80-297 Miszewo / poczta Banino
             </div>
 
-            <div class="px-16 border-primary-lightest md:w-1/2 lg:border-r">
-                <br><br>© Copyright 2020  DÓM ZŁOTE POLA
+            <div class="px-16 border-primary-lightest text-center md:w-1/2 lg:border-r">
+                <br>© Copyright 2020<br>DÓM ZŁOTE POLA
             </div>
         </div>
 
