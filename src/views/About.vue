@@ -50,25 +50,13 @@
                 </div>
             </div>
         </div>
-
-
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-
-        <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
-                <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow top-left">
-                        <img src="../assets/images/home-references.jpg" alt="" class="">
-                    </div>
-                </div>
-                <references-short></references-short>
-            </div>
-        </div>
+        <references-short></references-short>
     </div>
 </template>
 <script>
     import VueAos from 'vue-aos'
-    import ReferencesShort from "@//components/elements/ReferencesShort";
+    import ReferencesShort from "@/components/elements/ReferencesShort";
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',

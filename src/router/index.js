@@ -45,7 +45,7 @@ const routes = [
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm',
         name: 'dom-company',
-        component: () => import(/* webpackChunkName: "dom-company" */ '../views/Dom/Family.vue')
+        component: () => import(/* webpackChunkName: "dom-company" */ '../views/Dom/Companies.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/nasze-jedzenie',

@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="text px-16 pb-16 lg:w-1/3 lg:px-24">
-                    <h2>Pokoje</h2>
+                    <h2 v-if="zoom.lead" v-html="zoom.lead"></h2>
                     <div v-html="zoom.description"></div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
 <script>
     export default {
         components: {},
-        props: ['feed','firstitem'],
+        props: ['feed','firstitem','gallery'],
         data() {
             return {
                 zoom: {
@@ -79,7 +79,8 @@
                     thumb: item.thumb,
                     image: item.image,
                     fullscreen: fullscreen,
-                    description: item.description
+                    description: item.description,
+                    lead: item.lead
                 };
 
                 document.body.classList.add('overflow-hidden');
