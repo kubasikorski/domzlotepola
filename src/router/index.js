@@ -40,7 +40,7 @@ const routes = [
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej',
         name: 'dom-bride',
-        component: () => import(/* webpackChunkName: "dom-bride" */ '../views/Dom/Family.vue')
+        component: () => import(/* webpackChunkName: "dom-bride" */ '../views/Dom/Bride/Index.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm',

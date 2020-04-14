@@ -17,25 +17,25 @@
                     <h3>Chrzciny</h3>
                     <p>Lorem ipsum</p>
                     <br>
-                    <h3>Urodziny/Imieniny </h3>
+                    <h3>Pierwsze urodziny</h3>
                     <p>Lorem ipsum</p>
                     <br>
                     <h3>Komunie</h3>
                     <p>Lorem ipsum</p>
                     <br>
-                    <h3>Spotkania w większym gronie</h3>
+                    <h3>Przyjęcia okolicznościowe</h3>
                     <p>Lorem ipsum</p>
 
                 </div>
             </div>
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-        <references-short></references-short>
+        <references bg="false"></references>
     </div>
 </template>
 <script>
     import VueAos from 'vue-aos'
-    import ReferencesShort from "@/components/elements/ReferencesShort";
+    import References from "@/components/elements/References";
     import ImageTransition from "@/components/ImageTransition";
     export default {
         metaInfo: {
@@ -48,7 +48,7 @@
         },
         components: {
             VueAos,
-            ReferencesShort,
+            References,
             ImageTransition
         },
         data: () => ({
@@ -56,6 +56,7 @@
                 'photos': [
                     require('@/assets/images/families/chrzciny.jpg'),
                     require('@/assets/images/families/urodziny.jpg'),
+                    require('@/assets/images/families/komunie.jpg'),
                 ]
             }
         }),

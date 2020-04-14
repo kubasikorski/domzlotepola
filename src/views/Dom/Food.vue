@@ -2,8 +2,6 @@
     <div>
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
-
-
                 <div class="text px-16  lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
                         <h2>Nasze jedzenie</h2>
@@ -33,8 +31,8 @@
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
                         Przystawki</h4>
                     <ol class=" list-outside leading-normal mt-8 pl-5">
-                        <li class="pb-1">Śledzik w śmietanie na placuszku ziemniaczanym ze świeżym koprem </li>
-                        <li class="pb-1">Tatar z siekanej polędwicy wołowej z tradycyjnymi dodatkami      </li>
+                        <li class="pb-1">Śledzik w śmietanie na placuszku ziemniaczanym ze świeżym koprem</li>
+                        <li class="pb-1">Tatar z siekanej polędwicy wołowej z tradycyjnymi dodatkami</li>
                     </ol>
 
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
@@ -48,18 +46,10 @@
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
                         Dania główne</h4>
                     <ol class=" list-outside leading-normal mt-8 pl-5">
-                        <li class="pb-1">Udko z kaczki z konfiturą z czerwonej cebuli, czerwoną kapustą z miodem i
-                            żurawiną, kluseczki
-                        </li>
-                        <li class="pb-1">Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem,
-                            ziemniaki puree, buraczki z tartym chrzanem
-                        </li>
-                        <li class="pb-1">Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem,
-                            ziemniaki zapieczone pod beszamelem, sałaty
-                        </li>
-                        <li class="pb-1">Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem,
-                            ziemniaki z wody z koperkiem, fasola szparagowa
-                        </li>
+                        <li class="pb-1">Udko z kaczki z konfiturą z czerwonej cebuli, czerwoną kapustą z miodem i żurawiną, kluseczki</li>
+                        <li class="pb-1">Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem, ziemniaki puree, buraczki z tartym chrzanem</li>
+                        <li class="pb-1">Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem, ziemniaki zapieczone pod beszamelem, sałaty</li>
+                        <li class="pb-1">Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem, ziemniaki z wody z koperkiem, fasola szparagowa</li>
                     </ol>
 
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
@@ -96,43 +86,43 @@
             return {
                 firstitem: {
                     visible:true,
-                    thumb: require('@/assets/images/gallery-thumb.jpg'),
+                    thumb: require('@/assets/images/food/cover.jpg'),
                     lead: 'Pyszne',
                     description: 'Gotowanie to nasza pasja...'
                 },
                 gallery: [
                     {
-                        zoom: require('@/assets/images/gallery-zoom.jpg'),
-                        thumb: require('@/assets/images/gallery-thumb.jpg'),
-                        image: require('@/assets/images/gallery-image.jpg'),
+                        thumb: require('@/assets/images/food/food1-thumb.jpg'),
                         lead: 'Danie 1',
                         description: '<p>Danie 1</p>'
                     },
                     {
-                        zoom: require('@/assets/images/gallery-zoom.jpg'),
-                        thumb: require('@/assets/images/gallery-thumb.jpg'),
-                        image: require('@/assets/images/gallery-image.jpg'),
+                        thumb: require('@/assets/images/food/food2-thumb.jpg'),
                         lead: 'Danie 2',
                         description: '<p>Danie 2</p>'
                     },
                     {
-                        zoom: require('@/assets/images/gallery-zoom.jpg'),
-                        thumb: require('@/assets/images/gallery-thumb.jpg'),
-                        image: require('@/assets/images/gallery-image.jpg'),
+                        thumb: require('@/assets/images/food/food3-thumb.jpg'),
                         lead: 'Danie 3',
                         description: '<p>Danie 3</p>'
                     },
                     {
-                        zoom: require('@/assets/images/gallery-zoom.jpg'),
-                        thumb: require('@/assets/images/gallery-thumb.jpg'),
-                        image: require('@/assets/images/gallery-image.jpg'),
+                        thumb: require('@/assets/images/food/food4-thumb.jpg'),
                         lead: 'Danie 4',
                         description: '<p>Danie 4</p>'
                     },
                     {
-                        zoom: require('@/assets/images/gallery-zoom.jpg'),
-                        thumb: require('@/assets/images/gallery-thumb.jpg'),
-                        image: require('@/assets/images/gallery-image.jpg'),
+                        thumb: require('@/assets/images/food/food5-thumb.jpg'),
+                        lead: 'Danie 5',
+                        description: '<p>Danie 5</p>'
+                    },
+                    {
+                        thumb: require('@/assets/images/food/food7-thumb.jpg'),
+                        lead: 'Danie 5',
+                        description: '<p>Danie 5</p>'
+                    },
+                    {
+                        thumb: require('@/assets/images/food/food8-thumb.jpg'),
                         lead: 'Danie 5',
                         description: '<p>Danie 5</p>'
                     },

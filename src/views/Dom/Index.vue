@@ -60,7 +60,6 @@
                         <li>ponad 10 letnie doświadczenie,</li>
                         <li>gościnność, dbałość o szczegóły,</li>
                         <li>otoczenie pól, świeże powietrze, przestrzeń,</li>
-
                     </ul>
                 </div>
             </div>

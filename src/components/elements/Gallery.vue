@@ -72,18 +72,19 @@
         methods: {
             showZoom(key, fullscreen) {
                 let item = this.feed[key];
-                this.zoom = {
-                    key: key,
-                    show: true,
-                    zoom: item.zoom,
-                    thumb: item.thumb,
-                    image: item.image,
-                    fullscreen: fullscreen,
-                    description: item.description,
-                    lead: item.lead
-                };
-
-                document.body.classList.add('overflow-hidden');
+                if(item.zoom) {
+                    this.zoom = {
+                        key: key,
+                        show: true,
+                        zoom: item.zoom,
+                        thumb: item.thumb,
+                        image: item.image,
+                        fullscreen: fullscreen,
+                        description: item.description,
+                        lead: item.lead
+                    };
+                    document.body.classList.add('overflow-hidden');
+                }
             },
 
             hideZoom() {

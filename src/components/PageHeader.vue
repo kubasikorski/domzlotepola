@@ -16,28 +16,21 @@
                     </router-link>
                     <div class="nav-item-dropdown">
                         <router-link :to="{name: 'dom',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"
-                                     class="nav-item">Dóm Złote
-                            Pola
+                                     class="nav-item">Dóm Złote Pola
                         </router-link>
                         <div class="nav-dropdown">
                             <router-link :to="{name: 'dom-family',params:{'lang':this.useLang}}"
-                                         v-on:click.native="hideMobileNav">
-                                Oferta dla rodzin
-                            </router-link>
+                                         v-on:click.native="hideMobileNav">Oferta dla rodzin</router-link>
                             <router-link :to="{name: 'dom-bride',params:{'lang':this.useLang}}"
-                                         v-on:click.native="hideMobileNav">
-                                Oferta
-                                dla pary młodej 
-                            </router-link>
+                                         v-on:click.native="hideMobileNav">Oferta dla pary młodej </router-link>
                             <router-link :to="{name: 'dom-company',params:{'lang':this.useLang}}"
-                                         v-on:click.native="hideMobileNav">
-                                Oferta dla firm
-                            </router-link>
+                                         v-on:click.native="hideMobileNav">Oferta dla firm</router-link>
                             <router-link :to="{name: 'dom-food',params:{'lang':this.useLang}}"
                                          v-on:click.native="hideMobileNav">
                                 Nasze
                                 jedzenie
                             </router-link>
+                            <router-link :to="{name: 'dom',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Co nas wyróżnia</router-link>
                         </div>
                     </div>
                     <router-link :to="{name: 'playground',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" href="#" class="nav-item">Bawialnia dla dzieci</router-link>

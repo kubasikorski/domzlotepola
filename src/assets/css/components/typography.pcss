@@ -23,8 +23,16 @@
             @apply absolute bottom-0 h-1 bg-primary-lightest w-24;
             content: '';
             left: 0px;
+            transition: width .5s;
+
         }
-    }
+            &:hover{
+                &:after {
+                @apply  w-48;
+                }
+            }
+        }
+
 
     p {
         @apply font-light;

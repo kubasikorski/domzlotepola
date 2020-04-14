@@ -8,7 +8,7 @@ module.exports = {
                 default: '#ffffff',
                 darker: '#F0F0F0',
             },
-            graycaption:'#847977',
+            graycaption:'#c5a764',
             black: '#000000',
             nav: '#404041',
             graphite: '#777777',

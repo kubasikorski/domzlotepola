@@ -1,5 +1,5 @@
 <template>
-    <div class="reference-block container relative z-10 lg:px-16">
+    <div class="container relative z-10 lg:px-16" :class="{ 'reference-block' : bg == 'true' }">
         <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
             <vue-aos animation-class="fadeInLeft animated">
                 <div class="lg:w-1/2 text-center">
@@ -12,13 +12,16 @@
             <vue-aos animation-class="fadeInRight animated">
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <h2>Referencje</h2>
-                    <carousel :perPage="1" @pageChange="slidePageChange">
+                    <carousel :perPage="1" autoplayTimeout="4000"  :autoplay="true" @pageChange="slidePageChange">
                         <slide v-bind:key="reference.id" v-for="reference in references.descriptions">
                             <p>
                                 {{reference.opis}}
                             </p>
                             <p v-if="reference.podpis!=''">
                                 <strong>{{reference.podpis}}</strong>
+                            </p>
+                            <p v-if="readmore" class="read-more">
+                                <a href="https://www.trojmiasto.pl/BabyCafe-pl-o35861.html#opinie" target="_blank">Zobacz więcej opinii</a>
                             </p>
                         </slide>
                     </carousel>
@@ -34,6 +37,7 @@
 
     export default {
         name: 'references',
+        props:['bg','readmore'],
         components: {
             VueAos,
             Carousel,

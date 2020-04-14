@@ -8,7 +8,7 @@
                         <h2>Pokoje</h2>
                     </vue-aos>
                     <p>
-                        Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla
+                        Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi pokojami dla
                         gości.
                         <br>Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością,
                         niezapomnianymi chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie
@@ -26,21 +26,18 @@
                 </div>
             </div>
         </div>
-
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-        <references-short></references-short>
-
-
+        <references bg="false"></references>
     </div>
 </template>
 <script>
     import VueAos from 'vue-aos'
     import ImageTransition from "@/components/ImageTransition";
-    import ReferencesShort from "@/components/elements/ReferencesShort";
+    import References from "@/components/elements/References";
     export default {
         components: {
             VueAos,
-            ReferencesShort,
+            References,
             ImageTransition
         },
         metaInfo: {

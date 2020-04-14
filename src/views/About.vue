@@ -51,12 +51,12 @@
             </div>
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-        <references-short></references-short>
+        <references bg="false"></references>
     </div>
 </template>
 <script>
     import VueAos from 'vue-aos'
-    import ReferencesShort from "@/components/elements/ReferencesShort";
+    import References from "@/components/elements/References";
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -68,7 +68,7 @@
         },
         components: {
             VueAos,
-            ReferencesShort
+            References
         },
         data() {
             return {
