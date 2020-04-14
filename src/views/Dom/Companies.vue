@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <gallery :feed="gallery" :firstitem="firstitem"></gallery>
+        <gallery :feed="gallery"></gallery>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
 
         <div class="container relative z-10 mt-16 lg:mt-32 food">
@@ -33,8 +33,8 @@
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
                         Przystawki</h4>
                     <ol class=" list-outside leading-normal mt-8 pl-5">
-                        <li class="pb-1">Śledzik w śmietanie na placuszku ziemniaczanym ze świeżym koprem </li>
-                        <li class="pb-1">Tatar z siekanej polędwicy wołowej z tradycyjnymi dodatkami      </li>
+                        <li class="pb-1">Śledzik w śmietanie na placuszku ziemniaczanym ze świeżym koprem</li>
+                        <li class="pb-1">Tatar z siekanej polędwicy wołowej z tradycyjnymi dodatkami</li>
                     </ol>
 
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
@@ -79,6 +79,7 @@
 <script>
     import VueAos from "vue-aos";
     import Gallery from "@//components/elements/Gallery";
+
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -94,29 +95,33 @@
         },
         data() {
             return {
-                gallery: [
-                    {
-                        thumb: require('@/assets/images/companies/photo1-thumb.jpg'),
-                        image: require('@/assets/images/companies/photo1-image.jpg'),
-                        zoom: require('@/assets/images/companies/photo1-zoom.jpg'),
-                        lead: 'Oferta dla firm',
-                        description: '<p>Takie czarujemy dania, że hej</p>',
-                    },
-                    {
-                        thumb: require('@/assets/images/companies/photo2-thumb.jpg'),
-                        image: require('@/assets/images/companies/photo2-image.jpg'),
-                        zoom: require('@/assets/images/companies/photo2-zoom.jpg'),
-                        lead: 'Oferta dla firm',
-                        description: '<p>Takie czarujemy dania, że hej</p>',
-                    },
-                    {
-                        thumb: require('@/assets/images/companies/photo4-thumb.jpg'),
-                        image: require('@/assets/images/companies/photo4-image.jpg'),
-                        zoom: require('@/assets/images/companies/photo4-zoom.jpg'),
-                        lead: 'Oferta dla firm',
-                        description: '<p>Takie czarujemy dania, że hej</p>',
-                    },
-                ]
+                gallery: {
+                    captions: false,
+                    canZoom: true,
+                    items: [
+                        {
+                            thumb: require('@/assets/images/companies/photo1-thumb.jpg'),
+                            image: require('@/assets/images/companies/photo1-image.jpg'),
+                            zoom: require('@/assets/images/companies/photo1-zoom.jpg'),
+                            lead: null,
+                            description: null
+                        },
+                        {
+                            thumb: require('@/assets/images/companies/photo2-thumb.jpg'),
+                            image: require('@/assets/images/companies/photo2-image.jpg'),
+                            zoom: require('@/assets/images/companies/photo2-zoom.jpg'),
+                            lead: null,
+                            description: null
+                        },
+                        {
+                            thumb: require('@/assets/images/companies/photo4-thumb.jpg'),
+                            image: require('@/assets/images/companies/photo4-image.jpg'),
+                            zoom: require('@/assets/images/companies/photo4-zoom.jpg'),
+                            lead: null,
+                            description: null
+                        },
+                    ]
+                }
             }
         },
     }

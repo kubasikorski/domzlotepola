@@ -12,7 +12,7 @@
             <vue-aos animation-class="fadeInRight animated">
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <h2>Referencje</h2>
-                    <carousel :perPage="1" autoplayTimeout="4000"  :autoplay="true" @pageChange="slidePageChange">
+                    <carousel perPage="1" paginationPosition="top" autoplayHoverPause="true" autoplayTimeout="4000"  autoplay="true" @pageChange="slidePageChange">
                         <slide v-bind:key="reference.id" v-for="reference in references.descriptions">
                             <p>
                                 {{reference.opis}}

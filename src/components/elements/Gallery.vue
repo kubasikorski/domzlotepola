@@ -2,20 +2,22 @@
     <div>
         <div class="container relative z-10 mt-12 px-16 lg:pl-24 pr-16">
             <div class="gallery">
-                <div v-if="firstitem && firstitem.visible == true" class="item">
-                    <img :src="firstitem.thumb" alt="">
+                <div v-if="feed.firstitem && feed.firstitem.visible == true" class="item">
+                    <img :src="feed.firstitem.thumb" alt="">
                     <div class="description shown">
-                        <h4 class="font-bebas text-3xl">{{firstitem.lead}}</h4>
+                        <h4 class="font-bebas text-3xl">{{feed.firstitem.lead}}</h4>
                         <img src="@/assets/images/gallery-leaf.png" alt="">
-                        <p class="text-center font-medium" v-html="firstitem.description"></p>
+                        <p class="text-center font-medium" v-html="feed.firstitem.description"></p>
                     </div>
                 </div>
-                <div v-for="(item, key) in feed" :key="key" class="item" v-on:click="showZoom(key, false)">
+                <div v-for="(item, key) in feed.items" :key="key" class="item" v-on:click="showZoom(key, false)">
                     <img :src="item.thumb" alt="" class="cursor-pointer">
-                    <div class="description">
-                        <h4 class="font-bebas text-3xl">{{item.lead}}</h4>
-                        <img src="@/assets/images/gallery-leaf.png" alt="">
-                        <p class="text-center font-medium" v-html="item.description"></p>
+                    <div v-if="feed.canZoom" class="description">
+                        <div v-if="feed.captions">
+                            <h4 class="font-bebas text-3xl">{{item.lead}}</h4>
+                            <img v-if="item.lead" src="@/assets/images/gallery-leaf.png" alt="">
+                            <p class="text-center font-medium" v-html="item.description"></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,7 +57,7 @@
 <script>
     export default {
         components: {},
-        props: ['feed','firstitem','gallery'],
+        props: ['feed'],
         data() {
             return {
                 zoom: {
@@ -71,8 +73,8 @@
         },
         methods: {
             showZoom(key, fullscreen) {
-                let item = this.feed[key];
-                if(item.zoom) {
+                let item = this.feed.items[key];
+                if (item.zoom) {
                     this.zoom = {
                         key: key,
                         show: true,

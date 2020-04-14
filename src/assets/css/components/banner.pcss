@@ -1,7 +1,6 @@
 .banner {
 
-    @media print
-    {
+    @media print {
         @apply hidden;
     }
 
@@ -13,43 +12,48 @@
 
     @media (min-width: 1200px) {
         height: 675px;
-        
     }
+    @media (max-width: 1199px) {
+        background-position-x: -40px;
+    }
+
+
     .caption {
-            @apply p-8;
+        @apply p-8;
 
+        h2 {
+            @apply font-bebas text-3xl;
+        }
+
+        p {
+            @apply text-sm leading-tight;
+        }
+
+        @media (min-width: 1100px) {
+            width: 600px;
             h2 {
-                @apply font-bebas text-3xl;
+                @apply text-7xl;
             }
-
             p {
-                @apply text-sm leading-tight;
-            }
-
-            @media (min-width: 1200px) {
-                width: 600px;
-
-                h2 {
-                    @apply text-7xl;
-                }
-
-                p {
-                    @apply text-lg leading-normal;
-                }
+                @apply text-lg leading-normal;
             }
         }
-    &.short{
-      @media (max-width: 1199px) {
-        height: 30vh;
-      }
-      @media (min-width: 1200px) {
-        height: 275px;
-
-      }
     }
-    .read-more{
+
+    &.short {
+        @media (max-width: 1199px) {
+            height: 30vh;
+        }
+        @media (min-width: 1200px) {
+            height: 275px;
+
+        }
+    }
+
+    .read-more {
         @apply border border-white font-bebas text-2xl uppercase px-4 pt-px;
-        &:hover{
+
+        &:hover {
             @apply bg-white text-primary;
         }
     }

@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <gallery :feed="gallery" :firstitem="firstitem"></gallery>
+        <gallery :feed="gallery"></gallery>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
 
         <div class="container relative z-10 mt-16 lg:mt-32 food">
@@ -46,10 +46,18 @@
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
                         Dania główne</h4>
                     <ol class=" list-outside leading-normal mt-8 pl-5">
-                        <li class="pb-1">Udko z kaczki z konfiturą z czerwonej cebuli, czerwoną kapustą z miodem i żurawiną, kluseczki</li>
-                        <li class="pb-1">Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem, ziemniaki puree, buraczki z tartym chrzanem</li>
-                        <li class="pb-1">Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem, ziemniaki zapieczone pod beszamelem, sałaty</li>
-                        <li class="pb-1">Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem, ziemniaki z wody z koperkiem, fasola szparagowa</li>
+                        <li class="pb-1">Udko z kaczki z konfiturą z czerwonej cebuli, czerwoną kapustą z miodem i
+                            żurawiną, kluseczki
+                        </li>
+                        <li class="pb-1">Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem,
+                            ziemniaki puree, buraczki z tartym chrzanem
+                        </li>
+                        <li class="pb-1">Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem,
+                            ziemniaki zapieczone pod beszamelem, sałaty
+                        </li>
+                        <li class="pb-1">Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem,
+                            ziemniaki z wody z koperkiem, fasola szparagowa
+                        </li>
                     </ol>
 
                     <h4 class="font-bebas text-4xl leading-none mt-12 text-center border-b border-primary-lightest">
@@ -69,6 +77,7 @@
 <script>
     import VueAos from "vue-aos";
     import Gallery from "@//components/elements/Gallery";
+
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -84,49 +93,45 @@
         },
         data() {
             return {
-                firstitem: {
-                    visible:true,
-                    thumb: require('@/assets/images/food/cover.jpg'),
-                    lead: 'Pyszne',
-                    description: 'Gotowanie to nasza pasja...'
+                gallery: {
+                    firstitem: {
+                        visible: false,
+                        thumb: require('@/assets/images/food/cover.jpg'),
+                        lead: 'Pyszne',
+                        description: 'Gotowanie to nasza pasja...'
+                    },
+                    captions: false,
+                    canZoom: false,
+                    items: [
+                        {
+                            thumb: require('@/assets/images/food/food1-thumb.jpg'),
+                            lead: 'Danie 1',
+                            description: '<p>Danie 1</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/food2-thumb.jpg'),
+                            lead: 'Danie 2',
+                            description: '<p>Danie 2</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/food3-thumb.jpg'),
+                            lead: 'Danie 3',
+                            description: '<p>Danie 3</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/food4-thumb.jpg'),
+                            lead: 'Danie 4',
+                            description: '<p>Danie 4</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/food5-thumb.jpg'),
+                            lead: 'Danie 5',
+                            description: '<p>Danie 5</p>'
+                        },
+                    ]
                 },
-                gallery: [
-                    {
-                        thumb: require('@/assets/images/food/food1-thumb.jpg'),
-                        lead: 'Danie 1',
-                        description: '<p>Danie 1</p>'
-                    },
-                    {
-                        thumb: require('@/assets/images/food/food2-thumb.jpg'),
-                        lead: 'Danie 2',
-                        description: '<p>Danie 2</p>'
-                    },
-                    {
-                        thumb: require('@/assets/images/food/food3-thumb.jpg'),
-                        lead: 'Danie 3',
-                        description: '<p>Danie 3</p>'
-                    },
-                    {
-                        thumb: require('@/assets/images/food/food4-thumb.jpg'),
-                        lead: 'Danie 4',
-                        description: '<p>Danie 4</p>'
-                    },
-                    {
-                        thumb: require('@/assets/images/food/food5-thumb.jpg'),
-                        lead: 'Danie 5',
-                        description: '<p>Danie 5</p>'
-                    },
-                    {
-                        thumb: require('@/assets/images/food/food7-thumb.jpg'),
-                        lead: 'Danie 5',
-                        description: '<p>Danie 5</p>'
-                    },
-                    {
-                        thumb: require('@/assets/images/food/food8-thumb.jpg'),
-                        lead: 'Danie 5',
-                        description: '<p>Danie 5</p>'
-                    },
-                ]
+
+
             }
         },
     }

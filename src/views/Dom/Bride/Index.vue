@@ -4,7 +4,7 @@
             <div class="item">
                 <div class="text-center">
                     <div class="image-shadow shadow-lightest top-left32">
-                        <img src="@/assets/images/bride/p1.jpg" alt="" class="">
+                        <img src="@/assets/images/bride/p2.jpg" alt="" class="">
                     </div>
                     <div class="text">
                         <h3>Pakiet 1</h3>
@@ -15,7 +15,7 @@
             <div class="item">
                 <div class="text-center">
                     <div class="image-shadow shadow-lightest top-left32">
-                        <img src="@/assets/images/bride/p2.jpg" alt="" class="">
+                        <img src="@/assets/images/bride/p3.jpg" alt="" class="">
                     </div>
                     <div class="text">
                         <h3>Pakiet 2</h3>
@@ -26,7 +26,7 @@
             <div class="item">
                 <div class="text-center">
                     <div class="image-shadow shadow-lightest top-left32">
-                        <img src="@/assets/images/bride/p3.jpg" alt="" class="">
+                        <img src="@/assets/images/bride/p4.jpg" alt="" class="">
                     </div>
                     <div class="text">
                         <h3>Pakiet 3</h3>

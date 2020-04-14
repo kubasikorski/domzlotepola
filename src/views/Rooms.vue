@@ -51,7 +51,8 @@
         data: () => ({
             imageTransitions: {
                 'rooms': [
-                    require('@/assets/images/rooms/rooms1.jpg'),
+                    require('@/assets/images/rooms/rooms4.jpg'),
+                    require('@/assets/images/rooms/rooms3.jpg'),
                     require('@/assets/images/rooms/rooms2.jpg'),
                 ]
             }

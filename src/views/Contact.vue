@@ -29,7 +29,7 @@
                 </div>
                 <div v-rellax="{speed: 1, center: true}" class="lg:w-1/2 text-center lg:pl-16">
                     <div class="image-shadow shadow-lighter top-right">
-                        <img src="../assets/images/contact.jpg" alt="" class="">
+                        <img src="../assets/images/kontakt/1.jpg" alt="" class="">
                     </div>
                 </div>
             </div>

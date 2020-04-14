@@ -5,7 +5,7 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-right">
-                        <img src="../../assets/images/dom-zlote-pola/glasses.jpg" alt="" class="">
+                        <img src="../../assets/images/dom-zlote-pola/fot1.jpg" alt="" class="">
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-left">
-                        <img src="../../assets/images/dom-zlote-pola/golden-ear.jpg" alt="" class="">
+                        <img src="../../assets/images/dom-zlote-pola/tort.jpg" alt="" class="">
                     </div>
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">
