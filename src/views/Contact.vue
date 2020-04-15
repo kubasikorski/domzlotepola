@@ -21,7 +21,7 @@
                     <h3>Rezerwacje</h3>
                     <p>
                         ul. Złote Pola 17<br>
-                        80-297 Miszewo poczta Banino<br>
+                        80-297 Miszewo / poczta Banino<br>
                         <br>
                         T: <a href="tel:+48 501 317 113">+48 501 317 113</a>
                         <br>E: <a href="mailto:rezerwacje@domzlotepola.pl">rezerwacje@domzlotepola.pl</a>
@@ -103,7 +103,7 @@
                 markers: [
                     {
                         position: {lat: 54.392564, lng: 18.374557},
-                        infoText: '<strong>Dóm Złote Pola</strong><br>ul. Złote Pola 17<br>Miszewo poczta Banino'
+                        infoText: '<strong>Dóm Złote Pola</strong><br>ul. Złote Pola 17<br>Miszewo / poczta Banino'
                     }
                 ],
                 mapStyle: {

@@ -9,7 +9,7 @@ module.exports = {
                 darker: '#F0F0F0',
             },
             captionnag:'#c5a764',
-            captiontext:'#656161',
+            captiontext:'#4e4b4b',
             black: '#000000',
             nav: '#404041',
             graphite: '#777777',
