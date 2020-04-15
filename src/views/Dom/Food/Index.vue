@@ -19,8 +19,13 @@
         </div>
         <gallery :feed="gallery"></gallery>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
-
         <div class="container relative z-10 mt-16 lg:mt-32 food">
+            <div class="text px-16 lg:w-1/2 lg:px-24">
+                <p class="read-more-xl">
+                    <router-link :to="{name: 'dom-food-gallery'}" v-on:click.native="hideMobileNav">Zobacz fotogalerię</router-link>
+                </p>
+            </div>
+            <br><br>
             <div class="flex flex-col items-center">
                 <h3 class="font-bebas text-center text-6xl leading-none">Przykładowe dania<br>Domu Złote Pola</h3>
                 <img src="@/assets/images/footer-leaf.png" alt="">
@@ -77,7 +82,6 @@
 <script>
     import VueAos from "vue-aos";
     import Gallery from "@//components/elements/Gallery";
-
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -117,56 +121,6 @@
                             thumb: require('@/assets/images/food/food3-thumb.jpg'),
                             lead: 'Danie 3',
                             description: '<p>Danie 3</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/food4-thumb.jpg'),
-                            lead: 'Danie 4',
-                            description: '<p>Danie 4</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/food5-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter1-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter2-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter3-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter4-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter5-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter6-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter7-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter8-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
                         },
                     ]
                 },

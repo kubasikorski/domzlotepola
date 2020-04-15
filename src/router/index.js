@@ -49,8 +49,13 @@ const routes = [
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola/nasze-jedzenie',
-        name: 'dom-food',
-        component: () => import(/* webpackChunkName: "dom-food" */ '../views/Dom/Food.vue')
+        name: 'dom-food-index',
+        component: () => import(/* webpackChunkName: "dom-food-index" */ '../views/Dom/Food/Index.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/nasze-jedzenie/galeria',
+        name: 'dom-food-gallery',
+        component: () => import(/* webpackChunkName: "dom-food-gallery" */ '../views/Dom/Food/Gallery.vue')
     },
     {
         path: '/:lang(pl|en)/bawialnia-dla-dzieci',

@@ -10,8 +10,8 @@
                         <p class="text-center font-medium" v-html="feed.firstitem.description"></p>
                     </div>
                 </div>
-                <div v-for="(item, key) in feed.items" :key="key" class="item" v-on:click="showZoom(key, false)">
-                    <img :src="item.thumb" alt="" class="cursor-pointer">
+                <div v-for="(item, key) in feed.items" :key="key" class="item" v-bind:class="{'cursor-pointer' : feed.canZoom}" v-on:click="showZoom(key, false)">
+                    <img :src="item.thumb" alt="">
                     <div v-if="feed.canZoom" class="description">
                         <div v-if="feed.captions">
                             <h4 class="font-bebas text-3xl">{{item.lead}}</h4>

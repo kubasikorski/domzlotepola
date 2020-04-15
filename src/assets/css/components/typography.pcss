@@ -65,6 +65,19 @@
             }
         }
 
+        &.read-more-xl {
+            @apply font-bebas uppercase leading-none relative text-graphite;
+            &:hover{
+            }
+            a {
+                @apply border bg-white px-4 pt-1 relative text-2xl;
+                &:hover {
+                    @apply text-primary;
+                }
+            }
+        }
+
+
      strong{
                 @apply font-bold;
             }
@@ -94,10 +107,8 @@
         &.read-more {
             z-index:10;
             @apply font-bebas uppercase leading-none relative mt-12;
-
             a {
                 @apply border px-4 pt-1;
-
                 &:hover {
                     @apply text-primary;
                 }

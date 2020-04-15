@@ -25,7 +25,7 @@
         <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
                 <h3 class="font-bebas text-center text-6xl leading-none">Przykładowe dania<br>Domu Złote Pola</h3>
-                <img src="../../assets/images/footer-leaf.png" alt="">
+                <img src="@/assets/images/footer-leaf.png" alt="">
             </div>
 
             <div class="flex justify-center text-center">
