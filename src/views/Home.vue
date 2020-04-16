@@ -12,12 +12,9 @@
                     <p>
                         Dóm Złote Pola znajduje się w bezpośrednim sąsiedztwie Trójmiasta, przy ul. Złote Pola w
                         urokliwym Miszewie, obok Banina. To doskonała lokalizacja, do której łatwo dojechać z
-                        Trójmiasta
-                        i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla wyjątkowych
-                        okazji
-                        rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród łąk i ziemi
-                        uprawnych. Do
-                        domu należy ogród warzywny z kwiatami i owocami.
+                        Trójmiasta i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla wyjątkowych
+                        okazji rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród łąk i ziemi
+                        uprawnych. Do domu należy ogród warzywny z kwiatami i owocami.
                     </p>
                     <p class="read-more">
                         <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Czytaj więcej
@@ -40,8 +37,7 @@
                         <h2>Przyjęcia okolicznościowe</h2>
                         <p>
                             Nazywam się Ewa Banaś i jestem właścicielką Domu Złote Pola. Zajmuję się organizacją
-                            rodzinnych
-                            przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji BabyCafe.pl,
+                            rodzinnych przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji BabyCafe.pl,
                             którą prowadziłam w sercu gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl
                             cieszyła się Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
                             tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie bardzo ważne,

@@ -23,12 +23,10 @@
                         ślubne
                         i wspaniałe świąteczne spotkania.
                         <br><br>
-                        W rozwijaniu rodzinnej firmy dbam o to, aby:
-                    </p><br>
+                        W rozwijaniu rodzinnej firmy dbam o to, aby:</p><br>
                     <ul>
                         <li>Goście, którzy nas odwiedzają czuli się Przyjaciółmi Domu Złote Pola.</li>
-                        <li>Jedzenie było domowe, przygotowywane tradycyjnymi metodami, z przepisów Mamy
-                            i naszego Szefa Kuchni.
+                        <li>Jedzenie było domowe, przygotowywane tradycyjnymi metodami, z przepisów Mamy i naszego Szefa Kuchni.
                         </li>
                     </ul>
                     <br>

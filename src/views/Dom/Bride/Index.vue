@@ -26,7 +26,7 @@
             <div class="item">
                 <div class="text-center">
                     <div class="image-shadow shadow-lightest top-left32">
-                        <img src="@/assets/images/bride/p4.jpg" alt="" class="">
+                        <img src="@/assets/images/bride/p4n.jpg" alt="" class="">
                     </div>
                     <div class="text">
                         <h3>Pakiet 3</h3>
