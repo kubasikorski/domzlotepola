@@ -12,7 +12,7 @@
                         przywodzi na myśl wspomnienia rodzinnego domu z czasów dzieciństwa.
                     </p>
                     <br><br>
-                    <h3>Zapraszam na spotkanie</h3>
+                    <h3>Zapraszamy na spotkanie</h3>
                     <p>
                         Dóm Złote Pola jest otwarty na potrzeby gości, dlatego zapraszamy do umówienia się na spotkanie
                         przy domowym cieście i świeżo mielonej kawie, aby się poznać i zaplanować Wasze wyjątkowe

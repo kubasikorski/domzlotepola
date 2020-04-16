@@ -1,5 +1,5 @@
 <template>
-    <banner :size="useBannerFeed.size" :style="{ backgroundImage: `url('${backgroundImage}')` }">
+    <banner v-if="useBannerFeed.visible" :size="useBannerFeed.size" :style="{ backgroundImage: `url('${backgroundImage}')` }">
         <vue-aos v-if="useBannerFeed.captionExist" animation-class="fadeIn slow animated">
             <div v-rellax="{speed: 2, center: true}" class="caption">
                 <h2 class="font-bebas text-7xl">{{useBannerFeed.lead}}</h2>
@@ -42,6 +42,7 @@
                 bannerFeed: {
                     home: {
                         captionExist: true,
+                        visible:true,
                         size: 'large',
                         background: [
                             require('@/assets/images/banner-top/banner-home.jpg')
@@ -51,14 +52,16 @@
                         button: 'Czytaj o nas'
                     },
                     about: {
+                        visible:true,
                         captionExist: false,
-                        size: 'short',
-                        background: [require('@/assets/images/banner-top/banner-home2.jpg')],
+                        size: 'extrashort',
+                        background: [require('@/assets/images/banner-top/banner-blank.jpg')],
                     },
                     default: {
+                        visible:true,
                         captionExist: false,
-                        size: 'short',
-                        background: [require('@/assets/images/banner-top/banner-home2.jpg')],
+                        size: 'extrashort',
+                        background: [require('@/assets/images/banner-top/banner-blank.jpg')],
                     }
                 }
             }

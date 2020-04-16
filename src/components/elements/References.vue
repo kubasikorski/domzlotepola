@@ -1,15 +1,12 @@
 <template>
     <div class="container relative z-10 lg:px-16" :class="{ 'reference-block' : bg == 'true' }">
         <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
-            <vue-aos animation-class="fadeInLeft animated">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow top-left">
                         <image-transition :intervalTimer="0" ref="referencesImageTransition"
                                           :feed="references.imageTransitions"></image-transition>
                     </div>
                 </div>
-            </vue-aos>
-            <vue-aos animation-class="fadeInRight animated">
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <h2>Referencje</h2>
                     <carousel perPage="1" paginationPosition="top" autoplayHoverPause="true" autoplayTimeout="4000"  autoplay="true" @pageChange="slidePageChange">
@@ -26,20 +23,16 @@
                         </slide>
                     </carousel>
                 </div>
-            </vue-aos>
         </div>
     </div>
 </template>
 <script>
-    import VueAos from 'vue-aos'
     import {Carousel, Slide} from 'vue-carousel';
     import ImageTransition from "@/components/ImageTransition";
-
     export default {
         name: 'references',
         props:['bg','readmore'],
         components: {
-            VueAos,
             Carousel,
             Slide,
             ImageTransition,
@@ -51,9 +44,10 @@
                         require('@/assets/images/references/references1.jpg'),
                         require('@/assets/images/references/references2.jpg'),
                         require('@/assets/images/references/references3.jpg'),
-                        require('@/assets/images/references/references4.jpg'),
-                        require('@/assets/images/references/references5.jpg'),
+                        require('@/assets/images/references/references4b.jpg'),
+                        require('@/assets/images/references/references5b.jpg'),
                         require('@/assets/images/references/references6.jpg'),
+                        require('@/assets/images/references/references7.jpg'),
                         require('@/assets/images/references/references7.jpg'),
                     ],
                     descriptions: [
@@ -90,6 +84,11 @@
                             id: 7,
                             opis: '„Organizowaliśmy w tym miejscu 2 dniowe szkolenie dla naszych pracowników oraz imprezę firmową. Świetne kameralne miejsce z zapleczem noclegowym. Bardzo smaczne jedzenie, rewelacyjna obsługa. Miło, czysto, czuć rodzinną atmosferę. Wrócimy jeszcze nie jeden raz”',
                             podpis: ''
+                        }
+                        , {
+                            id: 8,
+                            opis: 'W tym miejscu urządziliśmy dwie imprezy rodzinne. Po pierwszej uroczystości z okazji Chrztu Św. córki byliśmy bardzo zadowoleni dlatego gdy urodziły się nam trojaczki od razu zwróciliśmy się z prośbą o organizację uroczystości o tym samym charakterze. Dziś mamy tylko bardzo miłe wspomnienia. Lokal był wzorowo przygotowany na przyjęcie tak nietypowych gości ;) Jedzenie bardzo smaczne, różnorodne i pięknie podane, obsługa przemiła. Tort przepyszny. To idealny lokal na imprezy rodzinne szczególnie dla osób lubiących dobrze zjeść :) Bardzo dobra relacja jakości do ceny.',
+                            podpis: 'Polecamy Karolina i Igor'
                         }
                     ]
                 },

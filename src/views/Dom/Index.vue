@@ -5,7 +5,7 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-right">
-                        <img src="../../assets/images/dom-zlote-pola/fot1.jpg" alt="" class="">
+                        <img src="@/assets/images/dom-zlote-pola/fot1.jpg" alt="" class="">
                     </div>
                 </div>
 
@@ -13,7 +13,7 @@
                     <h2>Dóm Złote Pola</h2>
                     <p>
                         Dóm Złote Pola znajduje się w bezpośrednim sąsiedztwie Trójmiasta, przy ul. Złote Pola
-                        w urokliwym Miszewie,obok Banina. To doskonała lokalizacja, do której łatwo dojechać
+                        w urokliwym Miszewie, obok Banina. To doskonała lokalizacja, do której łatwo dojechać
                         z Trójmiasta i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem
                         dla wyjątkowych okazji rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród
                         łąk i ziemi uprawnych. W bezpośrednim sąsiedztwie znajduje się ekologiczne gospodarstwo. Do Domu Złote Pola należy
@@ -36,7 +36,7 @@
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-left">
-                        <img src="../../assets/images/dom-zlote-pola/tort.jpg" alt="" class="">
+                        <img src="@/assets/images/dom-zlote-pola/tort.jpg" alt="" class="">
                     </div>
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">
@@ -45,7 +45,7 @@
                         Państwa dzieci są u nas bardzo mile widziane, to o ich dobrze spędzony czas zadbaliśmy
                         szczególnie. Bawialnia dziecięca zapewnia rozrywkę i zabawę najmłodszym gościom
                         w czasie przyjęć, a wygodne leżaczki i materace pozwolą odpocząć zmęczonym nóżkom.
-                        Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi dwuosobowymi pokojami dla
+                        Zapewniamy Państwu nocleg – Dóm Złote Pola dysponuje komfortowymi pokojami dla
                         gości.
                         Otwieramy przed Wami drzwi do niezwykłego domu. Wypełnijcie go swoją radością, niezapomnianymi
                         chwilami, wzruszeniami, a także beztroską zabawą. Niech Dóm Złote Pola będzie domem dla całej
@@ -65,11 +65,8 @@
             </div>
         </div>
     </div>
-
-
 </template>
 <script>
-
     export default {
         components: {
         },

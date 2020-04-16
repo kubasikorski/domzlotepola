@@ -118,9 +118,24 @@
                             description: '<p>Danie 2</p>'
                         },
                         {
-                            thumb: require('@/assets/images/food/food3-thumb.jpg'),
+                            thumb: require('@/assets/images/food/shutter6-thumb.jpg'),
                             lead: 'Danie 3',
                             description: '<p>Danie 3</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/food4-thumb.jpg'),
+                            lead: 'Danie 4',
+                            description: '<p>Danie 4</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/shutter2-thumb.jpg'),
+                            lead: 'Danie 5',
+                            description: '<p>Danie 5</p>'
+                        },
+                        {
+                            thumb: require('@/assets/images/food/shutter1-thumb.jpg'),
+                            lead: 'Danie 5',
+                            description: '<p>Danie 5</p>'
                         },
                     ]
                 },

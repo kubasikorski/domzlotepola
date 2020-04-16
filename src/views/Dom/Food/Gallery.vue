@@ -50,38 +50,18 @@
                     captions: false,
                     canZoom: false,
                     items: [
-                        {
-                            thumb: require('@/assets/images/food/food1-thumb.jpg'),
-                            lead: 'Danie 1',
-                            description: '<p>Danie 1</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/food2-thumb.jpg'),
-                            lead: 'Danie 2',
-                            description: '<p>Danie 2</p>'
-                        },
+
+
+
+
                         {
                             thumb: require('@/assets/images/food/food3-thumb.jpg'),
                             lead: 'Danie 3',
                             description: '<p>Danie 3</p>'
                         },
-                        {
-                            thumb: require('@/assets/images/food/food4-thumb.jpg'),
-                            lead: 'Danie 4',
-                            description: '<p>Danie 4</p>'
-                        },
+
                         {
                             thumb: require('@/assets/images/food/food5-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter1-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
-                        {
-                            thumb: require('@/assets/images/food/shutter2-thumb.jpg'),
                             lead: 'Danie 5',
                             description: '<p>Danie 5</p>'
                         },
@@ -100,11 +80,7 @@
                             lead: 'Danie 5',
                             description: '<p>Danie 5</p>'
                         },
-                        {
-                            thumb: require('@/assets/images/food/shutter6-thumb.jpg'),
-                            lead: 'Danie 5',
-                            description: '<p>Danie 5</p>'
-                        },
+
                         {
                             thumb: require('@/assets/images/food/shutter7-thumb.jpg'),
                             lead: 'Danie 5',

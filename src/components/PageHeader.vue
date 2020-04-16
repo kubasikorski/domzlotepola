@@ -47,7 +47,6 @@
 </template>
 <script>
     import TopBanner from "../components/TopBanner";
-
     export default {
         name: 'PageHeader',
         components: {
@@ -67,7 +66,6 @@
                 mobileNav: false,
             }
         },
-
         methods: {
             toggleMobileNav() {
                 this.mobileNav = !this.mobileNav;

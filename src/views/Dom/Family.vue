@@ -57,6 +57,7 @@
                     require('@/assets/images/families/chrzciny.jpg'),
                     require('@/assets/images/families/urodziny.jpg'),
                     require('@/assets/images/families/komunie.jpg'),
+                    require('@/assets/images/families/przyjecia.jpg'),
                 ]
             }
         }),

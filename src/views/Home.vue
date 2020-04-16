@@ -4,14 +4,14 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lighter top-right">
-                        <img src="../assets/images/home/home1.jpg" alt="" class="">
+                        <img src="@/assets/images/home/home1.jpg" alt="" class="">
                     </div>
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <h2>Dóm Złote Pola</h2>
                     <p>
                         Dóm Złote Pola znajduje się w bezpośrednim sąsiedztwie Trójmiasta, przy ul. Złote Pola w
-                        urokliwym Miszewie,obok Banina. To doskonała lokalizacja, do której łatwo dojechać z
+                        urokliwym Miszewie, obok Banina. To doskonała lokalizacja, do której łatwo dojechać z
                         Trójmiasta
                         i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla wyjątkowych
                         okazji
@@ -30,7 +30,7 @@
                 <vue-aos animation-class="fadeInUp animated faster">
                     <div class="lg:w-1/2 text-center">
                         <div class="image-shadow shadow-lightest top-left">
-                            <img src="../assets/images/home/home2.jpg" alt="" class="">
+                            <img src="@/assets/images/home/home2.jpg" alt="" class="">
                         </div>
                     </div>
                 </vue-aos>
