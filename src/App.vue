@@ -1,21 +1,67 @@
 <template>
     <div id="app">
         <page-header/>
-        <transition name="router-view-fade">
-            <router-view/>
+        <transition
+                name="fade"
+                mode="out-in"
+                        @beforeLeave="beforeLeave"
+                        @enter="enter"
+                        @afterEnter="afterEnter"
+        >
+        <router-view/>
         </transition>
-        <page-footer/>
+        <page-footer :class="appClass" />
+        <update></update>
     </div>
 </template>
 
 <script>
     import PageHeader from "./components/PageHeader";
     import PageFooter from "./components/PageFooter";
+    import Update from "./components/Update";
     import 'animate.css';
 
     export default {
-        components: {PageFooter, PageHeader}
+        components: {PageFooter, PageHeader,Update},
+        data() {
+            return {
+                prevHeight: 0,
+            };
+        },
+        computed: {
+            appClass() {
+                return (this.$route.name == 'home' ? 'home' : '');
+            }
+        },
+        methods: {
+            beforeLeave(element) {
+                this.prevHeight = getComputedStyle(element).height;
+            },
+            enter(element) {
+                const { height } = getComputedStyle(element);
+                element.style.height = this.prevHeight;
+                setTimeout(() => {
+                    element.style.height = height;
+                });
+            },
+            afterEnter(element) {
+                element.style.height = 'auto';
+            },
+        },
     }
 </script>
+<style>
+    .fade-enter-active, .fade-leave-active {
+        transition-property: opacity;
+        transition-duration: .25s;
+    }
 
+    .fade-enter-active {
+        transition-delay: .25s;
+    }
+
+    .fade-enter, .fade-leave-active {
+        opacity: 0
+    }
+</style>
 <style src="./assets/css/tailwind.css"/>

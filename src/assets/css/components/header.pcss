@@ -1,22 +1,44 @@
 header {
+
+    @media print
+    {
+        @apply hidden;
+    }
+
     .logo {
         @apply absolute z-20;
-
-        margin-left: -134px;
-        top: -38px;
+        top: -20px;
         left: 50%;
+        margin-left: -90px;
+
+        @media (max-width: 1199px) {
+            width: 180px;
+
+        }
 
         @media (min-width: 1200px) {
             top: -25px;
+            left: 50%;
+            margin-left: -134px;
         }
     }
 
     nav {
+
+        a{
+            &.router-link-active{
+                img{
+                    filter: brightness(0.9) invert(.7) sepia(26.5) hue-rotate(340deg) saturate(130%)
+                }
+            }
+        }
+
         @apply flex flex-col bg-white-darker text-nav uppercase leading-none font-bebas;
 
         @media (max-width: 1199px) {
             @apply fixed items-center inset-x-0 pt-48;
-            transition: transform ease-in-out .5s;
+            overflow-y: auto;
+            transition: transform ease-in-out .25s;
             top: -100%;
             bottom: 100%;
 
@@ -30,10 +52,10 @@ header {
         }
 
         .nav-item {
-            @apply border border-l-0 border-r-0 border-transparent text-2xl py-1 ml-5;
+            @apply border border-l-0 border-r-0 border-transparent text-2xl py-1 mb-2;
 
             @media (min-width: 1200px) {
-                @apply text-base;
+                @apply text-base ml-5 mb-0;
 
                 &.router-link-active {
                     @apply border-primary;
@@ -43,13 +65,75 @@ header {
             &:hover, &.router-link-active {
                 @apply text-primary;
             }
+        }
+
+        .nav-item-dropdown {
+            .nav-dropdown {
+                @apply flex flex-col;
+            }
+
+            @media (max-width: 1199px) {
+                .nav-dropdown {
+                    @apply text-center my-2;
+
+                    a {
+                        @apply py-1;
+                    }
+                }
+            }
 
 
+            @media (min-width: 1200px) {
+                @apply relative flex;
+
+                .nav-dropdown {
+                    @apply bg-white absolute hidden whitespace-no-wrap;
+                    top: 100%;
+                    left: -106px;
+                    padding-top: 40px;
+                    padding-bottom: 12px;
+                    padding-left: 77px;
+                    a {
+                        @apply block py-1 px-12;
+                         position:relative;
+                        &:hover {
+                            @apply text-primary;
+                            background-image: url("../../images/nav-leaf.png");
+                            background-repeat: no-repeat;
+                            background-position: 1rem .2rem;
+
+                            &:before {
+                                    content:'';
+                                      position:absolute;
+                                      display:block;
+                                      height:2px;
+                                      margin-top:4px;
+                                      width: 110px;
+                                      background:#B5861F;
+                                      left:-20%;
+                                      top:4px;
+                                      z-index:1;
+                                      transform:translateX(-50%);
+                                      -webkit-transform:translateX(-50%);
+                            }
+                        }
+                    }
+                }
+
+                &:hover .nav-dropdown {
+                    @apply block;
+                }
+            }
         }
     }
 
     .hamburger {
         @apply mr-8;
+
+        @media print
+        {
+            @apply hidden;
+        }
 
         @media (min-width: 1199px) {
             @apply hidden;

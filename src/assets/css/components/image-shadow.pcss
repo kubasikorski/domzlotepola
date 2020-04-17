@@ -1,14 +1,43 @@
 .image-shadow {
-    @apply inline-block relative mb-4;
+
+    @media print {
+        @apply hidden;
+    } @apply inline-block
+    relative mb-4;
 
     img {
+        @apply relative;
+        transition: opacity 1s ease-out;
+        opacity: 100;
+
+        &.image-transision:not(:first-child) {
+            @apply absolute;
+            top: 0;
+            left: 0;
+            opacity: 100;
+        }
+
+    }
+
+    div.vue-flux{
         @apply relative;
     }
 
     &:before {
-        @apply absolute w-full h-full bg-primary-lighter;
+        @apply absolute w-full h-full bg-shadow;
         content: '';
     }
+
+    &.shadow-lighter:before {
+        @apply bg-shadow-lighter;
+        content: '';
+    }
+
+    &.shadow-lightest:before {
+        @apply bg-shadow-lightest;
+        content: '';
+    }
+
 
     &.top-right {
         margin-top: 64px;
@@ -26,6 +55,36 @@
 
         &:before {
             top: -64px;
+            left: -64px;
+        }
+    }
+
+    &.top-left32 {
+        margin-top: 32px;
+        margin-left: 32px;
+
+        &:before {
+            top: -32px;
+            left: -32px;
+        }
+    }
+
+    &.bottom-right {
+        margin-bottom: 80px;
+        margin-right: 64px;
+
+        &:before {
+            bottom: -64px;
+            right: -64px;
+        }
+    }
+
+    &.bottom-left {
+        margin-bottom: 80px;
+        margin-left: 64px;
+
+        &:before {
+            bottom: -64px;
             left: -64px;
         }
     }

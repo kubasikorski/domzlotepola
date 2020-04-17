@@ -2,14 +2,37 @@
     @apply leading-normal;
 
     h2 {
-        @apply font-bebas text-6xl leading-none relative mb-4;
-
+        @apply font-bebas leading-none relative mb-4 text-graphite;
+        @media (max-width: 499px) {
+            @apply text-4xl;
+        }
+        @media (min-width: 500px) {
+            @apply text-6xl;
+        }
         &:after {
             @apply absolute bottom-0 h-px bg-primary-lightest w-full;
             content: '';
             left: -96px;
         }
     }
+
+    h3 {
+        @apply font-bebas text-5xl leading-none relative mb-4;
+        color:#BEA27D;
+        &:after {
+            @apply absolute bottom-0 h-1 bg-primary-lightest w-24;
+            content: '';
+            left: 0px;
+            transition: width .5s;
+
+        }
+            &:hover{
+                &:after {
+                @apply  w-48;
+                }
+            }
+        }
+
 
     p {
         @apply font-light;
@@ -19,44 +42,73 @@
         }
 
         &.read-more {
-            @apply font-bebas uppercase leading-none relative mt-12;
-
-            &:after {
-                @apply absolute h-px bg-primary-lightest;
+            @apply font-bebas uppercase leading-none relative mt-12 text-graphite;
+            &:hover{
+                &:before {
+                    right:300px;
+                }
+            }
+            &:before {
+                transition: right .5s;
+                @apply absolute h-px bg-primary-lightest inset-x-0;
                 content: '';
+                margin-top: -2px;
                 top: 50%;
-                left: 125px;
-                right: 0;
             }
 
             a {
-                @apply border px-4 pt-1;
+                @apply border bg-white px-4 pt-1 relative;
 
                 &:hover {
                     @apply text-primary;
                 }
             }
         }
-    }
+
+        &.read-more-xl {
+            @apply font-bebas uppercase leading-none relative text-graphite;
+            &:hover{
+            }
+            a {
+                @apply border bg-white px-4 pt-1 relative text-2xl;
+                &:hover {
+                    @apply text-primary;
+                }
+            }
+        }
+
+
+     strong{
+                @apply font-bold;
+            }
+        }
+
+        ul{
+            li{
+                @apply font-light;
+                list-style-image: url("../../images/nav-leaf.png");
+                padding-left: 0.5rem;
+                margin-left:4rem;
+            }
+        }
 
 }
 
 .caption {
     @apply leading-normal;
-    @apply text-white;
     h2 {
         @apply tracking-wide;
         @apply font-bebas text-6xl leading-none;
+        @apply text-captionnag;
     }
     p {
-        @apply font-light;
+        @apply font-normal;
+        @apply text-captiontext;
         &.read-more {
             z-index:10;
             @apply font-bebas uppercase leading-none relative mt-12;
-
             a {
                 @apply border px-4 pt-1;
-
                 &:hover {
                     @apply text-primary;
                 }
@@ -65,3 +117,11 @@
     }
 }
 
+.food{
+    h3{
+        color:#BEA27D;
+    }
+    h4{
+        @apply text-graphite;
+    }
+}

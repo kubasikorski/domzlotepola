@@ -8,11 +8,19 @@ module.exports = {
                 default: '#ffffff',
                 darker: '#F0F0F0',
             },
+            captionnag:'#c5a764',
+            captiontext:'#4e4b4b',
             black: '#000000',
             nav: '#404041',
+            graphite: '#777777',
             transparent: 'transparent',
             primary: {
                 default: '#B5861F',
+                lighter: '#E2D3C0',
+                lightest: '#EDE6DF',
+            },
+            shadow: {
+                default: '#BEA27D',
                 lighter: '#E2D3C0',
                 lightest: '#EDE6DF',
             }
@@ -38,13 +46,20 @@ module.exports = {
         extend: {
             height: {
                 '9': '2.375rem',
-                '14': '3.5rem'
+                '14': '3.5rem',
+                '80': '18rem',
+                '120': '24rem',
+                '160': '36rem',
             },
             width: {
                 'sm': '300px',
                 'md': '600px',
                 'lg': '900px',
                 'xl': '1200px',
+            },
+            spacing: {
+                '80': '18rem',
+                '96': '20rem',
             },
             screens: {
                 'sm': '600px',

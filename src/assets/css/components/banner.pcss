@@ -1,17 +1,64 @@
 .banner {
-    @apply bg-no-repeat bg-center bg-cover;
-    height: 70vh;
-    
-    @media (min-width: 1200px) {
-        height: 675px;
-        
+    @media print {
+        @apply hidden;
     }
-
+    @apply bg-no-repeat bg-center bg-cover;
+    transition: height 1s ease-out, background 1s linear;
+    @media (max-width: 1099px) {
+        height: 380px;
+    }
+    @media (min-width: 1100px) {
+        height: 675px;
+    }
     .caption {
         @apply p-8;
-
-        @media (min-width: 1200px) {
+        h2 {
+            @apply font-bebas text-3xl;
+            text-shadow: 1px 1px 1px rgb(117, 98, 57);
+        }
+        p {
+            @apply text-sm leading-tight;
+        }
+        @media (min-width: 1100px) {
             width: 600px;
+            h2 {
+                @apply text-7xl;
+            }
+            p {
+                @apply text-lg leading-normal;
+            }
+        }
+    }
+
+    &.short {
+        @media (max-width: 1199px) {
+            height: 71px;
+            background-position-x: 0px;
+        }
+        @media (min-width: 1200px) {
+            height: 275px;
+            background-position-x: 0px;
+
+        }
+    }
+
+    &.extrashort {
+        @media (max-width: 1199px) {
+            height: 9vh;
+            background-position-x: 0px;
+        }
+        @media (min-width: 1200px) {
+            height: 10px;
+            background-position-x: 0px;
+        }
+    }
+
+
+    .read-more {
+        @apply border border-white font-bebas text-2xl uppercase px-4 pt-px;
+
+        &:hover {
+            @apply bg-white text-primary;
         }
     }
 }

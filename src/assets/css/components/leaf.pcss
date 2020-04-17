@@ -1,9 +1,19 @@
 .leaf {
-    @apply my-4;
+
     background-image: url("../../images/leaf.png");
     background-repeat: no-repeat;
     background-position: right;
     height: 117px;
     margin-right: 30%;
     z-index: -10;
+
+    &.menu {
+        @apply relative;
+
+        @media (min-width: 1200px) {
+            top: -15vw;
+            left: -20vw;
+            margin-bottom: -10vw;
+        }
+    }
 }
