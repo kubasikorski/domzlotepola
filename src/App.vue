@@ -11,16 +11,18 @@
         <router-view/>
         </transition>
         <page-footer :class="appClass" />
+        <update></update>
     </div>
 </template>
 
 <script>
     import PageHeader from "./components/PageHeader";
     import PageFooter from "./components/PageFooter";
+    import Update from "./components/Update";
     import 'animate.css';
 
     export default {
-        components: {PageFooter, PageHeader},
+        components: {PageFooter, PageHeader,Update},
         data() {
             return {
                 prevHeight: 0,

@@ -9,7 +9,7 @@
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <h2>Referencje</h2>
-                    <carousel perPage="1" loop="true" paginationPosition="top" autoplayHoverPause="false" autoplayTimeout="4000"  autoplay="true" @pageChange="slidePageChange">
+                    <carousel :paginationPadding=7 :perPage=1 :loop=true :minSwipeDistance=16 paginationPosition="top" :autoplayHoverPause=false :autoplayTimeout=4000 :autoplay=true @pageChange="slidePageChange">
                         <slide v-bind:key="reference.id" v-for="reference in references.descriptions">
                             <p>
                                 {{reference.opis}}
@@ -17,11 +17,11 @@
                             <p v-if="reference.podpis!=''">
                                 <strong>{{reference.podpis}}</strong>
                             </p>
-                            <p v-if="readmore" class="read-more">
-                                <a href="https://www.trojmiasto.pl/BabyCafe-pl-o35861.html#opinie" target="_blank">Zobacz więcej opinii</a>
-                            </p>
                         </slide>
                     </carousel>
+                    <p v-if="readmore" class="read-more">
+                        <a href="https://www.trojmiasto.pl/BabyCafe-pl-o35861.html#opinie" target="_blank">Zobacz więcej opinii</a>
+                    </p>
                 </div>
         </div>
     </div>

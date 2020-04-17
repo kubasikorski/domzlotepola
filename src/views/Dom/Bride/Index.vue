@@ -1,5 +1,5 @@
 <template>
-    <div class="container relative z-10 mt-12">
+    <div class="container relative z-10 mt-24">
         <div class="bride-packages">
             <div class="item">
                 <div class="text-center">

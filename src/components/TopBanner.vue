@@ -1,14 +1,12 @@
 <template>
     <banner v-if="useBannerFeed.visible" :size="useBannerFeed.size" :style="{ backgroundImage: `url('${backgroundImage}')` }">
         <vue-aos v-if="useBannerFeed.captionExist" animation-class="fadeIn slow animated">
-            <div v-rellax="{speed: 2, center: true}" class="caption">
+            <div class="caption">
                 <h2 class="font-bebas text-7xl">{{useBannerFeed.lead}}</h2>
                 <p class="text-lg leading-normal">{{useBannerFeed.caption}}</p>
-                <vue-aos animation-class="slideInUp slow animated">
                     <p class="mt-4">
                         <router-link :to="{name: 'dom',params:{'lang':'pl'}}" class="read-more" v-on:click.native="hideMobileNav">{{useBannerFeed.button}}</router-link>
                     </p>
-                </vue-aos>
             </div>
         </vue-aos>
     </banner>
