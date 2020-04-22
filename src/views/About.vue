@@ -37,9 +37,8 @@
                         <img class="ewa-sign" src="../assets/images/sign/ewa-banas.png" alt="Ewa Banaś">
                     </p>
                     <p class="read-more">
-                        <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Zobacz, co oferuje Dóm Złote Pola</router-link>
+                        <router-link :to="{name: 'dom'}">Zobacz, co oferuje Dóm Złote Pola</router-link>
                     </p>
-
                 </div>
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-right">

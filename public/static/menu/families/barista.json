@@ -1,0 +1,34 @@
+{
+  "barista": {
+    "wariant1": {
+      "title": "Menu kawowe – serwowane bez limitu",
+      "description": "wariant 1",
+      "items": [
+        "Espresso",
+        "Espresso doppio – podwójne espresso",
+        "Americano – podwójne espresso przedłużone wodą lub ciepłym mlekiem",
+        "Cappuccino -  espresso ze spienionym mlekiem i pianką mleczną",
+        "Latte – espresso z dużą ilością ciepłego mleka i pianki mlecznej"
+      ]
+    },
+    "wariant2": {
+      "title": "Menu kawowe – serwowane bez limitu",
+      "description": "wariant 2",
+      "items": [
+        "Latte Mocha – espresso, syrop czekoladowy, spienione mleko, bita śmietana",
+        "Latte smakowe – espresso, spienione mleko, syrop do wyboru:<br>waniliowy, czekoladowy, orzechowy, karmelowy",
+        "Kawa mrożona – espresso, kostki lodu, syrop waniliowy, bita śmietana"
+      ]
+    },
+    "wariant3": {
+      "title": "Menu kawowe – serwowane bez limitu",
+      "description": "wariant 3",
+      "description2": "Specjalnie dla gości Domu Złote Pola przygotowane receptury przez mistrza Polski Baristów Latte Art",
+      "items": [
+        "Cappuccino kasztanowo-różane",
+        "Latte pomarańczowo-migdałowe na zimno z bitą śmietaną",
+        "Kawa Domu Złote Pola piernikowo-czekoladowa z bitą śmietaną"
+      ]
+    }
+  }
+}

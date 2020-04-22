@@ -38,6 +38,21 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-family" */ '../views/Dom/Family.vue')
     },
     {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-1',
+        name: 'dom-family-menu1',
+        component: () => import(/* webpackChunkName: "dom-family-menu1" */ '../views/Dom/Family/Menu1.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-2',
+        name: 'dom-family-menu2',
+        component: () => import(/* webpackChunkName: "dom-family-menu2" */ '../views/Dom/Family/Menu2.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-3',
+        name: 'dom-family-menu3',
+        component: () => import(/* webpackChunkName: "dom-family-menu3" */ '../views/Dom/Family/Menu3.vue')
+    },
+    {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej',
         name: 'dom-bride',
         component: () => import(/* webpackChunkName: "dom-bride" */ '../views/Dom/Bride/Index.vue')

@@ -1,0 +1,125 @@
+{
+  "menu": {
+    "przystawka": {
+      "title": "Przystawka – serwowana",
+      "items": [
+        "Tatar ze śledzia z marynowanymi grzybkami, siekaną cebulą, korniszonem,",
+        "rodzynkami i olejem rzepakowym,",
+        "koszyk pieczywa mieszanego, masełko ziołowe"
+      ]
+    },
+    "zupawaza": {
+      "title": "Zupa - podana w wazach",
+      "description": "1 do wyboru",
+      "items": [
+        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
+        "Zupa koperkowa z mięsnymi klopsikami"
+      ]
+    },
+    "daniaglowne": {
+      "title": "Dania główne – półmiski na stole biesiadnym",
+      "description": "3 porcje na osobę<br>3 do wyboru",
+      "items": [
+        "Szynka pieczona w miodzie z rozmarynem, sos pieczeniowy,",
+        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku,",
+        "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszony i suszoną śliwką  w sosie własnym",
+        "Łosoś wolno pieczony podany z sosem cytrynowym na wiejskiej śmietanie"
+      ]
+    },
+    "dodatki": {
+      "title": "Dodatki – na stole biesiadnym",
+      "items": [
+        "Ziemniaki gotowane, ze świeżym koprem",
+        "Ziemniaki tłuczone z masłem i śmietaną",
+        "Ziemniaki opiekane z ziołami",
+        "Kopytka z masełkiem"
+      ]
+    },
+    "surowki": {
+      "title": "Surówki – na stole biesiadnym",
+      "description": "3 do wyboru",
+      "items": [
+        "Buraczki na ciepło, z tartym chrzanem,",
+        "Kapusta czerwona na ciepło, duszona z żurawiną,",
+        "Surówka z marchewki z jabłkiem i sokiem pomarańczowym,",
+        "Sałata z rzodkiewką, szczypiorem i śmietaną ukwaszaną"
+      ]
+    },
+    "deser": {
+      "title": "Deser – na stole biesiadnym domowe wypieki",
+      "description": "2 porcje na osobę",
+      "items": [
+        "Sernik cioci Hani z pyszną pianką ",
+        "Ciasto Szefa kuchni czekoladowe z wiśniami na wiśniówce"
+      ]
+    },
+    "napojezimne": {
+      "title": "Napoje zimne - podane w dzbankach bez limitu",
+      "items": [
+        "Kompot z owoców sezonowych",
+        "Woda mineralna z cytryną"
+      ]
+    },
+    "napojegorace": {
+      "title": "Napoje gorące",
+      "description": "podane w dzbankach na stole biesiadnym lub bufecie bez limitu",
+      "items": [
+        "kawa, herbata"
+      ]
+    },
+    "dzieci": {
+      "zupadziecko": {
+        "title": "Zupa",
+        "description": "1 do wyboru",
+        "items": [
+          "Rosół Baby z domowym makaronem",
+          "Pomidorowa jak u Mamy z domowym makaronem lub ryżem <br> (dla najmłodszych zmiksowana)"
+        ]
+      },
+      "daniaglowne": {
+        "title": "Danie główne",
+        "description": "1 do wyboru",
+        "items": [
+          "Nuggetsy własnej roboty z kurczaka, w kształcie misia, ketchup",
+          "Pulpeciki drobiowe z sosem koperkowym",
+          "De volaille z masełkiem (bez pietruszki)",
+          "Łosoś wolno pieczony z masełkiem",
+          "Naleśniki (2szt) z twarogiem, sos czekoladowy",
+          "Placuszki z jabłkami (4szt), cukier puder",
+          "Pierogi z truskawkami (4szt)"
+        ]
+      },
+      "dodatki": {
+        "title": "Dodatki",
+        "description": "2 do wyboru",
+        "items": [
+          "Frytki, ryż, ziemniaki gotowane",
+          "Surówka z marchewki z jabłkiem, surówka z buraczków, mizeria z ogórków",
+          "Marchewka z groszkiem na ciepło, gotowane brokuły"
+        ]
+      },
+      "deser": {
+        "title": "Deser",
+        "description": "1 do wyboru",
+        "items": [
+          "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
+          "Budyń waniliowy z sokiem malinowym",
+          "Galaretka owocowa z bitą śmietaną"
+        ]
+      }
+    },
+    "napoje": {
+      "napoje1": {
+        "items": [
+          "Lemoniada truskawkowa – truskawki, sok ze świeżych cytryn,  miód, kostki lodu, woda mineralna,",
+          "Lemoniada a`la Mojito  - sok z limonki , świeża mięta , plastry cytryny, cukier brązowy, kostki lodu, woda gazowana,",
+          "Lemoniada arbuzowa – arbuz, sok ze świeżej cytryny, syrop cukrowy, kostki lodu, woda mineralna,",
+          "Mrożona herbata brzoskwiniowa – zielona herbata, brzoskwinie, sok z cytryny, miód, kostki lodu,",
+          "Wyciskany sok ze świeżych pomarańczy",
+          "Wyciskany sok ze świeżych grapefruitów",
+          "Woda mineralna ze świeżym ogórkiem i miętą"
+        ]
+      }
+    }
+  }
+}

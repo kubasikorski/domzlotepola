@@ -13,7 +13,7 @@
         <div class="container relative z-10 mt-8 lg:mt-8">
             <div class="text px-16 lg:w-1/2 lg:px-24">
                 <p class="read-more-xl">
-                    <router-link :to="{name: 'dom-food-index'}" v-on:click.native="hideMobileNav">Powrót</router-link>
+                    <router-link :to="{name: 'dom-food-index'}">Powrót</router-link>
                 </p>
             </div>
         </div>

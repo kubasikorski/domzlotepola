@@ -17,7 +17,7 @@
                         uprawnych. Do domu należy ogród warzywny z kwiatami i owocami.
                     </p>
                     <p class="read-more">
-                        <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Czytaj więcej
+                        <router-link :to="{name: 'dom'}">Czytaj więcej
                         </router-link>
                     </p>
                 </div>
@@ -44,7 +44,7 @@
                             żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich – również najmłodszych (...)
                         </p>
                         <p class="read-more">
-                            <router-link :to="{name: 'about'}" v-on:click.native="hideMobileNav">Czytaj więcej
+                            <router-link :to="{name: 'about'}">Czytaj więcej
                             </router-link>
                         </p>
                     </div>
@@ -76,7 +76,7 @@
                             racuszki z jabłkami, z przepisów Babci Krysi.
                         </p>
                         <p class="read-more">
-                            <router-link :to="{name: 'playground'}" v-on:click.native="hideMobileNav">Czytaj więcej
+                            <router-link :to="{name: 'playground'}">Czytaj więcej
                             </router-link>
                         </p>
                     </div>

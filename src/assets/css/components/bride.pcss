@@ -8,6 +8,56 @@
         &:hover .description:not(.shown) {
             @apply opacity-75;
         }
+
+        div.item-text{
+            h3 {
+                @apply font-bebas text-5xl leading-none relative mb-4;
+                color:#BEA27D;
+                &:after {
+                    @apply absolute bottom-0 h-1 bg-primary-lightest w-24;
+                    content: '';
+                    left: 0px;
+                    transition: width .5s;
+
+                }
+                &:hover{
+                    &:after {
+                        @apply  w-48;
+                    }
+                }
+            }
+        }
+
+        ul.read-more-container{
+            margin-top:10px;
+            columns: 1;
+            li{
+                &:before {
+                    content : "";
+                    position: absolute;
+                    left    : 35%;
+                    bottom  : 0;
+                    height  : 1px;
+                    width   : 30%;
+                    border-bottom:1px solid #bea27d;
+                    transition: width 2s,left 2s;
+                }
+                @apply  bg-white px-4 pt-1 relative text-2xl p-2 m-2;
+                @apply font-bebas uppercase leading-none text-graphite;
+                a {
+                    &:hover {
+                        @apply text-primary;
+                    }
+                }
+                &:hover{
+                    &:before {
+                        left    : 0;
+                        width   : 100%;
+                    }
+                }
+            }
+        }
+
     }
 
     @media (min-width: 900px) {
