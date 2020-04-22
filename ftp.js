@@ -9,7 +9,7 @@ var config = {
     localRoot: __dirname + '/dist',
     remoteRoot: '/',
     include: ['*', ".*"],
-    deleteRemote: true
+    deleteRemote: false
 }
 ftpDeploy.deploy(config, function(err, res) {
     if (err) console.log(err)

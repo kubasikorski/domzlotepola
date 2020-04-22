@@ -43,11 +43,11 @@ module.exports = {
                 server: {
                     port: 8081
                 },
-                renderer: new Renderer({
-                    maxConcurrentRoutes: 4,
-                    renderAfterTime: 2000,
-                    headless: true
-                })
+                // renderer: new Renderer({
+                //     maxConcurrentRoutes: 4,
+                //     renderAfterTime: 2000,
+                //     headless: true
+                // })
             })
         ]
     }

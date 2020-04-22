@@ -1,5 +1,6 @@
 {
  "name": "Dóm Złote Pola",
+ "short_name": "Dóm Złote Pola",
  "icons": [
   {
    "src": "\/img/icons/android-icon-36x36.png",
@@ -38,7 +39,7 @@
    "density": "4.0"
   }
  ],
- "start_url": "/",
+ "start_url": "/pl/home/",
  "display": "standalone",
  "background_color": "#B5861F",
  "theme_color": "#B5861F"
