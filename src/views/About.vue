@@ -40,7 +40,7 @@
                         <router-link :to="{name: 'dom'}">Zobacz, co oferuje Dóm Złote Pola</router-link>
                     </p>
                 </div>
-                <div class="lg:w-1/2 text-center">
+                <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                     <div class="image-shadow shadow-lightest top-right">
                     </div>
                 </div>

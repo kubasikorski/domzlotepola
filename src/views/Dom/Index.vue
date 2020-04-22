@@ -3,7 +3,7 @@
 
         <div class="container relative z-10">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div class="lg:w-1/2 text-center">
+                <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                     <div class="image-shadow shadow-lightest top-right">
                         <img src="@/assets/images/dom-zlote-pola/fot1.jpg" alt="" class="">
                     </div>

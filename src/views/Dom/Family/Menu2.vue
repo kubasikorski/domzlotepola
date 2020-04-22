@@ -125,7 +125,7 @@
                 </ul>
             </div>
             <div class="container relative z-10 mt-8 lg:mt-8">
-                <div class="text px-16 lg:w-1/2 lg:px-24">
+                <div class="text px-8 lg:w-1/2 lg:px-24">
                     <p class="read-more-xl">
                         <router-link :to="{name: 'dom-family'}">Powrót do oferty dla rodzin</router-link>
                     </p>

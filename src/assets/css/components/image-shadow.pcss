@@ -39,23 +39,82 @@
     }
 
 
-    &.top-right {
-        margin-top: 64px;
-        margin-right: 64px;
+    @media (max-width: 1199px) {
+        &.top-left {
+            margin-top: 32px;
+            margin-left: 32px;
 
-        &:before {
-            top: -64px;
-            right: -64px;
+            &:before {
+                top: -32px;
+                left: -32px;
+            }
+        }
+        &.top-right {
+            margin-top: 32px;
+            margin-right: 32px;
+
+            &:before {
+                top: -32px;
+                right: -32px;
+            }
+        }
+        &.bottom-right {
+            margin-bottom: 80px;
+            margin-right: 32px;
+
+            &:before {
+                bottom: -32px;
+                right: -32px;
+            }
+        }
+
+        &.bottom-left {
+            margin-bottom: 80px;
+            margin-left: 32px;
+
+            &:before {
+                bottom: -32px;
+                left: -32px;
+            }
         }
     }
+    @media (min-width: 1200px) {
+        &.top-left {
+            margin-top: 64px;
+            margin-left: 64px;
 
-    &.top-left {
-        margin-top: 64px;
-        margin-left: 64px;
+            &:before {
+                top: -64px;
+                left: -64px;
+            }
+        }
+        &.top-right {
+            margin-top: 64px;
+            margin-right: 64px;
 
-        &:before {
-            top: -64px;
-            left: -64px;
+            &:before {
+                top: -64px;
+                right: -64px;
+            }
+        }
+        &.bottom-right {
+            margin-bottom: 80px;
+            margin-right: 64px;
+
+            &:before {
+                bottom: -64px;
+                right: -64px;
+            }
+        }
+
+        &.bottom-left {
+            margin-bottom: 80px;
+            margin-left: 64px;
+
+            &:before {
+                bottom: -64px;
+                left: -64px;
+            }
         }
     }
 
@@ -66,26 +125,6 @@
         &:before {
             top: -32px;
             left: -32px;
-        }
-    }
-
-    &.bottom-right {
-        margin-bottom: 80px;
-        margin-right: 64px;
-
-        &:before {
-            bottom: -64px;
-            right: -64px;
-        }
-    }
-
-    &.bottom-left {
-        margin-bottom: 80px;
-        margin-left: 64px;
-
-        &:before {
-            bottom: -64px;
-            left: -64px;
         }
     }
 }

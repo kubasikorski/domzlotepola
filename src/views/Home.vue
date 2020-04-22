@@ -2,7 +2,7 @@
     <div>
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div class="lg:w-1/2 text-center">
+                <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                     <div class="image-shadow shadow-lighter top-right">
                         <img src="@/assets/images/home/home1.jpg" alt="" class="">
                     </div>
@@ -25,7 +25,7 @@
 
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <vue-aos animation-class="fadeInUp animated faster">
-                    <div class="lg:w-1/2 text-center">
+                    <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                         <div class="image-shadow shadow-lightest top-left">
                             <img src="@/assets/images/home/home2.jpg" alt="" class="">
                         </div>
@@ -57,7 +57,7 @@
         <div class="container relative z-10 lg:px-16">
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <vue-aos animation-class="fadeInUp animated">
-                    <div class="lg:w-1/2 text-center">
+                    <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                         <div class="image-shadow shadow-lighter top-right">
                             <image-transition :intervalTimer="4000" :feed="imageTransitions.kids"></image-transition>
                         </div>
