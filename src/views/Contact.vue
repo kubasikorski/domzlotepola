@@ -90,7 +90,7 @@
         },
         data() {
             return {
-                center: {lat: 54.392564, lng: 18.374557},
+                center: {lat: 54.391988 , lng: 18.374225},
                 infoWindowPos: null,
                 infoWinOpen: false,
                 infoOptions: {
@@ -102,7 +102,7 @@
                 },
                 markers: [
                     {
-                        position: {lat: 54.392564, lng: 18.374557},
+                        position: {lat: 54.391988 , lng: 18.374225},
                         infoText: '<strong>Dóm Złote Pola</strong><br>ul. Złote Pola 17<br>Miszewo / poczta Banino'
                     }
                 ],

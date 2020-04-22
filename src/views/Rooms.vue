@@ -27,7 +27,7 @@
             </div>
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-        <references bg="false"></references>
+        <references bg="false" readmore="true"></references>
     </div>
 </template>
 <script>
