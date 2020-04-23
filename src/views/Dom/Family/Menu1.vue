@@ -18,7 +18,7 @@
                     <menu-block v-if="fetchMenu.napojegorace"  :feed="fetchMenu.napojegorace"/>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
                         <p class="leading-relaxed">Cena <span class="font-semibold">od 89 zł</span> za osobę dorosłą<br>(cena
-                            zależna od ilości osób i czasu trwania przyjęcia) dzieci do lat 3 bez opłat
+                            zależna od ilości osób i czasu trwania przyjęcia)<br>dzieci do lat 3 bez opłat
                             <br><br>
                             <span class="font-semibold">Specjalnie dla gości Domu Złote Pola<br>przygotowaliśmy dodatkowe propozycje</span>
                         </p>

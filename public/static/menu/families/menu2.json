@@ -22,7 +22,7 @@
       "items": [
         "Szynka pieczona w miodzie z rozmarynem, sos pieczeniowy,",
         "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku,",
-        "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszony i suszoną śliwką  w sosie własnym",
+        "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszonym i suszoną śliwką  w sosie własnym",
         "Łosoś wolno pieczony podany z sosem cytrynowym na wiejskiej śmietanie"
       ]
     },
@@ -40,9 +40,9 @@
       "title": "Surówki – na stole biesiadnym",
       "description": "3 do wyboru",
       "items": [
-        "Buraczki na ciepło, z tartym chrzanem,",
-        "Kapusta czerwona na ciepło, duszona z żurawiną,",
-        "Surówka z marchewki z jabłkiem i sokiem pomarańczowym,",
+        "Buraczki na ciepło, z tartym chrzanem",
+        "Kapusta czerwona na ciepło, duszona z żurawiną",
+        "Surówka z marchewki z jabłkiem i sokiem pomarańczowym",
         "Sałata z rzodkiewką, szczypiorem i śmietaną ukwaszaną"
       ]
     },
@@ -95,8 +95,11 @@
         "description": "2 do wyboru",
         "items": [
           "Frytki, ryż, ziemniaki gotowane",
-          "Surówka z marchewki z jabłkiem, surówka z buraczków, mizeria z ogórków",
-          "Marchewka z groszkiem na ciepło, gotowane brokuły"
+          "Surówka z marchewki z jabłkiem",
+          "Surówka z buraczków",
+          "Mizeria z ogórków",
+          "Marchewka z groszkiem na ciepło",
+          "Gotowane brokuły"
         ]
       },
       "deser": {
@@ -112,12 +115,12 @@
     "napoje": {
       "napoje1": {
         "items": [
-          "Lemoniada truskawkowa – truskawki, sok ze świeżych cytryn,  miód, kostki lodu, woda mineralna,",
-          "Lemoniada a`la Mojito  - sok z limonki , świeża mięta , plastry cytryny, cukier brązowy, kostki lodu, woda gazowana,",
-          "Lemoniada arbuzowa – arbuz, sok ze świeżej cytryny, syrop cukrowy, kostki lodu, woda mineralna,",
-          "Mrożona herbata brzoskwiniowa – zielona herbata, brzoskwinie, sok z cytryny, miód, kostki lodu,",
+          "<p class='font-semibold'>Lemoniada truskawkowa</p>truskawki, sok ze świeżych cytryn,  miód, kostki lodu, woda mineralna",
+          "<p class='font-semibold'>Lemoniada a`la Mojito</p>sok z limonki , świeża mięta , plastry cytryny, cukier brązowy, kostki lodu, woda gazowana",
+          "<p class='font-semibold'>Lemoniada arbuzowa</p>arbuz, sok ze świeżej cytryny, syrop cukrowy, kostki lodu, woda mineralna",
+          "Mrożona herbata brzoskwiniowa<br>zielona herbata, brzoskwinie, sok z cytryny, miód, kostki lodu",
           "Wyciskany sok ze świeżych pomarańczy",
-          "Wyciskany sok ze świeżych grapefruitów",
+          "Wyciskany sok ze świeżych grejpfrutów",
           "Woda mineralna ze świeżym ogórkiem i miętą"
         ]
       }
