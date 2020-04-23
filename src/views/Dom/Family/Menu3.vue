@@ -3,7 +3,7 @@
         <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
                 <vue-aos animation-class="fadeInLeft animated">
-                    <h3 class="font-bebas text-center text-6xl leading-none">Menu<br>od 125 zł / osoba</h3>
+                    <h3 class="font-bebas text-center text-6xl leading-none">Menu<br>od 188 zł / osoba</h3>
                 </vue-aos>
                 <img src="@/assets/images/footer-leaf.png" alt="">
             </div>
@@ -18,9 +18,9 @@
                     <menu-block v-if="fetchMenu.napojezimne" :feed="fetchMenu.napojezimne"/>
                     <menu-block v-if="fetchMenu.napojegorace" :feed="fetchMenu.napojegorace"/>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-                        <p class="leading-relaxed">Cena <span class="font-semibold">od 125 zł</span> za osobę
+                        <p class="leading-relaxed">Cena <span class="font-semibold">od 188 zł</span> za osobę
                             dorosłą<br>(cena
-                            zależna od ilości osób i czasu trwania przyjęcia) dzieci do lat 3 bez opłat
+                            zależna od ilości osób i czasu trwania przyjęcia)<br>dzieci do lat 3 bez opłat
                             <br><br>
                             <span class="font-semibold">Specjalnie dla gości Domu Złote Pola<br>przygotowaliśmy dodatkowe propozycje</span>
                         </p>
@@ -106,7 +106,7 @@
             <div class="flex justify-center text-center">
                 <div class="lg:w-1/2 mt-6">
                     <p class="leading-relaxed">
-                        <menu-block v-if="fetchMenu.napoje && fetchMenu.napoje.napoje1" :feed="fetchMenu.napoje.napoje1"/>
+                        <menu-block v-if="napoje && napoje.napoje1" :feed="napoje.napoje1"/>
                     </p>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
                         <p class=" leading-relaxed italic">Cena 17,00zł od osoby / 0,5l na osobę</p>
@@ -154,22 +154,17 @@
         },
         data() {
             return {
-                fetchMenu: {},
-                barista: {}
+                fetchMenu: {
+                },
+                barista: {
+                },
+                napoje:{
+                }
             }
         },
         methods: {
-            addDataMenu() {
-                return this.$axios.get('/static/menu/families/menu2.json')
-                    .then((response) => {
-                        return response.data;
-                    })
-                    .catch((error) => {
-                        throw error.response.data;
-                    });
-            },
-            addDataBarista() {
-                return this.$axios.get('/static/menu/families/barista.json')
+            fetchData(feed) {
+                return this.$axios.get('/static/menu/families/'+feed+'.json')
                     .then((response) => {
                         return response.data;
                     })
@@ -180,11 +175,14 @@
         },
         mounted() {
             let that = this;
-            this.addDataMenu().then(data => {
+            this.fetchData('menu3').then(data => {
                 that.fetchMenu = data.menu;
             })
-            this.addDataBarista().then(data => {
+            this.fetchData('barista').then(data => {
                 that.barista = data.barista;
+            })
+            this.fetchData('napoje').then(data => {
+                that.napoje = data.napoje;
             })
         }
     }

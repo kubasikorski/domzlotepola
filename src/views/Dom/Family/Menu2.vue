@@ -106,7 +106,7 @@
             <div class="flex justify-center text-center">
                 <div class="lg:w-1/2 mt-6">
                     <p class="leading-relaxed">
-                        <menu-block v-if="fetchMenu.napoje && fetchMenu.napoje.napoje1" :feed="fetchMenu.napoje.napoje1"/>
+                        <menu-block v-if="napoje && napoje.napoje1" :feed="napoje.napoje1"/>
                     </p>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
                         <p class=" leading-relaxed italic">Cena 17,00zł od osoby / 0,5l na osobę</p>
@@ -154,22 +154,17 @@
         },
         data() {
             return {
-                fetchMenu: {},
-                barista: {}
+                fetchMenu: {
+                },
+                barista: {
+                },
+                napoje:{
+                }
             }
         },
         methods: {
-            addDataMenu() {
-                return this.$axios.get('/static/menu/families/menu2.json')
-                    .then((response) => {
-                        return response.data;
-                    })
-                    .catch((error) => {
-                        throw error.response.data;
-                    });
-            },
-            addDataBarista() {
-                return this.$axios.get('/static/menu/families/barista.json')
+            fetchData(feed) {
+                return this.$axios.get('/static/menu/families/'+feed+'.json')
                     .then((response) => {
                         return response.data;
                     })
@@ -180,11 +175,14 @@
         },
         mounted() {
             let that = this;
-            this.addDataMenu().then(data => {
+            this.fetchData('menu2').then(data => {
                 that.fetchMenu = data.menu;
             })
-            this.addDataBarista().then(data => {
+            this.fetchData('barista').then(data => {
                 that.barista = data.barista;
+            })
+            this.fetchData('napoje').then(data => {
+                that.napoje = data.napoje;
             })
         }
     }
