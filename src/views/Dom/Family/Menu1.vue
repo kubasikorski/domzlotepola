@@ -61,6 +61,11 @@
 
         <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
+                <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
+                    <div class="image-shadow shadow-lightest top-right">
+                        <img src="@/assets/images/menu/barista.jpg" alt="">
+                    </div>
+                </div>
                 <vue-aos animation-class="fadeInLeft animated">
                     <h3 class="font-bebas text-center text-6xl leading-none">Bar kawowy Baristy</h3>
                 </vue-aos>
@@ -94,6 +99,11 @@
 
         <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
+                <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
+                    <div class="image-shadow shadow-lightest top-right">
+                        <img src="@/assets/images/menu/napoje.jpg" alt="">
+                    </div>
+                </div>
                 <vue-aos animation-class="fadeInLeft animated">
                     <h3 class="font-bebas text-center text-6xl leading-none">Napoje chłodzące domowej roboty</h3>
                 </vue-aos>

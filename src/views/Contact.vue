@@ -29,7 +29,7 @@
                 </div>
                 <div v-rellax="{speed: 1, center: true}" class="lg:w-1/2 text-center lg:pl-16">
                     <div class="image-shadow shadow-lighter top-right">
-                        <img src="../assets/images/kontakt/1.jpg" alt="" class="">
+                        <image-transition :intervalTimer="4000" :feed="imageTransitions.contact"></image-transition>
                     </div>
                 </div>
             </div>
@@ -70,6 +70,7 @@
     import Vue from 'vue'
     import VueAos from "vue-aos";
     import * as VueGoogleMaps from 'vue2-google-maps'
+    import ImageTransition from "../components/ImageTransition";
     Vue.use(VueGoogleMaps, {
         load: {
             key: 'AIzaSyC5Bm-E5NjFSkRW6w9jkQkv9i4VNDQF1Ko',
@@ -86,10 +87,17 @@
             }
         },
         components: {
-            VueAos
+            VueAos,
+            ImageTransition
         },
         data() {
             return {
+                imageTransitions: {
+                    'contact': [
+                        require('@/assets/images/kontakt/1.jpg'),
+                        require('@/assets/images/kontakt/2.jpg'),
+                    ],
+                },
                 center: {lat: 54.391988 , lng: 18.374225},
                 infoWindowPos: null,
                 infoWinOpen: false,

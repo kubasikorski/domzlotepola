@@ -12,7 +12,8 @@
                     <p>
                         Dóm Złote Pola znajduje się w bezpośrednim sąsiedztwie Trójmiasta, przy ul. Złote Pola w
                         urokliwym Miszewie, obok Banina. To doskonała lokalizacja, do której łatwo dojechać z
-                        Trójmiasta i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla wyjątkowych
+                        Trójmiasta i z Kaszub. Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla
+                        wyjątkowych
                         okazji rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród łąk i ziemi
                         uprawnych. Do domu należy ogród warzywny z kwiatami i owocami.
                     </p>
@@ -27,7 +28,8 @@
                 <vue-aos animation-class="fadeInUp animated faster">
                     <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                         <div class="image-shadow shadow-lightest top-left">
-                            <img src="@/assets/images/home/home2.jpg" alt="" class="">
+                            <image-transition :intervalTimer="4000"
+                                              :feed="imageTransitions.przyjecia"></image-transition>
                         </div>
                     </div>
                 </vue-aos>
@@ -37,7 +39,8 @@
                         <h2>Przyjęcia okolicznościowe</h2>
                         <p>
                             Nazywam się Ewa Banaś i jestem właścicielką Domu Złote Pola. Zajmuję się organizacją
-                            rodzinnych przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji BabyCafe.pl,
+                            rodzinnych przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji
+                            BabyCafe.pl,
                             którą prowadziłam w sercu gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl
                             cieszyła się Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
                             tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie bardzo ważne,
@@ -108,6 +111,11 @@
         },
         data: () => ({
             imageTransitions: {
+                'przyjecia': [
+                    require('@/assets/images/home/home2.jpg'),
+                    require('@/assets/images/home/home2b.jpg'),
+                    require('@/assets/images/home/home2c.jpg'),
+                ],
                 'kids': [
                     require('@/assets/images/playground/kids1.jpg'),
                     require('@/assets/images/playground/kids2.jpg'),

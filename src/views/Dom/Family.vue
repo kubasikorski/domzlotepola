@@ -112,6 +112,9 @@
                     require('@/assets/images/families/chrzciny.jpg'),
                     require('@/assets/images/families/urodziny.jpg'),
                     require('@/assets/images/families/komunie.jpg'),
+                    require('@/assets/images/families/n1.jpg'),
+                    require('@/assets/images/families/n2.jpg'),
+                    require('@/assets/images/families/n3.jpg'),
                 ]
             }
         }),

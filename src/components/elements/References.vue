@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="text px-16 lg:w-1/2 lg:px-24">
-                <h2>Referencje</h2>
+                <h2>Opinie gości</h2>
                 <carousel :paginationPadding=7 :perPage=1 :loop=true :minSwipeDistance=16 paginationPosition="top"
                           :autoplayHoverPause=false :autoplayTimeout=4000 :autoplay=true @pageChange="slidePageChange">
                     <slide v-bind:key="reference.id" v-for="reference in references.descriptions">
