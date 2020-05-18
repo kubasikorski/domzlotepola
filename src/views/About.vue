@@ -34,7 +34,7 @@
                         wytchnienia, domem wielopokoleniowym, z tradycjami smaku, rodzinnych przepisów,
                         zapachem ogrodu
                         i serdeczną gościnnością.<br><br>
-                        <img class="ewa-sign" src="../assets/images/sign/ewa-banas.png" alt="Ewa Banaś">
+                        <img class="ewa-sign" src="@/assets/images/sign/ewa-banas.png" alt="Ewa Banaś">
                     </p>
                     <p class="read-more">
                         <router-link :to="{name: 'dom'}">Zobacz, co oferuje Dóm Złote Pola</router-link>
@@ -42,6 +42,7 @@
                 </div>
                 <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                     <div class="image-shadow shadow-lightest top-right">
+                        <img src="@/assets/images/aboutme.jpg">
                     </div>
                 </div>
             </div>

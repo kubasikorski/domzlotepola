@@ -17,8 +17,8 @@
                     <menu-block v-if="fetchMenu.napojezimne"  :feed="fetchMenu.napojezimne"/>
                     <menu-block v-if="fetchMenu.napojegorace"  :feed="fetchMenu.napojegorace"/>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-                        <p class="leading-relaxed">Cena <span class="font-semibold">od 89 zł</span> za osobę dorosłą<br>(cena
-                            zależna od ilości osób i czasu trwania przyjęcia)<br>dzieci do lat 3 bez opłat
+                        <p class="leading-relaxed">Cena <span class="font-semibold">od 89 zł</span> za osobę dorosłą
+                            <br>(cena zależna od ilości osób i czasu trwania przyjęcia)<br>dzieci do lat 3 bez opłat<br>Torty okolicznościowe i dodatkowe desery – indywidualna wycena
                             <br><br>
                             <span class="font-semibold">Specjalnie dla gości Domu Złote Pola<br>przygotowaliśmy dodatkowe propozycje</span>
                         </p>
@@ -116,7 +116,7 @@
                         <menu-block v-if="napoje && napoje.napoje1"  :feed="napoje.napoje1"/>
                     </p>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-                        <p class=" leading-relaxed italic">Cena 17,00zł od osoby / 0,5l na osobę</p>
+                        <p class=" leading-relaxed italic">Cena 17,00zł od osoby / 0,5l na osobę<br>(cena menu napoje chłodzące powyżej 20 osób)</p>
                     </div>
                 </div>
             </div>

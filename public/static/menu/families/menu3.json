@@ -2,55 +2,85 @@
   "menu": {
     "przystawka": {
       "title": "Przystawka – serwowana",
+      "description": "1 do wyboru",
       "items": [
-        "Tatar ze śledzia z marynowanymi grzybkami, siekaną cebulą, korniszonem,",
-        "rodzynkami i olejem rzepakowym,",
-        "koszyk pieczywa mieszanego, masełko ziołowe"
+        "Pasztet domowy z żurawiną i winiakiem w chrupiącym cieście, mus porzeczkowy",
+        "Śledzik w śmietanie na placuszku ziemniaczanym z tartą skórką cytryny i szczypiorem"
       ]
     },
-    "zupa": {
+    "zupawaza": {
       "title": "Zupa - podana w wazach",
       "description": "1 do wyboru",
       "items": [
-        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
-        "Zupa koperkowa z mięsnymi klopsikami"
+        "Zupa grzybowa z kluseczkami i wiejską śmietaną – sezonowo",
+        "Krem z dyni z mleczkiem kokosowym i prażonym słonecznikiem - sezonowo",
+        "Krupnik na gęsinie",
+        "Zupa rybna Szefa Kuchni z pstrąga i łososia z zielonym groszkiem",
+        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki"
       ]
     },
     "daniaglowne": {
       "title": "Dania główne – półmiski na stole biesiadnym",
-      "description": "3 porcje na osobę<br>3 do wyboru",
+      "description": "4 do wyboru",
       "items": [
-        "Szynka pieczona w miodzie z rozmarynem, sos pieczeniowy,",
-        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku,",
-        "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszony i suszoną śliwką  w sosie własnym",
-        "Łosoś wolno pieczony podany z sosem cytrynowym na wiejskiej śmietanie"
+        "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszonym<br>i suszoną śliwką w sosie własnym",
+        "Karkówka pieczona, szpikowana czosnkiem, z sosem chrzanowym",
+        "Udko z kurczaka trybowane, faszerowane wątróbką, jabłkiem i cebulą z sosem wiśniowym",
+        "Potrawka z kurczaka na ryżu, z białym sosem z rodzynkami i agrestem",
+        "Roladka z indyka z suszonymi pomidorami w sosie serowo – porowym",
+        "Polędwiczki wieprzowe grillowane, z sosem z zielonego marynowanego pieprzu",
+        "Sznycel z indyka, tradycyjnie panierowany, z jajkiem sadzonym i szczypiorem",
+        "Filet z dorsza w sosie śmietanowym z szyjkami rakowymi",
+        "Łosoś wolno pieczony z sosem śmietanowo – cytrynowym na białym winie"
       ]
     },
     "dodatki": {
       "title": "Dodatki – na stole biesiadnym",
+      "description": "3 do wyboru",
       "items": [
         "Ziemniaki gotowane, ze świeżym koprem",
         "Ziemniaki tłuczone z masłem i śmietaną",
-        "Ziemniaki opiekane z ziołami",
-        "Kopytka z masełkiem"
+        "Fryty",
+        "Kasza gryczana",
+        "Ryż jaśminowy z zielonym groszkiem"
       ]
     },
     "surowki": {
       "title": "Surówki – na stole biesiadnym",
       "description": "3 do wyboru",
       "items": [
-        "Buraczki na ciepło, z tartym chrzanem,",
-        "Kapusta czerwona na ciepło, duszona z żurawiną,",
-        "Surówka z marchewki z jabłkiem i sokiem pomarańczowym,",
-        "Sałata z rzodkiewką, szczypiorem i śmietaną ukwaszaną"
+        "Buraczki na ciepło zasmażane",
+        "Marchewka z groszkiem na ciepło z tradycyjną zasmażką",
+        "Surówka z marchewki z jabłkiem i sokiem pomarańczowym",
+        "Surówka z białej kapusty z oliwką lub sosem majonezowym",
+        "Surówka z selera z rodzynkami – sezonowo",
+        "Sałaty z rzodkiewką i ogórkiem z domowym vinaigrette"
       ]
     },
     "deser": {
       "title": "Deser – na stole biesiadnym domowe wypieki",
-      "description": "2 porcje na osobę",
+      "description": "2 porcje na osobę<br>2 do wyboru",
       "items": [
-        "Sernik cioci Hani z pyszną pianką ",
-        "Ciasto Szefa kuchni czekoladowe z wiśniami na wiśniówce"
+        "Sernik cioci Hani z pyszną pianką",
+        "Ciasto tortowe Rafaello",
+        "Szarlotka z renetą i kruszonką",
+        "Ciasto czekoladowe tortowe z wiśniami i wiśniówką"
+      ]
+    },
+    "zakaski": {
+      "title": "Zakąski zimne – półmiski na stole biesiadnym, pieczywo, masło",
+      "description": "4 do wyboru",
+      "items": [
+        "Plastry karkówki na sałatce jarzynowej",
+        "Schab pieczony z morelami w galaretce",
+        "Roladki naleśnikowe z wędzonym kurczakiem",
+        "Roladki naleśnikowe z warzywami i pastą twarogową",
+        "Tymbaliki drobiowe z warzywami",
+        "Tatar ze świeżego i marynowanego łososia",
+        "Pstrąg luzowany w cytrusowej galaretce",
+        "Śledzik w oleju",
+        "Sałata z grillowanym kurczakiem, grzankami i sosem czosnkowym",
+        "Pomidory z białym serem, oliwą i świeżą bazylią"
       ]
     },
     "napojezimne": {
@@ -68,7 +98,7 @@
       ]
     },
     "dzieci": {
-      "zupa": {
+      "zupadziecko": {
         "title": "Zupa",
         "description": "1 do wyboru",
         "items": [
@@ -94,8 +124,11 @@
         "description": "2 do wyboru",
         "items": [
           "Frytki, ryż, ziemniaki gotowane",
-          "Surówka z marchewki z jabłkiem, surówka z buraczków, mizeria z ogórków",
-          "Marchewka z groszkiem na ciepło, gotowane brokuły"
+          "Surówka z marchewki z jabłkiem",
+          "Surówka z buraczków",
+          "Mizeria z ogórków - sezonowo",
+          "Marchewka z groszkiem na ciepło",
+          "Gotowane brokuły"
         ]
       },
       "deser": {
