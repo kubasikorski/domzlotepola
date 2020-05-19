@@ -43,8 +43,7 @@
                             </router-link>
                         </li>
                         <li>
-                            <router-link :to="{name: 'dom-family-menu1'}">Pobierz PDF
-                            </router-link>
+                            <a target="_blank" href="/pdf/menu1.pdf">Pobierz PDF</a>
                         </li>
                     </ul>
                 </div>
@@ -60,8 +59,7 @@
                                 </router-link>
                             </li>
                             <li>
-                                <router-link :to="{name: 'dom-family-menu2'}">Pobierz PDF
-                                </router-link>
+                                <a target="_blank" href="/pdf/menu2.pdf">Pobierz PDF</a>
                             </li>
                         </ul>
                     </div>
@@ -78,8 +76,7 @@
                                 </router-link>
                             </li>
                             <li>
-                                <router-link :to="{name: 'dom-family-menu3'}">Pobierz PDF
-                                </router-link>
+                                <a target="_blank" href="/pdf/menu3.pdf">Pobierz PDF</a>
                             </li>
                         </ul>
                     </div>

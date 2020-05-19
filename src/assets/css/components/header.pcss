@@ -26,6 +26,12 @@ header {
     nav {
 
         a{
+            &.homeicon{
+                margin-top:0px;
+                @media (min-width: 1335px) {
+                    margin-top:3px;
+                }
+            }
             &.router-link-active{
                 img{
                     filter: brightness(0.9) invert(.7) sepia(26.5) hue-rotate(340deg) saturate(130%)
@@ -53,10 +59,14 @@ header {
 
         .nav-item {
             @apply border border-l-0 border-r-0 border-transparent text-2xl py-1 mb-2;
-
+            @media (min-width: 1200px) and (max-width: 1334px) {
+                @apply text-base;
+            }
+            @media (min-width: 1335px) {
+                @apply text-xl;
+            }
             @media (min-width: 1200px) {
-                @apply text-base ml-5 mb-0;
-
+                @apply ml-5 mb-0;
                 &.router-link-active {
                     @apply border-primary;
                 }

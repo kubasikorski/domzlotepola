@@ -26,7 +26,7 @@
         "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszonym<br>i suszoną śliwką w sosie własnym",
         "Karkówka pieczona, szpikowana czosnkiem, z sosem chrzanowym",
         "Udko z kurczaka trybowane, faszerowane wątróbką, jabłkiem i cebulą z sosem wiśniowym",
-        "Potrawka z kurczaka na ryżu, z białym sosem z rodzynkami i agrestem",
+        "Mięso z kurczaka na ryżu, z białym sosem z rodzynkami",
         "Roladka z indyka z suszonymi pomidorami w sosie serowo – porowym",
         "Polędwiczki wieprzowe grillowane, z sosem z zielonego marynowanego pieprzu",
         "Sznycel z indyka, tradycyjnie panierowany, z jajkiem sadzonym i szczypiorem",
@@ -68,7 +68,7 @@
       ]
     },
     "zakaski": {
-      "title": "Zakąski zimne – półmiski na stole biesiadnym, pieczywo, masło",
+      "title": "Zakąski zimne – półmiski na stole biesiadnym<br>pieczywo, masło",
       "description": "4 do wyboru",
       "items": [
         "Plastry karkówki na sałatce jarzynowej",

@@ -6,10 +6,10 @@
                     <img src="../assets/images/logo-desktop.png" alt="Dóm Złote Pola">
                 </router-link>
                 <nav :class="{'is-open': mobileNav}">
-                    <router-link :to="{name: 'home',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="hidden lg:inline-block">
+                    <router-link :to="{name: 'home',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="hidden lg:inline-block homeicon">
                         <img src="../assets/images/home-icon.png" alt="Home"/>
                     </router-link>
-                    <router-link :to="{name: 'about',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
+
                     <div class="nav-item-dropdown">
                         <router-link :to="{name: 'dom',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="nav-item">Dóm Złote Pola</router-link>
                         <div class="nav-dropdown">
@@ -21,6 +21,7 @@
                         </div>
                     </div>
                     <router-link :to="{name: 'playground',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" href="#" class="nav-item">Bawialnia dla dzieci</router-link>
+                    <router-link :to="{name: 'about',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="nav-item">O mnie</router-link>
                     <router-link :to="{name: 'rooms',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" href="#" class="nav-item">Pokoje</router-link>
                     <router-link :to="{name: 'contact',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="nav-item">Kontakt
                     </router-link>
