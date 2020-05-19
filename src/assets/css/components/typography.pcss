@@ -42,6 +42,10 @@
         }
 
         &.read-more {
+            @media print
+            {
+                @apply hidden;
+            }
             @apply font-bebas uppercase leading-none relative mt-12 text-graphite;
             &:hover{
                 &:before {
@@ -64,6 +68,10 @@
         }
 
         &.read-more-xl {
+            @media print
+            {
+                @apply hidden;
+            }
             @apply font-bebas uppercase leading-none relative text-graphite;
             &:hover{
             }
@@ -103,6 +111,10 @@
         @apply font-normal;
         @apply text-captiontext;
         &.read-more {
+            @media print
+            {
+                @apply hidden;
+            }
             z-index:10;
             @apply font-bebas uppercase leading-none relative mt-12;
             a {
