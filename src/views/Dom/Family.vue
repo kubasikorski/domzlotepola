@@ -33,13 +33,13 @@
                 <div class="item">
                     <div class="text-center">
                         <div class="item-text">
-                            <h3>Menu 1</h3>
+                            <h3>Przykładowe<br>MENU</h3>
                             <p class="font-bold">od 89 zł / osoba</p>
                         </div>
                     </div>
                     <ul class="read-more-container">
                         <li>
-                            <router-link :to="{name: 'dom-family-menu1'}">Zobacz menu
+                            <router-link :to="{name: 'dom-family-menu-od-89-zl'}">Zobacz menu
                             </router-link>
                         </li>
                         <li>
@@ -50,12 +50,12 @@
                 <div class="item">
                     <div class="text-center">
                         <div class="item-text">
-                            <h3>Menu 2</h3>
+                            <h3>Przykładowe<br>MENU</h3>
                             <p class="font-bold">od 125 zł / osoba</p>
                         </div>
                         <ul class="read-more-container">
                             <li>
-                                <router-link :to="{name: 'dom-family-menu2'}">Zobacz menu
+                                <router-link :to="{name: 'dom-family-menu-od-125-zl'}">Zobacz menu
                                 </router-link>
                             </li>
                             <li>
@@ -67,12 +67,12 @@
                 <div class="item">
                     <div class="text-center">
                         <div class="item-text">
-                            <h3>Menu 3</h3>
+                            <h3>Przykładowe<br>MENU</h3>
                             <p class="font-bold">od 188 zł / osoba</p>
                         </div>
                         <ul class="read-more-container">
                             <li>
-                                <router-link :to="{name: 'dom-family-menu3'}">Zobacz menu
+                                <router-link :to="{name: 'dom-family-menu-od-188-zl'}">Zobacz menu
                                 </router-link>
                             </li>
                             <li>

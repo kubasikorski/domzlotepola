@@ -14,7 +14,8 @@
       "title": "Dania główne – półmiski na stole biesiadnym",
       "description": "3 do wyboru",
       "items": [
-        "Polędwiczki wieprzowe z sosem śmietanowo- kurkowym i mielonym pieprzem",
+        "Mięso z kurczaka na ryżu, z białym sosem z rodzynkami",
+        "Polędwiczki wieprzowe z sosem śmietanowo-kurkowym i tłuczonym pieprzem",
         "De Volaille z piersi kurczaka, z wiejskim masłem i natką pietruszki",
         "Schab marynowany w mleku i cebuli, tradycyjnie panierowany, smażony na domowym smalcu",
         "Filet z pstrąga w sosie tymiankowym"
@@ -22,8 +23,12 @@
     },
     "dodatki": {
       "title": "Dodatki – na stole biesiadnym",
+      "description": "2 do wyboru",
       "items": [
         "Ziemniaki gotowane, ze świeżym koprem",
+        "Ziemniaki tłuczone z masłem i śmietaną",
+        "Ziemniaki opiekane z ziołami",
+        "Ryż biały",
         "Fryty"
       ]
     },

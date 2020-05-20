@@ -2,9 +2,10 @@
   "menu": {
     "przystawka": {
       "title": "Przystawka – serwowana",
+      "description": "1 do wyboru",
       "items": [
-        "Tatar ze śledzia z marynowanymi grzybkami, siekaną cebulą, korniszonem,",
-        "rodzynkami i olejem rzepakowym,",
+        "Tatar ze śledzia z marynowanymi grzybkami, siekaną cebulą, korniszonem, rodzynkami i olejem rzepakowym",
+        "Mus z wątróbek drobiowych na pumperniklu z galaretką porzeczkową i owocami sezonowymi",
         "koszyk pieczywa mieszanego, masełko ziołowe"
       ]
     },
@@ -13,17 +14,20 @@
       "description": "1 do wyboru",
       "items": [
         "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
-        "Zupa koperkowa z mięsnymi klopsikami"
+        "Zupa koperkowa z mięsnymi klopsikami",
+        "Krem z kukurydzy z wiejską śmietaną i czerwoną papryką",
+        "Krem z cukini z rucollą, miętą i kozim serem"
       ]
     },
     "daniaglowne": {
       "title": "Dania główne – półmiski na stole biesiadnym",
       "description": "3 do wyboru",
       "items": [
-        "Szynka pieczona w miodzie z rozmarynem, sos pieczeniowy,",
-        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku,",
+        "Szynka pieczona w miodzie z rozmarynem, sos pieczeniowy",
+        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku",
         "Zrazy wołowe tradycyjne z wędzonym boczkiem, cebulą, ogórkiem kiszonym i suszoną śliwką  w sosie własnym",
-        "Łosoś wolno pieczony podany z sosem cytrynowym na wiejskiej śmietanie"
+        "Łosoś wolno pieczony podany z sosem cytrynowym na wiejskiej śmietanie",
+        "Rumsztyk drobiowy smażony z cebulą i pieczarkami"
       ]
     },
     "dodatki": {
@@ -33,7 +37,8 @@
         "Ziemniaki gotowane, ze świeżym koprem",
         "Ziemniaki tłuczone z masłem i śmietaną",
         "Ziemniaki opiekane z ziołami",
-        "Kopytka z masełkiem"
+        "Kopytka z masełkiem",
+        "Kasza pęczak z warzywami"
       ]
     },
     "surowki": {
@@ -43,7 +48,9 @@
         "Buraczki na ciepło, z tartym chrzanem",
         "Kapusta czerwona na ciepło, duszona z żurawiną",
         "Surówka z marchewki z jabłkiem i sokiem pomarańczowym",
-        "Sałata z rzodkiewką, szczypiorem i śmietaną ukwaszaną"
+        "Sałata z rzodkiewką, szczypiorem i śmietaną ukwaszaną",
+        "Surówka z pora z rodzynkami i migdałami",
+        "Domowa surówka Colesław"
       ]
     },
     "deser": {
