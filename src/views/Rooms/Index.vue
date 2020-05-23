@@ -16,7 +16,7 @@
                         domowych potraw z przepisów Mamy.
                     </p>
                     <p class="read-more">
-                        <a href="#">Oferta dóm złote pola</a>
+                        <router-link :to="{name: 'rooms-offer'}">Pokoje gościnne oferta</router-link>
                     </p>
                 </div>
                 <div class="lg:w-1/2 text-center mt-8 lg:mt-0">

@@ -23,6 +23,10 @@
                         <li>Komunie</li>
                         <li>Przyjęcia okolicznościowe</li>
                     </ul>
+                    <p class="read-more">
+                        <router-link :to="{name: 'dom-parties'}">Czytaj więcej
+                        </router-link>
+                    </p>
                 </div>
             </div>
         </div>

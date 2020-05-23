@@ -31,8 +31,6 @@
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
         <div class="container relative z-10 lg:px-16">
-
-
             <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="lg:w-1/2 text-center">
                     <div class="image-shadow shadow-lightest top-left">

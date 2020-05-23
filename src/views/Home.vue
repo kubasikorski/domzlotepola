@@ -38,16 +38,14 @@
 
                         <h2>Przyjęcia okolicznościowe</h2>
                         <p>
-                            Nazywam się Ewa Banaś i jestem właścicielką Domu Złote Pola. Zajmuję się organizacją
-                            rodzinnych przyjęć i spotkań firmowych. Wielu z Państwa może mnie znać z mojej restauracji
-                            BabyCafe.pl,
-                            którą prowadziłam w sercu gdańskiego Wrzeszcza przez ponad 10 lat. Restauracja BabyCafe.pl
-                            cieszyła się Państwa uznaniem i sympatią dzięki połączeniu rodzinnej atmosfery z domową
-                            tradycyjną kuchnią i bawialnią przygotowaną specjalnie dla dzieci. To dla mnie bardzo ważne,
-                            żeby w czasie rodzinnych spotkań i przyjęć gościć wszystkich – również najmłodszych (...)
+                            Dóm Złote Pola zaprasza do pięknej, pełnej światła sali, na kameralne, jak i większe przyjęcia okolicznościowe.<br>
+                            Bankiety, spotkania z rodziną i przyjaciółmi, chrzciny, komunie, urodziny, bale, obiady ślubne, wesela – jesteśmy do Państwa dyspozycji z naszym doświadczeniem, które łączy tradycję z nowoczesnością.<br>
+<br>
+                            Przez ostatnie 10 lat przygotowaliśmy ponad 2800 przyjęć tak abyście się Państwo czuli u nas swobodnie i komfortowo.<br>
+                            Zapewniamy naszą gościnność, miłą obsługę, rodzinną atmosferę, zapachy i smaki domowych potraw a także fachowe doradztwo w doborze menu i organizacji przyjęć(...)<br>
                         </p>
                         <p class="read-more">
-                            <router-link :to="{name: 'about'}">Czytaj więcej
+                            <router-link :to="{name: 'dom-parties'}">Czytaj więcej
                             </router-link>
                         </p>
                     </div>

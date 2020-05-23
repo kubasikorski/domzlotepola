@@ -38,6 +38,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-family" */ '../views/Dom/Family.vue')
     },
     {
+        path: '/:lang(pl|en)/dom-zlote-pola/przyjecia-okolicznosciowe',
+        name: 'dom-parties',
+        component: () => import(/* webpackChunkName: "dom-parties" */ '../views/Dom/Parties.vue')
+    },
+    {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-od-89-zl',
         name: 'dom-family-menu-od-89-zl',
         component: () => import(/* webpackChunkName: "dom-family-menu1" */ '../views/Dom/Family/Menu1.vue')
@@ -85,7 +90,12 @@ const routes = [
     {
         path: '/:lang(pl|en)/pokoje',
         name: 'rooms',
-        component: () => import(/* webpackChunkName: "rooms" */ '../views/Rooms.vue')
+        component: () => import(/* webpackChunkName: "rooms" */ '../views/Rooms/Index.vue')
+    },
+    {
+        path: '/:lang(pl|en)/pokoje/oferta',
+        name: 'rooms-offer',
+        component: () => import(/* webpackChunkName: "rooms-offer" */ '../views/Rooms/Offer.vue')
     },
     {
         path: '/:lang(pl|en)/404',
