@@ -20,7 +20,7 @@
                     <div class="flex">
                         <div class="w-1/6"></div>
                         <div class="w-4/6">
-                            <div class="text-center"><p><strong class="gold tracking-wider text-xl">W CELU UZYSKANIA
+                            <div class="text-right"><p><strong class="gold tracking-wider text-xl">W CELU UZYSKANIA
                                 OFERTY FIRMOWEJ ZAPRASZAMY DO KONTAKTU</strong><br></p></div>
                             <div class="text-right"><p> T: +48 501 317 113<br>E: rezerwacje@domzlotepola.pl</p></div>
                         </div>
