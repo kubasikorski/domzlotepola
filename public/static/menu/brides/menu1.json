@@ -1,0 +1,159 @@
+{
+  "menu": {
+    "zupa": {
+      "title": "Zupa - podana w wazach",
+      "description": "1 do wyboru",
+      "items": [
+        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
+        "Krem z kalafiora z korzennymi warzywami i wiejską śmietaną",
+        "Krem z selera z karmelizowanymi orzechami",
+        "Krem z pieczarek z groszkiem ptysiowym, śmietaną i natką pietruszki",
+        "Krem z pomidorów ze słodkim serkiem i świeżą bazylią",
+        "Krem z zielonego groszku z papryczką i świeżą miętą"
+      ]
+    },
+    "daniaglowne": {
+      "title": "Dania główne – półmiski na stole biesiadnym",
+      "description": "4 do wyboru<br>3 porcje / osoba",
+      "items": [
+        "Zrazy wieprzowe z wędzonym boczkiem, cebulą, ogórkiem kiszonym i razowym chlebem w sosie własnym",
+        "Karczek wieprzowy duszony, z sosem z korniszonów",
+        "Schab marynowany w mleku, tradycyjnie panierowany, smażony na domowym smalcu, z pieczarkami duszonymi z cebulą i natką pietruszki",
+        "Polędwiczki wieprzowe z sosem śmietanowo- kurkowym i mielonym pieprzem",
+        "Mięso z kurczaka na ryżu, z białym sosem z rodzynkami",
+        "Eskalopki drobiowe w sosie pomarańczowo-tymiankowym na śmietanie",
+        "Sznycel z indyka, tradycyjnie panierowany, z jajkiem sadzonym i szczypiorem",
+        "Udko z kurczaka faszerowane morelami i rodzynkami w sosie śmietanowo – estragonowym",
+        "De Volaille  z piersi kurczaka, z wiejskim masłem i natką pietruszki",
+        "Filet z pstrąga z pieca z kruszonką z tymiankiem, rozmarynem i skórką cytrynową",
+        "Łosoś wolno pieczony z sosem śmietanowo – cytrynowym na białym winie"
+      ]
+    },
+    "dodatki": {
+      "title": "Dodatki – na stole biesiadnym",
+      "description": "3 do wyboru",
+      "items": [
+        "Ziemniaki gotowane, ze świeżym koprem",
+        "Ziemniaki tłuczone z masłem i śmietaną",
+        "Ziemniaki opiekane z ziołami",
+        "Ryż biały",
+        "Ryż biały z prażonym słonecznikiem i natką pietruszki",
+        "Kasza gryczana prażona z boczkiem i cebulą",
+        "Kasza pęczak z warzywami",
+        "Kopytka z masełkiem",
+        "Frytki"
+      ]
+    },
+    "surowki": {
+      "title": "Surówki – na stole biesiadnym",
+      "description": "4 do wyboru",
+      "items": [
+        "Buraczki na ciepło zasmażane",
+        "Marchewka z groszkiem na ciepło z tradycyjną zasmażką",
+        "Warzywa gotowane na parze z masłem czosnkowym - sezonowo",
+        "Kalafior z tartą bułką na maśle - sezonowo",
+        "Surówka z marchewki z jabłkiem i śmietaną",
+        "Domowa surówka colesław",
+        "Surówka z tartych buraków, z cebulą i jabłkiem",
+        "Surówka z pora z rodzynkami i migdałami",
+        "Mizeria z ogórków i kwaśnej śmietany - sezonowo",
+        "Surówka z selera z rodzynkami – sezonowo",
+        "Sałaty z rzodkiewką i ogórkiem z domowym vinaigrette"
+      ]
+    },
+    "deser": {
+      "title": "Deser<br>ciasto domowe - na stole biesiadnym lub bufecie",
+      "description": "4 rodzaje ciasta<br>2 porcje / osoba"
+    },
+    "zakaski": {
+      "title": "Zakąski zimne – półmiski na stole biesiadnym<br>pieczywo, masło, sosy, marynaty",
+      "description": "6 do wyboru",
+      "items": [
+        "Mięsa pieczyste: karkówka, schab, indyk",
+        "Schab pieczony z morelami w galaretce",
+        "Pasztet domowy z żurawiną, w chrupiącym cieście",
+        "Tymbaliki drobiowe z warzywami",
+        "Pstrąg luzowany w cytrusowej galaretce",
+        "Śledziki: w oleju z cebulką i w śmietanie z migdałami i rodzynkami",
+        "Łosoś marynowany na mini placuszkach ziemniaczanych",
+        "Roladki naleśnikowe z warzywami i pastą twarogową",
+        "Sałata z grillowanym kurczakiem, grzankami i sosem czosnkowym",
+        "Sałatka brokułowa z jabłkiem i sosem chrzanowym",
+        "Tradycyjna sałatka jarzynowa"
+      ]
+    },
+    "kolacja": {
+      "title": "Kolacja na ciepło - serwowana",
+      "items": [
+        "Szynka pieczona w całości, szpikowana czosnkiem, marynowana w rozmarynie, musztardzie i cebuli, podana z kopytkami, sosem pieczeniowym i duszoną czerwoną kapustą z miodem i żurawiną"
+      ]
+    },
+    "popolnocy": {
+      "title": "Po północy - serwowane",
+      "description": "1 do wyboru",
+      "items": [
+        "Barszcz czerwony gotowany na domowym zakwasie, z kołdunami lub pasztecikiem mięsnym",
+        "Delikatnie pikantna zupa gulaszowa z ziemniakami i papryką",
+        "Strogonow drobiowy z pieczarkami i kluseczkami"
+      ]
+    },
+    "napojezimne": {
+      "title": "Napoje zimne - podane w dzbankach bez limitu",
+      "items": [
+        "Kompot z owoców sezonowych - do obiadu",
+        "Woda mineralna z cytryną"
+      ]
+    },
+    "napojegorace": {
+      "title": "Napoje gorące - na bufecie bez limitu",
+      "description": "podane w dzbankach na stole biesiadnym lub bufecie bez limitu",
+      "items": [
+        "Kawa, herbata"
+      ]
+    },
+    "dzieci": {
+      "zupa": {
+        "title": "Zupa",
+        "description": "1 do wyboru",
+        "items": [
+          "Rosół Baby z domowym makaronem",
+          "Pomidorowa jak u Mamy z domowym makaronem lub ryżem <br> (dla najmłodszych zmiksowana)"
+        ]
+      },
+      "daniaglowne": {
+        "title": "Danie główne",
+        "description": "1 do wyboru",
+        "items": [
+          "Nuggetsy własnej roboty z kurczaka, w kształcie misia, ketchup",
+          "Pulpeciki drobiowe z sosem koperkowym",
+          "De volaille z masełkiem (bez pietruszki)",
+          "Łosoś wolno pieczony z masełkiem",
+          "Naleśniki (2szt) z twarogiem, sos czekoladowy",
+          "Placuszki z jabłkami (4szt), cukier puder",
+          "Pierogi z truskawkami (4szt)"
+        ]
+      },
+      "dodatki": {
+        "title": "Dodatki",
+        "description": "2 do wyboru",
+        "items": [
+          "Frytki, ryż, ziemniaki gotowane",
+          "Surówka z marchewki z jabłkiem",
+          "Surówka z buraczków",
+          "Mizeria z ogórków - sezonowo",
+          "Marchewka z groszkiem na ciepło",
+          "Gotowane brokuły"
+        ]
+      },
+      "deser": {
+        "title": "Deser",
+        "description": "1 do wyboru",
+        "items": [
+          "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
+          "Budyń waniliowy z sokiem malinowym",
+          "Galaretka owocowa z bitą śmietaną"
+        ]
+      }
+    }
+  }
+}

@@ -94,10 +94,6 @@
 
         strong {
             @apply font-bold;
-            &.gold{
-                color: #B5861F;
-                text-transform: uppercase;
-            }
         }
     }
 
@@ -124,7 +120,9 @@
     p {
         @apply font-normal;
         @apply text-captiontext;
-
+        &.font-bold{
+            @apply font-bold;
+        }
         &.read-more {
             @media print {
                 @apply hidden;
@@ -141,6 +139,14 @@
             }
         }
     }
+
+
+
+}
+
+.gold{
+    color: #B5861F;
+    text-transform: uppercase;
 }
 
 .food {

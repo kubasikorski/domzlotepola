@@ -38,11 +38,16 @@
 
                         <h2>Przyjęcia okolicznościowe</h2>
                         <p>
-                            Dóm Złote Pola zaprasza do pięknej, pełnej światła sali, na kameralne, jak i większe przyjęcia okolicznościowe.<br>
-                            Bankiety, spotkania z rodziną i przyjaciółmi, chrzciny, komunie, urodziny, bale, obiady ślubne, wesela – jesteśmy do Państwa dyspozycji z naszym doświadczeniem, które łączy tradycję z nowoczesnością.<br>
-<br>
-                            Przez ostatnie 10 lat przygotowaliśmy ponad 2800 przyjęć w restauracji BabyCafe.pl tak abyście czuli się Państwo u nas swobodnie i komfortowo.<br>
-                            Zapewniamy naszą gościnność, miłą obsługę, rodzinną atmosferę, zapachy i smaki domowych potraw a także fachowe doradztwo w doborze menu i organizacji przyjęć(...)<br>
+                            Dóm Złote Pola zaprasza do pięknej, pełnej światła sali, na kameralne, jak i większe
+                            przyjęcia okolicznościowe.<br>
+                            Bankiety, spotkania z rodziną i przyjaciółmi, chrzciny, komunie, urodziny, bale, obiady
+                            ślubne, wesela – jesteśmy do Państwa dyspozycji z naszym doświadczeniem, które łączy
+                            tradycję z nowoczesnością.<br>
+                            <br>
+                            Przez ostatnie 10 lat przygotowaliśmy ponad 2800 przyjęć w restauracji BabyCafe.pl tak
+                            abyście czuli się Państwo u nas swobodnie i komfortowo.<br>
+                            Zapewniamy naszą gościnność, miłą obsługę, rodzinną atmosferę, zapachy i smaki domowych
+                            potraw a także fachowe doradztwo w doborze menu i organizacji przyjęć(...)<br>
                         </p>
                         <p class="read-more">
                             <router-link :to="{name: 'dom-parties'}">Czytaj więcej

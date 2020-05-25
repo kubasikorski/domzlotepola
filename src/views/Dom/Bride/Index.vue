@@ -56,11 +56,12 @@
         <div class="text mt-32">
             <div class="text px-16  lg:px-24">
                 <vue-aos animation-class="fadeInLeft animated">
-                    <h2>OBIAD ŚLUBNY<br>WESELE w Domu Złote Pola</h2>
+                    <h2>OBIAD ŚLUBNY<br>WESELE W<br>
+                        <span class="gold">Domu Złote Pola</span></h2>
                 </vue-aos>
             </div>
             <br>
-            <p class="font-bold">Powitanie chlebem i solą oraz Apartament dla Pary Młodej w prezencie od Domu</p>
+            <p><strong class="gold">Powitanie chlebem i solą oraz Apartament dla Pary Młodej w prezencie od Domu</strong></p>
             <br>
             <ul>
                 <li>Nowa klimatyzowana sala ponad 210m2</li>
@@ -83,6 +84,7 @@
     </div>
 </template>
 <script>
+    import VueAos from "vue-aos";
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -92,7 +94,9 @@
                 amp: true
             }
         },
-        components: {},
+        components: {
+            VueAos
+        },
         data: () => ({}),
         methods: {}
     }

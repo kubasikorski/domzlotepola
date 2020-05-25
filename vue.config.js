@@ -4,10 +4,10 @@ const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 module.exports = {
     chainWebpack: config => {
         if (process.env.NODE_ENV === 'production') {
-            // config.module.rule('vue').uses.delete('cache-loader');
-            // config.module.rule('js').uses.delete('cache-loader');
-            // config.module.rule('ts').uses.delete('cache-loader');
-            // config.module.rule('tsx').uses.delete('cache-loader');
+            config.module.rule('vue').uses.delete('cache-loader');
+            config.module.rule('js').uses.delete('cache-loader');
+            config.module.rule('ts').uses.delete('cache-loader');
+            config.module.rule('tsx').uses.delete('cache-loader');
         }
     },
     pwa: {
@@ -34,6 +34,7 @@ module.exports = {
                     '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-125-zl',
                     '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-188-zl',
                     '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
                     '/pl/dom-zlote-pola/oferta-dla-firm',
                     '/pl/dom-zlote-pola/nasze-jedzenie',
                     '/pl/dom-zlote-pola/nasze-jedzenie/galeria',
@@ -43,7 +44,7 @@ module.exports = {
                     '/pl/kontakt'
                 ],
                 server: {
-                    port: 8081
+                    port: 8080
                 },
                 // renderer: new Renderer({
                 //     maxConcurrentRoutes: 4,
