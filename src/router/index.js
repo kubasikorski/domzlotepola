@@ -80,8 +80,24 @@ const routes = [
     {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm',
         name: 'dom-company',
-        component: () => import(/* webpackChunkName: "dom-company" */ '../views/Dom/Companies.vue')
+        component: () => import(/* webpackChunkName: "dom-company" */ '../views/Dom/Companies/Index.vue')
     },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
+        name: 'dom-company-menu1',
+        component: () => import(/* webpackChunkName: "dom-company-menu1" */ '../views/Dom/Companies/Menu1.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
+        name: 'dom-company-menu2',
+        component: () => import(/* webpackChunkName: "dom-company-menu2" */ '../views/Dom/Companies/Menu2.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm/menu-spotkanie-swiateczne',
+        name: 'dom-company-menu3',
+        component: () => import(/* webpackChunkName: "dom-company-menu3" */ '../views/Dom/Companies/Menu3.vue')
+    },
+
     {
         path: '/:lang(pl|en)/dom-zlote-pola/nasze-jedzenie',
         name: 'dom-food-index',

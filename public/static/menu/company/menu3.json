@@ -1,0 +1,38 @@
+{
+  "menu": {
+    "cieple": {
+      "title": "Przekąski ciepłe",
+      "items": [
+        "Barszcz czerwony gotowany na domowym zakwasie",
+        "Uszka własnej roboty z grzybami",
+        "Łazanki z kapustą i grzybami",
+        "Domowe pierogi wigilijne z nadzieniem z kapusty, pieczarek i borowików, z okrasą z cebuli",
+        "Karp smażony z białym sosem z migdałami i rodzynkami",
+        "Filet z pstrąga w sosie cytusowym"
+      ]
+    },
+    "zimne": {
+      "title": "Przekąski zimne",
+      "items": [
+        "Pstrąg dopełniony kawiorem z łososia, glazurowany cytrynową galaretką",
+        "Pasztet domowy z sosem żurawinowym",
+        "Dorsz w tradycyjnym sosie greckim",
+        "Śledzik marynowany w korzennej zaprawie, na sałatce z jabłka, ogórka i cebuli, z kwaśną śmietaną"
+      ]
+    },
+    "bufet": {
+      "title": "Bufet cukiernika",
+      "items": [
+        "Tradycyjny makowiec",
+        "Szarlotka z pieca z cynamonem i goździkami",
+        "Tort cytrynowy"
+      ]
+    },
+    "napoje": {
+      "items": [
+        "Kawa, herbata",
+        "Woda z cytryną i pomarańczą"
+      ]
+    }
+  }
+}
