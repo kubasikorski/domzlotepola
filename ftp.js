@@ -2,12 +2,12 @@ var Deploy = require('ftp-deploy');
 var ftpDeploy = new Deploy();
 
 var config = {
-    host : "ftp.cubedev.pl",
-    user : "domdeploy@cubedev.pl",
-    password : "jb71@1MC~85)F({",
+    host : "domzlotepola.pl",
+    user : "serwer@domzlotepola.pl",
+    password : "Lad1oRLLS2",
     port: 21,
     localRoot: __dirname + '/dist',
-    remoteRoot: '/',
+    remoteRoot: 'private_html/',
     include: ['*', ".*"],
     deleteRemote: false
 }

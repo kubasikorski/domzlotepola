@@ -59,13 +59,17 @@
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
         <div class="container relative z-10 container relative z-10 text">
-            <div class="text-center">
-                <p><strong class="gold text-2xl">W CELU UZYSKANIA OFERTY POBYTU ZAPRASZAMY DO KONTAKTU</strong><br>
-                </p>
-                <p>
-                    T: +48 501 317 113<br>E: rezerwacje@domzlotepola.pl
-                </p>
+
+            <div class="flex">
+                <div class="w-1/6"></div>
+                <div class="w-4/6">
+                    <div class="text-center"><p><strong class="gold tracking-wider text-xl">W CELU UZYSKANIA
+                        OFERTY POBYTU ZAPRASZAMY DO KONTAKTU</strong><br></p></div>
+                    <div class="text-right"><p> T: +48 501 317 113<br>E: rezerwacje@domzlotepola.pl</p></div>
+                </div>
+                <div class="w-1/6"></div>
             </div>
+
         </div>
         <references bg="false" readmore="true"></references>
     </div>

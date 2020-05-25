@@ -16,6 +16,7 @@
     "prerender-spa-plugin": "^3.4.0",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
+    "vue-analytics": "^5.22.1",
     "vue-aos": "^1.0.1",
     "vue-axios": "^2.1.5",
     "vue-carousel": "^0.18.0",
