@@ -59,27 +59,27 @@
                     <h2>OBIAD ŚLUBNY<br>WESELE<br>
                         <span class="gold"><span class="lowercase">w</span> Domu Złote Pola</span></h2>
                 </vue-aos>
+                <p><strong class="gold">Powitanie chlebem i solą oraz Apartament dla Pary Młodej w prezencie od Domu</strong></p>
+                <br>
+                <ul>
+                    <li>Nowa klimatyzowana sala ponad 210m2</li>
+                    <li>Kameralne przyjęcia i większe do około 100 osób</li>
+                    <li>Menu według rodzinnych receptur i autorskich propozycji Szefa kuchni</li>
+                    <li>Profesjonalna obsługa: Barmani Mikserzy, Bariści, Obsługa kelnerska</li>
+                    <li>Rodzinna atmosfera</li>
+                    <li>Bawialnia dla dzieci</li>
+                    <li>Menu dla dzieci w specjalnej cenie</li>
+                    <li>Korkowe bez opłat</li>
+                    <li>Nowoczesne oświetlenie LED RGB</li>
+                    <li>Projektor, ekran</li>
+                    <li>Ogród z letnim tarasem</li>
+                    <li>Pokoje gościnne</li>
+                    <li>Parking dla gości</li>
+                    <li>Teren ogrodzony</li>
+                    <li>Obiekt monitorowany</li>
+                </ul>
             </div>
-            <br>
-            <p><strong class="gold">Powitanie chlebem i solą oraz Apartament dla Pary Młodej w prezencie od Domu</strong></p>
-            <br>
-            <ul>
-                <li>Nowa klimatyzowana sala ponad 210m2</li>
-                <li>Kameralne przyjęcia i większe do około 100 osób</li>
-                <li>Menu według rodzinnych receptur i autorskich propozycji Szefa kuchni</li>
-                <li>Profesjonalna obsługa: Barmani Mikserzy, Bariści, Obsługa kelnerska</li>
-                <li>Rodzinna atmosfera</li>
-                <li>Bawialnia dla dzieci</li>
-                <li>Menu dla dzieci w specjalnej cenie</li>
-                <li>Korkowe bez opłat</li>
-                <li>Nowoczesne oświetlenie LED RGB</li>
-                <li>Projektor, ekran</li>
-                <li>Ogród z letnim tarasem</li>
-                <li>Pokoje gościnne</li>
-                <li>Parking dla gości</li>
-                <li>Teren ogrodzony</li>
-                <li>Obiekt monitorowany</li>
-            </ul>
+
         </div>
     </div>
 </template>

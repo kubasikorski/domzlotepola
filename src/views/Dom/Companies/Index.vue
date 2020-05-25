@@ -74,7 +74,7 @@
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
         <div class="container relative z-10 mt-16 lg:mt-32 food">
-            <div class="text">
+            <div class="text px-16  lg:px-24">
                 <ul>
                     <li>Sala ponad 210m2 do około 100 osób</li>
                     <li>Sala klimatyzowana</li>
