@@ -75,7 +75,7 @@
                     canZoom: false,
                     items: [
                         {
-                            thumb: require('@/assets/images/food/food1-thumb.jpg'),
+                            thumb: require('@/assets/images/food/shutter5-thumb.jpg'),
                             lead: 'Danie 1',
                             description: '<p>Danie 1</p>'
                         },

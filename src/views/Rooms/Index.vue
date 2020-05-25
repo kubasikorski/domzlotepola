@@ -15,7 +15,7 @@
                         domem dla całej Waszej rodziny. Zapewniamy gościnność, rodzinną atmosferę, zapachy i smaki
                         domowych potraw z przepisów Mamy.
                     </p>
-                    <p class="read-more">
+                    <p class="read-more-xl">
                         <router-link :to="{name: 'rooms-offer'}">Pokoje gościnne oferta</router-link>
                     </p>
                 </div>

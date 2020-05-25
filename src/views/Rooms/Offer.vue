@@ -15,14 +15,17 @@
                         Na życzenie gości dostępne jest domowe śniadanie lub pełne wyżywienie całodzienne oraz bezpłatny
                         parking monitorowany.<br>
                     </p><br>
-                    <p><strong>Apartament Domu Złote Pola</strong> z podwójnym łożem małżeńskim typu king size oraz
+                    <p><strong class="gold">Apartament Domu Złote Pola</strong> z podwójnym łożem małżeńskim typu king
+                        size oraz
                         elegancką łazienką z wanną.</p>
                     <br>
-                    <p><strong>Apartament Rodzinny</strong> z podwójnym łożem małżeńskim typu king size oraz komfortową
+                    <p><strong class="gold">Apartament Rodzinny</strong> z podwójnym łożem małżeńskim typu king size
+                        oraz komfortową
                         łazienką z prysznicem a także dodatkowym wyposażeniem na potrzeby pobytu z dziećmi: rozkładana
                         sofa, łóżeczko dla dziecka, krzesełko do karmienia, wanienka, naczynia dla dzieci.</p>
                     <br>
-                    <p><strong>Pokoje gościnne z zapachem lawendy, jaśminu, róży czy sosny</strong> z dwuosobowym
+                    <p><strong class="gold">Pokoje gościnne z zapachem lawendy, jaśminu, róży czy sosny</strong> z
+                        dwuosobowym
                         podwójnym łożem lub z dwoma oddzielnymi łóżkami jednoosobowymi oraz komfortowymi łazienkami z
                         prysznicem.</p>
                     <br>
@@ -55,12 +58,13 @@
 
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-        <div class="container relative z-10">
+        <div class="container relative z-10 container relative z-10 text">
             <div class="text-center">
-                <p><strong>W CELU UZYSKANIA OFERTY POBYTU ZAPRASZAMY DO KONTAKTU</strong><br>
-                    e-mail: rezerwacje@domzlotepola.pl
-                    <br>
-                    tel: +48 501317113</p>
+                <p><strong class="gold text-2xl">W CELU UZYSKANIA OFERTY POBYTU ZAPRASZAMY DO KONTAKTU</strong><br>
+                </p>
+                <p>
+                    T: +48 501 317 113<br>E: rezerwacje@domzlotepola.pl
+                </p>
             </div>
         </div>
         <references bg="false" readmore="true"></references>
@@ -70,6 +74,7 @@
     import VueAos from 'vue-aos'
     import ImageTransition from "@/components/ImageTransition";
     import References from "@/components/elements/References";
+
     export default {
         components: {
             VueAos,

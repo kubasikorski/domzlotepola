@@ -18,14 +18,13 @@
                         wesela – jesteśmy do Państwa dyspozycji z naszym doświadczeniem, które łączy tradycję z
                         nowoczesnością.<br>
                         <br>
-                        Przez ostatnie 10 lat przygotowaliśmy ponad 2800 przyjęć tak abyście się Państwo czuli u nas
-                        swobodnie i komfortowo.<br>
+                        Przez ostatnie 10 lat przygotowaliśmy ponad 2800 przyjęć w restauracji BabyCafe.pl tak abyście czuli się Państwo u nas swobodnie i komfortowo.<br>
                         Zapewniamy naszą gościnność, miłą obsługę, rodzinną atmosferę, zapachy i smaki domowych potraw a
                         także fachowe doradztwo w doborze menu i organizacji przyjęć.<br>
                         <br>
-                        Nasza kuchnia dla Państwa zawsze pachnąca, świeża i domowa. Potrawy przygotowujemy na bazie
-                        rodzinnych receptur i doświadczenia oraz nowości Szefa kuchni. Na życzenie gości przygotowujemy
-                        potrawy wegetariańskie i bezglutenowe.<br>
+                        Nasza Kuchnia zawsze pachnąca, świeża i domowa.
+                        Potrawy przygotowujemy  na bazie rodzinnych receptur i doświadczenia oraz autorskich pomysłów Szefa kuchni.
+                        Na życzenie gości przygotowujemy potrawy wegetariańskie i bezglutenowe.<br>
                         <br>
                         Sala, do której zapraszamy na przyjęcia okolicznościowe jest nowa, przestronna, jasna, z
                         widokiem na pola i ogród. Jest idealnie przystosowana do przyjęć tradycyjnych – przy stołach jak

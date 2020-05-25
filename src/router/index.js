@@ -63,6 +63,21 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-bride" */ '../views/Dom/Bride/Index.vue')
     },
     {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
+        name: 'dom-bride-menu1',
+        component: () => import(/* webpackChunkName: "dom-bride-menu1" */ '../views/Dom/Bride/Menu1.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-269-zl',
+        name: 'dom-bride-menu2',
+        component: () => import(/* webpackChunkName: "dom-bride-menu2" */ '../views/Dom/Bride/Menu2.vue')
+    },
+    {
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny-od-188-zl',
+        name: 'dom-bride-menu3',
+        component: () => import(/* webpackChunkName: "dom-bride-menu3" */ '../views/Dom/Bride/Menu3.vue')
+    },
+    {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-firm',
         name: 'dom-company',
         component: () => import(/* webpackChunkName: "dom-company" */ '../views/Dom/Companies.vue')
