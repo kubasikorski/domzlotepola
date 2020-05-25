@@ -8,7 +8,7 @@
                     </div>
                     <div class="item-text">
                         <h3>MENU<br>WESELNE</h3>
-                        <p class="font-bold">od 208 zł /osoba</p>
+                        <p class="font-bold">od 208 zł / osoba</p>
                     </div>
                     <ul class="read-more-container">
                         <li>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="item-text">
                         <h3>MENU<br>WESELNE</h3>
-                        <p class="font-bold">od 269 zł /osoba</p>
+                        <p class="font-bold">od 278 zł / osoba</p>
                     </div>
                     <ul class="read-more-container">
                         <li>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="item-text">
                         <h3>PRZYKŁADOWE MENU<br>OBIAD ŚLUBNY</h3>
-                        <p class="font-bold">od 188 zł /osoba</p>
+                        <p class="font-bold">od 188 zł / osoba</p>
                     </div>
                     <ul class="read-more-container">
                         <li>
@@ -56,8 +56,8 @@
         <div class="text mt-32">
             <div class="text px-16  lg:px-24">
                 <vue-aos animation-class="fadeInLeft animated">
-                    <h2>OBIAD ŚLUBNY<br>WESELE W<br>
-                        <span class="gold">Domu Złote Pola</span></h2>
+                    <h2>OBIAD ŚLUBNY<br>WESELE<br>
+                        <span class="gold"><span class="lowercase">w</span> Domu Złote Pola</span></h2>
                 </vue-aos>
             </div>
             <br>

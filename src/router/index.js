@@ -68,7 +68,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-bride-menu1" */ '../views/Dom/Bride/Menu1.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-269-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-278-zl',
         name: 'dom-bride-menu2',
         component: () => import(/* webpackChunkName: "dom-bride-menu2" */ '../views/Dom/Bride/Menu2.vue')
     },
