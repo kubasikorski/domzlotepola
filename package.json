@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postbuild": "node ftp.js"
+    "postbuild": "node ftp.js",
+    "sitemap": "vue-cli-service sitemap"
   },
   "dependencies": {
     "@sendgrid/mail": "^6.5.1",
@@ -42,6 +43,7 @@
     "postcss-nested": "^4.2.1",
     "tailwindcss": "^1.1.4",
     "tailwindcss-break": "^1.0.0",
+    "vue-cli-plugin-sitemap": "^2.1.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
