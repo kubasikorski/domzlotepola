@@ -12,7 +12,7 @@
                     <h2>Nie znaleziono strony</h2>
                     <p>
                         Przykro nam :(<br>
-                        Niestety, strona, którą szukasz nie jest niestety dostępna.<br>
+                        Niestety, strona, której szukasz nie jest obecnie dostępna.<br>
                         Zapraszamy do zapoznania się z naszą ofertą:<br><br>
                     </p>
                     <ul>
