@@ -83,11 +83,13 @@ header {
             }
 
             @media (max-width: 1199px) {
+                @apply text-center;
                 .nav-dropdown {
                     @apply text-center my-2;
 
                     a {
-                        @apply py-1;
+                        @apply py-1 text-lg;
+
                     }
                 }
             }
@@ -104,7 +106,7 @@ header {
                     padding-bottom: 12px;
                     padding-left: 77px;
                     a {
-                        @apply block py-1 px-12;
+                        @apply block py-1 px-12 text-lg;
                          position:relative;
                         &:hover {
                             @apply text-primary;

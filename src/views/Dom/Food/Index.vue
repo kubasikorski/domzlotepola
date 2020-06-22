@@ -18,14 +18,15 @@
             </div>
         </div>
         <gallery :feed="gallery"></gallery>
-        <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
-        <div class="container relative z-10 mt-16 lg:mt-32 food">
+        <div class="container mt-8">
             <div class="text px-16 lg:w-1/2 lg:px-24">
                 <p class="read-more-xl">
-                    <router-link :to="{name: 'dom-food-gallery'}">Zobacz fotogalerię</router-link>
+                    <router-link :to="{name: 'dom-food-gallery'}">Zobacz więcej</router-link>
                 </p>
             </div>
-            <br><br>
+        </div>
+        <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
+        <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
                 <h3 class="font-bebas text-center text-6xl leading-none">Przykładowe dania<br>Domu Złote Pola</h3>
                 <img src="@/assets/images/footer-leaf.png" alt="">
@@ -47,6 +48,7 @@
     import VueAos from "vue-aos";
     import Gallery from "@//components/elements/Gallery";
     import MenuBlock from "@//components/elements/MenuBlock";
+
     export default {
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -63,7 +65,7 @@
         },
         data() {
             return {
-                fetchMenu:{},
+                fetchMenu: {},
                 gallery: {
                     firstitem: {
                         visible: false,
