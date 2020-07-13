@@ -47,7 +47,7 @@
                             </router-link>
                         </li>
                         <li>
-                            <a target="_blank" href="/pdf/menu1.pdf">Pobierz PDF</a>
+                            <a target="_blank" href="/pdf/family/menu-89zl.pdf">Pobierz PDF</a>
                         </li>
                     </ul>
                 </div>
@@ -63,7 +63,7 @@
                                 </router-link>
                             </li>
                             <li>
-                                <a target="_blank" href="/pdf/menu2.pdf">Pobierz PDF</a>
+                                <a target="_blank" href="/pdf/family/menu-125zl.pdf">Pobierz PDF</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +80,7 @@
                                 </router-link>
                             </li>
                             <li>
-                                <a target="_blank" href="/pdf/menu3.pdf">Pobierz PDF</a>
+                                <a target="_blank" href="/pdf/family/menu-188zl.pdf">Pobierz PDF</a>
                             </li>
                         </ul>
                     </div>
