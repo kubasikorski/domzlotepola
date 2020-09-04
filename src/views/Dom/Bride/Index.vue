@@ -15,6 +15,7 @@
                             <router-link :to="{name: 'dom-bride-menu1'}">Zobacz menu
                             </router-link>
                         </li>
+                        <li><a target="_blank" href="/pdf/brides/menu-208zl.pdf">Pobierz PDF</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,6 +33,7 @@
                             <router-link :to="{name: 'dom-bride-menu2'}">Zobacz menu
                             </router-link>
                         </li>
+                        <li><a target="_blank" href="/pdf/brides/menu-278zl.pdf">Pobierz PDF</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,6 +51,7 @@
                             <router-link :to="{name: 'dom-bride-menu3'}">Zobacz menu
                             </router-link>
                         </li>
+                        <li><a target="_blank" href="/pdf/brides/menu-188zl.pdf">Pobierz PDF</a></li>
                     </ul>
                 </div>
             </div>
