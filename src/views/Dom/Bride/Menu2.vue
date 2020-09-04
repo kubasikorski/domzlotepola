@@ -28,7 +28,7 @@
 
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
                         <p class="leading-relaxed">Cena <span class="font-semibold">od 278 zł</span> za osobę dorosłą
-                            <br>(cena zależna od ilości osób i czasu trwania przyjęcia)<br>dzieci do lat 3 bez opłat
+                            <br>(cena zależna od ilości osób i czasu trwania przyjęcia)
                             <br>Torty okolicznościowe i dodatkowe desery – indywidualna wycena
                             <br><br>
                             <span class="font-semibold">Specjalnie dla gości Domu Złote Pola<br>przygotowaliśmy dodatkowe propozycje</span>
@@ -70,7 +70,6 @@
                 </div>
             </div>
         </div>
-
         <div class="container relative z-10 mt-16 lg:mt-32 food">
             <div class="flex flex-col items-center">
                 <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
@@ -98,11 +97,9 @@
                     <menu-block v-if="barista.wariant3" :feed="barista.wariant3"/>
                     <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
                         <p class="leading-relaxed italic">
-                            wariant 1 – cena 8 zł od osoby<br>
-                            wariant 1 + wariant 2 – cena 17 zł od osoby<br>
-                            wariant 1 + wariant 2 + wariant 3 –cena 26 zł od osoby<br>
-                            (cena menu kawowego powyżej 20 osób)
-
+                            wariant 1 – cena 10 zł / od osoby  powyżej 80 osób<br>
+                            wariant 1 + wariant 2 – cena 23,5 zł / od osoby  powyżej 80 osób<br>
+                            wariant 1 + wariant 2 + wariant 3 – cena 26 zł / od osoby  powyżej 80 osób<br>
                         </p>
                     </div>
                 </div>

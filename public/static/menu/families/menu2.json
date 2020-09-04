@@ -70,9 +70,9 @@
     },
     "napojegorace": {
       "title": "Napoje gorące",
-      "description": "podane w dzbankach na stole biesiadnym lub bufecie bez limitu",
       "items": [
-        "kawa, herbata"
+        "herbata w dzbankach na stole biesiadnym lub bufecie bez limitu",
+        "kawa serwowana – Bufet Baristy, wersja do wyboru"
       ]
     },
     "dzieci": {
