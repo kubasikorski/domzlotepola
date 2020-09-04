@@ -1,0 +1,35 @@
+{
+  "menu": {
+    "goracy": {
+      "title": "Bufet gorący",
+      "items": [
+        "Zupa koperkowa z kluseczkami drobiowymi",
+        "Krem z ziemniaka z pieczonym boczkiem i wiejską śmietaną",
+        "Schab tradycyjnie panierowany, na zasmażanej kapuście",
+        "Eskalopki drobiowe w sosie pomarańczowo – tymiankowym",
+        "Filet z pstrąga w sosie porowo - szczypiorkowym",
+        "Zapiekanka ziemniaczana z pieczarkami w sosie beszamelowym",
+        "Domowe pierogi ze szpinakiem, serem feta i czosnkiem z pesto pietruszkowym",
+        "Ziemniaki gotowane z siekanym koprem"
+      ]
+    },
+    "salatkowy": {
+      "title": "Bufet sałatkowy",
+      "items": [
+        "Surówka z marchewki z jabłkiem i śmietaną",
+        "Surówka z białej kapusty z sosem majonezowym",
+        "Sałaty z ogórkiem i rzodkiewką z domowym vinaigrette"
+      ]
+    },
+    "slodki": {
+      "title": "Bufet słodki",
+      "items": [
+        "Ciasto marchewkowe z bakaliami",
+        "Ciasto z kremem czekoladowym z wiśniami",
+        "Kawa, herbata",
+        "Soki owocowe",
+        "Woda ze świeżą miętą i plastrami cytryn"
+      ]
+    }
+  }
+}

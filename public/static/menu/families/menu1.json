@@ -1,0 +1,116 @@
+{
+  "menu": {
+    "zupa": {
+      "title": "Zupa - podana w wazach",
+      "description": "1 do wyboru",
+      "items": [
+        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
+        "Zupa pomidorowa na przecierze pomidorowym z przepisu Mamy z domowym makaronem lub ryżem",
+        "Botwinka z jajkiem i ziemniakami - sezonowo",
+        "Krem z jarzyn - sezonowo"
+      ]
+    },
+    "daniaglowne": {
+      "title": "Dania główne – półmiski na stole biesiadnym",
+      "description": "3 do wyboru",
+      "items": [
+        "Mięso z kurczaka na ryżu, z białym sosem z rodzynkami",
+        "Polędwiczki wieprzowe z sosem śmietanowo-kurkowym i tłuczonym pieprzem",
+        "De Volaille z piersi kurczaka, z wiejskim masłem i natką pietruszki",
+        "Schab marynowany w mleku i cebuli, tradycyjnie panierowany, smażony na domowym smalcu",
+        "Filet z pstrąga w sosie tymiankowym"
+      ]
+    },
+    "dodatki": {
+      "title": "Dodatki – na stole biesiadnym",
+      "description": "2 do wyboru",
+      "items": [
+        "Ziemniaki gotowane, ze świeżym koprem",
+        "Ziemniaki tłuczone z masłem i śmietaną",
+        "Ziemniaki opiekane z ziołami",
+        "Ryż biały",
+        "Fryty"
+      ]
+    },
+    "surowki": {
+      "title": "Surówki – na stole biesiadnym",
+      "description": "3 do wyboru",
+      "items": [
+        "Mizeria z ogórków i kwaśniej śmietany ze szczyptą cukru - sezonowo",
+        "Surówka z selera z rodzynkami – sezonowo",
+        "Kalafior z bułką tartą – sezonowo",
+        "Fasola szparagowa na ciepło z czosnkiem i oliwą - sezonowo",
+        "Surówka z tartych buraków z cebulą, jabłkiem i sokiem z cytryny",
+        "Surówka z marchewki z jabłkiem i sokiem z pomarańczy",
+        "Surówka z białej kapusty z oliwką lub sosem majonezowym",
+        "Marchewka z groszkiem na ciepło z tradycyjną zasmażką"
+      ]
+    },
+    "deser": {
+      "title": "Deser – na stole biesiadnym domowe wypieki",
+      "description": "2 porcje na osobę",
+      "items": [
+        "Szarlotka z renetą i kruszonką",
+        "Karpatka z kremem budyniowym i cukrem pudrem"
+      ]
+    },
+    "napojezimne": {
+      "title": "Napoje zimne - podane w dzbankach bez limitu",
+      "items": [
+        "Kompot z owoców sezonowych",
+        "Woda mineralna z cytryną"
+      ]
+    },
+    "napojegorace": {
+      "title": "Napoje gorące",
+      "description": "podane w dzbankach na stole biesiadnym lub bufecie bez limitu",
+      "items": [
+        "kawa, herbata"
+      ]
+    },
+    "dzieci": {
+      "zupa": {
+        "title": "Zupa",
+        "description": "1 do wyboru",
+        "items": [
+          "Rosół Baby z domowym makaronem",
+          "Pomidorowa jak u Mamy z domowym makaronem lub ryżem <br> (dla najmłodszych zmiksowana)"
+        ]
+      },
+      "daniaglowne": {
+        "title": "Danie główne",
+        "description": "1 do wyboru",
+        "items": [
+          "Nuggetsy własnej roboty z kurczaka, w kształcie misia, ketchup",
+          "Pulpeciki drobiowe z sosem koperkowym",
+          "De volaille z masełkiem (bez pietruszki)",
+          "Łosoś wolno pieczony z masełkiem",
+          "Naleśniki (2szt) z twarogiem, sos czekoladowy",
+          "Placuszki z jabłkami (4szt), cukier puder",
+          "Pierogi z truskawkami (4szt)"
+        ]
+      },
+      "dodatki": {
+        "title": "Dodatki",
+        "description": "2 do wyboru",
+        "items": [
+          "Frytki, ryż, ziemniaki gotowane",
+          "Surówka z marchewki z jabłkiem",
+          "Surówka z buraczków",
+          "Mizeria z ogórków - sezonowo",
+          "Marchewka z groszkiem na ciepło",
+          "Gotowane brokuły"
+        ]
+      },
+      "deser": {
+        "title": "Deser",
+        "description": "1 do wyboru",
+        "items": [
+          "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
+          "Budyń waniliowy z sokiem malinowym",
+          "Galaretka owocowa z bitą śmietaną"
+        ]
+      }
+    }
+  }
+}

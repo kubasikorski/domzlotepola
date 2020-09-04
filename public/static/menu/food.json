@@ -1,0 +1,35 @@
+{
+  "przystawki": {
+    "title": "Przystawki",
+    "items": [
+      "Śledzik w śmietanie na placuszku ziemniaczanym ze świeżym koprem",
+      "Tatar z siekanej polędwicy wołowej z tradycyjnymi dodatkami"
+    ]
+  },
+  "zupy": {
+    "title": "Zupy",
+    "items": [
+      "Rosół z kurcząt i indyka z domowym makaronem i natką pietruszki",
+      "Zupa pomidorowa gotowana na świeżych pomidorach z wiejską śmietaną",
+      "Krem z selera z karmelizowanymi orzechami"
+    ]
+  },
+  "daniaglowne": {
+    "title": "Dania główne",
+    "items": [
+      "Udko z kaczki pieczone z jabłkami, domowe kluski, czerwona kapusta z miodem i żurawiną",
+      "Polędwiczki wieprzowe z sosem śmietanowo – kurkowym i mielonym pieprzem, ziemniaki puree, buraczki z tartym chrzanem",
+      "Łosoś w sosie śmietanowo- cytrynowym na białym winie ze świeżym rozmarynem, ziemniaki zapieczone pod beszamelem, sałaty",
+      "Sznycel z cielęciny marynowany w mleku, z jajkiem sadzonym i szczypiorem,ziemniaki z wody z koperkiem, fasola szparagowa"
+    ]
+  },
+  "domowewypieki": {
+    "title": "Domowe wypieki",
+    "items": [
+      "Tort czekoladowy z wiśniami na wiśniówce",
+      "Tort truskawkowy z bezą i świeżą miętą",
+      "Sernik Cioci Hani z syropem lawendowym",
+      "Szarlotka z kruszonką z renetą lub antonówką"
+    ]
+  }
+}

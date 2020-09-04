@@ -1,0 +1,18 @@
+{
+  "menu": {
+    "bufet": {
+      "items": [
+        "Domowa szarlotka z kruszonką",
+        "Sernik z sosem cytrynowym",
+        "Kruche babeczki z owocami"
+      ]
+    },
+    "napoje": {
+      "items": [
+        "Kawa, herbata",
+        "Soki owocowe",
+        "Woda ze świeżą miętą"
+      ]
+    }
+  }
+}

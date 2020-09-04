@@ -1,0 +1,176 @@
+{
+  "menu": {
+    "przystawka": {
+      "title": "Przystawka - serwowana",
+      "description": "1 do wyboru",
+      "items": [
+        "Pierś z gęsi wędzona na zimno, na sałacie, z marynowanym jabłkiem i karmelizowanymi orzechami, sos porzeczkowy",
+        "Pasztet z kaczki z odrobiną porto, musem z malin i ziołową grzanką",
+        "Łosoś marynowany w soli i koprze na toście z serkiem limonkowym, z sosem cytrynowym"
+      ]
+    },
+    "zupa": {
+      "title": "Zupa - podana w wazach",
+      "description": "1 do wyboru",
+      "items": [
+        "Bulion z kaczki z warzywami i lanymi kluseczkami własnej roboty",
+        "Krem serowo-porowy na białym winie z grzankami i rozmarynem",
+        "Krem z marchwi z pomarańczą, imbirem i kardamonem",
+        "Zupa grzybowa z lanymi kluseczkami i śmietaną",
+        "Krem z dyni z mleczkiem kokosowym i prażonym słonecznikiem – sezonowo",
+        "Krem z białych szparag z prażonym boczkiem i wiejską śmietaną – sezonowo",
+        "Krem z polskiej pieczonej papryki i oliwą czosnkową - sezonowo"
+      ]
+    },
+    "daniaglowne": {
+      "title": "Dania główne – półmiski na stole biesiadnym",
+      "description": "6 do wyboru<br>4 porcje / osoba",
+      "items": [
+        "Udo z kaczki, pieczone z jabłkami w majeranku, na czerwonej kapuście z miodem",
+        "Roladki z indyka faszerowane bakaliami, w sosie z kasztanów",
+        "Piersi z kurczaka grillowane, w sosie z suszonych pomidorów z orzechami i oliwą",
+        "Zrazy wołowe z wędzonym boczkiem, cebulą, ogórkiem kiszonym i razowym chlebem w sosie własnym",
+        "Wołowe kotleciki mielone pieczone, w sosie z pomidorów i pikantnej papryki",
+        "Schab marynowany w mleku, tradycyjnie panierowany, smażony na domowym smalcu, na zasmażanej kapuście",
+        "Roladki z polędwiczek wieprzowych faszerowane grzybami, w sosie śmietanowo - tymiankowym",
+        "Karczek wieprzowy duszony, w sosie chrzanowym",
+        "Pomidory faszerowane warzywami, zapiekane serem pleśniowym",
+        "Papryka faszerowana leczo warzywnym",
+        "Filet z dorsza w sosie śmietanowym z szyjkami rakowymi",
+        "Łosoś Szefa kuchni z sosem śmietanowo – cytrynowym na białym winie"
+      ]
+    },
+    "dodatki": {
+      "title": "Dodatki – na stole biesiadnym",
+      "description": "3 do wyboru",
+      "items": [
+        "Ziemniaki gotowane, ze świeżym koprem",
+        "Ziemniaki tłuczone z masłem i śmietaną",
+        "Ziemniaki opiekane z ziołami",
+        "Ryż biały",
+        "Ryż biały z prażonym słonecznikiem i natką pietruszki",
+        "Kasza gryczana prażona z boczkiem i cebulą",
+        "Kasza pęczak z warzywami",
+        "Kopytka z masełkiem",
+        "Frytki"
+      ]
+    },
+    "surowki": {
+      "title": "Surówki – na stole biesiadnym",
+      "description": "4 do wyboru",
+      "items": [
+        "Buraczki na ciepło zasmażane",
+        "Marchewka z groszkiem na ciepło z tradycyjną zasmażką",
+        "Warzywa gotowane na parze z masłem czosnkowym - sezonowo",
+        "Kalafior z tartą bułką na maśle - sezonowo",
+        "Surówka z marchewki z jabłkiem i śmietaną",
+        "Domowa surówka colesław",
+        "Surówka z tartych buraków, z cebulą i jabłkiem",
+        "Surówka z pora z rodzynkami i migdałami",
+        "Mizeria z ogórków i kwaśnej śmietany - sezonowo",
+        "Surówka z selera z rodzynkami – sezonowo",
+        "Sałaty z rzodkiewką i ogórkiem z domowym vinaigrette"
+      ]
+    },
+    "deser": {
+      "title": "Deser<br>ciasto domowe - na stole biesiadnym lub bufecie",
+      "description": "4 rodzaje ciasta<br>2 porcje / osoba"
+    },
+    "zakaski": {
+      "title": "Zakąski zimne – półmiski na stole biesiadnym<br>pieczywo, masło, sosy, marynaty",
+      "description": "8 do wyboru",
+      "items": [
+        "Mięsa pieczyste: karkówka, schab, indyk",
+        "Rolada z boczku z migdałami",
+        "Pasztet domowy z żurawiną, w chrupiącym cieście",
+        "Pasztet drobiowy pieczony ze śmietaną i morelami w pomarańczowej galarecie",
+        "Tatar wołowy z tradycyjnymi dodatkami i przepiórczym jajkiem",
+        "Tymbaliki z kurczaka z warzywami i zielonym groszkiem",
+        "Ozorki wieprzowe z musem chrzanowym w galarecie",
+        "Pstrąg glazurowany cytrynową galaretą, z kawiorem z łososia",
+        "Śledziki: w oleju z cebulką i w śmietanie z migdałami i rodzynkami",
+        "Tatar ze świeżego i marynowanego łososia z czerwoną cebulą i świeżym ogórkiem",
+        "Kruche babeczki na słono: z musem z tuńczyka, z musem pieczarkowym, z musem koperkowym ze szczypiorkiem",
+        "Placki pszenne nadziewane pastą z wędzonego kurczaka, serem feta i warzywami",
+        "Sałata z grillowanym kurczakiem, grzankami i sosem czosnkowym",
+        "Sałata z kozim serem, orzechami, marynowanymi burakami i gruszką, z sosem miodowo-pomarańczowym",
+        "Sałatka makaronowa z tuńczykiem, warzywami, jajkiem kurzym, z sosem jogurtowym"
+      ]
+    },
+    "kolacja": {
+      "title": "Kolacja na ciepło - serwowana",
+      "description": "1 do wyboru",
+      "items": [
+        "Szynka peklowana, pieczona w całości, podana z prażoną kaszą gryczaną, z kapustą zasmażaną z grzybami, z sosem pieczeniowym",
+        "Łosoś pieczony w całości w soli morskiej, faszerowany pomarańczową marchewką, podany z białym ryżem ze słonecznikiem, z winnym sosem koperkowym"
+      ]
+    },
+    "popolnocy": {
+      "title": "Po północy - serwowane",
+      "description": "1 do wyboru",
+      "items": [
+        "Żurek na domowym zakwasie, z ziemniakami, jajkiem, białą kiełbasą i tartym chrzanem",
+        "Bigos staropolski z grzybami",
+        "Tradycyjne flaczki wołowe",
+        "Beef Strogonow"
+      ]
+    },
+    "napojezimne": {
+      "title": "Napoje zimne - podane w dzbankach bez limitu",
+      "items": [
+        "Kompot z owoców sezonowych - do obiadu",
+        "Woda mineralna z cytryną"
+      ]
+    },
+    "napojegorace": {
+      "title": "Napoje gorące - podane na bufecie bez limitu",
+      "items": [
+        "Kawa, herbata"
+      ]
+    },
+    "dzieci": {
+      "zupa": {
+        "title": "Zupa",
+        "description": "1 do wyboru",
+        "items": [
+          "Rosół Baby z domowym makaronem",
+          "Pomidorowa jak u Mamy z domowym makaronem lub ryżem <br> (dla najmłodszych zmiksowana)"
+        ]
+      },
+      "daniaglowne": {
+        "title": "Danie główne",
+        "description": "1 do wyboru",
+        "items": [
+          "Nuggetsy własnej roboty z kurczaka, w kształcie misia, ketchup",
+          "Pulpeciki drobiowe z sosem koperkowym",
+          "De volaille z masełkiem (bez pietruszki)",
+          "Łosoś wolno pieczony z masełkiem",
+          "Naleśniki (2szt) z twarogiem, sos czekoladowy",
+          "Placuszki z jabłkami (4szt), cukier puder",
+          "Pierogi z truskawkami (4szt)"
+        ]
+      },
+      "dodatki": {
+        "title": "Dodatki",
+        "description": "2 do wyboru",
+        "items": [
+          "Frytki, ryż, ziemniaki gotowane",
+          "Surówka z marchewki z jabłkiem",
+          "Surówka z buraczków",
+          "Mizeria z ogórków - sezonowo",
+          "Marchewka z groszkiem na ciepło",
+          "Gotowane brokuły"
+        ]
+      },
+      "deser": {
+        "title": "Deser",
+        "description": "1 do wyboru",
+        "items": [
+          "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
+          "Budyń waniliowy z sokiem malinowym",
+          "Galaretka owocowa z bitą śmietaną"
+        ]
+      }
+    }
+  }
+}

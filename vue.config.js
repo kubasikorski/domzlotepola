@@ -1,25 +1,58 @@
 const path = require('path')
 const PrerenderSPAPlugin = require('prerender-spa-plugin')
 module.exports = {
+    chainWebpack: config => {
+        if (process.env.NODE_ENV === 'production') {
+            config.module.rule('vue').uses.delete('cache-loader');
+            config.module.rule('js').uses.delete('cache-loader');
+            config.module.rule('ts').uses.delete('cache-loader');
+            config.module.rule('tsx').uses.delete('cache-loader');
+        }
+    },
+    pwa: {
+        themeColor: '#ede6df',
+        workboxPluginMode: 'InjectManifest',
+        workboxOptions: {
+            swSrc: './src/sw.js',
+            swDest: 'service-worker.js',
+        }
+    },
     configureWebpack: {
         plugins: [
             new PrerenderSPAPlugin({
                 staticDir: path.join(__dirname, 'dist'),
-                // Required - Routes to render.
-                routes: ['/', '/pl', '/pl/o-mnie'],
-                postProcess: function (context) {
-                    let pageTitle = 'Dóm złote pola';
-                    let titles = {
-                        '/': pageTitle + ' - Strona główna',
-                        '/pl': pageTitle + ' - Strona główna',
-                        '/pl/o-mnie': pageTitle + ' - O Mnie',
-                    }
-                    context.html = context.html.replace(
-                        /<title>[^<]*<\/title>/i,
-                        `<title>${titles[context.route]}</title>`
-                    )
-                    return context
-                }
+                routes: [
+                    '/',
+                    '/pl/',
+                    '/pl/home',
+                    '/pl/o-mnie',
+                    '/pl/dom-zlote-pola',
+                    '/pl/dom-zlote-pola/przyjecia-okolicznosciowe',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-89-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-125-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-188-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-firm',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-spotkanie-swiateczne',
+                    '/pl/dom-zlote-pola/nasze-jedzenie',
+                    '/pl/dom-zlote-pola/nasze-jedzenie/galeria',
+                    '/pl/bawialnia-dla-dzieci',
+                    '/pl/pokoje',
+                    '/pl/pokoje/oferta',
+                    '/pl/kontakt'
+                ],
+                server: {
+                    port: 8080
+                },
+                // renderer: new Renderer({
+                //     maxConcurrentRoutes: 4,
+                //     renderAfterTime: 2000,
+                //     headless: true
+                // })
             })
         ]
     }

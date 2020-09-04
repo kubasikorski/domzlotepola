@@ -1,0 +1,15 @@
+{
+  "napoje": {
+    "napoje1": {
+      "items": [
+        "<p class='font-semibold'>Lemoniada truskawkowa</p>truskawki, sok ze świeżych cytryn,  miód, kostki lodu, woda mineralna",
+        "<p class='font-semibold'>Lemoniada a`la Mojito</p>sok z limonki , świeża mięta , plastry cytryny, cukier brązowy, kostki lodu, woda gazowana",
+        "<p class='font-semibold'>Lemoniada arbuzowa</p>arbuz, sok ze świeżej cytryny, syrop cukrowy, kostki lodu, woda mineralna",
+        "<p class='font-semibold'>Mrożona herbata brzoskwiniowa</p>zielona herbata, brzoskwinie, sok z cytryny, miód, kostki lodu",
+        "<p class='font-semibold'>Wyciskany sok ze świeżych pomarańczy</p>",
+        "<p class='font-semibold'>Wyciskany sok ze świeżych grejpfrutów</p>",
+        "<p class='font-semibold'>Woda mineralna ze świeżym ogórkiem i miętą</p>"
+      ]
+    }
+  }
+}

@@ -1,14 +1,7 @@
 <template>
     <div>
-
         <div class="container relative z-10">
-            <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
-                <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow shadow-lightest top-right">
-                        <img src="../assets/images/rooms.jpg" alt="" class="">
-                    </div>
-                </div>
-
+            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
                 <div class="text px-16 lg:w-1/2 lg:px-24">
                     <vue-aos animation-class="fadeInLeft animated">
                         <h2>O Mnie</h2>
@@ -30,69 +23,49 @@
                         ślubne
                         i wspaniałe świąteczne spotkania.
                         <br><br>
-                        W rozwijaniu rodzinnej firmy dbam o to, aby:
-                    </p><br>
+                        W rozwijaniu rodzinnej firmy dbam o to, aby:</p><br>
                     <ul>
                         <li>Goście, którzy nas odwiedzają czuli się Przyjaciółmi Domu Złote Pola.</li>
-                        <li>Jedzenie było domowe, przygotowywane tradycyjnymi metodami, z przepisów Mamy
-                            i naszego Szefa Kuchni.
+                        <li>Jedzenie było domowe, przygotowywane tradycyjnymi metodami, z przepisów Mamy i naszego Szefa Kuchni.
                         </li>
                     </ul>
-                  <br>
+                    <br>
                     <p>Zapraszam Państwa do Domu Złote Pola, który stał się moim domem, miejscem
                         wytchnienia, domem wielopokoleniowym, z tradycjami smaku, rodzinnych przepisów,
                         zapachem ogrodu
                         i serdeczną gościnnością.<br><br>
-                        <i>Ewa Banaś</i>
+                        <img class="ewa-sign" src="@/assets/images/sign/ewa-banas.png" alt="Ewa Banaś">
                     </p>
                     <p class="read-more">
-                      <router-link :to="{name: 'dom'}" v-on:click.native="hideMobileNav">Zobacz, co oferuje Dóm Złote Pola</router-link>
+                        <router-link :to="{name: 'dom'}">Zobacz, co oferuje Dóm Złote Pola</router-link>
                     </p>
-
                 </div>
-            </div>
-        </div>
-
-
-        <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
-
-        <div class="container relative z-10 lg:px-16">
-            <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
-                <div class="lg:w-1/2 text-center">
-                    <div class="image-shadow top-left">
-                        <img src="../assets/images/home-references.jpg" alt="" class="">
+                <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
+                    <div class="image-shadow shadow-lightest top-right">
+                        <img src="@/assets/images/aboutme.jpg">
                     </div>
                 </div>
-
-                <div class="text px-16 lg:w-1/2 lg:px-24">
-                    <vue-aos animation-class="fadeInRight animated">
-                        <h2>Referencje</h2>
-                    </vue-aos>
-                    <p>
-                        Co za miejsce, co za Ludzie to prowadzą i JAK! Z Miłością!!! Przepyszne, cudownie smacznie
-                        przyrządzone jedzenie i ładnie podane, w dodatku duże porcje.Menu bogate, byłam bardzo
-                        zaskoczona, że MOŻNA!!! A jadam w Trójmieście, mam porównanie. Wysoka jakość połączona z
-                        pomysłem na miejsce, w którym wszyscy dobrze się czują,( bo tę energię WIDAĆ) i goście, i
-                        obsługa. Obiad był niezwykłą przyjemnością, tak bym właśnie przyrządziła mięso i krem z
-                        pomidorów !! Tatar z łososia bajeczny! kawa wyjątkowo pyszna, mleko bez laktozy jest, smaczne
-                        delikatne wino, piękne szkło, świeże kwiaty w pięknej kompozycji...200 proc. satysfakcji :)
-                        PASJA-oto co oferują tam gościom :) I love it!!!
-                    </p>
-                    <p class="read-more">
-                        <a href="#">Czytaj więcej</a>
-                    </p>
-                </div>
             </div>
         </div>
-
-
+        <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
+        <references bg="false"  readmore="true"></references>
     </div>
 </template>
 <script>
     import VueAos from 'vue-aos'
+    import References from "@/components/elements/References";
     export default {
+        metaInfo: {
+            title: 'Dóm Złote Pola',
+            titleTemplate: '%s - O mnie',
+            htmlAttrs: {
+                lang: 'pl',
+                amp: true
+            }
+        },
         components: {
             VueAos,
+            References
         },
         data() {
             return {
@@ -102,3 +75,8 @@
         }
     }
 </script>
+<style>
+    .ewa-sign{
+        width:50%;
+    }
+</style>

@@ -8,8 +8,11 @@ module.exports = {
                 default: '#ffffff',
                 darker: '#F0F0F0',
             },
+            captionnag: '#c5a764',
+            captiontext: '#4e4b4b',
             black: '#000000',
             nav: '#404041',
+            graphite: '#777777',
             transparent: 'transparent',
             primary: {
                 default: '#B5861F',
@@ -45,6 +48,8 @@ module.exports = {
                 '9': '2.375rem',
                 '14': '3.5rem',
                 '80': '18rem',
+                '120': '24rem',
+                '160': '36rem',
             },
             width: {
                 'sm': '300px',
@@ -62,8 +67,29 @@ module.exports = {
                 'lg': '1200px',
                 'xl': '1500px',
             },
-        }
+        },
+        orphans: [1, 2, 3],
+        widows: [1, 2, 3],
+        boxDecorationBreak: ['slice', 'clone'],
+        breakBefore: [
+            'auto', 'avoid', 'avoid-page', 'page', 'always', 'left', 'right',
+            'recto', 'verso', 'avoid-column', 'column', 'avoid-region', 'region',
+        ],
+        breakAfter: [
+            'auto', 'avoid', 'avoid-page', 'page', 'always', 'left', 'right',
+            'recto', 'verso', 'avoid-column', 'column', 'avoid-region', 'region',
+        ],
+        breakInside: ['auto', 'avoid', 'avoid-page', 'avoid-column', 'avoid-region'],
     },
-    variants: {},
-    plugins: []
+    variants: {
+        orphans: ['responsive'],
+        widows: ['responsive'],
+        boxDecorationBreak: ['responsive'],
+        breakBefore: ['responsive'],
+        breakAfter: ['responsive'],
+        breakInside: ['responsive'],
+    },
+    plugins: [
+        require('tailwindcss-break'),
+    ]
 };

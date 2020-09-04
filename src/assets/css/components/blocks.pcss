@@ -5,12 +5,20 @@
         @apply mt-16
     }
     &:before {
-        background: url("../../images/leaf.png") no-repeat;
-        mix-blend-mode: multiply;
-        content:'';
-        position: absolute;
-        top: -66px;
-        height:120px;
-        width:100%
+          background: url("../../images/leaf.png") no-repeat;
+            mix-blend-mode: multiply;
+            content:'';
+            position: absolute;
+
+            height:120px;
+        @media (min-width: 1200px) and (max-width: 1499px) {
+            background-size: 80%;
+            width: 100%;
+            top: -46px;
+        }
+         @media (min-width: 1500px) {
+            top: -66px;
+            width:100%
+        }
     }
 }
