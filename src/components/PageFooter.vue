@@ -16,11 +16,18 @@
             T: <a href="tel:+48 501 317 113">+48 501 317 113</a>
             <br>E: <a href="mailto:rezerwacje@domzlotepola.pl">rezerwacje@domzlotepola.pl</a>
         </div>
+        <cookie-law theme="base" buttonText="Zgoda">
+            <div slot="message">
+                Ta strona korzysta z ciasteczek 🍪 aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie.
+            </div>
+        </cookie-law>
     </footer>
 </template>
 
 <script>
+    import CookieLaw from 'vue-cookie-law'
     export default {
+        components: {CookieLaw},
         name: 'PageFooter',
     }
 </script>
