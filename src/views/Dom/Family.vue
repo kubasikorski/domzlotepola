@@ -109,6 +109,7 @@
         data: () => ({
             imageTransitions: {
                 'photos': [
+                    require('@/assets/images/families/cert.jpg'),
                     require('@/assets/images/families/kids.jpg'),
                     require('@/assets/images/families/chrzciny.jpg'),
                     require('@/assets/images/families/urodziny.jpg'),
