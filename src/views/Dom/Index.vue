@@ -5,7 +5,8 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                     <div class="image-shadow shadow-lightest top-right">
-                        <img src="@/assets/images/dom-zlote-pola/fot1.jpg" alt="" class="">
+                        <image-transition :intervalTimer="4000"
+                                          :feed="imageTransitions.main"></image-transition>
                     </div>
                 </div>
 
@@ -65,8 +66,10 @@
     </div>
 </template>
 <script>
+    import ImageTransition from "@/components/ImageTransition";
     export default {
         components: {
+            ImageTransition
         },
         metaInfo: {
             title: 'Dóm Złote Pola',
@@ -76,9 +79,16 @@
                 amp: true
             }
         },
-        data() {
-            return {}
-        },
+        data: () => ({
+            imageTransitions: {
+                'main': [
+                    require('@/assets/images/dom-zlote-pola/ori1.jpg'),
+                    require('@/assets/images/dom-zlote-pola/ori2.jpg'),
+                    require('@/assets/images/dom-zlote-pola/ori3.jpg'),
+                    require('@/assets/images/dom-zlote-pola/fot1.jpg'),
+                ]
+            }
+        }),
         methods: {}
     }
 </script>

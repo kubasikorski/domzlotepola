@@ -4,7 +4,8 @@
             <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
                 <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
                     <div class="image-shadow shadow-lighter top-right">
-                        <img src="@/assets/images/home/home1.jpg" alt="" class="">
+                        <image-transition :intervalTimer="4000"
+                                          :feed="imageTransitions.dom"></image-transition>
                     </div>
                 </div>
                 <div class="text px-16 lg:w-1/2 lg:px-24">
@@ -118,10 +119,15 @@
                     require('@/assets/images/home/home2.jpg'),
                     require('@/assets/images/home/home2b.jpg'),
                     require('@/assets/images/home/home2c.jpg'),
+                    require('@/assets/images/home/przyjecia1.jpg'),
                 ],
                 'kids': [
                     require('@/assets/images/playground/kids1.jpg'),
                     require('@/assets/images/playground/kids2.jpg'),
+                ],
+                'dom': [
+                    require('@/assets/images/home/home0ori.jpg'),
+                    require('@/assets/images/home/home1.jpg'),
                 ]
             }
         }),
