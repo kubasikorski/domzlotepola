@@ -122,6 +122,8 @@
                     require('@/assets/images/home/przyjecia1.jpg'),
                 ],
                 'kids': [
+                    require('@/assets/images/playground/ori1.jpg'),
+                    require('@/assets/images/playground/ori2.jpg'),
                     require('@/assets/images/playground/kids1.jpg'),
                     require('@/assets/images/playground/kids2.jpg'),
                 ],
