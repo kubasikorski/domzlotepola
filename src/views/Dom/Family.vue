@@ -112,7 +112,6 @@
                     require('@/assets/images/families/cert.jpg'),
                     require('@/assets/images/families/ori1.jpg'),
                     require('@/assets/images/families/ori2.jpg'),
-                    require('@/assets/images/families/ori3.jpg'),
                     require('@/assets/images/families/kids.jpg'),
                     require('@/assets/images/families/chrzciny.jpg'),
                     require('@/assets/images/families/urodziny.jpg'),
