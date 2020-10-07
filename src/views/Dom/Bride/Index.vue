@@ -117,6 +117,10 @@ export default {
       'photos': [
         require('@/assets/images/bride/btm1.jpg'),
         require('@/assets/images/bride/btm2.jpg'),
+        require('@/assets/images/bride/btm-f9.jpg'),
+        require('@/assets/images/bride/btm-f14.jpg'),
+        require('@/assets/images/bride/btm-f7.jpg'),
+        require('@/assets/images/bride/btm-f16.jpg'),
       ]
     }
   }),
