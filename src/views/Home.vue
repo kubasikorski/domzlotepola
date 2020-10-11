@@ -130,6 +130,7 @@
                 'dom': [
                     require('@/assets/images/home/home0ori.jpg'),
                     require('@/assets/images/home/home1.jpg'),
+                    require('@/assets/images/home/home1ori.jpg'),
                 ]
             }
         }),
