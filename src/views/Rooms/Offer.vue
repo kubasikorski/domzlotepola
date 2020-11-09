@@ -96,9 +96,16 @@
         data: () => ({
             imageTransitions: {
                 'rooms': [
-                    require('@/assets/images/rooms/rooms4.jpg'),
-                    require('@/assets/images/rooms/rooms3.jpg'),
-                    require('@/assets/images/rooms/rooms2.jpg'),
+                  require('@/assets/images/rooms/nr2.jpg'),
+                  require('@/assets/images/rooms/nr3.jpg'),
+                  require('@/assets/images/rooms/nr4.jpg'),
+                  require('@/assets/images/rooms/nr5.jpg'),
+                  require('@/assets/images/rooms/nr6.jpg'),
+                  require('@/assets/images/rooms/nr7.jpg'),
+                  require('@/assets/images/rooms/nr8.jpg'),
+                  require('@/assets/images/rooms/nr1.jpg'),
+                  require('@/assets/images/rooms/rooms3.jpg'),
+                  require('@/assets/images/rooms/rooms2.jpg'),
                 ]
             }
         }),
