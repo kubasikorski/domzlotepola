@@ -73,34 +73,43 @@
             </div>
         </div>
         <div v-rellax="{speed: 5, center: true}" class="leaf menu"></div>
-        <div class="container relative z-10 mt-16 lg:mt-32 food">
-            <div class="text px-16  lg:px-24">
-                <ul>
-                    <li>Sala ponad 210m2 do około 100 osób</li>
-                    <li>Sala klimatyzowana</li>
-                    <li>Projektor</li>
-                    <li>Ekran</li>
-                    <li>Flipchart</li>
-                    <li>Nagłośnienie</li>
-                    <li>Mównica</li>
-                    <li>Stół prezydialny</li>
-                    <li>Bufety kawowe</li>
-                    <li>Biznes lunch</li>
-                    <li>Uroczyste kolacje</li>
-                    <li>Spotkania świąteczne</li>
-                    <li>Ogród letni z tarasem</li>
-                    <li>Parter dostosowany dla osób niepełnosprawnych</li>
-                    <li>Parking</li>
-                    <li>Pokoje gościnne</li>
-                    <li>Obiekt monitorowany</li>
-                </ul>
+
+      <div class="container relative z-10">
+        <div class="flex flex-col mt-16 lg:flex-row-reverse lg:mt-32">
+          <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
+            <div class="image-shadow shadow-lightest top-right">
+              <image-transition :intervalTimer="4000" :feed="imageTransitions.photos"></image-transition>
             </div>
+          </div>
+          <div class="text px-16 lg:w-1/2 lg:px-24">
+            <ul>
+              <li>Sala ponad 210m2 do około 100 osób</li>
+              <li>Sala klimatyzowana</li>
+              <li>Projektor</li>
+              <li>Ekran</li>
+              <li>Flipchart</li>
+              <li>Nagłośnienie</li>
+              <li>Mównica</li>
+              <li>Stół prezydialny</li>
+              <li>Bufety kawowe</li>
+              <li>Biznes lunch</li>
+              <li>Uroczyste kolacje</li>
+              <li>Spotkania świąteczne</li>
+              <li>Ogród letni z tarasem</li>
+              <li>Parter dostosowany dla osób niepełnosprawnych</li>
+              <li>Parking</li>
+              <li>Pokoje gościnne</li>
+              <li>Obiekt monitorowany</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
 </template>
 
 <script>
     import VueAos from "vue-aos";
+    import ImageTransition from "@/components/ImageTransition";
 
     export default {
         metaInfo: {
@@ -113,13 +122,19 @@
         },
         components: {
             VueAos,
+          ImageTransition
         },
-        data() {
-            return {}
-        },
-        methods: {},
-        mounted() {
-
+      data: () => ({
+        imageTransitions: {
+          'photos': [
+            require('@/assets/images/companies/gallery/1.jpg'),
+            require('@/assets/images/companies/gallery/2.jpg'),
+            require('@/assets/images/companies/gallery/3.jpg'),
+            require('@/assets/images/companies/gallery/4.jpg'),
+            require('@/assets/images/companies/gallery/5.jpg'),
+            require('@/assets/images/companies/gallery/6.jpg')
+          ]
         }
+      })
     }
 </script>

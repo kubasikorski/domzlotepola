@@ -122,7 +122,7 @@
                             description: '<p>Danie 5</p>'
                         },
                         {
-                            thumb: require('@/assets/images/food/shutter10-thumb.jpg'),
+                            thumb: require('@/assets/images/food/pierogi-thumb.jpg'),
                             lead: 'Danie 5',
                             description: '<p>Danie 5</p>'
                         },
