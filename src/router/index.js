@@ -28,6 +28,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
     },
     {
+        path: '/:lang(pl|en)/fundusze-ue',
+        name: 'fundusze-ue',
+        component: () => import(/* webpackChunkName: "about" */ '../views/FunduszeUE.vue')
+    },
+    {
         path: '/:lang(pl|en)/dom-zlote-pola',
         name: 'dom',
         component: () => import(/* webpackChunkName: "dom" */ '../views/Dom/Index.vue')
