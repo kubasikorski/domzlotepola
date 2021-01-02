@@ -18,6 +18,7 @@
                             <router-link :to="{name: 'dom-company',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Oferta dla firm</router-link>
                             <router-link :to="{name: 'dom-food-index',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Nasze jedzenie</router-link>
                             <router-link :to="{name: 'dom',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Co nas wyróżnia</router-link>
+                            <router-link :to="{name: 'galeria',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Galeria</router-link>
                         </div>
                     </div>
                     <router-link :to="{name: 'playground',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" href="#" class="nav-item">Bawialnia dla dzieci</router-link>

@@ -27,6 +27,7 @@
     "vue-meta": "^2.4.0",
     "vue-rellax": "^0.1.0",
     "vue-router": "^3.4.6",
+    "vue-silentbox": "^2.3.0",
     "vue2-google-maps": "^0.10.7",
     "vuelidate": "^0.7.5"
   },

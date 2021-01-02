@@ -33,6 +33,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom" */ '../views/Dom/Index.vue')
     },
     {
+        path: '/:lang(pl|en)/dom-zlote-pola/galeria',
+        name: 'galeria',
+        component: () => import(/* webpackChunkName: "galeria" */ '../views/Galeria/Index.vue')
+    },
+    {
         path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin',
         name: 'dom-family',
         component: () => import(/* webpackChunkName: "dom-family" */ '../views/Dom/Family.vue')

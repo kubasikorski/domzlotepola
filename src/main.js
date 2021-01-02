@@ -5,6 +5,7 @@ import VueRellax from 'vue-rellax'
 import VueMeta from 'vue-meta'
 import VueAxios from './plugins/axios'
 import VueAnalytics from 'vue-analytics';
+import VueSilentbox from 'vue-silentbox'
 import './registerServiceWorker'
 Vue.config.productionTip = false;
 Vue.use(VueAnalytics, {
@@ -13,6 +14,7 @@ Vue.use(VueAnalytics, {
 });
 Vue.use(VueRellax);
 Vue.use(VueAxios)
+Vue.use(VueSilentbox)
 Vue.use(VueMeta, {
   refreshOnceOnNavigation: true
 })
