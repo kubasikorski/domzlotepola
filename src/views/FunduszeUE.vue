@@ -4,7 +4,7 @@
       <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
         <div class="text px-16">
         <vue-aos animation-class="fadeInLeft animated">
-          <div class="grid grid-cols-4 gap-32">
+          <div class="grid xl:grid-cols-4 xl:gap-32 lg:grid-cols-2 lg:gap-8 ">
             <div><img alt="Europejskie Fundusze Program Regionalny" title="Europejskie Fundusze Program Regionalny" src="@/assets/images/ue/tl1.png"></div>
             <div><img alt="Rzeczpospolita Polska" title="Rzeczpospolita Polska" src="@/assets/images/ue/tl2.png"></div>
             <div><img alt="Urząd Marszałkowksi Województwa Pomorskiego" title="Urząd Marszałkowksi Województwa Pomorskiego" src="@/assets/images/ue/tl3.png"></div>
