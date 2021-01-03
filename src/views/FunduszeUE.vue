@@ -2,10 +2,20 @@
   <div>
     <div class="container relative z-10">
       <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
+        <div class="text px-16">
+        <vue-aos animation-class="fadeInLeft animated">
+          <div class="grid grid-cols-4 gap-32">
+            <div><img alt="Europejskie Fundusze Program Regionalny" title="Europejskie Fundusze Program Regionalny" src="@/assets/images/ue/tl1.png"></div>
+            <div><img alt="Rzeczpospolita Polska" title="Rzeczpospolita Polska" src="@/assets/images/ue/tl2.png"></div>
+            <div><img alt="Urząd Marszałkowksi Województwa Pomorskiego" title="Urząd Marszałkowksi Województwa Pomorskiego" src="@/assets/images/ue/tl3.png"></div>
+            <div><img alt="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" title="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" src="@/assets/images/ue/tl4.png"></div>
+          </div>
+        </vue-aos>
+      </div>
+      </div>
+
+      <div class="flex flex-col mt-8 lg:flex-row lg:mt-8">
         <div class="text px-16 lg:w-1/2 lg:px-24">
-          <vue-aos animation-class="fadeInLeft animated">
-            <img src="@/assets/images/ue/toplogos.jpg">
-          </vue-aos>
           <br><br>
           <p>
             <strong>Regionalny Program Operacyjny<br>
@@ -23,7 +33,7 @@
             <br>
             I piętra na urządzenie pokoi gościnnych z łazienkami i ich
             wyposażenie w łóżka w obiekcie Dóm Złote Pola w Miszewie.
-            <br>
+            <br><br>
             <strong>Cele projektu i planowane efekty:</strong>
             <br><br>
             Zadania 1-3 bezpośrednio związane są z rozwiązywaniem barier sanitarno-porządkowych
@@ -58,6 +68,7 @@
 import VueAos from 'vue-aos'
 import References from "@/components/elements/References";
 import ImageTransition from "../components/ImageTransition";
+
 export default {
   metaInfo: {
     title: 'Dóm Złote Pola',
