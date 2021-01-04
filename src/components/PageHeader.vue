@@ -28,7 +28,7 @@
                 </nav>
                 <div class="flex justify-end text-nav text-sm font-light bg-white py-6 relative z-10 lg:py-0">
                   <div class="hidden lg:block mr-8">
-                    <router-link :to="{name: 'fundusze-ue',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"><img class="md:h-4 xl:h-8 sm:h-3" alt="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" title="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" src="@/assets/images/ue/tl4.png"></router-link>
+                    <router-link :to="{name: 'fundusze-ue',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav"><img class="md:h-4 xl:h-8 sm:h-3" alt="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" title="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" src="@/assets/images/ue/nav-ue.png"></router-link>
                   </div>
                     <div class="hidden mr-8 lg:block">
                         T: <a href="tel:+48 501 317 113">+48 501 317 113</a>
