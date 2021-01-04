@@ -36,7 +36,7 @@
                         T: <a href="tel:+48 501 317 113">+48 501 317 113</a>
                         <br>E: <a href="mailto:rezerwacje@domzlotepola.pl">rezerwacje@domzlotepola.pl</a>
                     </div>
-                    <div class="hidden mr-8 lg:block">
+                    <div class="hidden mr-8 lg:hidden xl:block">
                         ul. Złote Pola 17
                         <br>80-297 Miszewo
                     </div>
