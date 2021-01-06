@@ -34,6 +34,8 @@ module.exports = {
                     '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-188-zl',
                     '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
                     '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-278-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny-od-188-zl',
                     '/pl/dom-zlote-pola/oferta-dla-firm',
                     '/pl/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
                     '/pl/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
@@ -43,7 +45,8 @@ module.exports = {
                     '/pl/bawialnia-dla-dzieci',
                     '/pl/pokoje',
                     '/pl/pokoje/oferta',
-                    '/pl/kontakt'
+                    '/pl/kontakt',
+                    '/pl/fundusze-ue'
                 ],
                 server: {
                     port: 8080
