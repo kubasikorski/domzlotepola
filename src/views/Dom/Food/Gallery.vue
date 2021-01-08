@@ -157,11 +157,6 @@ export default {
             description: '<p>Danie 5</p>'
           },
           {
-            thumb: require('@/assets/images/companies/gallery/5.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
             thumb: require('@/assets/images/companies/gallery/6.jpg'),
             lead: 'Danie 5',
             description: '<p>Danie 5</p>'

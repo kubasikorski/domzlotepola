@@ -54,7 +54,6 @@ export default {
       'rooms': [
         require('@/assets/images/rooms/nr8.jpg'),
         require('@/assets/images/rooms/nr6.jpg'),
-        require('@/assets/images/rooms/rooms3.jpg'),
       ]
     }
   }),
