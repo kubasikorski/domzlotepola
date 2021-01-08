@@ -109,7 +109,6 @@
         data: () => ({
             imageTransitions: {
                 'photos': [
-                    require('@/assets/images/families/cert.jpg'),
                     require('@/assets/images/families/ori1.jpg'),
                     require('@/assets/images/families/ori2.jpg'),
                     require('@/assets/images/families/kids.jpg'),
@@ -118,7 +117,6 @@
                     require('@/assets/images/families/komunie.jpg'),
                     require('@/assets/images/families/n1.jpg'),
                     require('@/assets/images/families/n2.jpg'),
-                    require('@/assets/images/families/n3.jpg'),
                 ]
             }
         }),

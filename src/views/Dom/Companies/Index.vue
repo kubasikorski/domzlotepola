@@ -127,12 +127,12 @@
       data: () => ({
         imageTransitions: {
           'photos': [
-            require('@/assets/images/companies/gallery/1.jpg'),
-            require('@/assets/images/companies/gallery/2.jpg'),
-            require('@/assets/images/companies/gallery/3.jpg'),
-            require('@/assets/images/companies/gallery/4.jpg'),
+            require('@/assets/images/companies/gallery/0.jpg'),
+            require('@/assets/images/companies/gallery/tort.jpg'),
             require('@/assets/images/companies/gallery/5.jpg'),
-            require('@/assets/images/companies/gallery/6.jpg')
+            require('@/assets/images/companies/gallery/6.jpg'),
+            require('@/assets/images/companies/gallery/sz1.jpg'),
+            require('@/assets/images/companies/gallery/sz2.jpg')
           ]
         }
       })

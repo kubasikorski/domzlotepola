@@ -11,9 +11,7 @@
     </div>
     <div>
       <div class="container mt-12 px-16 lg:pl-24 pr-16">
-        <div class="gallery">
-          <silent-box :gallery="sgallery"></silent-box>
-        </div>
+        <silent-box :gallery="galleryfeed"></silent-box>
       </div>
     </div>
     <br>
@@ -37,120 +35,80 @@ export default {
   },
   data() {
     return {
+      galleryfeed: [
+        {
+          "src":require('@/assets/images/galeria/1.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/1.jpg'),
+          "description":"Dóm Złote Pola"
+        },
+        {
+          "src":require('@/assets/images/galeria/2.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/2.jpg'),
+          "description":"Dóm Złote Pola"
+        },
+        {
+          "src":require('@/assets/images/galeria/3.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/3.jpg'),
+          "description":"Dóm Złote Pola"
+        },
+        {
+          "src":require('@/assets/images/galeria/4.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/4.jpg'),
+          "description":"Dóm Złote Pola"
+        },
+        {
+          "src":require('@/assets/images/galeria/5.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/5.jpg'),
+          "description":"Pokoje"
+        },
+        {
+          "src":require('@/assets/images/galeria/6.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/6.jpg'),
+          "description":"Pokoje"
+        },
+        {
+          "src":require('@/assets/images/galeria/7.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/7.jpg'),
+          "description":"Pokoje"
+        },
+        {
+          "src":require('@/assets/images/galeria/8.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/8.jpg'),
+          "description":"Pokoje"
+        },
+        {
+          "src":require('@/assets/images/galeria/9.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/9.jpg'),
+          "description":"Pokoje"
+        },
+        {
+          "src":require('@/assets/images/galeria/10.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/10.jpg'),
+          "description":"Pokoje"
+        },
+        {
+          "src":require('@/assets/images/galeria/11.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/11.jpg'),
+          "description":"Dóm Złote Pola"
+        },
+        {
+          "src":require('@/assets/images/galeria/12.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/12.jpg'),
+          "description":"Certyfikat jakości"
+        },
+        {
+          "src":require('@/assets/images/galeria/13.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/13.jpg'),
+          "description":""
+        },
+        {
+          "src":require('@/assets/images/galeria/14.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/14.jpg'),
+          "description":""
+        },
 
-      sgallery: [
-        {
-          src: require('@/assets/images/food/shutter5-thumb.jpg'),
-        },
-        {
-          src: require('@/assets/images/food/food2-thumb.jpg'),
-        },
+
       ],
-
-      gallery: {
-        firstitem: {
-          visible: false,
-          thumb: require('@/assets/images/food/cover.jpg'),
-          zoom: require('@/assets/images/food/cover.jpg'),
-          image: require('@/assets/images/food/cover.jpg'),
-          lead: 'Pyszne',
-          description: 'Gotowanie to nasza pasja...'
-        },
-        captions: false,
-        canZoom: true,
-        items: [
-          {
-            thumb: require('@/assets/images/food/shutter5-thumb.jpg'),
-            zoom: require('@/assets/images/food/shutter5-thumb.jpg'),
-            image: require('@/assets/images/food/shutter5-thumb.jpg'),
-            lead: 'Danie 1',
-            description: '<p>Danie 1</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/food2-thumb.jpg'),
-            lead: 'Danie 2',
-            description: '<p>Danie 2</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter6-thumb.jpg'),
-            lead: 'Danie 3',
-            description: '<p>Danie 3</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/food4-thumb.jpg'),
-            lead: 'Danie 4',
-            description: '<p>Danie 4</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter2-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter1-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/food3-thumb.jpg'),
-            lead: 'Danie 3',
-            description: '<p>Danie 3</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/food5-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter3-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter4-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/food1-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-
-          {
-            thumb: require('@/assets/images/food/shutter7-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter8-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter9-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/pierogi-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter11-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter12-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-        ]
-      },
-
-
     }
   },
 }
