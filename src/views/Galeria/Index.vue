@@ -62,11 +62,6 @@ export default {
           "description":"Pokoje"
         },
         {
-          "src":require('@/assets/images/galeria/6.jpg'),
-          "thumbnail":require('@/assets/images/galeria/thumbnails/6.jpg'),
-          "description":"Pokoje"
-        },
-        {
           "src":require('@/assets/images/galeria/7.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/7.jpg'),
           "description":"Pokoje"
