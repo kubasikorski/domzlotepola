@@ -39,102 +39,102 @@ export default {
         {
           "src":require('@/assets/images/galeria/n9.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n9.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/11.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/11.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n16.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n16.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n4.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n4.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n121821.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n121821.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n13.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n13.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n11.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n11.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n15.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n15.jpg'),
-          "description":"Pokoje"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/5.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/5.jpg'),
-          "description":"Pokoje"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/8.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/8.jpg'),
-          "description":"Pokoje"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/9.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/9.jpg'),
-          "description":"Pokoje"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n34.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n34.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/4.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/4.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/7.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/7.jpg'),
-          "description":"Pokoje"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/10.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/10.jpg'),
-          "description":"Pokoje"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n49.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n49.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/3.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/3.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/2.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/2.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/1.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/1.jpg'),
-          "description":"Dóm Złote Pola"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n3.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n3.jpg'),
-          "description":"Certyfikat jakości"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/13.jpg'),
@@ -144,27 +144,27 @@ export default {
         {
           "src":require('@/assets/images/galeria/n122734.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n122734.jpg'),
-          "description":"Certyfikat jakości"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n122549.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n122549.jpg'),
-          "description":"Certyfikat jakości"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n1733.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n1733.jpg'),
-          "description":"Certyfikat jakości"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/n19.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n19.jpg'),
-          "description":"Certyfikat jakości"
+          "description":""
         },
         {
           "src":require('@/assets/images/galeria/12.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/12.jpg'),
-          "description":"Certyfikat jakości"
+          "description":""
         },
 
 
