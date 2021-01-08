@@ -161,7 +161,16 @@ export default {
             lead: 'Danie 5',
             description: '<p>Danie 5</p>'
           },
-
+          {
+            thumb: require('@/assets/images/food/shutter15-thumb.jpg'),
+            lead: 'Danie 5',
+            description: '<p>Danie 5</p>'
+          },
+          {
+            thumb: require('@/assets/images/food/shutter16-thumb.jpg'),
+            lead: 'Danie 5',
+            description: '<p>Danie 5</p>'
+          },
         ]
       },
 
