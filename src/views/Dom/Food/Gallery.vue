@@ -81,17 +81,17 @@ export default {
             description: '<p>Danie 5</p>'
           },
           {
-            thumb: require('@/assets/images/food/food3-thumb.jpg'),
-            lead: 'Danie 3',
-            description: '<p>Danie 3</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/food5-thumb.jpg'),
+            thumb: require('@/assets/images/companies/gallery/6.jpg'),
             lead: 'Danie 5',
             description: '<p>Danie 5</p>'
           },
           {
-            thumb: require('@/assets/images/food/shutter3-thumb.jpg'),
+            thumb: require('@/assets/images/food/shutter15-thumb.jpg'),
+            lead: 'Danie 5',
+            description: '<p>Danie 5</p>'
+          },
+          {
+            thumb: require('@/assets/images/food/shutter16-thumb.jpg'),
             lead: 'Danie 5',
             description: '<p>Danie 5</p>'
           },
@@ -157,17 +157,17 @@ export default {
             description: '<p>Danie 5</p>'
           },
           {
-            thumb: require('@/assets/images/companies/gallery/6.jpg'),
+            thumb: require('@/assets/images/food/food3-thumb.jpg'),
+            lead: 'Danie 3',
+            description: '<p>Danie 3</p>'
+          },
+          {
+            thumb: require('@/assets/images/food/food5-thumb.jpg'),
             lead: 'Danie 5',
             description: '<p>Danie 5</p>'
           },
           {
-            thumb: require('@/assets/images/food/shutter15-thumb.jpg'),
-            lead: 'Danie 5',
-            description: '<p>Danie 5</p>'
-          },
-          {
-            thumb: require('@/assets/images/food/shutter16-thumb.jpg'),
+            thumb: require('@/assets/images/food/shutter3-thumb.jpg'),
             lead: 'Danie 5',
             description: '<p>Danie 5</p>'
           },

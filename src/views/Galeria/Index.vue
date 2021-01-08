@@ -72,6 +72,11 @@ export default {
           "description":"Dóm Złote Pola"
         },
         {
+          "src":require('@/assets/images/galeria/n15.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/n15.jpg'),
+          "description":"Pokoje"
+        },
+        {
           "src":require('@/assets/images/galeria/5.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/5.jpg'),
           "description":"Pokoje"
@@ -142,6 +147,11 @@ export default {
           "description":"Certyfikat jakości"
         },
         {
+          "src":require('@/assets/images/galeria/n122549.jpg'),
+          "thumbnail":require('@/assets/images/galeria/thumbnails/n122549.jpg'),
+          "description":"Certyfikat jakości"
+        },
+        {
           "src":require('@/assets/images/galeria/n1733.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/n1733.jpg'),
           "description":"Certyfikat jakości"
@@ -151,9 +161,6 @@ export default {
           "thumbnail":require('@/assets/images/galeria/thumbnails/n19.jpg'),
           "description":"Certyfikat jakości"
         },
-
-
-
         {
           "src":require('@/assets/images/galeria/12.jpg'),
           "thumbnail":require('@/assets/images/galeria/thumbnails/12.jpg'),
