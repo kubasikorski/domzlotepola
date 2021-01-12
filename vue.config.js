@@ -18,40 +18,40 @@ module.exports = {
         }
     },
     configureWebpack: {
-        // plugins: [
-        //     new PrerenderSPAPlugin({
-        //         staticDir: path.join(__dirname, 'dist'),
-        //         routes: [
-        //             '/',
-        //             '/pl/',
-        //             '/pl/home',
-        //             '/pl/o-mnie',
-        //             '/pl/dom-zlote-pola',
-        //             '/pl/dom-zlote-pola/przyjecia-okolicznosciowe',
-        //             '/pl/dom-zlote-pola/oferta-dla-rodzin',
-        //             '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-89-zl',
-        //             '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-125-zl',
-        //             '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-188-zl',
-        //             '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
-        //             '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
-        //             '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-278-zl',
-        //             '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny-od-188-zl',
-        //             '/pl/dom-zlote-pola/oferta-dla-firm',
-        //             '/pl/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
-        //             '/pl/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
-        //             '/pl/dom-zlote-pola/oferta-dla-firm/menu-spotkanie-swiateczne',
-        //             '/pl/dom-zlote-pola/nasze-jedzenie',
-        //             '/pl/dom-zlote-pola/nasze-jedzenie/galeria',
-        //             '/pl/bawialnia-dla-dzieci',
-        //             '/pl/pokoje',
-        //             '/pl/pokoje/oferta',
-        //             '/pl/kontakt',
-        //             '/pl/fundusze-ue'
-        //         ],
-        //         server: {
-        //             port: 8080
-        //         },
-        //     })
-        // ]
+        plugins: [
+            new PrerenderSPAPlugin({
+                staticDir: path.join(__dirname, 'dist'),
+                routes: [
+                    '/',
+                    '/pl/',
+                    '/pl/home',
+                    '/pl/o-mnie',
+                    '/pl/dom-zlote-pola',
+                    '/pl/dom-zlote-pola/przyjecia-okolicznosciowe',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-89-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-125-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-od-188-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-278-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny-od-188-zl',
+                    '/pl/dom-zlote-pola/oferta-dla-firm',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-spotkanie-swiateczne',
+                    '/pl/dom-zlote-pola/nasze-jedzenie',
+                    '/pl/dom-zlote-pola/nasze-jedzenie/galeria',
+                    '/pl/bawialnia-dla-dzieci',
+                    '/pl/pokoje',
+                    '/pl/pokoje/oferta',
+                    '/pl/kontakt',
+                    '/pl/fundusze-ue'
+                ],
+                server: {
+                    port: 8080
+                },
+            })
+        ]
     }
 }
