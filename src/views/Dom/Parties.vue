@@ -75,7 +75,7 @@ export default {
   data: () => ({
     imageTransitions: {
       'photos': [
-        require('@/assets/images/families/ori3.jpg'),
+        require('@/assets/images/families/ori4.jpg'),
         require('@/assets/images/families/n1.jpg'),
       ]
     }
