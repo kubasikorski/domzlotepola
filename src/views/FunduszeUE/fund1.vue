@@ -3,15 +3,13 @@
     <div class="container relative z-10">
       <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
         <div class="text px-16">
-        <vue-aos animation-class="fadeInLeft animated">
-          <div class="grid xl:grid-cols-4 xl:gap-32 lg:grid-cols-4 lg:gap-8 md:grid-cols-4 md:gap-4 sm:grid-cols-2 sm:gap-16 grid-cols-2 gap-16">
-            <div><img alt="Europejskie Fundusze Program Regionalny" title="Europejskie Fundusze Program Regionalny" src="@/assets/images/ue/tl1.png"></div>
-            <div><img alt="Rzeczpospolita Polska" title="Rzeczpospolita Polska" src="@/assets/images/ue/tl2.png"></div>
-            <div><img alt="Urząd Marszałkowksi Województwa Pomorskiego" title="Urząd Marszałkowksi Województwa Pomorskiego" src="@/assets/images/ue/tl3.png"></div>
-            <div><img alt="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" title="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" src="@/assets/images/ue/tl4.png"></div>
-          </div>
-        </vue-aos>
-      </div>
+            <div class="grid xl:grid-cols-4 xl:gap-32 lg:grid-cols-4 lg:gap-8 md:grid-cols-4 md:gap-4 sm:grid-cols-2 sm:gap-16 grid-cols-2 gap-16">
+              <div><img alt="Europejskie Fundusze Program Regionalny" title="Europejskie Fundusze Program Regionalny" src="@/assets/images/ue/tl1.png"></div>
+              <div><img alt="Rzeczpospolita Polska" title="Rzeczpospolita Polska" src="@/assets/images/ue/tl2.png"></div>
+              <div><img alt="Urząd Marszałkowksi Województwa Pomorskiego" title="Urząd Marszałkowksi Województwa Pomorskiego" src="@/assets/images/ue/tl3.png"></div>
+              <div><img alt="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" title="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" src="@/assets/images/ue/tl4.png"></div>
+            </div>
+        </div>
       </div>
 
       <div class="flex flex-col mt-8 lg:flex-row lg:mt-8">
@@ -65,9 +63,8 @@
   </div>
 </template>
 <script>
-import VueAos from 'vue-aos'
 import References from "@/components/elements/References";
-import ImageTransition from "../components/ImageTransition";
+import ImageTransition from "@/components/ImageTransition";
 
 export default {
   metaInfo: {
@@ -79,7 +76,6 @@ export default {
     }
   },
   components: {
-    VueAos,
     References,
     ImageTransition
   },
@@ -87,8 +83,10 @@ export default {
     return {
       imageTransitions: {
         'ue': [
+          require('@/assets/images/ue/nr1.jpg'),
+          require('@/assets/images/ue/nr2.jpg'),
+          require('@/assets/images/ue/nr3.jpg'),
           require('@/assets/images/ue/r1.jpg'),
-          require('@/assets/images/ue/r2.jpg'),
           require('@/assets/images/ue/r3.jpg'),
           require('@/assets/images/ue/r4.jpg'),
           require('@/assets/images/ue/r5.jpg'),

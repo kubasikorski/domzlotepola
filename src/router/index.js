@@ -30,7 +30,17 @@ const routes = [
     {
         path: '/:lang(pl|en)/fundusze-ue',
         name: 'fundusze-ue',
-        component: () => import(/* webpackChunkName: "about" */ '../views/FunduszeUE.vue')
+        component: () => import(/* webpackChunkName: "fundusze-ue" */ '../views/FunduszeUE/index.vue')
+    },
+    {
+        path: '/:lang(pl|en)/fundusze-ue/poddzialania-02-02-01',
+        name: 'fundusze-ue-1',
+        component: () => import(/* webpackChunkName: "fundusze-ue-1" */ '../views/FunduszeUE/fund1.vue')
+    },
+    {
+        path: '/:lang(pl|en)/fundusze-ue/projekt-grantowy-spektrum',
+        name: 'fundusze-ue-2',
+        component: () => import(/* webpackChunkName: "fundusze-ue-2" */ '../views/FunduszeUE/fund2.vue')
     },
     {
         path: '/:lang(pl|en)/dom-zlote-pola',
