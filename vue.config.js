@@ -47,7 +47,9 @@ module.exports = {
                     '/pl/pokoje',
                     '/pl/pokoje/oferta',
                     '/pl/kontakt',
-                    '/pl/fundusze-ue'
+                    '/pl/fundusze-ue',
+                    '/pl/fundusze-ue/fundusze-ue/poddzialania-02-02-01',
+                    '/pl/fundusze-ue/projekt-grantowy-spektrum'
                 ],
                 server: {
                     port: 8080
