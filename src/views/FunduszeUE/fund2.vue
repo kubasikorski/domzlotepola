@@ -22,7 +22,7 @@
               Projekt grantowy „SPEKTRUM. Pomorski System Usług Doradczych”.</strong>
             <br><br>
             Całkowita wartość projektu: 35 670,00 zł.<br>
-            Wartość dofinansowania: 35 670,00 zł.<br>
+            Wartość dofinansowania: 27 550,00 zł.<br>
             <br>
             <strong>Tytuł projektu:</strong><br>
             <br>
