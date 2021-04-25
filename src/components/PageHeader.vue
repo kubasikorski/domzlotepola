@@ -7,7 +7,7 @@
                 </router-link>
                 <nav :class="{'is-open': mobileNav}">
                     <router-link :to="{name: 'home',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="hidden lg:inline-block homeicon">
-                        <img src="../assets/images/home-icon.png" alt="Home"/>
+                        <img src="@/assets/images/home-icon.png" alt="Home"/>
                     </router-link>
 
                     <div class="nav-item-dropdown">

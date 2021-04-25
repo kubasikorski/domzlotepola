@@ -91,6 +91,9 @@
             </div>
             <references bg="true"></references>
         </div>
+      <div class="container relative z-10 lg:px-16 mb-16 text-sm p-4">
+        Dóm Złote Pola uzyskał Subwencję Finansową w ramach umowy z Polskim Funduszem Rozwoju S.A. <img class="h-3 inline" alt="Polski Fundusze Rozwoju S.A." title="Polski Fundusze Rozwoju S.A." src="@/assets/images/pfr.png">
+      </div>
     </div>
 </template>
 
