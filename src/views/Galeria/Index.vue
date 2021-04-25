@@ -127,12 +127,7 @@ export default {
           "thumbnail": require('@/assets/images/galeria/thumbnails/10.jpg'),
           "description": "Pokoje gościnne"
         },
-        {
-          "order": 26,
-          "src": require('@/assets/images/galeria/n49.jpg'),
-          "thumbnail": require('@/assets/images/galeria/thumbnails/n49.jpg'),
-          "description": "Pokoje gościnne"
-        },
+
         {
           "order": 18,
           "src": require('@/assets/images/galeria/3.jpg'),
@@ -203,7 +198,13 @@ export default {
           "order": 28,
           "src": require('@/assets/images/galeria/12.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/12.jpg'),
-          "description": "Certyfikat jakości"
+          "description": "Certyfikat jakości serwisu Chrzciny i Komunie"
+        },
+        {
+          "order": 29,
+          "src": require('@/assets/images/galeria/wesele-cert.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/wesele-cert.jpg'),
+          "description": "Certyfikat jakości serwisu GdzieWesele.pl"
         },
       ],
     }
