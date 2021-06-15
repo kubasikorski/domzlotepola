@@ -196,12 +196,54 @@ export default {
         },
         {
           "order": 28,
+          "src": require('@/assets/images/galeria/DSC_6390.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6390.jpg'),
+          "description": ""
+        },
+        {
+          "order": 29,
+          "src": require('@/assets/images/galeria/DSC_6396.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6396.jpg'),
+          "description": ""
+        },
+        {
+          "order": 30,
+          "src": require('@/assets/images/galeria/DSC_6408.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6408.jpg'),
+          "description": ""
+        },
+        {
+          "order": 31,
+          "src": require('@/assets/images/galeria/DSC_6411.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6411.jpg'),
+          "description": ""
+        },
+        {
+          "order": 32,
+          "src": require('@/assets/images/galeria/DSC_6433.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6433.jpg'),
+          "description": ""
+        },
+        {
+          "order": 33,
+          "src": require('@/assets/images/galeria/DSC_6450.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6450.jpg'),
+          "description": ""
+        },
+        {
+          "order": 34,
+          "src": require('@/assets/images/galeria/DSC_6454.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6454.jpg'),
+          "description": ""
+        },
+        {
+          "order": 35,
           "src": require('@/assets/images/galeria/12.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/12.jpg'),
           "description": "Certyfikat jakości serwisu Chrzciny i Komunie"
         },
         {
-          "order": 29,
+          "order": 36,
           "src": require('@/assets/images/galeria/wesele-cert.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/wesele-cert.jpg'),
           "description": "Certyfikat jakości serwisu GdzieWesele.pl"
