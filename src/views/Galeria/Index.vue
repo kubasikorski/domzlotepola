@@ -38,216 +38,246 @@ export default {
       galleryInOrder:[],
       galleryfeed: [
         {
-          "order": 1,
+          "order": 10,
           "src": require('@/assets/images/galeria/n9.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n9.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 12,
+          "order": 120,
           "src": require('@/assets/images/galeria/11.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/11.jpg'),
           "description": "Lobby"
         },
         {
-          "order": 2,
+          "order": 20,
           "src": require('@/assets/images/galeria/n16.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n16.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 3,
+          "order": 30,
           "src": require('@/assets/images/galeria/n4.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n4.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 5,
+          "order": 54,
           "src": require('@/assets/images/galeria/n121821.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n121821.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 4,
+          "order": 40,
           "src": require('@/assets/images/galeria/n13.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n13.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 8,
+          "order": 80,
           "src": require('@/assets/images/galeria/n11.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n11.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 23,
+          "order": 230,
           "src": require('@/assets/images/galeria/n15.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n15.jpg'),
           "description": "Łazienki dla gości"
         },
         {
-          "order": 14,
+          "order": 140,
           "src": require('@/assets/images/galeria/5.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/5.jpg'),
           "description": "Pokoje gościnne"
         },
         {
-          "order": 15,
+          "order": 150,
           "src": require('@/assets/images/galeria/8.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/8.jpg'),
           "description": "Pokoje gościnne"
         },
         {
-          "order": 17,
+          "order": 170,
           "src": require('@/assets/images/galeria/9.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/9.jpg'),
           "description": "Pokoje gościnne"
         },
         {
-          "order": 16,
+          "order": 160,
           "src": require('@/assets/images/galeria/n34.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n34.jpg'),
           "description": "Pokoje gościnne"
         },
         {
-          "order": 13,
+          "order": 130,
           "src": require('@/assets/images/galeria/4.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/4.jpg'),
           "description": "Pokoje gościnne"
         },
         {
-          "order": 25,
+          "order": 250,
           "src": require('@/assets/images/galeria/7.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/7.jpg'),
           "description": "Pokoje gościnne"
         },
         {
-          "order": 24,
+          "order": 240,
           "src": require('@/assets/images/galeria/10.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/10.jpg'),
           "description": "Pokoje gościnne"
         },
 
         {
-          "order": 18,
+          "order": 180,
           "src": require('@/assets/images/galeria/3.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/3.jpg'),
           "description": "Widok"
         },
         {
-          "order": 19,
+          "order": 190,
           "src": require('@/assets/images/galeria/2.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/2.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 20,
+          "order": 200,
           "src": require('@/assets/images/galeria/1.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/1.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 21,
+          "order": 210,
           "src": require('@/assets/images/galeria/n3.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n3.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 22,
+          "order": 220,
           "src": require('@/assets/images/galeria/13.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/13.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 11,
+          "order": 110,
           "src": require('@/assets/images/galeria/n122734.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n122734.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 10,
+          "order": 100,
           "src": require('@/assets/images/galeria/n122549.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n122549.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 9,
+          "order": 90,
           "src": require('@/assets/images/galeria/n27.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n27.jpg'),
           "description": "Dóm Złote Pola"
         },
         {
-          "order": 27,
+          "order": 270,
           "src": require('@/assets/images/galeria/n19.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/n19.jpg'),
           "description": "Bawialnia dla dzieci"
         },
         {
-          "order": 6,
+          "order": 60,
           "src": require('@/assets/images/galeria/sb1-6.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/sb1-6.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 7,
+          "order": 70,
           "src": require('@/assets/images/galeria/sb2-7.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/sb2-7.jpg'),
           "description": "Sala bankietowa"
         },
         {
-          "order": 28,
+          "order": 280,
           "src": require('@/assets/images/galeria/DSC_6390.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6390.jpg'),
           "description": ""
         },
         {
-          "order": 29,
+          "order": 290,
           "src": require('@/assets/images/galeria/DSC_6396.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6396.jpg'),
           "description": ""
         },
         {
-          "order": 30,
+          "order": 300,
           "src": require('@/assets/images/galeria/DSC_6408.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6408.jpg'),
           "description": ""
         },
         {
-          "order": 31,
+          "order": 310,
           "src": require('@/assets/images/galeria/DSC_6411.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6411.jpg'),
           "description": ""
         },
         {
-          "order": 32,
+          "order": 320,
           "src": require('@/assets/images/galeria/DSC_6433.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6433.jpg'),
           "description": ""
         },
         {
-          "order": 33,
+          "order": 330,
           "src": require('@/assets/images/galeria/DSC_6450.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6450.jpg'),
           "description": ""
         },
         {
-          "order": 34,
+          "order": 340,
           "src": require('@/assets/images/galeria/DSC_6454.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/DSC_6454.jpg'),
           "description": ""
         },
         {
-          "order": 35,
+          "order": 350,
           "src": require('@/assets/images/galeria/12.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/12.jpg'),
           "description": "Certyfikat jakości serwisu Chrzciny i Komunie"
         },
         {
-          "order": 36,
+          "order": 360,
           "src": require('@/assets/images/galeria/wesele-cert.jpg'),
           "thumbnail": require('@/assets/images/galeria/thumbnails/wesele-cert.jpg'),
           "description": "Certyfikat jakości serwisu GdzieWesele.pl"
         },
+
+
+        {
+          "order": 50,
+          "src": require('@/assets/images/galeria/NB7A8716.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/NB7A8716.jpg'),
+          "description": ""
+        },
+        {
+          "order": 51,
+          "src": require('@/assets/images/galeria/NB7A8735.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/NB7A8735.jpg'),
+          "description": ""
+        },
+        {
+          "order": 52,
+          "src": require('@/assets/images/galeria/IMGL8844.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/IMGL8844.jpg'),
+          "description": ""
+        },
+        {
+          "order": 53,
+          "src": require('@/assets/images/galeria/IMGL8863.jpg'),
+          "thumbnail": require('@/assets/images/galeria/thumbnails/IMGL8863.jpg'),
+          "description": ""
+        },
+
+
+
+
       ],
     }
   },
