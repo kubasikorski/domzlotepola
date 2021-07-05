@@ -122,6 +122,7 @@ export default {
         require('@/assets/images/bride/btm-f27.jpg'),
         require('@/assets/images/bride/btm-n2.jpg'),
         require('@/assets/images/bride/btm-n3.jpg'),
+        require('@/assets/images/bride/btm-n4.jpg'),
       ]
     }
   }),
