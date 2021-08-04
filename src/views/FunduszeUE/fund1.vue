@@ -6,7 +6,7 @@
             <div class="grid xl:grid-cols-4 xl:gap-32 lg:grid-cols-4 lg:gap-8 md:grid-cols-4 md:gap-4 sm:grid-cols-2 sm:gap-16 grid-cols-2 gap-16">
               <div><img alt="Europejskie Fundusze Program Regionalny" title="Europejskie Fundusze Program Regionalny" src="@/assets/images/ue/tl1.png"></div>
               <div><img alt="Rzeczpospolita Polska" title="Rzeczpospolita Polska" src="@/assets/images/ue/tl2.png"></div>
-              <div><img alt="Urząd Marszałkowksi Województwa Pomorskiego" title="Urząd Marszałkowksi Województwa Pomorskiego" src="@/assets/images/ue/tl3.png"></div>
+              <div><img alt="Urząd Marszałkowski Województwa Pomorskiego" title="Urząd Marszałkowski Województwa Pomorskiego" src="@/assets/images/ue/tl3.png"></div>
               <div><img alt="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" title="Unia Europejska- Europejski Fundusz Rozwoju Regionalnego" src="@/assets/images/ue/tl4.png"></div>
             </div>
         </div>
