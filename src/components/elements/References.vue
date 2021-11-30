@@ -1,5 +1,5 @@
 <template>
-  <div class="container relative z-10 lg:px-16" :class="{ 'reference-block' : bg == 'true' }">
+  <div v-if="!loading" class="container relative z-10 lg:px-16" :class="{ 'reference-block' : bg == 'true' }">
     <div class="flex flex-col mt-8 lg:flex-row lg:mt-16">
       <div class="lg:w-1/2 text-center">
         <div class="image-shadow top-left">
@@ -41,31 +41,37 @@ export default {
     ImageTransition,
   },
   data: () => ({
+    loading: true,
     references:
         {
-          imageTransitions: [
-            require('@/assets/images/references/references1.jpg'),
-            require('@/assets/images/references/references2.jpg'),
-            require('@/assets/images/references/references3.jpg'),
-            require('@/assets/images/references/references4b.jpg'),
-            require('@/assets/images/references/references5b.jpg'),
-            require('@/assets/images/references/references6.jpg'),
-            require('@/assets/images/references/references7.jpg'),
-            require('@/assets/images/references/references8.jpg'),
-            require('@/assets/images/references/references9.jpg'),
-          ],
+          imageTransitions: [],
           descriptions: []
         },
   }),
   mounted() {
     let that = this;
     this.fetchData().then(data => {
-      that.references.descriptions = data.references.descriptions;
+      data.data && data.data.map(function (value) {
+        var imageObject = 'https://dzp.cubedev.pl/assets/' + value.image + '?access_token=122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc';
+        var textObject = {
+          'opis': value.description,
+          'podpis': value.name,
+        };
+        that.references.imageTransitions.push(imageObject);
+        that.references.descriptions.push(textObject);
+      });
+      this.loading = false;
     })
   },
   methods: {
     fetchData() {
-      return this.$axios.get('/static/references/main.json')
+      return this.$axios.get('https://dzp.cubedev.pl/items/Opinie',
+          {
+            headers: {
+              'Authorization': 'Bearer 122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc'
+            }
+          }
+      )
           .then((response) => {
             return response.data;
           })
