@@ -50,7 +50,7 @@
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.deser" :feed="fetchMenu.dzieci.deser"/>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
             <p class="leading-relaxed">Napoje na stole biesiadnym bez ograniczeń<br>Cena <span
-                class="font-semibold">44 zł</span> za dziecko
+                class="font-semibold">{{ prices.priceKid }} zł</span> za dziecko
             </p>
           </div>
         </div>
