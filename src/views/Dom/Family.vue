@@ -38,16 +38,16 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od 89 zł / osoba</p>
+              <p class="font-bold">od 116 zł / osoba</p>
             </div>
           </div>
           <ul class="read-more-container">
             <li>
-              <router-link :to="{name: 'dom-family-menu-od-89-zl'}">Zobacz menu
+              <router-link :to="{name: 'dom-family-menu-1'}">Zobacz menu
               </router-link>
             </li>
             <li>
-              <a target="_blank" href="/pdf/family/menu-89zl.pdf">Pobierz PDF</a>
+              <a target="_blank" href="/pdf/family/menu-116zl.pdf">Pobierz PDF</a>
             </li>
           </ul>
         </div>
@@ -55,15 +55,15 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od 125 zł / osoba</p>
+              <p class="font-bold">od 143 zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
-                <router-link :to="{name: 'dom-family-menu-od-125-zl'}">Zobacz menu
+                <router-link :to="{name: 'dom-family-menu-2'}">Zobacz menu
                 </router-link>
               </li>
               <li>
-                <a target="_blank" href="/pdf/family/menu-125zl.pdf">Pobierz PDF</a>
+                <a target="_blank" href="/pdf/family/menu-143zl.pdf">Pobierz PDF</a>
               </li>
             </ul>
           </div>
@@ -72,15 +72,15 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od 188 zł / osoba</p>
+              <p class="font-bold">od 206 zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
-                <router-link :to="{name: 'dom-family-menu-od-188-zl'}">Zobacz menu
+                <router-link :to="{name: 'dom-family-menu-3'}">Zobacz menu
                 </router-link>
               </li>
               <li>
-                <a target="_blank" href="/pdf/family/menu-188zl.pdf">Pobierz PDF</a>
+                <a target="_blank" href="/pdf/family/menu-206zl.pdf">Pobierz PDF</a>
               </li>
             </ul>
           </div>

@@ -9,7 +9,7 @@
             </div>
             <div class="item-text">
               <h3>MENU<br>WESELNE</h3>
-              <p class="font-bold">od 208 zł / osoba</p>
+              <p class="font-bold">od 224 zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
@@ -27,7 +27,7 @@
             </div>
             <div class="item-text">
               <h3>MENU<br>WESELNE</h3>
-              <p class="font-bold">od 278 zł / osoba</p>
+              <p class="font-bold">od 305 zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
@@ -45,7 +45,7 @@
             </div>
             <div class="item-text">
               <h3>PRZYKŁADOWE MENU<br>OBIAD ŚLUBNY</h3>
-              <p class="font-bold">od 188 zł / osoba</p>
+              <p class="font-bold">od 206 zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>

@@ -68,18 +68,18 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-parties" */ '../views/Dom/Parties.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-od-89-zl',
-        name: 'dom-family-menu-od-89-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-1',
+        name: 'dom-family-menu-1',
         component: () => import(/* webpackChunkName: "dom-family-menu1" */ '../views/Dom/Family/Menu1.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-od-125-zl',
-        name: 'dom-family-menu-od-125-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-2',
+        name: 'dom-family-menu-2',
         component: () => import(/* webpackChunkName: "dom-family-menu2" */ '../views/Dom/Family/Menu2.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-od-188-zl',
-        name: 'dom-family-menu-od-188-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-rodzin/menu-3',
+        name: 'dom-family-menu-3',
         component: () => import(/* webpackChunkName: "dom-family-menu3" */ '../views/Dom/Family/Menu3.vue')
     },
     {
@@ -88,17 +88,17 @@ const routes = [
         component: () => import(/* webpackChunkName: "dom-bride" */ '../views/Dom/Bride/Index.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-208-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-1',
         name: 'dom-bride-menu1',
         component: () => import(/* webpackChunkName: "dom-bride-menu1" */ '../views/Dom/Bride/Menu1.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-od-278-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-2',
         name: 'dom-bride-menu2',
         component: () => import(/* webpackChunkName: "dom-bride-menu2" */ '../views/Dom/Bride/Menu2.vue')
     },
     {
-        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny-od-188-zl',
+        path: '/:lang(pl|en)/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny',
         name: 'dom-bride-menu3',
         component: () => import(/* webpackChunkName: "dom-bride-menu3" */ '../views/Dom/Bride/Menu3.vue')
     },

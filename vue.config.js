@@ -53,7 +53,7 @@ module.exports = {
                     '/pl/fundusze-ue/projekt-grantowy-spektrum',
                 ],
                 server: {
-                    port: 8080
+                    port: 8081
                 },
             })
         ]
