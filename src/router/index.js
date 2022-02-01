@@ -43,7 +43,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "fundusze-ue-2" */ '../views/FunduszeUE/fund2.vue')
     },
     {
-        path: '/:lang(pl|en)/fundusze-ue/europejski-fundusz-rolny-na-rzecz-rozwoju-obszarow-wiejskich:',
+        path: '/:lang(pl|en)/fundusze-ue/europejski-fundusz-rolny-na-rzecz-rozwoju-obszarow-wiejskich',
         name: 'fundusze-ue-3',
         component: () => import(/* webpackChunkName: "fundusze-ue-3" */ '../views/FunduszeUE/fund3.vue')
     },

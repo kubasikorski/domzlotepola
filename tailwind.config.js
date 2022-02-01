@@ -44,6 +44,9 @@ module.exports = {
         },
 
         extend: {
+            inset:{
+                '-16': '-4rem',
+            },
             height: {
                 '9': '2.375rem',
                 '14': '3.5rem',
