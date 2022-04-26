@@ -113,7 +113,7 @@ header {
                     a {
                         @apply block pb-4 px-12 text-xl;
                          position:relative;
-                        &:hover {
+                        &:hover, &.router-link-exact-active {
                             @apply text-primary;
                             background-image: url("../../images/nav-leaf.png");
                             background-repeat: no-repeat;
@@ -139,6 +139,11 @@ header {
 
                 &:hover .nav-dropdown {
                     @apply block;
+                }
+                .nav-dropdown {
+                    &.force-open {
+                        @apply block;
+                    }
                 }
             }
         }

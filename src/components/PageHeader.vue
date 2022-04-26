@@ -19,7 +19,7 @@
 
                     <div class="nav-item-dropdown">
                         <router-link :to="{name: 'dom',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav" class="nav-item nav-main">Dóm Złote Pola</router-link>
-                        <div class="nav-dropdown">
+                        <div class="nav-dropdown " :class="{ 'force-open' : currentRouteName == 'home' }">
                             <router-link :to="{name: 'dom-family',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Oferta dla rodzin</router-link>
                             <router-link :to="{name: 'dom-bride',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Oferta dla pary młodej</router-link>
                             <router-link :to="{name: 'dom-company',params:{'lang':this.useLang}}" v-on:click.native="hideMobileNav">Oferta dla firm</router-link>
