@@ -31,6 +31,7 @@
 <script>
 import {Carousel, Slide} from 'vue-carousel';
 import ImageTransition from "@/components/ImageTransition";
+import fetchDataMixin from "@/mixins/fetchDataMixin";
 
 export default {
   name: 'references',
@@ -40,6 +41,7 @@ export default {
     Slide,
     ImageTransition,
   },
+  mixins: [fetchDataMixin],
   data: () => ({
     loading: true,
     references:
@@ -50,7 +52,7 @@ export default {
   }),
   mounted() {
     let that = this;
-    this.fetchData().then(data => {
+    this.fetchData('items/Opinie').then(data => {
       data.data && data.data.map(function (value) {
         var imageObject = 'https://dzp.cubedev.pl/assets/' + value.image + '?access_token=122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc';
         var textObject = {
@@ -64,21 +66,6 @@ export default {
     })
   },
   methods: {
-    fetchData() {
-      return this.$axios.get('https://dzp.cubedev.pl/items/Opinie',
-          {
-            headers: {
-              'Authorization': 'Bearer 122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc'
-            }
-          }
-      )
-          .then((response) => {
-            return response.data;
-          })
-          .catch((error) => {
-            throw error.response.data;
-          });
-    },
     slidePageChange(slideId) {
       this.$refs.referencesImageTransition.setReferencesSlide(slideId);
     },

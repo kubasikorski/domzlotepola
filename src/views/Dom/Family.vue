@@ -33,12 +33,12 @@
     <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
     <div class="container relative z-10">
       <br>
-      <div class="bride-packages">
+      <div v-if="pricelist && pricelist[0]" class="bride-packages">
         <div class="item">
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od 116 zł / osoba</p>
+              <p class="font-bold">od {{ pricelist[3].basic_price | price }} zł / osoba</p>
             </div>
           </div>
           <ul class="read-more-container">
@@ -55,7 +55,7 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od 143 zł / osoba</p>
+              <p class="font-bold">od {{ pricelist[4].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
@@ -72,7 +72,7 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od 206 zł / osoba</p>
+              <p class="font-bold">od {{ pricelist[5].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
@@ -93,6 +93,7 @@
 <script>
 import VueAos from 'vue-aos'
 import ImageTransition from "@/components/ImageTransition";
+import fetchDataMixin from "@/mixins/fetchDataMixin";
 
 export default {
   metaInfo: {
@@ -103,6 +104,7 @@ export default {
       amp: true
     }
   },
+  mixins: [fetchDataMixin],
   components: {
     VueAos,
     ImageTransition
@@ -115,8 +117,17 @@ export default {
         require('@/assets/images/families/kids.jpg'),
         require('@/assets/images/families/urodziny.jpg'),
       ]
-    }
+    },
+    pricelist: []
   }),
-  methods: {}
+  mounted() {
+    let that = this;
+    this.fetchData('items/cennik').then(data => {
+      that.pricelist = data.data;
+    })
+  },
+  methods: {
+
+  }
 }
 </script>

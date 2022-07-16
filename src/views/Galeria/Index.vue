@@ -21,6 +21,7 @@
 
 <script>
 import VueAos from "vue-aos";
+import fetchDataMixin from "@/mixins/fetchDataMixin";
 
 export default {
   metaInfo: {
@@ -34,6 +35,7 @@ export default {
   components: {
     VueAos,
   },
+  mixins: [fetchDataMixin],
   data() {
     return {
       loading: true,
@@ -61,21 +63,6 @@ export default {
         that.orderedGallery.push(object);
       });
       this.loading = false;
-    },
-    fetchData(feed) {
-      return this.$axios.get('https://dzp.cubedev.pl/' + feed,
-          {
-            headers: {
-              'Authorization': 'Bearer 122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc'
-            }
-          }
-      )
-          .then((response) => {
-            return response.data;
-          })
-          .catch((error) => {
-            throw error.response.data;
-          });
     },
   },
 
