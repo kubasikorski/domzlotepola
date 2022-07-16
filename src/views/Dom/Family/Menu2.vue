@@ -42,8 +42,8 @@
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.dodatki" :feed="fetchMenu.dzieci.dodatki"/>
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.deser" :feed="fetchMenu.dzieci.deser"/>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-            <p class="leading-relaxed">Napoje na stole biesiadnym bez ograniczeń<br>Cena <span
-                class="font-semibold">{{ prices.priceKid }} zł</span> za dziecko do 3 lat<br>
+            <p class="leading-relaxed">Napoje na stole biesiadnym bez ograniczeń<br>
+              Cena <span class="font-semibold">{{ prices.priceKid }} zł</span> za dziecko do 3 lat<br>
               Wycena indywidualna / dziecko od 4 lat
             </p>
           </div>
