@@ -28,7 +28,7 @@
     <div>
       <div class="container mt-12 px-16 lg:pl-24 pr-16">
         <div class='embed-container'>
-          <iframe src='https://player.vimeo.com/video/758478578?h=35f0480433&autoplay=0&loop=1&background=0' webkitAllowFullScreen
+          <iframe src='https://player.vimeo.com/video/759135177?h=6f6b4ac96d&autoplay=0&loop=1&background=0&title=false&portrait=false&byline=false' webkitAllowFullScreen
                   mozallowfullscreen allowFullScreen></iframe>
         </div>
       </div>
