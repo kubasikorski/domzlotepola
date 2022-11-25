@@ -43,9 +43,9 @@
                         visible:true,
                         size: 'large',
                         background: [
-                            require('@/assets/images/banner-top/banner-homeb2.jpg')
+                            require('@/assets/images/banner-top/banner-homen1.jpg')
                         ],
-                        lead: '"Śród takich pól, złotych pól..."',
+                        lead: '',
                         caption: 'Czyste powietrze i sielska atmosfera są idealnym otoczeniem dla wyjątkowych okazji rodzinnych jak i spotkań firmowych. Dóm Złote Pola położony jest wśród łąk i ziemii uprawnych. Do domu należy ogród warzywny z kwiatami i owocami...',
                         button: 'Czytaj o nas'
                     },

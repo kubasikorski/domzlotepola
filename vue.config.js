@@ -19,8 +19,8 @@ module.exports = {
         }
     },
     configureWebpack: {
-        plugins: [
-            new PrerenderSPAPlugin({
+        plugins: process.env.NODE_ENV === 'production' ? [
+             new PrerenderSPAPlugin({
                 staticDir: path.join(__dirname, 'dist'),
                 routes: [
                     '/',
@@ -56,6 +56,6 @@ module.exports = {
                     port: 8080
                 },
             })
-        ]
+        ] : []
     }
 }

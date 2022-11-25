@@ -11,14 +11,14 @@
         height: 675px;
     }
     .caption {
-        @apply p-8;
+        @apply p-8 bg-white bg-opacity-50 rounded-lg;
         h2 {
             @apply font-bebas text-3xl;
             text-shadow: 1px 1px 1px rgb(117, 98, 57);
         }
         p {
-            @apply text-sm leading-tight text-white;
-            text-shadow: 1px 1px 1px rgb(117, 98, 57);
+            @apply text-lg leading-tight text-black;
+            text-shadow: 1px 1px 1px rgb(255, 255, 255);
         }
         @media (min-width: 1100px) {
             width: 600px;
@@ -56,7 +56,7 @@
 
 
     .read-more {
-        @apply border border-white font-bebas text-2xl uppercase px-4 pt-px;
+        @apply bg-white border border-white font-bebas text-2xl uppercase px-4 pt-px;
 
         &:hover {
             @apply bg-white text-primary;
