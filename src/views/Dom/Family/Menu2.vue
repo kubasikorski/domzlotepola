@@ -91,9 +91,9 @@
           <menu-block v-if="barista.wariant3" :feed="barista.wariant3"/>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
             <p class="leading-relaxed italic">
-              wariant 1 – cena {{ pricelist.variant1_price | price }} zł / od osoby powyżej 80 osób<br>
-              wariant 1 + wariant 2 – cena {{ pricelist.variant2_price | price }} zł / od osoby powyżej 80 osób<br>
-              wariant 1 + wariant 2 + wariant 3 – cena {{ pricelist.variant3_price | price }} zł / od osoby powyżej 80 osób<br>
+              wariant 1 – cena {{ pricelist.variant1_price | price }} zł / od osoby powyżej 30 osób<br>
+              wariant 1 + wariant 2 – cena {{ pricelist.variant2_price | price }} zł / od osoby powyżej 30 osób<br>
+              wariant 1 + wariant 2 + wariant 3 – cena {{ pricelist.variant3_price | price }} zł / od osoby powyżej 30 osób<br>
             </p>
           </div>
         </div>
