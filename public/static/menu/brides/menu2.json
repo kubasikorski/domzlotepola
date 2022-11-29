@@ -122,9 +122,10 @@
       ]
     },
     "napojegorace": {
-      "title": "Napoje gorące - podane na bufecie bez limitu",
+      "title": "Napoje gorące bez limitu",
       "items": [
-        "Kawa, herbata"
+        "Herbaty smakowe na bufecie",
+        "Kawa serwowana - Bufet Baristy, wycena wg wariantów do wyboru"
       ]
     },
     "dzieci": {

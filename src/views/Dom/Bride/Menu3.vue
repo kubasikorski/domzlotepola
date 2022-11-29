@@ -180,9 +180,9 @@ export default {
         priceKid: 55,
         drinksPrice: 21.50,
         variantPrice:{
-          v1: 14.50,
-          v2: 23.5,
-          v3: 26,
+          v1: 15.50,
+          v2: 26,
+          v3: 28,
         }
       },
       fetchMenu: {},
