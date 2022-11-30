@@ -1,5 +1,8 @@
 export default {
     methods: {
+        getFileDownload(fileId) {
+            return 'https://dzp.cubedev.pl/assets/' + fileId + '?download';
+        },
         fetchData(feed) {
             return this.$axios.get('https://dzp.cubedev.pl/' + feed,
                 {

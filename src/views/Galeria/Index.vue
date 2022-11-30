@@ -92,8 +92,8 @@ export default {
       this.fetchGallery && this.fetchGallery.map(function (value) {
         var object = {
           'order': value.sort,
-          'src': 'https://dzp.cubedev.pl/assets/' + value.directus_files_id.id + '?access_token=122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc&key=gallery-full',
-          'thumbnail': 'https://dzp.cubedev.pl/assets/' + value.directus_files_id.id + '?access_token=122|uBNKCgj74Oa7Tj4V6z89FiWZeCQJQZVLogHtWPrc&key=gallery-thumb',
+          'src': 'https://dzp.cubedev.pl/assets/' + value.directus_files_id.id + '?&key=gallery-full',
+          'thumbnail': 'https://dzp.cubedev.pl/assets/' + value.directus_files_id.id + '?key=gallery-thumb',
           'description': value.directus_files_id.description,
         };
         that.orderedGallery.push(object);

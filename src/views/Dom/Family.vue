@@ -33,12 +33,12 @@
     <div v-rellax="{speed: 5, center: true}" class="leaf"></div>
     <div class="container relative z-10">
       <br>
-      <div v-if="pricelist && pricelist[0]" class="bride-packages">
+      <div v-if="pricelists && pricelists[3]" class="bride-packages">
         <div class="item">
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od {{ pricelist[3].basic_price | price }} zł / osoba</p>
+              <p class="font-bold">od {{ pricelists[3].basic_price | price }} zł / osoba</p>
             </div>
           </div>
           <ul class="read-more-container">
@@ -47,7 +47,7 @@
               </router-link>
             </li>
             <li>
-              <a target="_blank" href="/pdf/family/menu-116zl.pdf">Pobierz PDF</a>
+              <a target="_blank" :href="getFileDownload(pricelists[3].pricelist_pdf)">Pobierz PDF</a>
             </li>
           </ul>
         </div>
@@ -55,7 +55,7 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od {{ pricelist[4].basic_price | price }} zł / osoba</p>
+              <p class="font-bold">od {{ pricelists[4].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
@@ -63,7 +63,7 @@
                 </router-link>
               </li>
               <li>
-                <a target="_blank" href="/pdf/family/menu-143zl.pdf">Pobierz PDF</a>
+                <a target="_blank" :href="getFileDownload(pricelists[4].pricelist_pdf)">Pobierz PDF</a>
               </li>
             </ul>
           </div>
@@ -72,7 +72,7 @@
           <div class="text-center">
             <div class="item-text">
               <h3>Przykładowe<br>MENU</h3>
-              <p class="font-bold">od {{ pricelist[5].basic_price | price }} zł / osoba</p>
+              <p class="font-bold">od {{ pricelists[5].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
@@ -80,7 +80,7 @@
                 </router-link>
               </li>
               <li>
-                <a target="_blank" href="/pdf/family/menu-206zl.pdf">Pobierz PDF</a>
+                <a target="_blank" :href="getFileDownload(pricelists[5].pricelist_pdf)">Pobierz PDF</a>
               </li>
             </ul>
           </div>
@@ -118,12 +118,12 @@ export default {
         require('@/assets/images/families/urodziny.jpg'),
       ]
     },
-    pricelist: []
+    pricelists: []
   }),
   mounted() {
     let that = this;
     this.fetchData('items/cennik').then(data => {
-      that.pricelist = data.data;
+      that.pricelists = data.data;
     })
   },
   methods: {

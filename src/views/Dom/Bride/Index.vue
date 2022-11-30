@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container relative z-10 mt-24">
-      <div class="bride-packages">
+      <div class="bride-packages" v-if="pricelists && pricelists[0]">
         <div class="item">
           <div class="text-center">
             <div class="image-shadow shadow-lightest top-left32">
@@ -9,14 +9,16 @@
             </div>
             <div class="item-text">
               <h3>MENU<br>WESELNE</h3>
-              <p class="font-bold">od 224 zł / osoba</p>
+              <p class="font-bold">od {{ pricelists[0].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
                 <router-link :to="{name: 'dom-bride-menu1'}">Zobacz menu
                 </router-link>
               </li>
-              <li><a target="_blank" href="/pdf/brides/menu-224zl.pdf">Pobierz PDF</a></li>
+              <li><a target="_blank"
+                     :href="getFileDownload(pricelists[0].pricelist_pdf)">Pobierz
+                PDF</a></li>
             </ul>
           </div>
         </div>
@@ -27,14 +29,14 @@
             </div>
             <div class="item-text">
               <h3>MENU<br>WESELNE</h3>
-              <p class="font-bold">od 305 zł / osoba</p>
+              <p class="font-bold">od {{ pricelists[1].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
                 <router-link :to="{name: 'dom-bride-menu2'}">Zobacz menu
                 </router-link>
               </li>
-              <li><a target="_blank" href="/pdf/brides/menu-305zl.pdf">Pobierz PDF</a></li>
+              <li><a target="_blank" :href="getFileDownload(pricelists[1].pricelist_pdf)">Pobierz PDF</a></li>
             </ul>
           </div>
         </div>
@@ -45,14 +47,14 @@
             </div>
             <div class="item-text">
               <h3>PRZYKŁADOWE MENU<br>OBIAD ŚLUBNY</h3>
-              <p class="font-bold">od 206 zł / osoba</p>
+              <p class="font-bold">od {{ pricelists[2].basic_price | price }} zł / osoba</p>
             </div>
             <ul class="read-more-container">
               <li>
                 <router-link :to="{name: 'dom-bride-menu3'}">Zobacz menu
                 </router-link>
               </li>
-              <li><a target="_blank" href="/pdf/brides/menu-206zl.pdf">Pobierz PDF</a></li>
+              <li><a target="_blank" :href="getFileDownload(pricelists[2].pricelist_pdf)">Pobierz PDF</a></li>
             </ul>
           </div>
         </div>
@@ -99,6 +101,8 @@
 <script>
 import VueAos from "vue-aos";
 import ImageTransition from "@/components/ImageTransition";
+import fetchDataMixin from "@/mixins/fetchDataMixin";
+
 export default {
   metaInfo: {
     title: 'Dóm Złote Pola',
@@ -112,7 +116,9 @@ export default {
     VueAos,
     ImageTransition
   },
+  mixins: [fetchDataMixin],
   data: () => ({
+    pricelists: [],
     imageTransitions: {
       'photos': [
         require('@/assets/images/bride/btm1.jpg'),
@@ -126,6 +132,11 @@ export default {
       ]
     }
   }),
-  methods: {}
+  mounted() {
+    let that = this;
+    this.fetchData('items/cennik').then(data => {
+      that.pricelists = data.data;
+    })
+  }
 }
 </script>
