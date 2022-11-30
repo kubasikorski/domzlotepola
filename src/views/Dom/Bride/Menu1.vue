@@ -164,6 +164,7 @@
 <script>
 import VueAos from "vue-aos";
 import MenuBlock from "@/components/elements/MenuBlock";
+import fetchDataMixin from "@/mixins/fetchDataMixin";
 
 export default {
   metaInfo: {
@@ -178,6 +179,7 @@ export default {
     VueAos,
     MenuBlock
   },
+  mixins: [fetchDataMixin],
   data() {
     return {
       prices: {
@@ -192,11 +194,12 @@ export default {
       },
       fetchMenu: {},
       barista: {},
-      napoje: {}
+      napoje: {},
+      pricelist:{},
     }
   },
   methods: {
-    fetchData(feed) {
+    fetchDataJson(feed) {
       return this.$axios.get('/static/menu/' + feed + '.json')
           .then((response) => {
             return response.data;
@@ -208,13 +211,16 @@ export default {
   },
   mounted() {
     let that = this;
-    this.fetchData('brides/menu1').then(data => {
+    this.fetchData('items/cennik/1').then(data => {
+      that.pricelist = data.data;
+    })
+    this.fetchDataJson('brides/menu1').then(data => {
       that.fetchMenu = data.menu;
     })
-    this.fetchData('families/barista').then(data => {
+    this.fetchDataJson('families/barista').then(data => {
       that.barista = data.barista;
     })
-    this.fetchData('families/napoje').then(data => {
+    this.fetchDataJson('families/napoje').then(data => {
       that.napoje = data.napoje;
     })
   }
