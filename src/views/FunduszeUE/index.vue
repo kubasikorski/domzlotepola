@@ -66,8 +66,9 @@
         </div>
         <div class="text px-20 lg:w-1/2">
           <p>
-            IMPULS odbudowy potencjału przedsiębiorstwa Dóm Złote Pola
-            poprzez zakup wyposażenia.
+            Sfinansowano w ramach reakcji Unii na pandemię COVID-19.<br>
+            Projekt współfinansowany ze środków Unii Europejskiej o tytule:<br>
+            IMPULS odbudowy potencjału przedsiębiorstwa Dóm Złote Pola poprzez zakup wyposażenia.
           </p>
           <p class="read-more-xl">
             <router-link :to="{name: 'fundusze-ue-4'}">Czytaj więcej</router-link>
