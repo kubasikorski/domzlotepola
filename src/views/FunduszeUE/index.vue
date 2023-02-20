@@ -64,6 +64,15 @@
             <router-link :to="{name: 'fundusze-ue-2'}">Czytaj więcej</router-link>
           </p>
         </div>
+        <div class="text px-20 lg:w-1/2">
+          <p>
+            IMPULS odbudowy potencjału przedsiębiorstwa Dóm Złote Pola
+            poprzez zakup wyposażenia.
+          </p>
+          <p class="read-more-xl">
+            <router-link :to="{name: 'fundusze-ue-4'}">Czytaj więcej</router-link>
+          </p>
+        </div>
       </div>
     </div>
     <div v-rellax="{speed: 5, center: true}" class="leaf"></div>

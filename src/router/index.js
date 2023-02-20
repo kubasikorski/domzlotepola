@@ -48,6 +48,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "fundusze-ue-3" */ '../views/FunduszeUE/fund3.vue')
     },
     {
+        path: '/:lang(pl|en)/fundusze-ue/impuls-odbudowy-potencjalu-przedsiebiorstwa',
+        name: 'fundusze-ue-4',
+        component: () => import(/* webpackChunkName: "fundusze-ue-4" */ '../views/FunduszeUE/fund4.vue')
+    },
+    {
         path: '/:lang(pl|en)/dom-zlote-pola',
         name: 'dom',
         component: () => import(/* webpackChunkName: "dom" */ '../views/Dom/Index.vue')
