@@ -21,7 +21,7 @@ export default {
     },
     filters: {
         price: function (value) {
-            const result = parseFloat(value).toFixed(2);
+            const result = Math.round(value*100)/100;
             return result;
         }
     },

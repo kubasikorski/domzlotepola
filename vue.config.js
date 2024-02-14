@@ -51,8 +51,8 @@ module.exports = {
                     '/pl/fundusze-ue',
                     '/pl/fundusze-ue/fundusze-ue/poddzialania-02-02-01',
                     '/pl/fundusze-ue/projekt-grantowy-spektrum',
-                    '/pl/fundusze-ue/europejski-fundusz-rolny-na-rzecz-rozwoju-obszarow-wiejskich',
                     '/pl/fundusze-ue/impuls-odbudowy-potencjalu-przedsiebiorstwa',
+                    '/pl/fundusze-ue/europejski-fundusz-rolny-na-rzecz-rozwoju-obszarow-wiejskich',
                 ],
                 server: {
                     port: 8080
