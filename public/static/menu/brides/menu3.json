@@ -4,37 +4,39 @@
       "title": "Przystawka - serwowana",
       "description": "1 do wyboru",
       "items": [
-        "Łosoś marynowany według receptury Domu Złote Pola, na chrupiącym placuszku ziemniaczanym, z sosem cytrusowym",
-        "Pasztet domowy z żurawiną i winiakiem, pieczony w cieście, z musem porzeczkowym",
-        "Przystawka z kaczej piersi z marynowaną gruszką i burakiem, z sosem malinowym i słonym ciasteczkiem,"
+        "Pasztet z rozmarynem, pieczony w złocistym cieście, z sosem z kaszubskiej żurawiny",
+        "Carpaccio wołowe z polskim serem Bursztyn, rukolą i piklami",
+        "Tatar z łososia z ziarnistą musztardą, aromatycznym koprem, kaparami, świeżym ogórkiem, cebulką i chrupiącym dodatkiem"
       ]
     },
     "zupa": {
       "title": "Zupa - podana w wazach",
       "description": "1 do wyboru",
       "items": [
-        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
-        "Żurek na domowym zakwasie z białą kiełbasą i jajkiem, tłuczone ziemniaki ze skwarkami",
-        "Krem z kalafiora z korzennymi warzywami i wiejską śmietaną",
-        "Krem z zielonego groszku z papryczką i świeżą miętą",
-        "Zupa grzybowa z kluseczkami i wiejską śmietaną – sezonowo",
-        "Krem z dyni z mleczkiem kokosowym i prażonym słonecznikiem - sezonowo"
+       "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
+       "Żurek na domowym zakwasie, z ziemniakami, jajkiem, białą kiełbasą i tartym chrzanem",
+       "Zupa cebulowa z tymiankiem, z grzanką z serem",
+       "Zupa grzybowa z kluseczkami i wiejską śmietaną",
+       "Krem z pora i sera Cheddar na białym winie, z grzankami i rozmarynem",
+       "Krem z pomidorów z groszkiem ptysiowym i bitą śmietaną",
+       "Krem z dyni z mlekiem kokosowym i świeżą kolendrą lub ostrą papryczką",
+       "Krem z pieczonej brukwi na gęsinie, z oliwą rzepakową i pestkami słonecznika – sezonowo"
       ]
     },
     "daniaglowne": {
       "title": "Dania główne – półmiski na stole biesiadnym",
       "description": "4 do wyboru<br>3 porcje / osoba",
       "items": [
-        "Zrazy wołowe z wędzonym boczkiem, cebulą, ogórkiem kiszonym i razowym chlebem w sosie własnym",
-        "Polędwiczki wieprzowe z sosem z marynowanego zielonego pieprzu",
-        "Sakiewki ze schabu faszerowane włoszczyzną i pieczarkami, z sosem porowym",
-        "Karczek wieprzowy duszony, sos pieczeniowy z miodem i musztardą",
-        "Schab marynowany w mleku, tradycyjnie panierowany, smażony na domowym smalcu",
-        "Mięso z kurczaka na ryżu, z białym sosem z rodzynkami",
-        "Roladki drobiowe faszerowane morelami i rodzynkami w sosie śmietanowo – estragonowym",
-        "Eskalopki drobiowe z sosem serowym i natką pietruszki",
-        "Filet z sandacza z sosem szafranowym",
-        "Łosoś Szefa Kuchni z sosem śmietanowo – cytrynowym na białym winie"
+        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku, z konfiturą z czerwonej cebuli",
+        "De volaille z piersi kurczaka, z wiejskim masłem i natką pietruszki",
+        "Roladka z kurczaka faszerowana podgrzybkami, z sosem pieczeniowym",
+        "Wołowe rolady śląskie z razowym chlebem, słoniną, cebulką oraz kiszonym ogórkiem, z ciemnym sosem",
+        "Polędwiczki wieprzowe, z sosem z zielonego marynowanego pieprzu",
+        "Karkówka wolno pieczona, z sosem z suszonej śliwki i świeżym tymiankiem",
+        "Królik duszony w całości z jarzynami w śmietanie (na półmisku mix mięs od 6 do 8 porcji)",
+        "Filet z łososia gotowany, na kremowym szpinaku",
+        "Filet z pstrąga pieczony w płatkach migdałowych z masłem",
+        "Zapiekanka z grillowanego bakłażana, cukinii, papryki, pomidora, z domowym pesto ziołowym"
       ]
     },
     "dodatki": {
@@ -63,8 +65,8 @@
       ]
     },
     "deser": {
-      "title": "Deser<br>ciasto domowe - na stole biesiadnym lub bufecie",
-      "description": "3 rodzaje ciasta<br>2 porcje / osoba"
+      "title": "Deser",
+      "description": "ciasto domowe - na bufecie i stole biesiadnym"
     },
     "zakaski": {
       "title": "Zakąski zimne – półmiski na stole biesiadnym<br>pieczywo, masło, sosy, marynaty",

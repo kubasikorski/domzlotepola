@@ -3,7 +3,7 @@
     <div class="container relative z-10 mt-16 lg:mt-32 food">
       <div class="flex flex-col items-center">
         <vue-aos animation-class="fadeInLeft animated">
-          <h3 class="font-bebas text-center text-6xl leading-none">Menu weselne<br>od {{ pricelist.basic_price | price }} zł / osoba</h3>
+          <h3 class="font-bebas text-center text-6xl leading-none">Menu <br>od {{ pricelist.basic_price | price }} zł / osoba</h3>
         </vue-aos>
         <img src="@/assets/images/footer-leaf.png" alt="">
       </div>
@@ -64,7 +64,7 @@
           <ul>
             <li>Do dyspozycji gości bawialnia dla dzieci bez dodatkowych opłat.</li>
             <li>Na życzenie gości animacje dla dzieci w bawialni lub ogrodzie. *<br>
-              <span class="italic">*Opieka  Animatorów  w trakcie trwania przyjęcia,  w/g indywidualnej wyceny, zależnej od ilości dzieci, programu i czasu animacji.</span>
+              <span class="italic">*Opieka  Animatorów w trakcie trwania uroczystości, w/g indywidualnej wyceny, zależnej od ilości dzieci, programu i czasu animacji.</span>
             </li>
           </ul>
         </div>
@@ -164,7 +164,7 @@ import fetchDataMixin from "@/mixins/fetchDataMixin";
 export default {
   metaInfo: {
     title: 'Dóm Złote Pola',
-    titleTemplate: '%s - Oferta dla pary młodej - Menu weselne od 206 zł / osoba',
+    titleTemplate: '%s - Oferta dla pary młodej - Menu od 305 zł / osoba',
     htmlAttrs: {
       lang: 'pl',
       amp: true
