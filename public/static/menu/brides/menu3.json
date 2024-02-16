@@ -13,14 +13,14 @@
       "title": "Zupa - podana w wazach",
       "description": "1 do wyboru",
       "items": [
-       "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
-       "Żurek na domowym zakwasie, z ziemniakami, jajkiem, białą kiełbasą i tartym chrzanem",
-       "Zupa cebulowa z tymiankiem, z grzanką z serem",
-       "Zupa grzybowa z kluseczkami i wiejską śmietaną",
-       "Krem z pora i sera Cheddar na białym winie, z grzankami i rozmarynem",
-       "Krem z pomidorów z groszkiem ptysiowym i bitą śmietaną",
-       "Krem z dyni z mlekiem kokosowym i świeżą kolendrą lub ostrą papryczką",
-       "Krem z pieczonej brukwi na gęsinie, z oliwą rzepakową i pestkami słonecznika – sezonowo"
+        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
+        "Żurek na domowym zakwasie, z ziemniakami, jajkiem, białą kiełbasą i tartym chrzanem",
+        "Zupa cebulowa z tymiankiem, z grzanką z serem",
+        "Zupa grzybowa z kluseczkami i wiejską śmietaną",
+        "Krem z pora i sera Cheddar na białym winie, z grzankami i rozmarynem",
+        "Krem z pomidorów z groszkiem ptysiowym i bitą śmietaną",
+        "Krem z dyni z mlekiem kokosowym i świeżą kolendrą lub ostrą papryczką",
+        "Krem z pieczonej brukwi na gęsinie, z oliwą rzepakową i pestkami słonecznika – sezonowo"
       ]
     },
     "daniaglowne": {
@@ -68,28 +68,38 @@
       "title": "Deser",
       "description": "ciasto domowe - na bufecie i stole biesiadnym"
     },
+    "deser2": {
+      "items": [
+        "szarlotka z jabłkami prażonymi z cynamonem, bezą i kruszonką",
+        "sernik rosa",
+        "ciasto z owocami",
+        "ciasto z owocami i galaretką"
+      ]
+    },
     "zakaski": {
       "title": "Zakąski zimne – półmiski na stole biesiadnym<br>pieczywo, masło, sosy, marynaty",
       "description": "6 do wyboru",
       "items": [
         "Mięsa pieczyste: karkówka, schab, indyk",
         "Schab pieczony ze śliwką i sezamem, w galaretce",
-        "Ozorki z tartym chrzanem i marynowaną papryką, w galarecie",
+        "Polędwiczka wieprzowa z musem grzybowym",
         "Łosoś w cytrusowej galarecie",
-        "Śledziki w śmietanie z migdałami i rodzynkami",
-        "Tatar ze śledzia z marynowanymi grzybami, siekaną cebulą i korniszonem",
+        "Marynowany łosoś w plastrach z filetami pomarańczy i lekkim dresingiem",
+        "Śledź w pikantnej salsie pomidorowo-paprykowej",
         "Roladki naleśnikowe z warzywami i pastą twarogową",
         "Sałata z grillowanym kurczakiem, grzankami i sosem czosnkowym",
-        "Sałatka makaronowa z tuńczykiem i sosem majonezowym",
+        "Sałatka z serem feta, ogórkiem, papryką i oliwkami, z ziołowym dressingiem",
         "Świeże sałaty z prażonymi pestkami i orzechami, serem pleśniowym, pomidorkami i domowym vinaigrette",
-        "Tradycyjna sałatka jarzynowa"
+        "Tradycyjna sałatka jarzynowa",
+        "pieczywo, masło, sosy, marynaty"
       ]
     },
 
     "napojezimne": {
       "title": "Napoje zimne - podane w dzbankach bez limitu",
       "items": [
-        "Woda mineralna z cytryną"
+        "Woda mineralna z cytryną",
+        "Woda mineralna ze świeżą miętą"
       ]
     },
     "napojegorace": {
@@ -116,9 +126,7 @@
           "Pulpeciki drobiowe z sosem koperkowym",
           "De volaille z masełkiem (bez pietruszki)",
           "Łosoś wolno pieczony z masełkiem",
-          "Naleśniki (2szt) z twarogiem, sos czekoladowy",
-          "Placuszki z jabłkami (4szt), cukier puder",
-          "Pierogi z truskawkami (4szt)"
+          "Naleśniki (2szt) z twarogiem, sos czekoladowy"
         ]
       },
       "dodatki": {
@@ -128,7 +136,7 @@
           "Frytki, ryż, ziemniaki gotowane",
           "Surówka z marchewki z jabłkiem",
           "Surówka z buraczków",
-          "Mizeria z ogórków - sezonowo",
+          "Mizeria z ogórków",
           "Marchewka z groszkiem na ciepło",
           "Gotowane brokuły"
         ]

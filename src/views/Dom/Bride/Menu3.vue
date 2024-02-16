@@ -3,7 +3,8 @@
     <div class="container relative z-10 mt-16 lg:mt-32 food">
       <div class="flex flex-col items-center">
         <vue-aos animation-class="fadeInLeft animated">
-          <h3 class="font-bebas text-center text-6xl leading-none">Menu <br>od {{ pricelist.basic_price | price }} zł / osoba</h3>
+          <h3 class="font-bebas text-center text-6xl leading-none">Menu <br>od {{ pricelist.basic_price | price }} zł /
+            osoba</h3>
         </vue-aos>
         <img src="@/assets/images/footer-leaf.png" alt="">
       </div>
@@ -20,14 +21,22 @@
           <menu-block v-if="fetchMenu.dodatki" :feed="fetchMenu.dodatki"/>
           <menu-block v-if="fetchMenu.surowki" :feed="fetchMenu.surowki"/>
           <menu-block v-if="fetchMenu.deser" :feed="fetchMenu.deser"/>
+          <p class="mt-4 italic font-semibold">smaki sezonowe uzgadniane indywidualnie na przykład: </p>
+          <menu-block v-if="fetchMenu.deser2" :feed="fetchMenu.deser2"/>
+          <p class="mt-4 italic font-semibold">
+            jedna pozycja minimum 20 porcji<br>
+            sugerowana ilość minimum 2 porcje/osoba
+          </p>
+
           <menu-block v-if="fetchMenu.zakaski" :feed="fetchMenu.zakaski"/>
           <menu-block v-if="fetchMenu.napojezimne" :feed="fetchMenu.napojezimne"/>
           <menu-block v-if="fetchMenu.napojegorace" :feed="fetchMenu.napojegorace"/>
 
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-            <p class="leading-relaxed">Cena <span class="font-semibold">od {{ pricelist.basic_price | price }} zł</span> za osobę dorosłą
-              <br>(cena zależna od ilości osób i czasu trwania przyjęcia)
-              <br>Torty okolicznościowe i dodatkowe desery – indywidualna wycena
+            <p class="leading-relaxed">Cena <span class="font-semibold">od {{
+                pricelist.basic_price | price
+              }} zł</span> za osobę dorosłą
+              <br>(cena zależna od ilości osób i czasu trwania uroczystości)
               <br><br>
               <span
                   class="font-semibold">Specjalnie dla gości Domu Złote Pola<br>przygotowaliśmy dodatkowe propozycje</span>
@@ -49,9 +58,11 @@
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.dodatki" :feed="fetchMenu.dzieci.dodatki"/>
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.deser" :feed="fetchMenu.dzieci.deser"/>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-            <p class="leading-relaxed">Napoje na stole biesiadnym bez ograniczeń<br>
-              Cena <span class="font-semibold">{{ pricelist.kid_price | price }} zł</span> za dziecko do 3 lat<br>
-              Wycena indywidualna / dziecko od 4 lat
+            <p class="leading-relaxed">
+              80zł/dziecko do 3 lat<br>
+              100zł/dziecko od 4 do10 lat<br>
+              indywidualna wycena/dziecko powyżej 10 lat<br>
+
             </p>
           </div>
         </div>
@@ -100,7 +111,8 @@
             <p class="leading-relaxed italic">
               wariant 1 – cena {{ pricelist.variant1_price | price }} zł / od osoby powyżej 40 osób<br>
               wariant 1 + wariant 2 – cena {{ pricelist.variant2_price | price }} zł / od osoby powyżej 40 osób<br>
-              wariant 1 + wariant 2 + wariant 3 – cena {{ pricelist.variant3_price | price }} zł / od osoby powyżej 40 osób<br>
+              wariant 1 + wariant 2 + wariant 3 – cena {{ pricelist.variant3_price | price }} zł / od osoby powyżej 40
+              osób<br>
             </p>
           </div>
         </div>
@@ -127,7 +139,8 @@
             <menu-block v-if="napoje && napoje.napoje1" :feed="napoje.napoje1"/>
           </p>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-            <p class=" leading-relaxed italic">Cena {{ pricelist.drinks_price | price }} zł od osoby / 0,5l na osobę<br>(cena menu napoje
+            <p class=" leading-relaxed italic">Cena {{ pricelist.drinks_price | price }} zł od osoby / 0,5l na osobę<br>(cena
+              menu napoje
               chłodzące powyżej 20 osób)</p>
           </div>
         </div>
@@ -180,7 +193,7 @@ export default {
       fetchMenu: {},
       barista: {},
       napoje: {},
-      pricelist:{},
+      pricelist: {},
     }
   },
   methods: {
