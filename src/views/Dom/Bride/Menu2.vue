@@ -21,6 +21,12 @@
           <menu-block v-if="fetchMenu.dodatki" :feed="fetchMenu.dodatki"/>
           <menu-block v-if="fetchMenu.surowki" :feed="fetchMenu.surowki"/>
           <menu-block v-if="fetchMenu.deser" :feed="fetchMenu.deser"/>
+          <p class="mt-4 italic font-semibold">smaki sezonowe uzgadniane indywidualnie na przykład: </p>
+          <menu-block v-if="fetchMenu.deser2" :feed="fetchMenu.deser2"/>
+          <p class="mt-4 italic font-semibold">
+            jedna pozycja minimum 20 porcji<br>
+            sugerowana ilość minimum 2 porcje/osoba
+          </p>
           <menu-block v-if="fetchMenu.zakaski" :feed="fetchMenu.zakaski"/>
           <menu-block v-if="fetchMenu.kolacja" :feed="fetchMenu.kolacja"/>
           <menu-block v-if="fetchMenu.popolnocy" :feed="fetchMenu.popolnocy"/>
@@ -30,11 +36,8 @@
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
             <p class="leading-relaxed">Cena <span class="font-semibold">od {{ pricelist.basic_price | price }} zł</span> za osobę
               dorosłą
-              <br>(cena zależna od ilości osób i czasu trwania przyjęcia)
-              <br>Torty okolicznościowe i dodatkowe desery – indywidualna wycena
-              <br><br>
-              <span
-                  class="font-semibold">Specjalnie dla gości Domu Złote Pola<br>przygotowaliśmy dodatkowe propozycje</span>
+              <br>(cena zależna od ilości osób i czasu trwania wesela)
+              <br>
             </p>
           </div>
         </div>
@@ -52,10 +55,12 @@
                       :feed="fetchMenu.dzieci.daniaglowne"/>
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.dodatki" :feed="fetchMenu.dzieci.dodatki"/>
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.deser" :feed="fetchMenu.dzieci.deser"/>
+          <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.kolacja" :feed="fetchMenu.dzieci.kolacja"/>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-            <p class="leading-relaxed">Napoje na stole biesiadnym bez ograniczeń<br>
-              Cena <span class="font-semibold">{{ pricelist.kid_price | price }} zł</span> za dziecko do 3 lat<br>
-              Wycena indywidualna / dziecko od 4 lat
+            <p class="leading-relaxed">
+              80zł/dziecko do 3 lat<br>
+              100zł/dziecko od 4 do10 lat<br>
+              indywidualna wycena/dziecko powyżej 10 lat<br>
             </p>
           </div>
         </div>
@@ -68,7 +73,7 @@
           <ul>
             <li>Do dyspozycji gości bawialnia dla dzieci bez dodatkowych opłat.</li>
             <li>Na życzenie gości animacje dla dzieci w bawialni lub ogrodzie. *<br>
-              <span class="italic">*Opieka  Animatorów  w trakcie trwania przyjęcia,  w/g indywidualnej wyceny, zależnej od ilości dzieci, programu i czasu animacji.</span>
+              <span class="italic">*Opieka  Animatorów  w trakcie trwania wesela, w/g indywidualnej wyceny, zależnej od ilości dzieci, programu i czasu animacji.</span>
             </li>
           </ul>
         </div>
@@ -111,30 +116,8 @@
     </div>
 
     <div class="container relative z-10 mt-16 lg:mt-32 food">
-      <div class="flex flex-col items-center">
-        <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
-          <div class="image-shadow shadow-lightest top-right">
-            <img src="@/assets/images/menu/napoje.jpg" alt="">
-          </div>
-        </div>
-        <vue-aos animation-class="fadeInLeft animated">
-          <h3 class="font-bebas text-center text-6xl leading-none">Napoje chłodzące domowej roboty</h3>
-        </vue-aos>
-        <h4 class="font-bebas text-center text-4xl leading-none">podane w dzbankach na stole biesiadnym lub
-          bufecie</h4>
-        <img src="@/assets/images/footer-leaf.png" alt="">
-      </div>
-      <div class="flex justify-center text-center">
-        <div class="lg:w-1/2 mt-6">
-          <p class="leading-relaxed">
-            <menu-block v-if="napoje && napoje.napoje1" :feed="napoje.napoje1"/>
-          </p>
-          <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
-            <p class=" leading-relaxed italic">Cena {{ pricelist.drinks_price | price }} zł od osoby / 0,5l na osobę<br>(cena menu napoje
-              chłodzące powyżej 20 osób)</p>
-          </div>
-        </div>
-      </div>
+
+
       <div class="text px-16 lg:px-24 flex justify-center text-center">
         <ul class="text-left">
           <li>Umożliwiamy dostarczenie własnych alkoholi i zimnych napoi bez dodatkowych opłat.</li>

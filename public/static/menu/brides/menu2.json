@@ -4,40 +4,42 @@
       "title": "Przystawka - serwowana",
       "description": "1 do wyboru",
       "items": [
-        "Pierś z gęsi wędzona na zimno, na sałacie, z marynowanym jabłkiem i karmelizowanymi orzechami, sos porzeczkowy",
-        "Pasztet z kaczki z odrobiną porto, musem z malin i ziołową grzanką",
-        "Łosoś marynowany w soli i koprze na toście z serkiem limonkowym, z sosem cytrynowym"
+        "Pasztet z rozmarynem, pieczony w złocistym cieście, z sosem z kaszubskiej żurawiny",
+        "Pierś kacza z marynowaną gruszką i burakiem, z sosem malinowym i słonym ciasteczkiem",
+        "Łosoś wędzony na blinach ziemniaczanych z kwaśną wiejską śmietaną i cytryną",
+        "Bakłażan pieczony z ziołami i oliwą z podpiekanymi pomidorkami, chrupkiem z parmezanu i siankiem z pora"
       ]
     },
     "zupa": {
       "title": "Zupa - podana w wazach",
       "description": "1 do wyboru",
       "items": [
-        "Bulion z kaczki z warzywami i lanymi kluseczkami własnej roboty",
-        "Krem serowo-porowy na białym winie z grzankami i rozmarynem",
-        "Krem z marchwi z pomarańczą, imbirem i kardamonem",
-        "Zupa grzybowa z lanymi kluseczkami i śmietaną",
-        "Krem z dyni z mleczkiem kokosowym i prażonym słonecznikiem – sezonowo",
-        "Krem z białych szparag z prażonym boczkiem i wiejską śmietaną – sezonowo",
-        "Krem z polskiej pieczonej papryki i oliwą czosnkową - sezonowo"
+        "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
+        "Zupa rybna z warzywami, zabielana wiejską śmietaną",
+        "Krem z pora i sera Cheddar na białym winie, z grzankami i rozmarynem",
+        "Krem z pomidorów z groszkiem ptysiowym i bitą śmietaną",
+        "Krem z selera z karmelizowanymi orzechami",
+        "Krem z dyni z mlekiem kokosowym i świeżą kolendrą lub ostrą papryczką",
+        "Krem z białych warzyw z oliwą truflową",
+        "Tradycyjny chłodnik domowy z nowalijkami – sezonowo"
       ]
     },
     "daniaglowne": {
       "title": "Dania główne – półmiski na stole biesiadnym",
       "description": "6 do wyboru<br>4 porcje / osoba",
       "items": [
-        "Udo z kaczki, pieczone z jabłkami w majeranku, na czerwonej kapuście z miodem",
-        "Roladki z indyka faszerowane bakaliami, w sosie z kasztanów",
-        "Piersi z kurczaka grillowane, w sosie z suszonych pomidorów z orzechami i oliwą",
-        "Zrazy wołowe z wędzonym boczkiem, cebulą, ogórkiem kiszonym i razowym chlebem w sosie własnym",
-        "Wołowe kotleciki mielone pieczone, w sosie z pomidorów i pikantnej papryki",
-        "Schab marynowany w mleku, tradycyjnie panierowany, smażony na domowym smalcu, na zasmażanej kapuście",
-        "Roladki z polędwiczek wieprzowych faszerowane grzybami, w sosie śmietanowo - tymiankowym",
-        "Karczek wieprzowy duszony, w sosie chrzanowym",
-        "Pomidory faszerowane warzywami, zapiekane serem pleśniowym",
-        "Papryka faszerowana leczo warzywnym",
-        "Filet z dorsza w sosie śmietanowym z szyjkami rakowymi",
-        "Łosoś Szefa kuchni z sosem śmietanowo – cytrynowym na białym winie"
+        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku, z konfiturą z czerwonej cebuli",
+        "Sznycel z indyka, tradycyjnie panierowany, z jajkiem sadzonym i szczypiorem",
+        "Kurczak pieczony w całości, nacierany czosnkiem i majerankiem, z podpiekanymi jabłkami<br>(na półmisku mix: udka, piersi, skrzydełka razem 10 porcji)",
+        "Grillowane filety drobiowe z sosem z suszonych pomidorów z orzechami i oliwą",
+        "Polędwiczki wieprzowe z sosem śmietanowo-kurkowym",
+        "Boczek wolno pieczony w miodzie z musztardą i słodko-kwaśną marynatą",
+        "Karkówka wolno pieczona, z sosem z suszonej śliwki i świeżym tymiankiem",
+        "Pieczone mini goloneczki wieprzowe, z sosem z ciemnego piwa",
+        "Wołowe rolady śląskie z razowym chlebem, słoniną, cebulką oraz kiszonym ogórkiem, z ciemnym sosem",
+        "Placuszki ziemniaczane z cukinią i warzywami, z wiejską śmietaną",
+        "Filet z łososia gotowany, na kremowym szpinaku",
+        "Polędwica z dorsza z potrawką z pora i pomidora, z wiejską śmietaną"
       ]
     },
     "dodatki": {
@@ -51,7 +53,6 @@
         "Ryż biały z prażonym słonecznikiem i natką pietruszki",
         "Kasza gryczana prażona z boczkiem i cebulą",
         "Kasza pęczak z warzywami",
-        "Kopytka z masełkiem",
         "Frytki"
       ]
     },
@@ -66,35 +67,48 @@
         "Surówka z marchewki z jabłkiem i śmietaną",
         "Domowa surówka colesław",
         "Surówka z tartych buraków, z cebulą i jabłkiem",
-        "Surówka z pora z rodzynkami i migdałami",
+        "Surówka z pora z jabłkiem i domowym majonezem",
         "Mizeria z ogórków i kwaśnej śmietany - sezonowo",
         "Surówka z selera z rodzynkami – sezonowo",
         "Sałaty z rzodkiewką i ogórkiem z domowym vinaigrette"
       ]
     },
     "deser": {
-      "title": "Deser<br>ciasto domowe - na stole biesiadnym lub bufecie",
-      "description": "4 rodzaje ciasta<br>2 porcje / osoba"
+      "title": "Deser",
+      "description": "CIASTO DOMOWE – NA BUFECIE I STOLE BIESIADNYM "
+    },
+    "deser2": {
+      "items": [
+        "szarlotka z jabłkami prażonymi z cynamonem, bezą i kruszonką",
+        "sernik rosa",
+        "ciasto z owocami",
+        "ciasto z owocami i galaretką"
+      ]
     },
     "zakaski": {
       "title": "Zakąski zimne – półmiski na stole biesiadnym<br>pieczywo, masło, sosy, marynaty",
       "description": "8 do wyboru",
       "items": [
         "Mięsa pieczyste: karkówka, schab, indyk",
-        "Rolada z boczku z migdałami",
-        "Pasztet domowy z żurawiną, w chrupiącym cieście",
-        "Pasztet drobiowy pieczony ze śmietaną i morelami w pomarańczowej galarecie",
-        "Tatar wołowy z tradycyjnymi dodatkami i przepiórczym jajkiem",
-        "Tymbaliki z kurczaka z warzywami i zielonym groszkiem",
-        "Ozorki wieprzowe z musem chrzanowym w galarecie",
-        "Pstrąg glazurowany cytrynową galaretą, z kawiorem z łososia",
-        "Śledziki: w oleju z cebulką i w śmietanie z migdałami i rodzynkami",
-        "Tatar ze świeżego i marynowanego łososia z czerwoną cebulą i świeżym ogórkiem",
-        "Kruche babeczki na słono: z musem z tuńczyka, z musem pieczarkowym, z musem koperkowym ze szczypiorkiem",
-        "Placki pszenne nadziewane pastą z wędzonego kurczaka, serem feta i warzywami",
-        "Sałata z grillowanym kurczakiem, grzankami i sosem czosnkowym",
-        "Sałata z kozim serem, orzechami, marynowanymi burakami i gruszką, z sosem miodowo-pomarańczowym",
-        "Sałatka makaronowa z tuńczykiem, warzywami, jajkiem kurzym, z sosem jogurtowym"
+        "Plastry różowego rostbefu pieczonego w musztardzie i chili, z rukolą",
+        "Rolada z boczku z pikantną salsą paprykową",
+        "Rolada z kaczki z orzechami włoskimi",
+        "Pasztet domowy z rozmarynem, z sosem porzeczkowo-chrzanowym",
+        "Tatar wołowy z tradycyjnymi dodatkami i emulsją z żółtka",
+        "Tatar z gęsi ze świeżym czosnkiem, majerankiem i cząbrem",
+        "Pieczone klopsiki w zalewie octowej z cebulką",
+        "Pieczony mus z kurczaka z suszonymi pomidorami i tymiankiem",
+        "Tradycyjna galareta z golonki wieprzowej",
+        "Pstrąg w galarecie, z domowym majonezem",
+        "Marynowany łosoś w plastrach z filetami pomarańczy i lekkim dresingiem",
+        "Śledź w oleju z cebulką",
+        "Śledź w przyprawach korzennych z rodzynkami i orzechami włoskimi",
+        "Roladki z placka pszennego z sałatką z ziół i warzywz pastą z wiejskiego twarogu",
+        "Mini kruche babeczki na słono z musami:<br>(z wędzonego pstrąga, ziołowym, z błękitnego sera pleśniowe)",
+        "Sałatka cesarska z grillowanym kurczakiem, bekonem, grzankami, parmezanem i sosem cezar",
+        "Sałatka z kozim serem, burakami, gruszką, orzechami włoskimiz sosem balsamicznym",
+        "Mozzarella z truskawkami, pomidorkami, świeżą miętą, z kremem balsamicznym",
+        "Grillowane warzywa marynowane w oliwie"
       ]
     },
     "kolacja": {
@@ -118,7 +132,8 @@
     "napojezimne": {
       "title": "Napoje zimne - podane w dzbankach bez limitu",
       "items": [
-        "Woda mineralna z cytryną"
+        "Woda mineralna z cytryną",
+        "Woda mineralna ze świeżą miętą"
       ]
     },
     "napojegorace": {
@@ -145,9 +160,7 @@
           "Pulpeciki drobiowe z sosem koperkowym",
           "De volaille z masełkiem (bez pietruszki)",
           "Łosoś wolno pieczony z masełkiem",
-          "Naleśniki (2szt) z twarogiem, sos czekoladowy",
-          "Placuszki z jabłkami (4szt), cukier puder",
-          "Pierogi z truskawkami (4szt)"
+          "Naleśniki (2szt) z twarogiem, sos czekoladowy"
         ]
       },
       "dodatki": {
@@ -157,7 +170,7 @@
           "Frytki, ryż, ziemniaki gotowane",
           "Surówka z marchewki z jabłkiem",
           "Surówka z buraczków",
-          "Mizeria z ogórków - sezonowo",
+          "Mizeria z ogórków",
           "Marchewka z groszkiem na ciepło",
           "Gotowane brokuły"
         ]
@@ -167,8 +180,13 @@
         "description": "1 do wyboru",
         "items": [
           "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
-          "Budyń waniliowy z sokiem malinowym",
           "Galaretka owocowa z bitą śmietaną"
+        ]
+      },
+      "kolacja": {
+        "title": "Kolacja",
+        "items": [
+          "Makaron penne z sosem bolognese"
         ]
       }
     }

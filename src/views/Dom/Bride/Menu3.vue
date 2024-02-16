@@ -27,11 +27,9 @@
             jedna pozycja minimum 20 porcji<br>
             sugerowana ilość minimum 2 porcje/osoba
           </p>
-
           <menu-block v-if="fetchMenu.zakaski" :feed="fetchMenu.zakaski"/>
           <menu-block v-if="fetchMenu.napojezimne" :feed="fetchMenu.napojezimne"/>
           <menu-block v-if="fetchMenu.napojegorace" :feed="fetchMenu.napojegorace"/>
-
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
             <p class="leading-relaxed">Cena <span class="font-semibold">od {{
                 pricelist.basic_price | price
@@ -67,7 +65,6 @@
         </div>
       </div>
     </div>
-
     <div class="container relative z-10 lg:px-16">
       <div class="flex flex-col mt-4 lg:flex-row lg:mt-4">
         <div class="text px-16 lg:px-24">
@@ -80,7 +77,6 @@
         </div>
       </div>
     </div>
-
     <div class="container relative z-10 mt-16 lg:mt-32 food">
       <div class="flex flex-col items-center">
         <div class="lg:w-1/2 text-center mt-8 lg:mt-0">
