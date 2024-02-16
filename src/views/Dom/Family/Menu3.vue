@@ -156,7 +156,7 @@ import fetchDataMixin from "@/mixins/fetchDataMixin";
 export default {
   metaInfo: {
     title: 'Dóm Złote Pola',
-    titleTemplate: '%s - Oferta dla rodzin - Menu od 206 zł / osoba',
+    titleTemplate: '%s - Oferta dla rodzin - Menu od 260 zł / osoba',
     htmlAttrs: {
       lang: 'pl',
       amp: true

@@ -153,7 +153,7 @@ import fetchDataMixin from "@/mixins/fetchDataMixin";
 export default {
   metaInfo: {
     title: 'Dóm Złote Pola',
-    titleTemplate: '%s - Oferta dla pary młodej - Menu weselne od 305 zł / osoba',
+    titleTemplate: '%s - Oferta dla pary młodej - Menu weselne od 395 zł / osoba',
     htmlAttrs: {
       lang: 'pl',
       amp: true
