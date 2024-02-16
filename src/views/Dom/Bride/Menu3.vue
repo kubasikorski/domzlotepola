@@ -62,7 +62,6 @@
               80zł/dziecko do 3 lat<br>
               100zł/dziecko od 4 do10 lat<br>
               indywidualna wycena/dziecko powyżej 10 lat<br>
-
             </p>
           </div>
         </div>
