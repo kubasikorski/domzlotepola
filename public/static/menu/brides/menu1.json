@@ -156,6 +156,12 @@
           "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
           "Galaretka owocowa z bitą śmietaną"
         ]
+      },
+      "kolacja": {
+        "title": "Kolacja",
+        "items": [
+          "Makaron penne z sosem bolognese"
+        ]
       }
     }
   }

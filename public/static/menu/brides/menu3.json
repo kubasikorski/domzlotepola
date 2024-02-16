@@ -18,7 +18,7 @@
         "Zupa cebulowa z tymiankiem, z grzanką z serem",
         "Zupa grzybowa z kluseczkami i wiejską śmietaną",
         "Krem z pora i sera Cheddar na białym winie, z grzankami i rozmarynem",
-        "Krem z pomidorów z groszkiem ptysiowym i bitą śmietaną",
+        "Krem z pomidorów, z groszkiem ptysiowym i bitą śmietaną",
         "Krem z dyni z mlekiem kokosowym i świeżą kolendrą lub ostrą papryczką",
         "Krem z pieczonej brukwi na gęsinie, z oliwą rzepakową i pestkami słonecznika – sezonowo"
       ]
@@ -27,13 +27,13 @@
       "title": "Dania główne – półmiski na stole biesiadnym",
       "description": "4 do wyboru<br>3 porcje / osoba",
       "items": [
-        "Udo z kaczki, pieczone z jabłkami w majeranku i odrobiną tymianku, z konfiturą z czerwonej cebuli",
+        "Udo z kaczki pieczone z jabłkami w majeranku i odrobiną tymianku, z konfiturą z czerwonej cebuli",
         "De volaille z piersi kurczaka, z wiejskim masłem i natką pietruszki",
         "Roladka z kurczaka faszerowana podgrzybkami, z sosem pieczeniowym",
         "Wołowe rolady śląskie z razowym chlebem, słoniną, cebulką oraz kiszonym ogórkiem, z ciemnym sosem",
         "Polędwiczki wieprzowe, z sosem z zielonego marynowanego pieprzu",
         "Karkówka wolno pieczona, z sosem z suszonej śliwki i świeżym tymiankiem",
-        "Królik duszony w całości z jarzynami w śmietanie (na półmisku mix mięs od 6 do 8 porcji)",
+        "Królik duszony w całości z jarzynami w śmietanie<br>(na półmisku mix mięs od 6 do 8 porcji)",
         "Filet z łososia gotowany, na kremowym szpinaku",
         "Filet z pstrąga pieczony w płatkach migdałowych z masłem",
         "Zapiekanka z grillowanego bakłażana, cukinii, papryki, pomidora, z domowym pesto ziołowym"
@@ -90,8 +90,7 @@
         "Sałata z grillowanym kurczakiem, grzankami i sosem czosnkowym",
         "Sałatka z serem feta, ogórkiem, papryką i oliwkami, z ziołowym dressingiem",
         "Świeże sałaty z prażonymi pestkami i orzechami, serem pleśniowym, pomidorkami i domowym vinaigrette",
-        "Tradycyjna sałatka jarzynowa",
-        "pieczywo, masło, sosy, marynaty"
+        "Tradycyjna sałatka jarzynowa"
       ]
     },
 
@@ -146,7 +145,6 @@
         "description": "1 do wyboru",
         "items": [
           "Pucharek lodowy (2gałki) z owocami i bitą śmietaną",
-          "Budyń waniliowy z sokiem malinowym",
           "Galaretka owocowa z bitą śmietaną"
         ]
       }

@@ -55,6 +55,7 @@
                       :feed="fetchMenu.dzieci.daniaglowne"/>
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.dodatki" :feed="fetchMenu.dzieci.dodatki"/>
           <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.deser" :feed="fetchMenu.dzieci.deser"/>
+          <menu-block v-if="fetchMenu.dzieci && fetchMenu.dzieci.kolacja" :feed="fetchMenu.dzieci.kolacja"/>
           <div class="mt-16 m-4 pt-4 border-t border-primary-lightest">
             <p class="leading-relaxed">
               80zł/dziecko do 3 lat<br>
