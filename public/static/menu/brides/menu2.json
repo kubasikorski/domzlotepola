@@ -7,7 +7,7 @@
         "Pasztet z rozmarynem, pieczony w złocistym cieście, z sosem z kaszubskiej żurawiny",
         "Pierś kacza z marynowaną gruszką i burakiem, z sosem malinowym i słonym ciasteczkiem",
         "Łosoś wędzony na blinach ziemniaczanych z kwaśną wiejską śmietaną i cytryną",
-        "Bakłażan pieczony z ziołami i oliwą z podpiekanymi pomidorkami, chrupkiem z parmezanu i siankiem z pora"
+        "Bakłażan pieczony z ziołami i oliwą z podpiekanymi pomidorkami, chrupkiem z parmezanu<br>i siankiem z pora"
       ]
     },
     "zupa": {
@@ -28,7 +28,7 @@
       "title": "Dania główne – półmiski na stole biesiadnym",
       "description": "6 do wyboru<br>4 porcje / osoba",
       "items": [
-        "Udo z kaczki pieczone z jabłkami w majeranku i odrobiną tymianku, z konfiturą z czerwonej cebuli",
+        "Udo z kaczki pieczone z jabłkami w majeranku i odrobiną tymianku,<br>z konfiturą z czerwonej cebuli",
         "Sznycel z indyka, tradycyjnie panierowany, z jajkiem sadzonym i szczypiorem",
         "Kurczak pieczony w całości, nacierany czosnkiem i majerankiem, z podpiekanymi jabłkami<br>(na półmisku mix: udka, piersi, skrzydełka razem 10 porcji)",
         "Grillowane filety drobiowe, z sosem z suszonych pomidorów z orzechami i oliwą",
@@ -36,7 +36,7 @@
         "Boczek wolno pieczony w miodzie z musztardą i słodko-kwaśną marynatą",
         "Karkówka wolno pieczona, z sosem z suszonej śliwki i świeżym tymiankiem",
         "Pieczone mini goloneczki wieprzowe, z sosem z ciemnego piwa",
-        "Wołowe rolady śląskie z razowym chlebem, słoniną, cebulką oraz kiszonym ogórkiem, z ciemnym sosem",
+        "Wołowe rolady śląskie z razowym chlebem, słoniną, cebulką oraz kiszonym ogórkiem,<br>z ciemnym sosem",
         "Placuszki ziemniaczane z cukinią i warzywami, z wiejską śmietaną",
         "Filet z łososia gotowany, na kremowym szpinaku",
         "Polędwica z dorsza z potrawką z pora i pomidora, z wiejską śmietaną"
