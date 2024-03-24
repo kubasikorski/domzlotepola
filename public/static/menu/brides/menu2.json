@@ -6,8 +6,8 @@
       "items": [
         "Pasztet z rozmarynem, pieczony w złocistym cieście, z sosem z kaszubskiej żurawiny",
         "Pierś kacza z marynowaną gruszką i burakiem, z sosem malinowym i słonym ciasteczkiem",
-        "Łosoś wędzony na blinach ziemniaczanych z kwaśną wiejską śmietaną i cytryną",
-        "Bakłażan pieczony z ziołami i oliwą z podpiekanymi pomidorkami, chrupkiem z parmezanu<br>i siankiem z pora"
+        "Łosoś wędzony, na blinach ziemniaczanych z kwaśną wiejską śmietaną i cytryną",
+        "Bakłażan pieczony z ziołami i oliwą, z podpiekanymi pomidorkami, chrupkiem z parmezanu<br>i siankiem z pora"
       ]
     },
     "zupa": {
@@ -17,8 +17,8 @@
         "Rosół z kury z własnej roboty makaronem, marchewką i natką pietruszki",
         "Zupa rybna z warzywami, zabielana wiejską śmietaną",
         "Krem z pora i sera Cheddar na białym winie, z grzankami i rozmarynem",
-        "Krem z pomidorów z groszkiem ptysiowym i bitą śmietaną",
-        "Krem z selera z karmelizowanymi orzechami",
+        "Krem z pomidorów, z groszkiem ptysiowym i bitą śmietaną",
+        "Krem z selera, z karmelizowanymi orzechami",
         "Krem z dyni z mlekiem kokosowym i świeżą kolendrą lub ostrą papryczką",
         "Krem z białych warzyw z oliwą truflową",
         "Tradycyjny chłodnik domowy z nowalijkami – sezonowo"
@@ -62,11 +62,11 @@
       "items": [
         "Buraczki na ciepło zasmażane",
         "Marchewka z groszkiem na ciepło z tradycyjną zasmażką",
-        "Warzywa gotowane na parze z masłem czosnkowym - sezonowo",
+        "Warzywa gotowane na parze, z masłem czosnkowym - sezonowo",
         "Kalafior z tartą bułką na maśle - sezonowo",
         "Surówka z marchewki z jabłkiem i śmietaną",
         "Domowa surówka colesław",
-        "Surówka z tartych buraków, z cebulą i jabłkiem",
+        "Surówka z tartych buraków z cebulą i jabłkiem",
         "Surówka z pora z jabłkiem i domowym majonezem",
         "Mizeria z ogórków i kwaśnej śmietany - sezonowo",
         "Surówka z selera z rodzynkami – sezonowo",
@@ -96,11 +96,11 @@
         "Pasztet domowy z rozmarynem, z sosem porzeczkowo-chrzanowym",
         "Tatar wołowy z tradycyjnymi dodatkami i emulsją z żółtka",
         "Tatar z gęsi ze świeżym czosnkiem, majerankiem i cząbrem",
-        "Pieczone klopsiki w zalewie octowej z cebulką",
+        "Pieczone klopsiki, w zalewie octowej z cebulką",
         "Pieczony mus z kurczaka z suszonymi pomidorami i tymiankiem",
         "Tradycyjna galareta z golonki wieprzowej",
         "Pstrąg w galarecie, z domowym majonezem",
-        "Marynowany łosoś w plastrach z filetami pomarańczy i lekkim dresingiem",
+        "Marynowany łosoś w plastrach, z filetami pomarańczy i lekkim dresingiem",
         "Śledź w oleju z cebulką",
         "Śledź w przyprawach korzennych z rodzynkami i orzechami włoskimi",
         "Roladki z placka pszennego z sałatką z ziół i warzyw z pastą z wiejskiego twarogu",
@@ -108,7 +108,7 @@
         "Sałatka cesarska z grillowanym kurczakiem, bekonem, grzankami, parmezanem i sosem cezar",
         "Sałatka z kozim serem, burakami, gruszką, orzechami włoskimi z sosem balsamicznym",
         "Mozzarella z truskawkami, pomidorkami, świeżą miętą, z kremem balsamicznym",
-        "Grillowane warzywa marynowane w oliwie"
+        "Grillowane warzywa, marynowane w oliwie"
       ]
     },
     "kolacja": {

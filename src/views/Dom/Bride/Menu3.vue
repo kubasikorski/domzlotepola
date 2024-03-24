@@ -21,7 +21,7 @@
           <menu-block v-if="fetchMenu.dodatki" :feed="fetchMenu.dodatki"/>
           <menu-block v-if="fetchMenu.surowki" :feed="fetchMenu.surowki"/>
           <menu-block v-if="fetchMenu.deser" :feed="fetchMenu.deser"/>
-          <p class="mt-4 italic font-semibold">smaki sezonowe uzgadniane indywidualnie<br>na przykład: </p>
+          <p class="mt-4 italic font-semibold">smaki uzgadniane indywidualnie<br>na przykład: </p>
           <menu-block v-if="fetchMenu.deser2" :feed="fetchMenu.deser2"/>
           <p class="mt-4 italic font-semibold">
             jedna pozycja minimum 20 porcji<br>
