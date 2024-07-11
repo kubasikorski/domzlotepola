@@ -20,44 +20,44 @@ module.exports = {
     },
     configureWebpack: {
         plugins: [
-            // new PrerenderSPAPlugin({
-            //     staticDir: path.join(__dirname, 'dist'),
-            //     routes: [
-            //         '/',
-            //         '/pl/',
-            //         '/pl/home',
-            //         '/pl/o-mnie',
-            //         '/pl/dom-zlote-pola',
-            //         '/pl/dom-zlote-pola/przyjecia-okolicznosciowe',
-            //         '/pl/dom-zlote-pola/oferta-dla-rodzin',
-            //         '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-1',
-            //         '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-2',
-            //         '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-3',
-            //         '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
-            //         '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-1',
-            //         '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-2',
-            //         '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny',
-            //         '/pl/dom-zlote-pola/oferta-dla-firm',
-            //         '/pl/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
-            //         '/pl/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
-            //         '/pl/dom-zlote-pola/oferta-dla-firm/menu-spotkanie-swiateczne',
-            //         '/pl/dom-zlote-pola/nasze-jedzenie',
-            //         '/pl/dom-zlote-pola/nasze-jedzenie/galeria',
-            //         '/pl/dom-zlote-pola/galeria',
-            //         '/pl/bawialnia-dla-dzieci',
-            //         '/pl/pokoje',
-            //         '/pl/pokoje/oferta',
-            //         '/pl/kontakt',
-            //         '/pl/fundusze-ue',
-            //         '/pl/fundusze-ue/fundusze-ue/poddzialania-02-02-01',
-            //         '/pl/fundusze-ue/projekt-grantowy-spektrum',
-            //         '/pl/fundusze-ue/impuls-odbudowy-potencjalu-przedsiebiorstwa',
-            //         '/pl/fundusze-ue/europejski-fundusz-rolny-na-rzecz-rozwoju-obszarow-wiejskich',
-            //     ],
-            //     server: {
-            //         port: 8080
-            //     },
-            // })
+            new PrerenderSPAPlugin({
+                staticDir: path.join(__dirname, 'dist'),
+                routes: [
+                    '/',
+                    '/pl/',
+                    '/pl/home',
+                    '/pl/o-mnie',
+                    '/pl/dom-zlote-pola',
+                    '/pl/dom-zlote-pola/przyjecia-okolicznosciowe',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-1',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-2',
+                    '/pl/dom-zlote-pola/oferta-dla-rodzin/menu-3',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-1',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/menu-weselne-2',
+                    '/pl/dom-zlote-pola/oferta-dla-pary-mlodej/przykladowe-menu-obiad-slubny',
+                    '/pl/dom-zlote-pola/oferta-dla-firm',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-bufet-kawowy',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-biznes-lunch',
+                    '/pl/dom-zlote-pola/oferta-dla-firm/menu-spotkanie-swiateczne',
+                    '/pl/dom-zlote-pola/nasze-jedzenie',
+                    '/pl/dom-zlote-pola/nasze-jedzenie/galeria',
+                    '/pl/dom-zlote-pola/galeria',
+                    '/pl/bawialnia-dla-dzieci',
+                    '/pl/pokoje',
+                    '/pl/pokoje/oferta',
+                    '/pl/kontakt',
+                    '/pl/fundusze-ue',
+                    '/pl/fundusze-ue/fundusze-ue/poddzialania-02-02-01',
+                    '/pl/fundusze-ue/projekt-grantowy-spektrum',
+                    '/pl/fundusze-ue/impuls-odbudowy-potencjalu-przedsiebiorstwa',
+                    '/pl/fundusze-ue/europejski-fundusz-rolny-na-rzecz-rozwoju-obszarow-wiejskich',
+                ],
+                server: {
+                    port: 8080
+                },
+            })
         ]
     }
 }
