@@ -15,7 +15,6 @@ export default {
 
       window.addEventListener("message", (e => {
         try {
-          console.log(e.data)
           const t = JSON.parse(e.data);
           if (t.accentColor) document.querySelector(":root").style.setProperty("--accent-color", t.accentColor), [...document.querySelectorAll(".wzk-accent-color")].forEach((e => {
             e.style.color = t.accentColor
@@ -23,8 +22,9 @@ export default {
             const e = document.querySelector(`.wzk-widget iframe`);
             e.style.height = "0px", e.style.height = t.height
           }
+          // eslint-disable-next-line no-empty
         } catch (e) {
-          console.log(e)
+
         }
       }))
     }
