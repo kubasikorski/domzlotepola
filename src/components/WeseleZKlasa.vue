@@ -1,13 +1,7 @@
 <template>
   <div class="container relative z-10 lg:px-16 mb-16 text-sm p-4">
-    <div style="overflow:hidden;"
-         class="wzk-widget iframe-height" data-wzk-widget-type="type1" data-wzk-notice="48184">
-      <div style="background-color:#F5F6FA;text-align:center;padding:16px;font-size:12px;line-height:12px;"><a
-          class="wzk-accent-color" title="Dóm Złote Pola"
-          href="https://www.weselezklasa.pl/ogloszenia-weselne/dom-zlote-pola,48184/#opinie" rel="nofollow"
-          target="_blank" style="color:currentColor;text-decoration:none;">Dóm Złote Pola</a><img
-          style="margin:8px auto 0;display:block" src="https://widgets.4wzk.pl/dist/img/footer-logo.svg"
-          alt="Wesele z klasą"></div>
+    <div
+         class="wzk-widget iframe-height" data-wzk-widget-type="type3" data-wzk-notice="48184">
     </div>
   </div>
 </template>
