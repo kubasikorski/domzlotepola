@@ -121,14 +121,14 @@ export default {
     pricelists: [],
     imageTransitions: {
       'photos': [
-        require('@/assets/images/bride/btm1.jpg'),
-        require('@/assets/images/bride/btm-n1.jpg'),
-        require('@/assets/images/bride/btm-f9.jpg'),
-        require('@/assets/images/bride/btm-f14.jpg'),
-        require('@/assets/images/bride/btm-f27.jpg'),
-        require('@/assets/images/bride/btm-n2.jpg'),
-        require('@/assets/images/bride/btm-n3.jpg'),
-        require('@/assets/images/bride/btm-n4.jpg'),
+        require('@/assets/images/bride/2-2026/1.jpg'),
+        require('@/assets/images/bride/2-2026/2.jpg'),
+        require('@/assets/images/bride/2-2026/3.jpg'),
+        require('@/assets/images/bride/2-2026/4.jpg'),
+        require('@/assets/images/bride/2-2026/5.jpg'),
+        require('@/assets/images/bride/2-2026/6.jpg'),
+        require('@/assets/images/bride/2-2026/7.jpg'),
+        require('@/assets/images/bride/2-2026/8.jpg'),
       ]
     }
   }),
