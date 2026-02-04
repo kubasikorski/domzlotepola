@@ -5,7 +5,7 @@
         </div>
       <div v-if="size == 'large'" class="invisible lg:visible absolute -bottom-16 right-0 flex gap-2">
         <img class="h-24" src="@/assets/images/Sticker-Overlay-TRA-2022.png">
-        <img class="h-24" src="https://wedding.pl/img/banners/bride_choice2023.png" alt="Wedding.pl Wybór Par Młodych 2023">
+        <img class="h-24" src="https://wedding.pl/img/banners/bride_choice2024.png" alt="Wedding.pl Wybór Par Młodych 2024">
       </div>
     </div>
 </template>
