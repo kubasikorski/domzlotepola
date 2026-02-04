@@ -16,14 +16,17 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '18.10.0'
           cache: 'npm'
+
+      - name: Use specific npm version
+        run: npm install -g npm@8.19.2
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build
-        run: NODE_OPTIONS=--openssl-legacy-provider npx vue-cli-service build
+        run: NODE_OPTIONS=--openssl-legacy-provider npm run build
 
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
