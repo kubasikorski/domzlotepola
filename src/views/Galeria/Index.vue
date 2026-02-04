@@ -16,23 +16,6 @@
         </div>
       </div>
     </div>
-    <div class="container relative z-10 lg:px-16">
-      <div class="flex flex-col mt-16 lg:flex-row lg:mt-32">
-        <div class="text px-16  lg:px-24">
-          <vue-aos animation-class="fadeInLeft animated">
-            <h2>Zobacz Dóm złote pola</h2>
-          </vue-aos>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="container mt-12 px-16 lg:pl-24 pr-16">
-        <div class='embed-container'>
-          <iframe src='https://player.vimeo.com/video/759135177?h=6f6b4ac96d&autoplay=0&loop=1&background=0&title=false&portrait=false&byline=false' webkitAllowFullScreen
-                  mozallowfullscreen allowFullScreen></iframe>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
