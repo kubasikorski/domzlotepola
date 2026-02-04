@@ -53,5 +53,5 @@
     "tailwindcss-break": "^1.0.0",
     "vue-cli-plugin-sitemap": "^2.3.0",
     "vue-template-compiler": "^2.6.12"
-  },
+  }
 }
