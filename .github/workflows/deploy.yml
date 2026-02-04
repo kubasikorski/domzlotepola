@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Update browserslist db
+        run: npx browserslist@latest --update-db
+
       - name: Build
         run: NODE_OPTIONS=--openssl-legacy-provider npm run build
 

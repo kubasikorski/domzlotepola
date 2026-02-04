@@ -2,6 +2,7 @@ const path = require('path')
 const PrerenderSPAPlugin = require('prerender-spa-plugin')
 
 module.exports = {
+    publicPath: './',
     chainWebpack: config => {
         if (process.env.NODE_ENV === 'production') {
             config.module.rule('vue').uses.delete('cache-loader');
