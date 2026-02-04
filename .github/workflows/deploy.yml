@@ -31,6 +31,9 @@ jobs:
       - name: Build
         run: NODE_OPTIONS=--openssl-legacy-provider npm run build
 
+      - name: Set release folder name
+        run: echo "RELEASE_FOLDER=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
+
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -38,4 +41,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: private_html/
+          server-dir: release/${{ env.RELEASE_FOLDER }}/
