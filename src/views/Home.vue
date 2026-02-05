@@ -130,7 +130,7 @@ export default {
       'przyjecia': [
         require('@/assets/images/home/home2.jpg'),
         require('@/assets/images/home/home2b.jpg'),
-        require('@/assets/images/home/home2c.jpg'),
+        require('@/assets/images/home/home2c-n.jpg'),
         require('@/assets/images/home/przyjecia1.jpg'),
       ],
       'kids': [

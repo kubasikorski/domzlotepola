@@ -36,8 +36,8 @@ jobs:
           cat > ./dist/.htaccess << 'EOF'
           <IfModule mod_rewrite.c>
             RewriteEngine On
-          	RewriteCond %{HTTPS} !=on
-          	RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+            RewriteCond %{HTTPS} !=on
+            RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
             RewriteBase /pl
             RewriteRule ^index\.html$ - [L]
             RewriteCond %{REQUEST_FILENAME} !-f
@@ -49,7 +49,7 @@ jobs:
       - name: Set release folder name
         run: echo "RELEASE_FOLDER=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
 
-      - name: Deploy to FTP
+      - name: Deploy to FTP (release folder)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
@@ -57,3 +57,13 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: release/${{ env.RELEASE_FOLDER }}/
+
+      - name: Clean public_html and deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: public_html/
+          dangerous-clean-slate: true

@@ -84,10 +84,11 @@ export default {
   data: () => ({
     imageTransitions: {
       'main': [
-        require('@/assets/images/dom-zlote-pola/n2.jpg'), // 2 = 1
-        require('@/assets/images/dom-zlote-pola/ori1.jpg'), // 4 = 2
-        require('@/assets/images/dom-zlote-pola/n3.jpg'), // 4 = 2
-        require('@/assets/images/dom-zlote-pola/fot1.jpg'), // 3 = 4
+        require('@/assets/images/dom-zlote-pola/n2.jpg'),
+        // require('@/assets/images/dom-zlote-pola/ori1.jpg'),
+        require('@/assets/images/dom-zlote-pola/_SLA9842.jpg'),
+        require('@/assets/images/dom-zlote-pola/n3.jpg'),
+        require('@/assets/images/dom-zlote-pola/fot1.jpg'),
       ]
     }
   }),
